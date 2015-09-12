@@ -1,0 +1,23 @@
+C51 COMPILER V6.12  12864_齙_____                                                          02/02/2012 21:55:27 PAGE 1   
+
+
+C51 COMPILER V6.12, COMPILATION OF MODULE 12864_齙_____
+OBJECT MODULE PLACED IN .\12864数字时钟.OBJ
+COMPILER INVOKED BY: F:\软件\keil C\C51\BIN\C51.EXE .\12864数字时钟.c DEBUG OBJECTEXTEND
+
+stmt level    source
+
+
+
+MODULE INFORMATION:   STATIC OVERLAYABLE
+   CODE SIZE        =    453    ----
+   CONSTANT SIZE    =     26    ----
+   XDATA SIZE       =   ----    ----
+   PDATA SIZE       =   ----    ----
+   DATA SIZE        =     20       6
+   IDATA SIZE       =   ----    ----
+   BIT SIZE         =   ----    ----
+END OF MODULE INFORMATION.
+
+
+C51 COMPILATION COMPLETE.  0 WARNING(S),  0 ERROR(S)

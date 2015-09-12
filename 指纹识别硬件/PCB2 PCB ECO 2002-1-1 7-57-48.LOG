@@ -1,0 +1,6 @@
+Added Pin To Net: NetName=GND Pin=NU1-83
+Added Pin To Net: NetName=NRST Pin=NU1-84
+Added Pin To Net: NetName=NetP20_2 Pin=R4-1
+Added Net: Name=NetP20_2
+Added Pin To Net: NetName=NetP20_3 Pin=R5-1
+Added Net: Name=NetP20_3

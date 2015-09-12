@@ -1,0 +1,41 @@
+C51 COMPILER V7.06   NEW                                                                   05/17/2012 15:33:54 PAGE 1   
+
+
+C51 COMPILER V7.06, COMPILATION OF MODULE NEW
+OBJECT MODULE PLACED IN new.OBJ
+COMPILER INVOKED BY: C:\Keil\C51\BIN\C51.EXE new.c BROWSE DEBUG OBJECTEXTEND
+
+stmt level    source
+
+   1          #include<reg51.h>
+   2          #define uchar unsigned char
+   3          void delay()
+   4          {
+   5   1              uchar i=50;
+   6   1              uchar j=255;
+   7   1              while(i--)
+   8   1              {
+   9   2                      while(j--);
+  10   2                      }
+  11   1      }
+  12          void main()
+  13          {
+  14   1      
+  15   1      
+  16   1      
+  17   1      }
+  18                  
+
+
+MODULE INFORMATION:   STATIC OVERLAYABLE
+   CODE SIZE        =     20    ----
+   CONSTANT SIZE    =   ----    ----
+   XDATA SIZE       =   ----    ----
+   PDATA SIZE       =   ----    ----
+   DATA SIZE        =   ----    ----
+   IDATA SIZE       =   ----    ----
+   BIT SIZE         =   ----    ----
+END OF MODULE INFORMATION.
+
+
+C51 COMPILATION COMPLETE.  0 WARNING(S),  0 ERROR(S)

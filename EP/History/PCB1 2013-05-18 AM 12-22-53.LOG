@@ -1,0 +1,4 @@
+Change Component Footprint: Designator=R8 Old Footprint=2012[0805] New Footprint=AXIAL-0.3
+Added Net: Name=VDD5.0V
+Change Class Name : Old Net Name=Backup of Sheet1 New Net Name=Sheet1
+Added Room: Name=Sheet1

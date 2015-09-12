@@ -1,0 +1,10 @@
+Added Component: Designator=C38(0603A)
+Added Pin To Net: NetName=GND Pin=C38-1
+Added Pin To Net: NetName=VDD33V Pin=C38-2
+Added Pin To Net: NetName=GND Pin=P1-6
+Added Pin To Net: NetName=VDD33V Pin=P1-7
+Added Pin To Net: NetName=GND Pin=P1-8
+Added Pin To Net: NetName=VDD33V Pin=P1-9
+Added Pin To Net: NetName=GND Pin=P1-10
+Added Member To Class: ClassName=05I2S Member=Component C38 Cap
+Added Room: Name=05I2S

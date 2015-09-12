@@ -1,0 +1,57 @@
+Added Component: Designator=U1(DIP-14)
+Added Pin To Net: NetName=+5V Pin=U1-1
+Added Pin To Net: NetName=+5V Pin=U1-14
+Added Net: Name=+5V
+Added Net: Name=+9V
+Added Net: Name=+12V
+Added Pin To Net: NetName=GND Pin=U1-7
+Added Pin To Net: NetName=GND Pin=U1-8
+Added Net: Name=GND
+Added Net: Name=NetC1_1
+Added Net: Name=NetC2_2
+Added Net: Name=NetC3_1
+Added Net: Name=NetC3_2
+Added Net: Name=NetC4_1
+Added Net: Name=NetC4_2
+Added Pin To Net: NetName=NetC5_1 Pin=U1-10
+Added Net: Name=NetC5_1
+Added Net: Name=NetC6_1
+Added Net: Name=NetC7_1
+Added Pin To Net: NetName=NetC8_2 Pin=U1-12
+Added Net: Name=NetC8_2
+Added Net: Name=NetC9_1
+Added Pin To Net: NetName=NetC10_1 Pin=U1-5
+Added Net: Name=NetC10_1
+Added Net: Name=NetC16_1
+Added Net: Name=NetD1_2
+Added Net: Name=NetJ1_1
+Added Net: Name=NetJ1_3
+Added Net: Name=NetJ4_2
+Added Net: Name=NetQ1_1
+Added Net: Name=NetQ2_1
+Added Net: Name=NetR2_1
+Added Net: Name=NetR5_1
+Added Net: Name=NetR6_1
+Added Pin To Net: NetName=NetR9_1 Pin=U1-3
+Added Net: Name=NetR9_1
+Added Net: Name=NetR9_2
+Added Net: Name=NetR13_2
+Added Net: Name=NetR14_2
+Added Net: Name=NetS1_1
+Added Net: Name=NetS1_2
+Added Net: Name=NetS1_3
+Added Net: Name=NetS1_4
+Added Net: Name=NetS1_5
+Added Net: Name=NetS2_9
+Added Net: Name=NetS2_10
+Added Net: Name=NetS2_11
+Added Net: Name=NetS2_12
+Added Net: Name=NetS2_13
+Added Net: Name=NetS2_14
+Added Net: Name=NetS3_1
+Added Net: Name=NetS3_2
+Added Net: Name=NetS3_3
+Added Net: Name=NetS3_4
+Added Net: Name=NetS3_5
+Added Class: Name=Sheet1
+Added Room: Name=Sheet1

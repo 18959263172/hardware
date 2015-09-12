@@ -1,0 +1,60 @@
+Change Component DesignItemId : Designator=C1 Old DesignItemId= New DesignItemId=CAP
+Change Component DesignItemId : Designator=C2 Old DesignItemId= New DesignItemId=CAP
+Change Component DesignItemId : Designator=C4 Old DesignItemId= New DesignItemId=CAP
+Change Component DesignItemId : Designator=C6 Old DesignItemId= New DesignItemId=CAP
+Change Component DesignItemId : Designator=C7 Old DesignItemId= New DesignItemId=CAP
+Change Component DesignItemId : Designator=C8 Old DesignItemId= New DesignItemId=CAP
+Change Component DesignItemId : Designator=C9 Old DesignItemId= New DesignItemId=CAP
+Change Component DesignItemId : Designator=C10 Old DesignItemId= New DesignItemId=CAP
+Change Component DesignItemId : Designator=C11 Old DesignItemId= New DesignItemId=CAP
+Change Component DesignItemId : Designator=C12 Old DesignItemId= New DesignItemId=CAP
+Change Component DesignItemId : Designator=C13 Old DesignItemId= New DesignItemId=CAP
+Change Component DesignItemId : Designator=C14 Old DesignItemId= New DesignItemId=CAP
+Change Component DesignItemId : Designator=C15 Old DesignItemId= New DesignItemId=CAP
+Change Component DesignItemId : Designator=C16 Old DesignItemId= New DesignItemId=CAP
+Change Component DesignItemId : Designator=U1 Old DesignItemId= New DesignItemId=COMPONENT_2
+Change Component DesignItemId : Designator=XT2 Old DesignItemId= New DesignItemId=COMPONENT_2
+Change Component DesignItemId : Designator=1? Old DesignItemId= New DesignItemId=COMPONENT_3
+Change Component DesignItemId : Designator=J1 Old DesignItemId= New DesignItemId=CON2
+Change Component DesignItemId : Designator=J13 Old DesignItemId= New DesignItemId=CON2
+Change Component DesignItemId : Designator=D1 Old DesignItemId= New DesignItemId=CON3
+Change Component DesignItemId : Designator=J2 Old DesignItemId= New DesignItemId=CON4
+Change Component DesignItemId : Designator=XT1 Old DesignItemId= New DesignItemId=CRYSTAL
+Change Component DesignItemId : Designator=Q1 Old DesignItemId= New DesignItemId=NPN
+Change Component DesignItemId : Designator=Q2 Old DesignItemId= New DesignItemId=NPN
+Change Component DesignItemId : Designator=Q3 Old DesignItemId= New DesignItemId=NPN
+Change Component DesignItemId : Designator=R1 Old DesignItemId= New DesignItemId=RES1
+Change Component DesignItemId : Designator=R2 Old DesignItemId= New DesignItemId=RES1
+Change Component DesignItemId : Designator=R3 Old DesignItemId= New DesignItemId=RES1
+Change Component DesignItemId : Designator=R4 Old DesignItemId= New DesignItemId=RES1
+Change Component DesignItemId : Designator=R6 Old DesignItemId= New DesignItemId=RES1
+Change Component DesignItemId : Designator=R7 Old DesignItemId= New DesignItemId=RES1
+Change Component DesignItemId : Designator=R8 Old DesignItemId= New DesignItemId=RES1
+Change Component DesignItemId : Designator=R9 Old DesignItemId= New DesignItemId=RES1
+Change Component DesignItemId : Designator=R10 Old DesignItemId= New DesignItemId=RES1
+Change Component DesignItemId : Designator=R12 Old DesignItemId= New DesignItemId=RES1
+Change Component Comment : Designator=C14 Old Comment=103 New Comment=1nf
+Change Component Description : Designator=C1 Old Description= New Description=Capacitor
+Change Component Description : Designator=C2 Old Description= New Description=Capacitor
+Change Component Description : Designator=C4 Old Description= New Description=Capacitor
+Change Component Description : Designator=C6 Old Description= New Description=Capacitor
+Change Component Description : Designator=C7 Old Description= New Description=Capacitor
+Change Component Description : Designator=C8 Old Description= New Description=Capacitor
+Change Component Description : Designator=C9 Old Description= New Description=Capacitor
+Change Component Description : Designator=C10 Old Description= New Description=Capacitor
+Change Component Description : Designator=C11 Old Description= New Description=Capacitor
+Change Component Description : Designator=C12 Old Description= New Description=Capacitor
+Change Component Description : Designator=C13 Old Description= New Description=Capacitor
+Change Component Description : Designator=C14 Old Description= New Description=Capacitor
+Change Component Description : Designator=C15 Old Description= New Description=Capacitor
+Change Component Description : Designator=C16 Old Description= New Description=Capacitor
+Change Component Description : Designator=D1 Old Description= New Description=Connector
+Change Component Description : Designator=J1 Old Description= New Description=Connector
+Change Component Description : Designator=J2 Old Description= New Description=Connector
+Change Component Description : Designator=J13 Old Description= New Description=Connector
+Change Component Description : Designator=XT1 Old Description= New Description=Crystal
+Change Component Description : Designator=Q1 Old Description= New Description=NPN Transistor
+Change Component Description : Designator=Q2 Old Description= New Description=NPN Transistor
+Change Component Description : Designator=Q3 Old Description= New Description=NPN Transistor
+Added Class: Name=Backup of Sheet1
+Added Room: Name=Backup of Sheet1

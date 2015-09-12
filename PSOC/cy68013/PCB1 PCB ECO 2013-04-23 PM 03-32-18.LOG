@@ -1,0 +1,29 @@
+Added Pin To Net: NetName=GND Pin=U-36
+Added Pin To Net: NetName=GND Pin=U-38
+Added Pin To Net: NetName=GND Pin=U-51
+Added Pin To Net: NetName=3.3V Pin=U-53
+Added Pin To Net: NetName=NetRP?_1 Pin=RP?-1
+Added Pin To Net: NetName=NetRP?_1 Pin=U-50
+Added Net: Name=NetRP?_1
+Added Pin To Net: NetName=NetRP?_2 Pin=RP?-2
+Added Pin To Net: NetName=NetRP?_2 Pin=U-49
+Added Net: Name=NetRP?_2
+Added Pin To Net: NetName=NetRP?_3 Pin=RP?-3
+Added Pin To Net: NetName=NetRP?_3 Pin=U-48
+Added Net: Name=NetRP?_3
+Added Pin To Net: NetName=NetRP?_4 Pin=RP?-4
+Added Pin To Net: NetName=NetRP?_4 Pin=U-47
+Added Net: Name=NetRP?_4
+Added Pin To Net: NetName=NetRP?_5 Pin=RP?-5
+Added Pin To Net: NetName=NetRP?_5 Pin=U-46
+Added Net: Name=NetRP?_5
+Added Pin To Net: NetName=NetRP?_6 Pin=RP?-6
+Added Pin To Net: NetName=NetRP?_6 Pin=U-45
+Added Net: Name=NetRP?_6
+Added Pin To Net: NetName=NetRP?_7 Pin=RP?-7
+Added Pin To Net: NetName=NetRP?_7 Pin=U-44
+Added Net: Name=NetRP?_7
+Added Pin To Net: NetName=NetRP?_8 Pin=RP?-8
+Added Pin To Net: NetName=NetRP?_8 Pin=U-43
+Added Net: Name=NetRP?_8
+Added Room: Name=Sheet1

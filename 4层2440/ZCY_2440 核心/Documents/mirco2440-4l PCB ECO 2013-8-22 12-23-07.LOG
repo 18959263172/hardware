@@ -1,0 +1,18 @@
+Removed Pin From Net: NetName=NLED_2 Pin=LED2-2
+Removed Pin From Net: NetName=NLED_3 Pin=LED3-2
+Removed Pin From Net: NetName=NLED_4 Pin=LED4-2
+Removed Pin From Net: NetName=VDD33V Pin=R7-2
+Removed Pin From Net: NetName=VDD33V Pin=R8-2
+Removed Pin From Net: NetName=VDD33V Pin=R9-2
+Removed Member From Class: ClassName=02-CPU2 Member=LED2
+Removed Member From Class: ClassName=02-CPU2 Member=LED3
+Removed Member From Class: ClassName=02-CPU2 Member=LED4
+Removed Member From Class: ClassName=02-CPU2 Member=R7
+Removed Member From Class: ClassName=02-CPU2 Member=R8
+Removed Member From Class: ClassName=02-CPU2 Member=R9
+Added Room: Name=01-CPU1
+Added Room: Name=02-CPU2
+Added Room: Name=03-CPU3
+Added Room: Name=04-MEM
+Added Room: Name=05I2S
+Added Room: Name=Main

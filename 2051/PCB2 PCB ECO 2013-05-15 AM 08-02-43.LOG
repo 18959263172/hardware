@@ -1,0 +1,5 @@
+Added Component: Designator=R40(6-0805)
+Added Pin To Net: NetName=VCC Pin=R40-1
+Added Pin To Net: NetName=P3.1 Pin=R40-2
+Added Member To Class: ClassName=Sheet2 Member=Component R40 Res2
+Added Room: Name=Sheet2

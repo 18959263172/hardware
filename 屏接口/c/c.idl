@@ -1,0 +1,20 @@
+// c.idl : IDL source for c.dll
+//
+
+// This file will be processed by the MIDL tool to
+// produce the type library (c.tlb) and marshalling code.
+
+import "oaidl.idl";
+import "ocidl.idl";
+
+[
+	uuid(DB93F655-245B-4F09-B099-FB382C2C0902),
+	version(1.0),
+	helpstring("c 1.0 Type Library")
+]
+library CLib
+{
+	importlib("stdole32.tlb");
+	importlib("stdole2.tlb");
+
+};

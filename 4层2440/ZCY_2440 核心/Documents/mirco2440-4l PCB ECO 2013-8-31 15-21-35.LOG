@@ -1,0 +1,15 @@
+Removed Pin From Net: NetName=CAMDATA7 Pin=P88-1
+Removed Pin From Net: NetName=CAMDATA6 Pin=P88-2
+Removed Pin From Net: NetName=CAMDATA5 Pin=P88-3
+Removed Pin From Net: NetName=CAMDATA4 Pin=P88-4
+Removed Pin From Net: NetName=CAMDATA3 Pin=P88-5
+Removed Pin From Net: NetName=CAMDATA2 Pin=P88-6
+Removed Pin From Net: NetName=CAMDATA1 Pin=P88-7
+Removed Pin From Net: NetName=CAMDATA0 Pin=P88-8
+Removed Member From Class: ClassName=03-CPU3 Member=P88
+Added Room: Name=01-CPU1
+Added Room: Name=02-CPU2
+Added Room: Name=03-CPU3
+Added Room: Name=04-MEM
+Added Room: Name=05I2S
+Added Room: Name=Main

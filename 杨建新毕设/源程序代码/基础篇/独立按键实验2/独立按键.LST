@@ -1,0 +1,72 @@
+C51 COMPILER V6.12  _____´_ü                                                               02/02/2012 20:13:49 PAGE 1   
+
+
+C51 COMPILER V6.12, COMPILATION OF MODULE _____´_ü
+OBJECT MODULE PLACED IN .\¶ÀÁ¢°´¼ü.OBJ
+COMPILER INVOKED BY: F:\Èí¼þ\keil C\C51\BIN\C51.EXE .\¶ÀÁ¢°´¼ü.c DEBUG OBJECTEXTEND
+
+stmt level    source
+
+   1          /*±¾³ÌÐòÊ¹ÓÃ4¸ö¶ÀÁ¢°´¼ü£¬´øÓÐÑÓÊ±º¯Êý£¬°´¼üÒ»»òÈý°´ÏÂ·äÃùÆ÷ÏìµÆÃð£¬°´¼ü¶þ»òËÄ°´ÏÂ·äÃùÆ÷ÃðµÆÁÁ£¬*/
+   2          #include<reg52.h>
+   3          #define uint unsigned int
+   4          sbit key1=P2^4;
+   5          sbit key2=P2^5;
+   6          sbit key3=P2^6;
+   7          sbit key4=P2^7;
+   8          sbit BELL=P1^6;  //·äÃùÆ÷
+   9          sbit D=P1^7;  //LEDµÆ
+  10          void delay(uint z)  //ÑÓ³Ùº¯Êý
+  11          {
+  12   1      	uint x,y;
+  13   1      	for(x=z;x>0;x--)
+  14   1      		for(y=110;y>0;y--);
+  15   1      }
+  16          void main()
+  17          {
+  18   1      	BELL=1;//¹Ø±Õ·äÃùÆ÷
+  19   1      	D=1;  //¹Ø±ÕÐ¡µÆ
+  20   1      	while(1)
+  21   1      	{
+  22   2      		if(key1==0) 
+  23   2      		{
+  24   3      		 	delay(5);   //ËÉÊÖ¼ì²â
+  25   3      			if(key1==0)
+  26   3      			{ BELL=0; delay(50);  BELL=1; delay(50);}  //¼üÒ»°´ÏÂ£¬·äÃùÆ÷Ïì
+  27   3      		}
+  28   2      		if(key2==0) 
+  29   2      		{
+  30   3      		 	delay(5);   //ËÉÊÖ¼ì²â
+  31   3      			if(key2==0)
+  32   3      			{ BELL=1; D=0; delay(50);  D=1; delay(50); }  //¼ü¶þ°´ÏÂ£¬·äÃùÆ÷Ãð
+  33   3      		}
+  34   2      		if(key3==0) 
+  35   2      		{
+  36   3      		 	delay(5);   //ËÉÊÖ¼ì²â
+  37   3      			if(key3==0)
+  38   3      			{ BELL=0; delay(50);  BELL=1; delay(50);}  //¼üÈý°´ÏÂ£¬·äÃùÆ÷Ïì
+  39   3      		}
+  40   2      		if(key4==0) 
+  41   2      		{
+  42   3      		 	delay(5);   //ËÉÊÖ¼ì²â
+  43   3      			if(key4==0)
+  44   3      			{ BELL=1; D=0; delay(50);  D=1; delay(50);}  //¼üËÄ°´ÏÂ£¬·äÃùÆ÷Ãð
+  45   3      		}
+  46   2      	}
+  47   1      }
+
+
+MODULE INFORMATION:   STATIC OVERLAYABLE
+   CODE SIZE        =    132    ----
+   CONSTANT SIZE    =   ----    ----
+   XDATA SIZE       =   ----    ----
+   PDATA SIZE       =   ----    ----
+   DATA SIZE        =   ----    ----
+C51 COMPILER V6.12  _____´_ü                                                               02/02/2012 20:13:49 PAGE 2   
+
+   IDATA SIZE       =   ----    ----
+   BIT SIZE         =   ----    ----
+END OF MODULE INFORMATION.
+
+
+C51 COMPILATION COMPLETE.  0 WARNING(S),  0 ERROR(S)

@@ -1,0 +1,6 @@
+Added Component: Designator=CON1(USB_A)
+Added Pin To Net: NetName=VCC Pin=CON1-1
+Added Pin To Net: NetName=NetCON1_2 Pin=CON1-2
+Added Pin To Net: NetName=NetCON1_3 Pin=CON1-3
+Added Pin To Net: NetName=GND Pin=CON1-4
+Added Member To Class: ClassName=02-CPU2 Member=Component CON1 Header 4H

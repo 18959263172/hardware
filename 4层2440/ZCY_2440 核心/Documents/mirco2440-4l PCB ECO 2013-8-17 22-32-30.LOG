@@ -1,0 +1,6 @@
+Removed Pin From Net: NetName=SDDATA2 Pin=R65-1
+Added Pin To Net: NetName=EINT16 Pin=R59-2
+Added Pin To Net: NetName=NetP80_9 Pin=R65-1
+Added Net: Name=NetP80_9
+Removed Pin From Net: NetName=SDCMD Pin=R62-1
+Added Pin To Net: NetName=EINT18 Pin=R62-1

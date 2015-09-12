@@ -1,0 +1,13 @@
+Removed Pin From Net: NetName=PA14 Pin=P8-5
+Removed Pin From Net: NetName=PA14 Pin=R19-1
+Added Pin To Net: NetName=D0 Pin=NU1-83
+Added Pin To Net: NetName=D1 Pin=NU1-84
+Added Pin To Net: NetName=PA15 Pin=P8-5
+Added Pin To Net: NetName=PA15 Pin=R19-1
+Added Class: Name=R19_Nets
+Added Member To Class: ClassName=P8_Nets Member=Wire PA15
+Added Room: Name=EXTERN
+Added Room: Name=GPIO_OUT
+Added Room: Name=POWER
+Added Room: Name=STORAGE
+Added Room: Name=XLAT AND JTAG

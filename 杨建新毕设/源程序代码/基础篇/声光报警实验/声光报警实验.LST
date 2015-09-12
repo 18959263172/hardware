@@ -1,0 +1,52 @@
+C51 COMPILER V6.12  __¹________é                                                           02/03/2012 09:19:07 PAGE 1   
+
+
+C51 COMPILER V6.12, COMPILATION OF MODULE __¹________é
+OBJECT MODULE PLACED IN .\Éù¹â±¨¾¯ÊµÑé.OBJ
+COMPILER INVOKED BY: F:\Èí¼þ\keil C\C51\BIN\C51.EXE .\Éù¹â±¨¾¯ÊµÑé.c DEBUG OBJECTEXTEND
+
+stmt level    source
+
+   1          //ºìÉ«LEDÁÁ
+   2          //·äÃùÆ÷Ïì
+   3          
+   4          #include <reg52.h>
+   5          #define uchar unsigned char
+   6          #define uint unsigned int
+   7          sbit d0=P1^7;
+   8          sbit BEEP=P1^6;
+   9          void delay(uchar dly)
+  10          	{
+  11   1      		uchar i,j;
+  12   1      		for(i=255;i>0;i--)
+  13   1      		 for(j=dly;j>0;j--);
+  14   1      	}
+  15          
+  16          void main()
+  17          {	
+  18   1      	
+  19   1      	while(1)
+  20   1       	{
+  21   2      	    d0=1;
+  22   2      		BEEP=0;
+  23   2              delay(255);
+  24   2      	    d0=0;
+  25   2      		BEEP=1;
+  26   2      	    delay(255);
+  27   2      
+  28   2              }
+  29   1      }
+
+
+MODULE INFORMATION:   STATIC OVERLAYABLE
+   CODE SIZE        =     34    ----
+   CONSTANT SIZE    =   ----    ----
+   XDATA SIZE       =   ----    ----
+   PDATA SIZE       =   ----    ----
+   DATA SIZE        =   ----    ----
+   IDATA SIZE       =   ----    ----
+   BIT SIZE         =   ----    ----
+END OF MODULE INFORMATION.
+
+
+C51 COMPILATION COMPLETE.  0 WARNING(S),  0 ERROR(S)

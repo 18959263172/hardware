@@ -1,0 +1,239 @@
+Protel Design System Design Rule Check
+PCB File : D:\我的项目\4层2440\MICRO2440-4L\DOCUMENTS\mirco2440-4l.PCB
+Date     : 2013/8/22
+Time     : 0:10:32
+
+WARNING: Zero hole size multi-layer pad(s) detected
+   Pad P6-2(3592mil,-483mil)  MultiLayer on Net GND
+   Pad P6-3(3395mil,-609mil)  MultiLayer on Net GND
+   Pad P6-1(3395mil,-357mil)  MultiLayer on Net VCC
+   Pad J3-5(663.662mil,1914.536mil)  MultiLayer on Net NetC42_2
+   Pad J3-4(516.024mil,1993.276mil)  MultiLayer on Net NetC42_2
+   Pad J3-3(441.22mil,1914.536mil)  MultiLayer on Net NetC42_2
+   Pad J3-2(295.552mil,1993.276mil)  MultiLayer on Net NetC42_2
+   Pad J3-1(199.094mil,1914.536mil)  MultiLayer on Net GND
+   Pad J2-5(652.292mil,1539.536mil)  MultiLayer on Net NetC41_2
+   Pad J2-3(429.85mil,1539.536mil)  MultiLayer on Net NetC40_2
+   Pad J2-2(284.182mil,1618.276mil)  MultiLayer on Net NetC41_2
+   Pad J2-1(187.724mil,1539.536mil)  MultiLayer on Net GND
+
+WARNING: Multilayer Pads with 0 size Hole found
+   Pad P6-2(3592mil,-483mil)  MultiLayer
+   Pad P6-3(3395mil,-609mil)  MultiLayer
+   Pad P6-1(3395mil,-357mil)  MultiLayer
+   Pad J3-5(663.662mil,1914.536mil)  MultiLayer
+   Pad J3-4(516.024mil,1993.276mil)  MultiLayer
+   Pad J3-3(441.22mil,1914.536mil)  MultiLayer
+   Pad J3-2(295.552mil,1993.276mil)  MultiLayer
+   Pad J3-1(199.094mil,1914.536mil)  MultiLayer
+   Pad J2-5(652.292mil,1539.536mil)  MultiLayer
+   Pad J2-3(429.85mil,1539.536mil)  MultiLayer
+   Pad J2-2(284.182mil,1618.276mil)  MultiLayer
+   Pad J2-1(187.724mil,1539.536mil)  MultiLayer
+
+Processing Rule : Clearance Constraint (Gap=3mil) (All),(All)
+   Violation between Pad J3-2A(295.552mil,1975.56mil)  MultiLayer and 
+                     Area Fill (300.6mil,1821mil) (652mil,2023mil)  TopLayer
+   Violation between Pad J3-2B(295.552mil,2010.992mil)  MultiLayer and 
+                     Area Fill (300.6mil,1821mil) (652mil,2023mil)  TopLayer
+   Violation between Pad J3-3A(441.22mil,1896.818mil)  MultiLayer and 
+                     Area Fill (300.6mil,1821mil) (652mil,2023mil)  TopLayer
+   Violation between Pad J3-3B(441.22mil,1932.252mil)  MultiLayer and 
+                     Area Fill (300.6mil,1821mil) (652mil,2023mil)  TopLayer
+   Violation between Pad J3-5A(663.662mil,1896.818mil)  MultiLayer and 
+                     Area Fill (300.6mil,1821mil) (652mil,2023mil)  TopLayer
+   Violation between Pad J3-4A(516.024mil,1975.56mil)  MultiLayer and 
+                     Area Fill (300.6mil,1821mil) (652mil,2023mil)  TopLayer
+   Violation between Pad J3-4B(516.024mil,2010.992mil)  MultiLayer and 
+                     Area Fill (300.6mil,1821mil) (652mil,2023mil)  TopLayer
+   Violation between Pad J3-5B(663.662mil,1932.252mil)  MultiLayer and 
+                     Area Fill (300.6mil,1821mil) (652mil,2023mil)  TopLayer
+   Violation between Pad J2-3A(429.85mil,1521.818mil)  MultiLayer and 
+                     Area Fill (410.1mil,1488.2mil) (542.6mil,1672mil)  TopLayer
+   Violation between Pad J2-3B(429.85mil,1557.252mil)  MultiLayer and 
+                     Area Fill (410.1mil,1488.2mil) (542.6mil,1672mil)  TopLayer
+   Violation between Pad J2-4B(504.654mil,1635.992mil)  MultiLayer and 
+                     Area Fill (410.1mil,1488.2mil) (542.6mil,1672mil)  TopLayer
+   Violation between Pad J2-4A(504.654mil,1600.56mil)  MultiLayer and 
+                     Area Fill (410.1mil,1488.2mil) (542.6mil,1672mil)  TopLayer
+   Violation between Pad J3-1A(199.094mil,1896.818mil)  MultiLayer and 
+                     Area Fill (123.6mil,1800.4mil) (244.8mil,2110.2mil)  BottomLayer
+   Violation between Pad J3-1B(199.094mil,1932.252mil)  MultiLayer and 
+                     Area Fill (123.6mil,1800.4mil) (244.8mil,2110.2mil)  BottomLayer
+   Violation between Pad J2-1A(187.724mil,1521.818mil)  MultiLayer and 
+                     Area Fill (146.8mil,1461.8mil) (239.3mil,1650.6mil)  BottomLayer
+   Violation between Pad J2-1B(187.724mil,1557.252mil)  MultiLayer and 
+                     Area Fill (146.8mil,1461.8mil) (239.3mil,1650.6mil)  BottomLayer
+   Violation between Pad J3-5(663.662mil,1914.536mil)  MultiLayer and 
+                     Pad J3-5B(663.662mil,1932.252mil)  MultiLayer
+   Violation between Pad J3-5(663.662mil,1914.536mil)  MultiLayer and 
+                     Pad J3-5A(663.662mil,1896.818mil)  MultiLayer
+   Violation between Pad J3-4(516.024mil,1993.276mil)  MultiLayer and 
+                     Pad J3-4B(516.024mil,2010.992mil)  MultiLayer
+   Violation between Pad J3-4(516.024mil,1993.276mil)  MultiLayer and 
+                     Pad J3-4A(516.024mil,1975.56mil)  MultiLayer
+   Violation between Pad J3-3(441.22mil,1914.536mil)  MultiLayer and 
+                     Pad J3-3B(441.22mil,1932.252mil)  MultiLayer
+   Violation between Via (443.5mil,1861.8mil) TopLayer to BottomLayer and 
+                     Pad J3-3A(441.22mil,1896.818mil)  MultiLayer
+   Violation between Pad J3-3(441.22mil,1914.536mil)  MultiLayer and 
+                     Pad J3-3A(441.22mil,1896.818mil)  MultiLayer
+   Violation between Pad J3-2(295.552mil,1993.276mil)  MultiLayer and 
+                     Pad J3-2B(295.552mil,2010.992mil)  MultiLayer
+   Violation between Pad J3-2(295.552mil,1993.276mil)  MultiLayer and 
+                     Pad J3-2A(295.552mil,1975.56mil)  MultiLayer
+   Violation between Via (189.3mil,1900.4mil) TopLayer to BottomLayer and 
+                     Pad J3-1B(199.094mil,1932.252mil)  MultiLayer
+   Violation between Pad J3-1(199.094mil,1914.536mil)  MultiLayer and 
+                     Pad J3-1B(199.094mil,1932.252mil)  MultiLayer
+   Violation between Via (189.3mil,1900.4mil) TopLayer to BottomLayer and 
+                     Pad J3-1A(199.094mil,1896.818mil)  MultiLayer
+   Violation between Pad J3-1(199.094mil,1914.536mil)  MultiLayer and 
+                     Pad J3-1A(199.094mil,1896.818mil)  MultiLayer
+   Violation between Pad J2-5(652.292mil,1539.536mil)  MultiLayer and 
+                     Pad J2-5B(652.292mil,1557.252mil)  MultiLayer
+   Violation between Pad J2-5(652.292mil,1539.536mil)  MultiLayer and 
+                     Pad J2-5A(652.292mil,1521.818mil)  MultiLayer
+   Violation between Pad J2-4(504.654mil,1618.276mil)  MultiLayer and 
+                     Pad J2-4B(504.654mil,1635.992mil)  MultiLayer
+   Violation between Pad J2-4(504.654mil,1618.276mil)  MultiLayer and 
+                     Pad J2-4A(504.654mil,1600.56mil)  MultiLayer
+   Violation between Pad J2-3(429.85mil,1539.536mil)  MultiLayer and 
+                     Pad J2-3B(429.85mil,1557.252mil)  MultiLayer
+   Violation between Pad J2-3(429.85mil,1539.536mil)  MultiLayer and 
+                     Pad J2-3A(429.85mil,1521.818mil)  MultiLayer
+   Violation between Pad J2-2(284.182mil,1618.276mil)  MultiLayer and 
+                     Pad J2-2B(284.182mil,1635.992mil)  MultiLayer
+   Violation between Pad J2-2(284.182mil,1618.276mil)  MultiLayer and 
+                     Pad J2-2A(284.182mil,1600.56mil)  MultiLayer
+   Violation between Pad J2-1(187.724mil,1539.536mil)  MultiLayer and 
+                     Pad J2-1B(187.724mil,1557.252mil)  MultiLayer
+   Violation between Pad J2-1(187.724mil,1539.536mil)  MultiLayer and 
+                     Pad J2-1A(187.724mil,1521.818mil)  MultiLayer
+Rule Violations :39
+
+Processing Rule : Clearance Constraint (Gap=3mil) (Disabled)(All),(All)
+Rule Violations :0
+
+Processing Rule : Hole Size Constraint (Min=1mil) (Max=100mil) (All)
+   Violation between Pad J3-5(663.662mil,1914.536mil)  MultiLayer
+   Violation between Pad J3-4(516.024mil,1993.276mil)  MultiLayer
+   Violation between Pad J3-3(441.22mil,1914.536mil)  MultiLayer
+   Violation between Pad J3-2(295.552mil,1993.276mil)  MultiLayer
+   Violation between Pad J3-1(199.094mil,1914.536mil)  MultiLayer
+   Violation between Pad J2-5(652.292mil,1539.536mil)  MultiLayer
+   Violation between Pad J2-3(429.85mil,1539.536mil)  MultiLayer
+   Violation between Pad J2-2(284.182mil,1618.276mil)  MultiLayer
+   Violation between Pad J2-1(187.724mil,1539.536mil)  MultiLayer
+   Violation between Pad J4-10(1175.93mil,-469.984mil)  MultiLayer
+   Violation between Pad J4-11(192.07mil,-469.984mil)  MultiLayer
+Rule Violations :11
+
+Processing Rule : Width Constraint (Min=4mil) (Max=100mil) (Preferred=5mil) (All)
+Rule Violations :0
+
+Processing Rule : Broken-Net Constraint ( (All) )
+Rule Violations :0
+
+Processing Rule : Short-Circuit Constraint (Allowed=No) (All),(All)
+   Violation between Pad J3-2A(295.552mil,1975.56mil)  MultiLayer and 
+                     Area Fill (300.6mil,1821mil) (652mil,2023mil)  TopLayer
+   Violation between Pad J3-2B(295.552mil,2010.992mil)  MultiLayer and 
+                     Area Fill (300.6mil,1821mil) (652mil,2023mil)  TopLayer
+   Violation between Pad J3-3A(441.22mil,1896.818mil)  MultiLayer and 
+                     Area Fill (300.6mil,1821mil) (652mil,2023mil)  TopLayer
+   Violation between Pad J3-3B(441.22mil,1932.252mil)  MultiLayer and 
+                     Area Fill (300.6mil,1821mil) (652mil,2023mil)  TopLayer
+   Violation between Pad J3-5A(663.662mil,1896.818mil)  MultiLayer and 
+                     Area Fill (300.6mil,1821mil) (652mil,2023mil)  TopLayer
+   Violation between Pad J3-4A(516.024mil,1975.56mil)  MultiLayer and 
+                     Area Fill (300.6mil,1821mil) (652mil,2023mil)  TopLayer
+   Violation between Pad J3-4B(516.024mil,2010.992mil)  MultiLayer and 
+                     Area Fill (300.6mil,1821mil) (652mil,2023mil)  TopLayer
+   Violation between Pad J3-5B(663.662mil,1932.252mil)  MultiLayer and 
+                     Area Fill (300.6mil,1821mil) (652mil,2023mil)  TopLayer
+   Violation between Pad J2-3A(429.85mil,1521.818mil)  MultiLayer and 
+                     Area Fill (410.1mil,1488.2mil) (542.6mil,1672mil)  TopLayer
+   Violation between Pad J2-3B(429.85mil,1557.252mil)  MultiLayer and 
+                     Area Fill (410.1mil,1488.2mil) (542.6mil,1672mil)  TopLayer
+   Violation between Pad J2-4B(504.654mil,1635.992mil)  MultiLayer and 
+                     Area Fill (410.1mil,1488.2mil) (542.6mil,1672mil)  TopLayer
+   Violation between Pad J2-4A(504.654mil,1600.56mil)  MultiLayer and 
+                     Area Fill (410.1mil,1488.2mil) (542.6mil,1672mil)  TopLayer
+   Violation between Pad J3-1A(199.094mil,1896.818mil)  MultiLayer and 
+                     Area Fill (123.6mil,1800.4mil) (244.8mil,2110.2mil)  BottomLayer
+   Violation between Pad J3-1B(199.094mil,1932.252mil)  MultiLayer and 
+                     Area Fill (123.6mil,1800.4mil) (244.8mil,2110.2mil)  BottomLayer
+   Violation between Pad J2-1A(187.724mil,1521.818mil)  MultiLayer and 
+                     Area Fill (146.8mil,1461.8mil) (239.3mil,1650.6mil)  BottomLayer
+   Violation between Pad J2-1B(187.724mil,1557.252mil)  MultiLayer and 
+                     Area Fill (146.8mil,1461.8mil) (239.3mil,1650.6mil)  BottomLayer
+   Violation between Pad J3-5A(663.662mil,1896.818mil)  MultiLayer and 
+                     Pad J3-5B(663.662mil,1932.252mil)  MultiLayer
+   Violation between Pad J3-5(663.662mil,1914.536mil)  MultiLayer and 
+                     Pad J3-5B(663.662mil,1932.252mil)  MultiLayer
+   Violation between Pad J3-5(663.662mil,1914.536mil)  MultiLayer and 
+                     Pad J3-5A(663.662mil,1896.818mil)  MultiLayer
+   Violation between Pad J3-4(516.024mil,1993.276mil)  MultiLayer and 
+                     Pad J3-4B(516.024mil,2010.992mil)  MultiLayer
+   Violation between Pad J3-4A(516.024mil,1975.56mil)  MultiLayer and 
+                     Pad J3-4B(516.024mil,2010.992mil)  MultiLayer
+   Violation between Pad J3-4(516.024mil,1993.276mil)  MultiLayer and 
+                     Pad J3-4A(516.024mil,1975.56mil)  MultiLayer
+   Violation between Pad J3-3A(441.22mil,1896.818mil)  MultiLayer and 
+                     Pad J3-3B(441.22mil,1932.252mil)  MultiLayer
+   Violation between Pad J3-3(441.22mil,1914.536mil)  MultiLayer and 
+                     Pad J3-3B(441.22mil,1932.252mil)  MultiLayer
+   Violation between Via (443.5mil,1861.8mil) TopLayer to BottomLayer and 
+                     Pad J3-3A(441.22mil,1896.818mil)  MultiLayer
+   Violation between Pad J3-3(441.22mil,1914.536mil)  MultiLayer and 
+                     Pad J3-3A(441.22mil,1896.818mil)  MultiLayer
+   Violation between Pad J3-2A(295.552mil,1975.56mil)  MultiLayer and 
+                     Pad J3-2B(295.552mil,2010.992mil)  MultiLayer
+   Violation between Pad J3-2(295.552mil,1993.276mil)  MultiLayer and 
+                     Pad J3-2B(295.552mil,2010.992mil)  MultiLayer
+   Violation between Pad J3-2(295.552mil,1993.276mil)  MultiLayer and 
+                     Pad J3-2A(295.552mil,1975.56mil)  MultiLayer
+   Violation between Pad J3-1A(199.094mil,1896.818mil)  MultiLayer and 
+                     Pad J3-1B(199.094mil,1932.252mil)  MultiLayer
+   Violation between Pad J3-1(199.094mil,1914.536mil)  MultiLayer and 
+                     Pad J3-1B(199.094mil,1932.252mil)  MultiLayer
+   Violation between Via (189.3mil,1900.4mil) TopLayer to BottomLayer and 
+                     Pad J3-1A(199.094mil,1896.818mil)  MultiLayer
+   Violation between Pad J3-1(199.094mil,1914.536mil)  MultiLayer and 
+                     Pad J3-1A(199.094mil,1896.818mil)  MultiLayer
+   Violation between Pad J2-5A(652.292mil,1521.818mil)  MultiLayer and 
+                     Pad J2-5B(652.292mil,1557.252mil)  MultiLayer
+   Violation between Pad J2-5(652.292mil,1539.536mil)  MultiLayer and 
+                     Pad J2-5B(652.292mil,1557.252mil)  MultiLayer
+   Violation between Pad J2-5(652.292mil,1539.536mil)  MultiLayer and 
+                     Pad J2-5A(652.292mil,1521.818mil)  MultiLayer
+   Violation between Pad J2-4(504.654mil,1618.276mil)  MultiLayer and 
+                     Pad J2-4B(504.654mil,1635.992mil)  MultiLayer
+   Violation between Pad J2-4A(504.654mil,1600.56mil)  MultiLayer and 
+                     Pad J2-4B(504.654mil,1635.992mil)  MultiLayer
+   Violation between Pad J2-4(504.654mil,1618.276mil)  MultiLayer and 
+                     Pad J2-4A(504.654mil,1600.56mil)  MultiLayer
+   Violation between Pad J2-3A(429.85mil,1521.818mil)  MultiLayer and 
+                     Pad J2-3B(429.85mil,1557.252mil)  MultiLayer
+   Violation between Pad J2-3(429.85mil,1539.536mil)  MultiLayer and 
+                     Pad J2-3B(429.85mil,1557.252mil)  MultiLayer
+   Violation between Pad J2-3(429.85mil,1539.536mil)  MultiLayer and 
+                     Pad J2-3A(429.85mil,1521.818mil)  MultiLayer
+   Violation between Pad J2-2A(284.182mil,1600.56mil)  MultiLayer and 
+                     Pad J2-2B(284.182mil,1635.992mil)  MultiLayer
+   Violation between Pad J2-2(284.182mil,1618.276mil)  MultiLayer and 
+                     Pad J2-2B(284.182mil,1635.992mil)  MultiLayer
+   Violation between Pad J2-2(284.182mil,1618.276mil)  MultiLayer and 
+                     Pad J2-2A(284.182mil,1600.56mil)  MultiLayer
+   Violation between Pad J2-1(187.724mil,1539.536mil)  MultiLayer and 
+                     Pad J2-1B(187.724mil,1557.252mil)  MultiLayer
+   Violation between Pad J2-1A(187.724mil,1521.818mil)  MultiLayer and 
+                     Pad J2-1B(187.724mil,1557.252mil)  MultiLayer
+   Violation between Pad J2-1(187.724mil,1539.536mil)  MultiLayer and 
+                     Pad J2-1A(187.724mil,1521.818mil)  MultiLayer
+Rule Violations :48
+
+
+Violations Detected : 98
+Time Elapsed        : 00:00:01

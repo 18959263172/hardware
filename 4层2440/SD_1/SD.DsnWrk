@@ -1,0 +1,6 @@
+[ProjectGroup]
+Version=1.0
+[Project1]
+ProjectPath=Documents\Documents.LibPkg
+[Project2]
+ProjectPath=..\Micro2440-4l\Documents\DOCUMENTS.PRJPCB

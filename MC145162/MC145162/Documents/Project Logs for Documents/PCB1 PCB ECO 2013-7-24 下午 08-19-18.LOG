@@ -1,0 +1,86 @@
+Added Component: Designator=C?(6-0805)
+Added Component: Designator=C?(6-0805)
+Added Component: Designator=C?(6-0805)
+Added Component: Designator=C?(6-0805)
+Added Component: Designator=C?(6-0805)
+Added Component: Designator=C?(6-0805)
+Added Component: Designator=C?(6-0805)
+Added Component: Designator=C?(6-0805)
+Added Component: Designator=C?(6-0805)
+Added Component: Designator=C?(6-0805)
+Added Component: Designator=C?(6-0805)
+Added Component: Designator=C?(6-0805)
+Added Component: Designator=C?(6-0805)
+Added Component: Designator=C?(6-0805)
+Added Component: Designator=R?(6-0805)
+Added Component: Designator=R?(6-0805)
+Added Component: Designator=R?(6-0805)
+Added Component: Designator=R?(6-0805)
+Added Component: Designator=R?(6-0805)
+Added Component: Designator=R?(6-0805)
+Added Component: Designator=R?(6-0805)
+Added Component: Designator=R?(6-0805)
+Added Component: Designator=R?(6-0805)
+Added Component: Designator=R?(6-0805)
+Added Component: Designator=R?(6-0805)
+Added Component: Designator=R?(6-0805)
+Added Component: Designator=R?(6-0805)
+Added Pin To Net: NetName=+5V Pin=C?-1
+Added Pin To Net: NetName=+5V Pin=C?-1
+Added Pin To Net: NetName=+5V Pin=C?-1
+Added Net: Name=+5V
+Added Pin To Net: NetName=+9V Pin=C?-1
+Added Pin To Net: NetName=+9V Pin=R?-1
+Added Net: Name=+9V
+Added Pin To Net: NetName=+12V Pin=C?-1
+Added Net: Name=+12V
+Added Pin To Net: NetName=GND Pin=C?-1
+Added Pin To Net: NetName=GND Pin=C?-2
+Added Pin To Net: NetName=GND Pin=C?-2
+Added Pin To Net: NetName=GND Pin=C?-2
+Added Pin To Net: NetName=GND Pin=C?-2
+Added Pin To Net: NetName=GND Pin=C?-2
+Added Pin To Net: NetName=GND Pin=C?-2
+Added Pin To Net: NetName=GND Pin=C?-2
+Added Pin To Net: NetName=GND Pin=C?-2
+Added Pin To Net: NetName=GND Pin=C?-2
+Added Pin To Net: NetName=GND Pin=C?-2
+Added Pin To Net: NetName=GND Pin=C?-2
+Added Pin To Net: NetName=GND Pin=C?-2
+Added Pin To Net: NetName=GND Pin=R?-1
+Added Pin To Net: NetName=GND Pin=R?-1
+Added Pin To Net: NetName=GND Pin=R?-1
+Added Pin To Net: NetName=GND Pin=R?-2
+Added Pin To Net: NetName=GND Pin=R?-2
+Added Pin To Net: NetName=GND Pin=R?-2
+Added Net: Name=GND
+Added Pin To Net: NetName=NetC?_1 Pin=C?-1
+Added Net: Name=NetC?_1
+Added Pin To Net: NetName=NetC?_2 Pin=C?-2
+Added Pin To Net: NetName=NetC?_2 Pin=R?-1
+Added Net: Name=NetC?_2
+Added Net: Name=NetD?_2
+Added Net: Name=NetJ?_1
+Added Net: Name=NetJ?_2
+Added Pin To Net: NetName=NetJ?_3 Pin=R?-2
+Added Net: Name=NetJ?_3
+Added Pin To Net: NetName=NetQ?_1 Pin=R?-2
+Added Net: Name=NetQ?_1
+Added Pin To Net: NetName=NetR?_1 Pin=R?-1
+Added Net: Name=NetR?_1
+Added Pin To Net: NetName=NetR?_2 Pin=R?-2
+Added Pin To Net: NetName=NetR?_2 Pin=R?-2
+Added Net: Name=NetR?_2
+Added Net: Name=NetS?_1
+Added Net: Name=NetS?_2
+Added Net: Name=NetS?_3
+Added Net: Name=NetS?_4
+Added Net: Name=NetS?_5
+Added Net: Name=NetS?_9
+Added Net: Name=NetS?_10
+Added Net: Name=NetS?_11
+Added Net: Name=NetS?_12
+Added Net: Name=NetS?_13
+Added Net: Name=NetS?_14
+Added Class: Name=Sheet1
+Added Room: Name=Sheet1

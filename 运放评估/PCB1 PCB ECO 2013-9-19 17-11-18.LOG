@@ -1,0 +1,15 @@
+Removed Pin From Net: NetName=OUT4 Pin=P?-1
+Removed Pin From Net: NetName=OUT3 Pin=P?-2
+Removed Pin From Net: NetName=OUT2 Pin=P?-3
+Removed Pin From Net: NetName=OUT1 Pin=P?-4
+Removed Member From Class: ClassName=Sheet1 Member=P?
+Added Component: Designator=P45(HDR1X2)
+Added Component: Designator=P54(HDR1X2)
+Added Pin To Net: NetName=OUT2 Pin=P45-1
+Added Pin To Net: NetName=OUT1 Pin=P45-2
+Added Pin To Net: NetName=OUT4 Pin=P54-1
+Added Pin To Net: NetName=OUT3 Pin=P54-2
+Added Member To Class: ClassName=Sheet1 Member=Component P45 Header 2
+Added Member To Class: ClassName=Sheet1 Member=Component P54 Header 2
+Added Room: Name=Sheet1
+Added Room: Name=Sheet2

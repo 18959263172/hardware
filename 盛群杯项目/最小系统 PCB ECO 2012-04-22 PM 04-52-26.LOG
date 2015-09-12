@@ -1,0 +1,109 @@
+Added Component: Designator=C1(C0805)
+Added Component: Designator=C2(0805)
+Added Component: Designator=C3(0805)
+Added Component: Designator=C4(0805)
+Added Component: Designator=C5(0805)
+Added Component: Designator=C6(1608[0603])
+Added Component: Designator=C7(1608[0603])
+Added Component: Designator=C8(C0805)
+Added Component: Designator=C9(1608[0603])
+Added Component: Designator=C10(1608[0603])
+Added Component: Designator=J1(DB_9)
+Added Component: Designator=P1(HDR1X20)
+Added Component: Designator=P2(PCBComponent_1)
+Added Component: Designator=P3(PCBComponent_1)
+Added Component: Designator=RT1(6-0805)
+Added Component: Designator=RT2(6-0805)
+Added Component: Designator=U5(MHDR2X6)
+Added Component: Designator=U6(DIP28)
+Added Component: Designator=U7(MHDR2X6)
+Added Component: Designator=Y1(R38)
+Added Component: Designator=Y2(R38)
+Added Pin To Net: NetName=RES Pin=C1-1
+Added Pin To Net: NetName=GND Pin=C1-2
+Added Pin To Net: NetName=NetC2_1 Pin=C2-1
+Added Pin To Net: NetName=NetC2_2 Pin=C2-2
+Added Pin To Net: NetName=NetC3_1 Pin=C3-1
+Added Pin To Net: NetName=DGND+5 Pin=C3-2
+Added Pin To Net: NetName=NetC4_1 Pin=C4-1
+Added Pin To Net: NetName=NetC4_2 Pin=C4-2
+Added Pin To Net: NetName=NetC5_1 Pin=C5-1
+Added Pin To Net: NetName=DGND+5 Pin=C5-2
+Added Pin To Net: NetName=OSC2 Pin=C6-1
+Added Pin To Net: NetName=GND Pin=C6-2
+Added Pin To Net: NetName=OSC1 Pin=C7-1
+Added Pin To Net: NetName=GND Pin=C7-2
+Added Pin To Net: NetName=RES Pin=C8-1
+Added Pin To Net: NetName=GND Pin=C8-2
+Added Pin To Net: NetName=OSC2 Pin=C9-1
+Added Pin To Net: NetName=GND Pin=C9-2
+Added Pin To Net: NetName=OSC1 Pin=C10-1
+Added Pin To Net: NetName=GND Pin=C10-2
+Added Pin To Net: NetName=T2OUT Pin=J1-2
+Added Pin To Net: NetName=R2IN Pin=J1-3
+Added Pin To Net: NetName=DGND+5 Pin=J1-5
+Added Pin To Net: NetName=GND Pin=P1-1
+Added Pin To Net: NetName=VCC Pin=P1-2
+Added Pin To Net: NetName=DB0 Pin=P1-7
+Added Pin To Net: NetName=DB1 Pin=P1-8
+Added Pin To Net: NetName=DB2 Pin=P1-9
+Added Pin To Net: NetName=DB3 Pin=P1-10
+Added Pin To Net: NetName=DB4 Pin=P1-11
+Added Pin To Net: NetName=DB5 Pin=P1-12
+Added Pin To Net: NetName=DB6 Pin=P1-13
+Added Pin To Net: NetName=DB7 Pin=P1-14
+Added Pin To Net: NetName=VCC Pin=P1-15
+Added Pin To Net: NetName=VCC Pin=P1-16
+Added Pin To Net: NetName=GND Pin=P1-19
+Added Pin To Net: NetName=VCC Pin=P1-20
+Added Pin To Net: NetName=VCC Pin=RT1-1
+Added Pin To Net: NetName=RES Pin=RT1-2
+Added Pin To Net: NetName=VCC Pin=RT2-1
+Added Pin To Net: NetName=RES Pin=RT2-2
+Added Pin To Net: NetName=VCC Pin=U5-1
+Added Pin To Net: NetName=RESB Pin=U5-2
+Added Pin To Net: NetName=SCK Pin=U5-5
+Added Pin To Net: NetName=GND Pin=U5-11
+Added Pin To Net: NetName=GND Pin=U6-2
+Added Pin To Net: NetName=OSC1 Pin=U6-5
+Added Pin To Net: NetName=OSC2 Pin=U6-6
+Added Pin To Net: NetName=VCC Pin=U6-7
+Added Pin To Net: NetName=RES Pin=U6-8
+Added Pin To Net: NetName=SDO Pin=U6-13
+Added Pin To Net: NetName=SDI Pin=U6-14
+Added Pin To Net: NetName=SCK Pin=U6-15
+Added Pin To Net: NetName=VCC Pin=U7-1
+Added Pin To Net: NetName=RES Pin=U7-2
+Added Pin To Net: NetName=SCK Pin=U7-5
+Added Pin To Net: NetName=GND Pin=U7-11
+Added Pin To Net: NetName=OSC2 Pin=Y1-1
+Added Pin To Net: NetName=OSC1 Pin=Y1-2
+Added Pin To Net: NetName=OSC2 Pin=Y2-1
+Added Pin To Net: NetName=OSC1 Pin=Y2-2
+Added Pin To Net: NetName=SDAT Pin=U5-9
+Added Pin To Net: NetName=SDAT Pin=U6-1
+Added Pin To Net: NetName=SDAT Pin=U7-9
+Added Net: Name=SDAT
+Added Member To Class: ClassName=盛群杯 Member=Component C1 Cap Pol3
+Added Member To Class: ClassName=盛群杯 Member=Component C2 Cap
+Added Member To Class: ClassName=盛群杯 Member=Component C3 Cap
+Added Member To Class: ClassName=盛群杯 Member=Component C4 Cap
+Added Member To Class: ClassName=盛群杯 Member=Component C5 Cap
+Added Member To Class: ClassName=盛群杯 Member=Component C6 Cap Semi
+Added Member To Class: ClassName=盛群杯 Member=Component C7 Cap Semi
+Added Member To Class: ClassName=最小系统 Member=Component C8 Cap Pol3
+Added Member To Class: ClassName=最小系统 Member=Component C9 Cap Semi
+Added Member To Class: ClassName=最小系统 Member=Component C10 Cap Semi
+Added Member To Class: ClassName=盛群杯 Member=Component J1 DB9
+Added Member To Class: ClassName=盛群杯 Member=Component P1 Header 20H
+Added Member To Class: ClassName=盛群杯 Member=Component P2 MHDR1X2
+Added Member To Class: ClassName=盛群杯 Member=Component P3 MHDR1X2
+Added Member To Class: ClassName=盛群杯 Member=Component RT1 
+Added Member To Class: ClassName=最小系统 Member=Component RT2 
+Added Member To Class: ClassName=盛群杯 Member=Component U5 CON12
+Added Member To Class: ClassName=最小系统 Member=Component U6 HT66F50
+Added Member To Class: ClassName=最小系统 Member=Component U7 CON12
+Added Member To Class: ClassName=盛群杯 Member=Component Y1 XTAL
+Added Member To Class: ClassName=最小系统 Member=Component Y2 XTAL
+Added Room: Name=盛群杯
+Added Room: Name=最小系统

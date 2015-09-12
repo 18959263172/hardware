@@ -1,0 +1,41 @@
+Added Component: Designator=U2(TSOP48)
+Added Component: Designator=U4(TSOP56)
+Added Component: Designator=U5(TSOP48)
+Added Pin To Net: NetName=GND Pin=NU1-83
+Added Pin To Net: NetName=NRST Pin=NU1-84
+Added Pin To Net: NetName=PG10 Pin=U2-6
+Added Pin To Net: NetName=NRST Pin=U2-11
+Added Pin To Net: NetName=GND Pin=U2-12
+Added Pin To Net: NetName=PD5 Pin=U2-17
+Added Pin To Net: NetName=NRST Pin=U2-33
+Added Pin To Net: NetName=GND Pin=U2-34
+Added Pin To Net: NetName=PE0 Pin=U2-39
+Added Pin To Net: NetName=PE1 Pin=U2-40
+Added Pin To Net: NetName=PD4 Pin=U2-41
+Added Pin To Net: NetName=PD5 Pin=U4-13
+Added Pin To Net: NetName=NetC24_1 Pin=U4-14
+Added Pin To Net: NetName=NetP6_2 Pin=U4-16
+Added Pin To Net: NetName=PD6 Pin=U4-17
+Added Pin To Net: NetName=NRST Pin=U4-29
+Added Pin To Net: NetName=PG9 Pin=U4-32
+Added Pin To Net: NetName=GND Pin=U4-33
+Added Pin To Net: NetName=PD4 Pin=U4-34
+Added Pin To Net: NetName=NRST Pin=U4-43
+Added Pin To Net: NetName=GND Pin=U4-52
+Added Pin To Net: NetName=NetR10_1 Pin=U4-53
+Added Pin To Net: NetName=NetP5_2 Pin=U5-7
+Added Pin To Net: NetName=PD4 Pin=U5-8
+Added Pin To Net: NetName=PD7 Pin=U5-9
+Added Pin To Net: NetName=NRST Pin=U5-12
+Added Pin To Net: NetName=GND Pin=U5-13
+Added Pin To Net: NetName=PD5 Pin=U5-18
+Added Pin To Net: NetName=NetR7_1 Pin=U5-19
+Added Pin To Net: NetName=GND Pin=U5-36
+Added Pin To Net: NetName=NRST Pin=U5-37
+Added Member To Class: ClassName=U_STORAGE Member=Component U2 IS61LV51216-10T
+Added Member To Class: ClassName=U_STORAGE Member=Component U4 M29W128GL
+Added Member To Class: ClassName=U_STORAGE Member=Component U5 NAND512W3A2CN6E
+Added Room: Name=U_EXTERN
+Added Room: Name=U_POWER
+Added Room: Name=U_STORAGE
+Added Room: Name=U_XLAT AND JTAG

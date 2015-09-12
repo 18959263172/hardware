@@ -1,0 +1,3 @@
+"ds18b20_hcsr04.obj" 
+TO "ds18b20" 
+RAMSIZE(256) 

@@ -1,0 +1,54 @@
+Added Component: Designator=LCD(FPC40)
+Added Pin To Net: NetName=VDD33V Pin=C93-1
+Added Pin To Net: NetName=VD0 Pin=LCD-3
+Added Pin To Net: NetName=VD1 Pin=LCD-4
+Added Pin To Net: NetName=VD2 Pin=LCD-5
+Added Pin To Net: NetName=VD3 Pin=LCD-6
+Added Pin To Net: NetName=VD4 Pin=LCD-7
+Added Pin To Net: NetName=VD5 Pin=LCD-8
+Added Pin To Net: NetName=VD6 Pin=LCD-9
+Added Pin To Net: NetName=VD7 Pin=LCD-10
+Added Pin To Net: NetName=GND Pin=LCD-11
+Added Pin To Net: NetName=VD8 Pin=LCD-12
+Added Pin To Net: NetName=VD9 Pin=LCD-13
+Added Pin To Net: NetName=VD10 Pin=LCD-14
+Added Pin To Net: NetName=VD11 Pin=LCD-15
+Added Pin To Net: NetName=VD12 Pin=LCD-16
+Added Pin To Net: NetName=VD13 Pin=LCD-17
+Added Pin To Net: NetName=VD14 Pin=LCD-18
+Added Pin To Net: NetName=VD15 Pin=LCD-19
+Added Pin To Net: NetName=GND Pin=LCD-20
+Added Pin To Net: NetName=VD16 Pin=LCD-21
+Added Pin To Net: NetName=VD17 Pin=LCD-22
+Added Pin To Net: NetName=VD18 Pin=LCD-23
+Added Pin To Net: NetName=VD19 Pin=LCD-24
+Added Pin To Net: NetName=VD20 Pin=LCD-25
+Added Pin To Net: NetName=VD21 Pin=LCD-26
+Added Pin To Net: NetName=VD22 Pin=LCD-27
+Added Pin To Net: NetName=VD23 Pin=LCD-28
+Added Pin To Net: NetName=GND Pin=LCD-29
+Added Pin To Net: NetName=GPB1 Pin=LCD-31
+Added Pin To Net: NetName=NRESET Pin=LCD-32
+Added Pin To Net: NetName=VM Pin=LCD-33
+Added Pin To Net: NetName=VFRAME Pin=LCD-34
+Added Pin To Net: NetName=VLINE Pin=LCD-35
+Added Pin To Net: NetName=VCLK Pin=LCD-36
+Added Pin To Net: NetName=TSXM Pin=LCD-37
+Added Pin To Net: NetName=TSXP Pin=LCD-38
+Added Pin To Net: NetName=TSYM Pin=LCD-39
+Added Pin To Net: NetName=TSYP Pin=LCD-40
+Added Pin To Net: NetName=CDCLK Pin=U9-12
+Added Pin To Net: NetName=I2SSCLK Pin=U9-16
+Added Pin To Net: NetName=I2SSDI Pin=U9-18
+Added Pin To Net: NetName=I2SSDO Pin=U9-19
+Added Pin To Net: NetName=VDD33V Pin=U20-8
+Added Pin To Net: NetName=VDDLCD Pin=LCD-1
+Added Pin To Net: NetName=VDDLCD Pin=LCD-2
+Added Net: Name=VDDLCD
+Added Member To Class: ClassName=05I2S Member=Component LCD LCD41P
+Added Room: Name=01-CPU1
+Added Room: Name=02-CPU2
+Added Room: Name=03-CPU3
+Added Room: Name=04-MEM
+Added Room: Name=05I2S
+Added Room: Name=Main

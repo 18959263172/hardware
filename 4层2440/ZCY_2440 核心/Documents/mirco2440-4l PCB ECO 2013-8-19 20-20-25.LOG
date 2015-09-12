@@ -1,0 +1,15 @@
+Added Component: Designator=CA7(0603A)
+Added Component: Designator=TP1(TP1)
+Added Pin To Net: NetName=VDD33V Pin=CA7-1
+Added Pin To Net: NetName=GND Pin=CA7-2
+Added Pin To Net: NetName=SDDATA2 Pin=P80-9
+Added Pin To Net: NetName=SDDATA2 Pin=R65-1
+Added Pin To Net: NetName=PWREN Pin=TP1-1
+Added Member To Class: ClassName=03-CPU3 Member=Component CA7 10nF
+Added Member To Class: ClassName=03-CPU3 Member=Component TP1 CON1
+Added Room: Name=01-CPU1
+Added Room: Name=02-CPU2
+Added Room: Name=03-CPU3
+Added Room: Name=04-MEM
+Added Room: Name=05I2S
+Added Room: Name=Main

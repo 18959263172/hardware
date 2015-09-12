@@ -1,0 +1,205 @@
+Removed Pin From Net: NetName=VDD5V Pin=CAT2440-PA1
+Removed Pin From Net: NetName=GND Pin=CAT2440-PA2
+Removed Pin From Net: NetName=EINT19 Pin=CAT2440-PA3
+Removed Pin From Net: NetName=EINT18 Pin=CAT2440-PA4
+Removed Pin From Net: NetName=EINT17 Pin=CAT2440-PA5
+Removed Pin From Net: NetName=EINT16 Pin=CAT2440-PA6
+Removed Pin From Net: NetName=EINT15 Pin=CAT2440-PA7
+Removed Pin From Net: NetName=EINT14 Pin=CAT2440-PA8
+Removed Pin From Net: NetName=EINT13 Pin=CAT2440-PA9
+Removed Pin From Net: NetName=EINT11 Pin=CAT2440-PA10
+Removed Pin From Net: NetName=EINT8 Pin=CAT2440-PA11
+Removed Pin From Net: NetName=EINT6 Pin=CAT2440-PA12
+Removed Pin From Net: NetName=EINT5 Pin=CAT2440-PA13
+Removed Pin From Net: NetName=EINT4 Pin=CAT2440-PA14
+Removed Pin From Net: NetName=EINT3 Pin=CAT2440-PA15
+Removed Pin From Net: NetName=EINT2 Pin=CAT2440-PA16
+Removed Pin From Net: NetName=EINT1 Pin=CAT2440-PA17
+Removed Pin From Net: NetName=EINT0 Pin=CAT2440-PA18
+Removed Pin From Net: NetName=WP_SD Pin=CAT2440-PA19
+Removed Pin From Net: NetName=SDCLK Pin=CAT2440-PA20
+Removed Pin From Net: NetName=SDCMD Pin=CAT2440-PA21
+Removed Pin From Net: NetName=SDDATA2 Pin=CAT2440-PA22
+Removed Pin From Net: NetName=SDDATA3 Pin=CAT2440-PA23
+Removed Pin From Net: NetName=SDDATA0 Pin=CAT2440-PA24
+Removed Pin From Net: NetName=SDDATA1 Pin=CAT2440-PA25
+Removed Pin From Net: NetName=OM0 Pin=CAT2440-PA26
+Removed Pin From Net: NetName=LCDVF0 Pin=CAT2440-PA27
+Removed Pin From Net: NetName=M_NRESET Pin=CAT2440-PA28
+Removed Pin From Net: NetName=DN1 Pin=CAT2440-PA29
+Removed Pin From Net: NetName=DP1 Pin=CAT2440-PA30
+Removed Pin From Net: NetName=DN0 Pin=CAT2440-PA31
+Removed Pin From Net: NetName=DP0 Pin=CAT2440-PA32
+Removed Pin From Net: NetName=AIN2 Pin=CAT2440-PA33
+Removed Pin From Net: NetName=VDDRTC Pin=CAT2440-PA34
+Removed Pin From Net: NetName=AIN0 Pin=CAT2440-PA35
+Removed Pin From Net: NetName=AIN1 Pin=CAT2440-PA36
+Removed Pin From Net: NetName=L3MODE Pin=CAT2440-PA37
+Removed Pin From Net: NetName=L3DATA Pin=CAT2440-PA38
+Removed Pin From Net: NetName=L3CLOCK Pin=CAT2440-PA39
+Removed Pin From Net: NetName=I2SLRCK Pin=CAT2440-PA40
+Removed Pin From Net: NetName=I2SSCLK Pin=CAT2440-PA41
+Removed Pin From Net: NetName=CDCLK Pin=CAT2440-PA42
+Removed Pin From Net: NetName=I2SSDI Pin=CAT2440-PA43
+Removed Pin From Net: NetName=I2SSDO Pin=CAT2440-PA44
+Removed Pin From Net: NetName=GPB0 Pin=CAT2440-PA45
+Removed Pin From Net: NetName=GPB1 Pin=CAT2440-PA46
+Removed Pin From Net: NetName=TXD2 Pin=CAT2440-PA47
+Removed Pin From Net: NetName=RXD2 Pin=CAT2440-PA48
+Removed Pin From Net: NetName=TXD1 Pin=CAT2440-PA49
+Removed Pin From Net: NetName=RXD1 Pin=CAT2440-PA50
+Removed Pin From Net: NetName=TXD0 Pin=CAT2440-PA51
+Removed Pin From Net: NetName=RXD0 Pin=CAT2440-PA52
+Removed Pin From Net: NetName=NCTS0 Pin=CAT2440-PA53
+Removed Pin From Net: NetName=NRTS0 Pin=CAT2440-PA54
+Removed Pin From Net: NetName=I2CSDA Pin=CAT2440-PA55
+Removed Pin From Net: NetName=I2CSCL Pin=CAT2440-PA56
+Removed Pin From Net: NetName=TSYM Pin=CAT2440-PB1
+Removed Pin From Net: NetName=TSYP Pin=CAT2440-PB2
+Removed Pin From Net: NetName=TSXM Pin=CAT2440-PB3
+Removed Pin From Net: NetName=TSXP Pin=CAT2440-PB4
+Removed Pin From Net: NetName=VD22 Pin=CAT2440-PB5
+Removed Pin From Net: NetName=VD23 Pin=CAT2440-PB6
+Removed Pin From Net: NetName=VD20 Pin=CAT2440-PB7
+Removed Pin From Net: NetName=VD21 Pin=CAT2440-PB8
+Removed Pin From Net: NetName=VD18 Pin=CAT2440-PB9
+Removed Pin From Net: NetName=VD19 Pin=CAT2440-PB10
+Removed Pin From Net: NetName=VD16 Pin=CAT2440-PB11
+Removed Pin From Net: NetName=VD17 Pin=CAT2440-PB12
+Removed Pin From Net: NetName=VD14 Pin=CAT2440-PB13
+Removed Pin From Net: NetName=VD15 Pin=CAT2440-PB14
+Removed Pin From Net: NetName=VD12 Pin=CAT2440-PB15
+Removed Pin From Net: NetName=VD13 Pin=CAT2440-PB16
+Removed Pin From Net: NetName=VD10 Pin=CAT2440-PB17
+Removed Pin From Net: NetName=VD11 Pin=CAT2440-PB18
+Removed Pin From Net: NetName=VD8 Pin=CAT2440-PB19
+Removed Pin From Net: NetName=VD9 Pin=CAT2440-PB20
+Removed Pin From Net: NetName=VD6 Pin=CAT2440-PB21
+Removed Pin From Net: NetName=VD7 Pin=CAT2440-PB22
+Removed Pin From Net: NetName=VD4 Pin=CAT2440-PB23
+Removed Pin From Net: NetName=VD5 Pin=CAT2440-PB24
+Removed Pin From Net: NetName=VD2 Pin=CAT2440-PB25
+Removed Pin From Net: NetName=VD3 Pin=CAT2440-PB26
+Removed Pin From Net: NetName=VD0 Pin=CAT2440-PB27
+Removed Pin From Net: NetName=VD1 Pin=CAT2440-PB28
+Removed Pin From Net: NetName=LCD_PWR Pin=CAT2440-PB29
+Removed Pin From Net: NetName=VM Pin=CAT2440-PB30
+Removed Pin From Net: NetName=VFRAME Pin=CAT2440-PB31
+Removed Pin From Net: NetName=VLINE Pin=CAT2440-PB32
+Removed Pin From Net: NetName=VCLK Pin=CAT2440-PB33
+Removed Pin From Net: NetName=LEND Pin=CAT2440-PB34
+Removed Pin From Net: NetName=CAMDATA7 Pin=CAT2440-PB35
+Removed Pin From Net: NetName=CAMDATA6 Pin=CAT2440-PB36
+Removed Pin From Net: NetName=CAMDATA5 Pin=CAT2440-PB37
+Removed Pin From Net: NetName=CAMDATA4 Pin=CAT2440-PB38
+Removed Pin From Net: NetName=CAMDATA3 Pin=CAT2440-PB39
+Removed Pin From Net: NetName=CAMDATA2 Pin=CAT2440-PB40
+Removed Pin From Net: NetName=CAMDATA1 Pin=CAT2440-PB41
+Removed Pin From Net: NetName=CAMDATA0 Pin=CAT2440-PB42
+Removed Pin From Net: NetName=CAMCLK Pin=CAT2440-PB43
+Removed Pin From Net: NetName=CAM_PCLK Pin=CAT2440-PB44
+Removed Pin From Net: NetName=CAM_VSYNC Pin=CAT2440-PB45
+Removed Pin From Net: NetName=CAM_HREF Pin=CAT2440-PB46
+Removed Pin From Net: NetName=EINT20 Pin=CAT2440-PB47
+Removed Pin From Net: NetName=CAMRST Pin=CAT2440-PB48
+Removed Pin From Net: NetName=VDD5V Pin=CAT2440-PB49
+Removed Pin From Net: NetName=GND Pin=CAT2440-PB50
+Removed Pin From Net: NetName=EINT7 Pin=CAT2440-PC1
+Removed Pin From Net: NetName=EINT9 Pin=CAT2440-PC2
+Removed Pin From Net: NetName=LNGCS1 Pin=CAT2440-PC3
+Removed Pin From Net: NetName=LNGCS3 Pin=CAT2440-PC4
+Removed Pin From Net: NetName=LNGCS2 Pin=CAT2440-PC5
+Removed Pin From Net: NetName=LNWBE1 Pin=CAT2440-PC6
+Removed Pin From Net: NetName=LNGCS4 Pin=CAT2440-PC7
+Removed Pin From Net: NetName=LNWE Pin=CAT2440-PC8
+Removed Pin From Net: NetName=LNOE Pin=CAT2440-PC9
+Removed Pin From Net: NetName=NRESET Pin=CAT2440-PC10
+Removed Pin From Net: NetName=NWAIT Pin=CAT2440-PC11
+Removed Pin From Net: NetName=NXDACK0 Pin=CAT2440-PC12
+Removed Pin From Net: NetName=LADDR0 Pin=CAT2440-PC13
+Removed Pin From Net: NetName=NXDREQ0 Pin=CAT2440-PC14
+Removed Pin From Net: NetName=LADDR1 Pin=CAT2440-PC15
+Removed Pin From Net: NetName=LADDR2 Pin=CAT2440-PC16
+Removed Pin From Net: NetName=LADDR3 Pin=CAT2440-PC17
+Removed Pin From Net: NetName=LADDR4 Pin=CAT2440-PC18
+Removed Pin From Net: NetName=LADDR5 Pin=CAT2440-PC19
+Removed Pin From Net: NetName=LADDR6 Pin=CAT2440-PC20
+Removed Pin From Net: NetName=LADDR7 Pin=CAT2440-PC21
+Removed Pin From Net: NetName=LADDR8 Pin=CAT2440-PC22
+Removed Pin From Net: NetName=LADDR9 Pin=CAT2440-PC23
+Removed Pin From Net: NetName=LADDR10 Pin=CAT2440-PC24
+Removed Pin From Net: NetName=LADDR11 Pin=CAT2440-PC25
+Removed Pin From Net: NetName=LADDR12 Pin=CAT2440-PC26
+Removed Pin From Net: NetName=LADDR13 Pin=CAT2440-PC27
+Removed Pin From Net: NetName=LADDR14 Pin=CAT2440-PC28
+Removed Pin From Net: NetName=LADDR15 Pin=CAT2440-PC29
+Removed Pin From Net: NetName=LADDR16 Pin=CAT2440-PC30
+Removed Pin From Net: NetName=LADDR17 Pin=CAT2440-PC31
+Removed Pin From Net: NetName=LADDR18 Pin=CAT2440-PC32
+Removed Pin From Net: NetName=LADDR19 Pin=CAT2440-PC33
+Removed Pin From Net: NetName=LADDR20 Pin=CAT2440-PC34
+Removed Pin From Net: NetName=LADDR21 Pin=CAT2440-PC35
+Removed Pin From Net: NetName=LADDR22 Pin=CAT2440-PC36
+Removed Pin From Net: NetName=LADDR23 Pin=CAT2440-PC37
+Removed Pin From Net: NetName=LADDR24 Pin=CAT2440-PC38
+Removed Pin From Net: NetName=LDATA0 Pin=CAT2440-PC39
+Removed Pin From Net: NetName=LDATA1 Pin=CAT2440-PC40
+Removed Pin From Net: NetName=LDATA2 Pin=CAT2440-PC41
+Removed Pin From Net: NetName=LDATA3 Pin=CAT2440-PC42
+Removed Pin From Net: NetName=LDATA4 Pin=CAT2440-PC43
+Removed Pin From Net: NetName=LDATA5 Pin=CAT2440-PC44
+Removed Pin From Net: NetName=LDATA6 Pin=CAT2440-PC45
+Removed Pin From Net: NetName=LDATA7 Pin=CAT2440-PC46
+Removed Pin From Net: NetName=LDATA8 Pin=CAT2440-PC47
+Removed Pin From Net: NetName=LDATA9 Pin=CAT2440-PC48
+Removed Pin From Net: NetName=LDATA10 Pin=CAT2440-PC49
+Removed Pin From Net: NetName=LDATA11 Pin=CAT2440-PC50
+Removed Pin From Net: NetName=LDATA12 Pin=CAT2440-PC51
+Removed Pin From Net: NetName=LDATA13 Pin=CAT2440-PC52
+Removed Pin From Net: NetName=LDATA14 Pin=CAT2440-PC53
+Removed Pin From Net: NetName=LDATA15 Pin=CAT2440-PC54
+Removed Pin From Net: NetName=VDD5V Pin=CAT2440-PC55
+Removed Pin From Net: NetName=GND Pin=CAT2440-PC56
+Change Component Comment : Designator=CA5 Old Comment=100nF New Comment=1nF
+Change Component Comment : Designator=CA4 Old Comment=100nF New Comment=1nF
+Change Component Comment : Designator=CA3 Old Comment=100nF New Comment=1nF
+Change Component Comment : Designator=CA2 Old Comment=100nF New Comment=1nF
+Change Component Comment : Designator=C24 Old Comment=100nF New Comment=1nF
+Change Component Comment : Designator=C21 Old Comment=100nF New Comment=1nF
+Change Component Comment : Designator=CA23 Old Comment=100nF New Comment=10nF
+Change Component Comment : Designator=CA22 Old Comment=100nF New Comment=10nF
+Change Component Comment : Designator=CA21 Old Comment=100nF New Comment=10nF
+Change Component Comment : Designator=CA20 Old Comment=100nF New Comment=10nF
+Change Component Comment : Designator=CA19 Old Comment=100nF New Comment=10nF
+Change Component Comment : Designator=CA18 Old Comment=100nF New Comment=10nF
+Change Component Comment : Designator=CA17 Old Comment=100nF New Comment=10nF
+Change Component Comment : Designator=CA16 Old Comment=100nF New Comment=10nF
+Change Component Comment : Designator=CA15 Old Comment=100nF New Comment=10nF
+Change Component Comment : Designator=CA14 Old Comment=100nF New Comment=10nF
+Change Component Comment : Designator=CA13 Old Comment=100nF New Comment=10nF
+Change Component Comment : Designator=CA1 Old Comment=100nF New Comment=10nF
+Change Component Comment : Designator=C33 Old Comment=100nF New Comment=10nF
+Change Component Comment : Designator=C32 Old Comment=100nF New Comment=10nF
+Change Component Comment : Designator=C31 Old Comment=100nF New Comment=10nF
+Change Component Comment : Designator=C30 Old Comment=100nF New Comment=10nF
+Change Component Comment : Designator=C29 Old Comment=100nF New Comment=10nF
+Change Component Comment : Designator=C25 Old Comment=100nF New Comment=10nF
+Change Component Comment : Designator=C23 Old Comment=100nF New Comment=10nF
+Change Component Comment : Designator=C22 Old Comment=100nF New Comment=10nF
+Change Component Comment : Designator=C20 Old Comment=100nF New Comment=10nF
+Change Component Comment : Designator=C17 Old Comment=100nF New Comment=10nF
+Change Component Comment : Designator=C15 Old Comment=100nF New Comment=10nF
+Change Component Comment : Designator=C14 Old Comment=100nF New Comment=10nF
+Change Component Comment : Designator=R1 Old Comment=330 New Comment=1K
+Change Net Name : Old Net Name=NetU1_H12 New Net Name=NetR68_2
+Change Net Name : Old Net Name=NetU3_5 New Net Name=NetR32_2
+Change Net Name : Old Net Name=NetU3_8 New Net Name=NetR31_2
+Change Net Name : Old Net Name=NetU9_2 New Net Name=NetR2_1
+Added Class: Name=01-CPU1
+Added Class: Name=02-CPU2
+Added Class: Name=03-CPU3
+Added Class: Name=04-MEM
+Added Room: Name=01-CPU1
+Added Room: Name=02-CPU2
+Added Room: Name=03-CPU3
+Added Room: Name=04-MEM

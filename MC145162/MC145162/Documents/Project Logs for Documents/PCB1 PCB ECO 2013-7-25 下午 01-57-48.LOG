@@ -1,0 +1,6 @@
+Added Component: Designator=J1(HDR1X3)
+Added Pin To Net: NetName=NetJ1_1 Pin=J1-1
+Added Pin To Net: NetName=NetC2_2 Pin=J1-2
+Added Pin To Net: NetName=NetJ1_3 Pin=J1-3
+Added Member To Class: ClassName=Sheet1 Member=Component J1 CON3
+Added Room: Name=Sheet1

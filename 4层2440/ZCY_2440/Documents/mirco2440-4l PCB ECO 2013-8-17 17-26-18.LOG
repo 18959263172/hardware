@@ -1,0 +1,34 @@
+Change Component Footprint: Designator=C8 Old Footprint=0805 New Footprint=0603A
+Change Component Footprint: Designator=R10 Old Footprint=0805 New Footprint=0603R
+Change Component Footprint: Designator=R11 Old Footprint=0805 New Footprint=0603R
+Change Component Footprint: Designator=R16 Old Footprint=AXIAL-0.4 New Footprint=0603R
+Change Component Footprint: Designator=R17 Old Footprint=AXIAL-0.4 New Footprint=0603R
+Change Component Footprint: Designator=R19 Old Footprint=AXIAL-0.4 New Footprint=0603R
+Change Component Footprint: Designator=U3 Old Footprint=MSOP8 New Footprint=SOIC_SP3485
+Added Pin To Net: NetName=GND Pin=U9-5
+Added Pin To Net: NetName=VDD33V Pin=U9-7
+Added Pin To Net: NetName=NetR32_2 Pin=U9-9
+Added Pin To Net: NetName=VDD33V Pin=U9-10
+Added Pin To Net: NetName=GND Pin=U9-11
+Added Pin To Net: NetName=I2SSCLK Pin=U9-12
+Added Pin To Net: NetName=L3MODE Pin=U9-13
+Added Pin To Net: NetName=L3CLOCK Pin=U9-14
+Added Pin To Net: NetName=L3DATA Pin=U9-15
+Added Pin To Net: NetName=CDCLK Pin=U9-16
+Added Pin To Net: NetName=I2SLRCK Pin=U9-17
+Added Pin To Net: NetName=I2SSDO Pin=U9-18
+Added Pin To Net: NetName=I2SSDI Pin=U9-19
+Added Pin To Net: NetName=NetR30_2 Pin=U9-20
+Added Pin To Net: NetName=NetR31_2 Pin=U9-21
+Added Pin To Net: NetName=NetR33_2 Pin=U9-23
+Added Pin To Net: NetName=NetC41_1 Pin=U9-24
+Added Pin To Net: NetName=VDD33V Pin=U9-25
+Added Pin To Net: NetName=NetC40_1 Pin=U9-26
+Added Pin To Net: NetName=GND Pin=U9-27
+Added Pin To Net: NetName=NetC44_1 Pin=U9-28
+Added Room: Name=01-CPU1
+Added Room: Name=02-CPU2
+Added Room: Name=03-CPU3
+Added Room: Name=04-MEM
+Added Room: Name=05I2S
+Added Room: Name=Main

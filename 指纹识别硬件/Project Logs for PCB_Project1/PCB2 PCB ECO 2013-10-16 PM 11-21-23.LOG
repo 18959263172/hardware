@@ -1,0 +1,8 @@
+Removed Member From Class: ClassName=P1_Nets Member=NetP1_4
+Added Pin To Net: NetName=PG11 Pin=P1-4
+Added Member To Class: ClassName=P1_Nets Member=Wire PG11
+Added Room: Name=EXTERN
+Added Room: Name=GPIO_OUT
+Added Room: Name=POWER
+Added Room: Name=STORAGE
+Added Room: Name=XLAT AND JTAG

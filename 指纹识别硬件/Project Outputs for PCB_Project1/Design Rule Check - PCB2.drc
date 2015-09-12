@@ -1,0 +1,43 @@
+Protel Design System Design Rule Check
+PCB File : D:\指纹识别硬件\PCB2.PcbDoc
+Date     : 2013-10-17
+Time     : PM 07:05:34
+
+WARNING: Zero hole size multi-layer pad(s) detected
+   Pad J1-1(83.3882mm,40.8686mm)  Multi-Layer on Net VDD5
+   Pad J1-3(76.9874mm,40.8686mm)  Multi-Layer on Net GND
+   Pad J1-2(80.1878mm,35.8648mm)  Multi-Layer on Net GND
+
+WARNING: Multilayer Pads with 0 size Hole found
+   Pad J1-1(83.3882mm,40.8686mm)  Multi-Layer
+   Pad J1-3(76.9874mm,40.8686mm)  Multi-Layer
+   Pad J1-2(80.1878mm,35.8648mm)  Multi-Layer
+
+Processing Rule : Hole Size Constraint (Min=0.0254mm) (Max=2.54mm) (All)
+   Violation between Hole Size Constraint: Pad Free-0(166.751mm,121.7676mm)  Multi-Layer
+   Violation between Hole Size Constraint: Pad Free-1(167.0304mm,32.3342mm)  Multi-Layer
+   Violation between Hole Size Constraint: Pad Free-2(71.3486mm,120.904mm)  Multi-Layer
+   Violation between Hole Size Constraint: Pad Free-3(71.2978mm,33.1978mm)  Multi-Layer
+Rule Violations :4
+
+Processing Rule : Height Constraint (Min=0mm) (Max=25.4mm) (Prefered=12.7mm) (All)
+Rule Violations :0
+
+Processing Rule : Width Constraint (Min=0.1524mm) (Max=1.27mm) (Preferred=0.254mm) (All)
+Rule Violations :0
+
+Processing Rule : Power Plane Connect Rule(Relief Connect )(Expansion=0.508mm) (Conductor Width=0.254mm) (Air Gap=0.254mm) (Entries=4) (All)
+Rule Violations :0
+
+Processing Rule : Clearance Constraint (Gap=0.1524mm) (All),(All)
+Rule Violations :0
+
+Processing Rule : Un-Routed Net Constraint ( (All) )
+Rule Violations :0
+
+Processing Rule : Short-Circuit Constraint (Allowed=No) (All),(All)
+Rule Violations :0
+
+
+Violations Detected : 4
+Time Elapsed        : 00:00:01

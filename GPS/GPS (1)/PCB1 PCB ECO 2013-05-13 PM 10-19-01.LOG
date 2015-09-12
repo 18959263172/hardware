@@ -1,0 +1,9 @@
+Removed Pin From Net: NetName=VCC_5V Pin=J1-2
+Change Component Footprint: Designator=J1 Old Footprint=SIP-2 New Footprint=HDR1X2
+Added Component: Designator=P5(PCBComponent_1 - duplicate)
+Added Pin To Net: NetName=VCC_5V Pin=P5-2
+Added Pin To Net: NetName=VCC Pin=J1-2
+Added Pin To Net: NetName=VCC Pin=P5-1
+Added Net: Name=VCC
+Added Member To Class: ClassName=yabin Member=Component P5 Header 3X2
+Added Room: Name=yabin

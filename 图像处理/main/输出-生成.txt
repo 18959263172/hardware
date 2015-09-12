@@ -1,0 +1,51 @@
+1>------ 已启动全部重新生成: 项目: main, 配置: Debug Win32 ------
+1>正在删除项目“main”(配置“Debug|Win32”)的中间文件和输出文件
+1>正在编译...
+1>StdAfx.cpp
+1> WINVER not defined. Defaulting to 0x0600 (Windows Vista)
+1>正在编译...
+1>DIB.cpp
+1> WINVER not defined. Defaulting to 0x0600 (Windows Vista)
+1>d:\我的项目\图像处理\main\dib.cpp(9) : warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+1>        c:\program files\microsoft visual studio 9.0\vc\include\string.h(74) : 参见“strcpy”的声明
+1>d:\我的项目\图像处理\main\dib.cpp(17) : warning C4244: “初始化”: 从“ULONGLONG”转换到“DWORD”，可能丢失数据
+1>d:\我的项目\图像处理\main\dib.cpp(116) : warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+1>        c:\program files\microsoft visual studio 9.0\vc\include\string.h(74) : 参见“strcpy”的声明
+1>d:\我的项目\图像处理\main\dib.cpp(164) : warning C4996: 'itoa': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _itoa. See online help for details.
+1>        c:\program files\microsoft visual studio 9.0\vc\include\stdlib.h(862) : 参见“itoa”的声明
+1>d:\我的项目\图像处理\main\dib.cpp(168) : warning C4996: 'itoa': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _itoa. See online help for details.
+1>        c:\program files\microsoft visual studio 9.0\vc\include\stdlib.h(862) : 参见“itoa”的声明
+1>d:\我的项目\图像处理\main\dib.cpp(172) : warning C4018: “<”: 有符号/无符号不匹配
+1>d:\我的项目\图像处理\main\dib.cpp(177) : warning C4996: 'itoa': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _itoa. See online help for details.
+1>        c:\program files\microsoft visual studio 9.0\vc\include\stdlib.h(862) : 参见“itoa”的声明
+1>d:\我的项目\图像处理\main\dib.cpp(181) : warning C4996: 'itoa': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _itoa. See online help for details.
+1>        c:\program files\microsoft visual studio 9.0\vc\include\stdlib.h(862) : 参见“itoa”的声明
+1>d:\我的项目\图像处理\main\dib.cpp(189) : warning C4018: “<”: 有符号/无符号不匹配
+1>main.cpp
+1> WINVER not defined. Defaulting to 0x0600 (Windows Vista)
+1>d:\我的项目\图像处理\main\main.cpp(51) : warning C4996: 'CWinApp::Enable3dControls': CWinApp::Enable3dControls is no longer needed. You should remove this call.
+1>        c:\program files\microsoft visual studio 9.0\vc\atlmfc\include\afxwin.h(4818) : 参见“CWinApp::Enable3dControls”的声明
+1>mainDlg.cpp
+1> WINVER not defined. Defaulting to 0x0600 (Windows Vista)
+1>process.cpp
+1> WINVER not defined. Defaulting to 0x0600 (Windows Vista)
+1>d:\我的项目\图像处理\main\process.cpp(91) : warning C4101: “out”: 未引用的局部变量
+1>d:\我的项目\图像处理\main\process.cpp(91) : warning C4101: “src”: 未引用的局部变量
+1>正在生成代码...
+1>d:\我的项目\图像处理\main\process.cpp(83) : warning C4715: “Binary”: 不是所有的控件路径都返回值
+1>d:\我的项目\图像处理\main\process.cpp(142) : warning C4715: “Smooth”: 不是所有的控件路径都返回值
+1>d:\我的项目\图像处理\main\process.cpp(229) : warning C4700: 使用了未初始化的局部变量“lpRst”
+1>d:\我的项目\图像处理\main\dib.cpp(102) : warning C4700: 使用了未初始化的局部变量“wBitCount”
+1>正在编译资源...
+1>Microsoft (R) Windows (R) Resource Compiler Version 6.0.5724.0
+1>Copyright (C) Microsoft Corporation.  All rights reserved.
+1>正在编译资源清单...
+1>Microsoft (R) Windows (R) Resource Compiler Version 6.0.5724.0
+1>Copyright (C) Microsoft Corporation.  All rights reserved.
+1>正在链接...
+1>正在嵌入清单...
+1>Microsoft (R) Windows (R) Resource Compiler Version 6.0.5724.0
+1>Copyright (C) Microsoft Corporation.  All rights reserved.
+1>生成日志保存在“file://d:\我的项目\图像处理\main\Debug\BuildLog.htm”
+1>main - 0 个错误，16 个警告
+========== 全部重新生成: 成功 1 个，失败 0 个，跳过 0 个 ==========

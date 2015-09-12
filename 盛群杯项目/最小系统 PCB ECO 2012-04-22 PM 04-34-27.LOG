@@ -1,0 +1,72 @@
+Removed Pin From Net: NetName=RES Pin=U10-2
+Removed Member From Class: ClassName=盛群杯 Member=C?
+Removed Member From Class: ClassName=盛群杯 Member=C?
+Removed Member From Class: ClassName=盛群杯 Member=C?
+Removed Member From Class: ClassName=盛群杯 Member=RT?
+Removed Member From Class: ClassName=最小系统 Member=U10
+Removed Member From Class: ClassName=盛群杯 Member=Y?
+Change Component Designator: OldDesignator=C1 NewDesignator=C9
+Change Component Designator: OldDesignator=C2 NewDesignator=C10
+Change Component Designator: OldDesignator=C16 NewDesignator=C2
+Change Component Designator: OldDesignator=C17 NewDesignator=C3
+Change Component Designator: OldDesignator=C19 NewDesignator=C4
+Change Component Designator: OldDesignator=C20 NewDesignator=C5
+Change Component Designator: OldDesignator=C? NewDesignator=C1
+Change Component Designator: OldDesignator=C? NewDesignator=C6
+Change Component Designator: OldDesignator=C? NewDesignator=C7
+Change Component Designator: OldDesignator=C? NewDesignator=C8
+Change Component Designator: OldDesignator=J? NewDesignator=J1
+Change Component Designator: OldDesignator=P1 NewDesignator=P2
+Change Component Designator: OldDesignator=P2 NewDesignator=P1
+Change Component Designator: OldDesignator=P5 NewDesignator=P3
+Change Component Designator: OldDesignator=RT? NewDesignator=RT1
+Change Component Designator: OldDesignator=RT? NewDesignator=RT2
+Change Component Designator: OldDesignator=U10 NewDesignator=U5
+Change Component Designator: OldDesignator=Y? NewDesignator=Y1
+Change Component Designator: OldDesignator=Y? NewDesignator=Y2
+Added Component: Designator=U7(MHDR2X6)
+Added Pin To Net: NetName=OSC2 Pin=C6-1
+Added Pin To Net: NetName=GND Pin=C6-2
+Added Pin To Net: NetName=OSC1 Pin=C7-1
+Added Pin To Net: NetName=GND Pin=C7-2
+Added Pin To Net: NetName=RES Pin=C8-1
+Added Pin To Net: NetName=GND Pin=C8-2
+Added Pin To Net: NetName=VCC Pin=RT2-1
+Added Pin To Net: NetName=RES Pin=RT2-2
+Added Pin To Net: NetName=RESB Pin=U5-2
+Added Pin To Net: NetName=VCC Pin=U7-1
+Added Pin To Net: NetName=RES Pin=U7-2
+Added Pin To Net: NetName=SCK Pin=U7-5
+Added Pin To Net: NetName=DB0 Pin=U7-9
+Added Pin To Net: NetName=GND Pin=U7-11
+Added Pin To Net: NetName=OSC2 Pin=Y2-1
+Added Pin To Net: NetName=OSC1 Pin=Y2-2
+Added Pin To Net: NetName=NetC2_1 Pin=C2-1
+Added Net: Name=NetC2_1
+Added Pin To Net: NetName=NetC2_2 Pin=C2-2
+Added Net: Name=NetC2_2
+Added Pin To Net: NetName=NetC3_1 Pin=C3-1
+Added Net: Name=NetC3_1
+Added Pin To Net: NetName=NetC4_1 Pin=C4-1
+Added Net: Name=NetC4_1
+Added Pin To Net: NetName=NetC4_2 Pin=C4-2
+Added Net: Name=NetC4_2
+Added Pin To Net: NetName=NetC5_1 Pin=C5-1
+Added Net: Name=NetC5_1
+Added Pin To Net: NetName=NetP2_1 Pin=P2-1
+Added Net: Name=NetP2_1
+Added Pin To Net: NetName=NetP2_2 Pin=P2-2
+Added Net: Name=NetP2_2
+Added Pin To Net: NetName=NetP3_1 Pin=P3-1
+Added Net: Name=NetP3_1
+Added Pin To Net: NetName=NetP3_2 Pin=P3-2
+Added Net: Name=NetP3_2
+Added Member To Class: ClassName=盛群杯 Member=Component C1 Cap Pol3
+Added Member To Class: ClassName=盛群杯 Member=Component C6 Cap Semi
+Added Member To Class: ClassName=盛群杯 Member=Component C7 Cap Semi
+Added Member To Class: ClassName=盛群杯 Member=Component RT1 
+Added Member To Class: ClassName=盛群杯 Member=Component U5 CON12
+Added Member To Class: ClassName=最小系统 Member=Component U7 CON12
+Added Member To Class: ClassName=盛群杯 Member=Component Y1 XTAL
+Added Room: Name=盛群杯
+Added Room: Name=最小系统

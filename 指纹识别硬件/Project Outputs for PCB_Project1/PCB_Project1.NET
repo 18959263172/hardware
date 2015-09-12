@@ -1,0 +1,536 @@
+PARTS LIST
+
+0.1uF             0805            C1
+0.1uF             0805            C2
+0.1uF             0805            C3
+0.1uF             0805            C4
+Cap               0805            C5
+Cap               0805            C6
+Cap               6-0805          C7
+Cap Pol2          3.5X2.8X1.9     C8
+102               0805            C9
+102               0805            C10
+2.2uf             1210            C11
+2.2uf             1210            C12
+Cap               6-0805          C13
+Cap               6-0805          C14
+Cap               6-0805          C15
+Cap               6-0805          C16
+Cap               6-0805          C17
+Cap               6-0805          C18
+Cap               6-0805          C19
+Cap               6-0805          C20
+Cap               0805            C21
+Cap               0805            C22
+Cap               0805            C23
+Cap               0805            C24
+Cap               0805            C25
+Cap               0805            C26
+Cap               0805            C27
+LED0              0805            D1
+LED0              0805            D2
+LED0              0805            D3
+LED3              3.5X2.8X1.9     D4
+PWR2.5            Power_In        J1
+Inductor          6-0805          L1
+STM32F103ZET6     LQFN144         NU1
+Header 4          HDR1X4          P1
+Header 8X2        HDR2X8          P2
+Header 3          HDR1X3          P3
+Header 3          HDR1X3          P4
+Header 3          HDR1X3          P5
+Header 2          HDR1X2          P6
+Header 3          HDR1X3          P7
+Header 10X2       HDR2X10         P8
+P10               787616          P20
+Res2              0805            R1
+Res2              0805            R2
+Res2              0805            R3
+Res2              0805            R4
+Res2              0805            R5
+Res2              AXIAL-0.4       R6
+Res2              0805            R7
+Res2              0805            R8
+Res2              0805            R9
+Res2              0805            R10
+Res2              0805            R11
+Res2              0805            R12
+Res2              0805            R13
+Res2              0805            R14
+Res2              0805            R15
+Res2              0805            R16
+Res2              0805            R17
+Res2              0805            R18
+Res2              0805            R19
+Res2              0805            R20
+Res2              0805            R21
+Res2              0805            R22
+Res2              0805            R23
+Res2              0805            R24
+Res2              0805            R25
+SW_PB             SWPB            REST1
+MAX232-2          SOIC16          U1
+IS61LV51216-10T   TSOP44          U2
+LM1117-3.3        SOT-223         U3
+M29W128GL         TSOP56          U4
+NAND512W3A2CN6E   TSOP48          U5
+XTAL              XTAL-1          Y1
+XTAL              R38             Y2
+EOS
+NET LIST
+
+NODENAME OSCOUT           $
+    NU1       24  R17        2
+NODENAME OSCIN            $
+    C25        2  NU1       23  Y2         2
+NODENAME NRST             $
+    C27        2  NU1       25  P8        15  R16        1  REST1      2
+NODENAME NetC26-2         $
+    C26        2  R17        1  Y2         1
+NODENAME NetP8-11         $
+    P8        11  R23        1
+NODENAME NetP8-17         $
+    P8        17  R24        1
+NODENAME NetP8-19         $
+    P8        19  R25        1
+NODENAME BOOT0            $
+    NU1      138  P7         2
+NODENAME NetC24-1         $
+    C24        1  R14        2  U4        14
+NODENAME NetP5-2          $
+    P5         2  U5         7
+NODENAME NetP6-2          $
+    P6         2  R15        2  U4        16
+NODENAME NetR7-1          $
+    R7         1  R8         2  U5        19
+NODENAME NetR10-1         $
+    R10        1  U4        53
+NODENAME D15              $
+    U2        38  U4        51
+NODENAME D14              $
+    U2        37  U4        49
+NODENAME D13              $
+    U2        36  U4        47
+NODENAME D12              $
+    U2        35  U4        45
+NODENAME D11              $
+    U2        32  U4        42
+NODENAME D10              $
+    U2        31  U4        40
+NODENAME D9               $
+    U2        30  U4        38
+NODENAME D8               $
+    U2        29  U4        36
+NODENAME D7               $
+    U2        16  U4        50  U5        44
+NODENAME D6               $
+    U2        15  U4        48  U5        43
+NODENAME D5               $
+    U2        14  U4        46  U5        42
+NODENAME D4               $
+    U2        13  U4        44  U5        41
+NODENAME D3               $
+    U2        10  U4        41  U5        32
+NODENAME D2               $
+    U2         9  U4        39  U5        31
+NODENAME D1               $
+    U2         8  U4        37  U5        30
+NODENAME D0               $
+    U2         7  U4        35  U5        29
+NODENAME A22              $
+    U4         2
+NODENAME A21              $
+    U4        15
+NODENAME A20              $
+    U4        12
+NODENAME A19              $
+    U4        11
+NODENAME A18              $
+    U2        28  U4        18
+NODENAME A17              $
+    U2        44  U4        19  U5        17
+NODENAME A16              $
+    U2        43  U4        54  U5        16
+NODENAME A15              $
+    U2        42  U4         3
+NODENAME A14              $
+    U2        27  U4         4
+NODENAME A13              $
+    U2        26  U4         5
+NODENAME A12              $
+    U2        25  U4         6
+NODENAME A11              $
+    U2        24  U4         7
+NODENAME A10              $
+    U2        23  U4         8
+NODENAME A9               $
+    U2        22  U4         9
+NODENAME A8               $
+    U2        21  U4        10
+NODENAME A7               $
+    U2        20  U4        20
+NODENAME A6               $
+    U2        19  U4        21
+NODENAME A5               $
+    U2        18  U4        22
+NODENAME A4               $
+    U2         5  U4        23
+NODENAME A3               $
+    U2         4  U4        24
+NODENAME A2               $
+    U2         3  U4        25
+NODENAME A1               $
+    U2         2  U4        26
+NODENAME A0               $
+    U2         1  U4        31
+NODENAME VDD5             $
+    C8         1  C9         1  C11        1  C13        2  J1         1  J1        1B  U3         3
+NODENAME VBAT             $
+    P4         1
+NODENAME NetD4-1          $
+    D4         1  R6         1
+NODENAME NetL1-1          $
+    L1         1  NU1       32  NU1       33
+NODENAME NetNU1-6         $
+    NU1        6  P4         2
+NODENAME PG6              $
+    NU1       91  P5         3  R12        1
+NODENAME PE0              $
+    NU1      141  U2        39
+NODENAME PE1              $
+    NU1      142  U2        40
+NODENAME PD7              $
+    NU1      123  U5         9
+NODENAME PG9              $
+    NU1      124  R11        1  U4        32
+NODENAME PG10             $
+    NU1      125  R9         1  U2         6
+NODENAME PG12             $
+    NU1      127
+NODENAME PD4              $
+    NU1      118  U2        41  U4        34  U5         8
+NODENAME PD6              $
+    NU1      122  P5         1  R13        2  U4        17
+NODENAME PD5              $
+    NU1      119  U2        17  U4        13  U5        18
+NODENAME LED0             $
+    NU1       19  R1         1
+NODENAME LED1             $
+    NU1       20  R2         1
+NODENAME LED2             $
+    NU1       21  R3         1
+NODENAME PA8              $
+    NU1      100  P1         4
+NODENAME PC0              $
+    NU1       26  P2         1
+NODENAME PC1              $
+    NU1       27  P2         3
+NODENAME PC2              $
+    NU1       28  P2         5
+NODENAME PC3              $
+    NU1       29  P2         7
+NODENAME PC4              $
+    NU1       44  P2         9
+NODENAME PC5              $
+    NU1       45  P2        11
+NODENAME PC6              $
+    NU1       96  P2        13
+NODENAME PC7              $
+    NU1       97  P2        15
+NODENAME PC8              $
+    NU1       98  P2         2
+NODENAME PC9              $
+    NU1       99  P2         4
+NODENAME PC10             $
+    NU1      111  P2         6
+NODENAME PC11             $
+    NU1      112  P2         8
+NODENAME PC12             $
+    NU1      113  P2        10
+NODENAME PC13             $
+    NU1        7  P2        12
+NODENAME PC14             $
+    NU1        8  P2        14
+NODENAME PC15             $
+    NU1        9  P2        16
+NODENAME PA6              $
+    NU1       42  P1         2
+NODENAME PA7              $
+    NU1       43  P1         3
+NODENAME PA5              $
+    NU1       41  P1         1
+NODENAME PA14             $
+    NU1      109  P8         5  P8         9  R19        1  R20        1  R22        1
+NODENAME PB3              $
+    NU1      133  P8        13
+NODENAME PA13             $
+    NU1      105  P8         7  R21        1
+NODENAME PB4              $
+    NU1      134  P8         3  R18        1
+NODENAME PA10             $
+    NU1      102  U1        12
+NODENAME PA9              $
+    NU1      101  U1        11
+NODENAME PA3              $
+    NU1       37
+NODENAME PA2              $
+    NU1       36
+NODENAME PA11             $
+    NU1      103  R4         2
+NODENAME PA12             $
+    NU1      104  R5         2
+NODENAME PA0              $
+    NU1       34
+NODENAME DATA15           $
+  
+NODENAME DATA14           $
+  
+NODENAME DATA13           $
+  
+NODENAME DATA12           $
+  
+NODENAME DATA11           $
+  
+NODENAME DATA10           $
+  
+NODENAME DATA9            $
+  
+NODENAME DATA8            $
+  
+NODENAME DATA7            $
+  
+NODENAME DATA6            $
+  
+NODENAME DATA5            $
+  
+NODENAME DATA4            $
+  
+NODENAME DATA3            $
+  
+NODENAME DATA2            $
+  
+NODENAME DATA1            $
+  
+NODENAME DATA0            $
+  
+NODENAME AD23             $
+  
+NODENAME AD22             $
+  
+NODENAME AD21             $
+  
+NODENAME AD20             $
+  
+NODENAME AD19             $
+  
+NODENAME AD18             $
+  
+NODENAME AD17             $
+  
+NODENAME AD16             $
+  
+NODENAME AD15             $
+  
+NODENAME AD14             $
+  
+NODENAME AD13             $
+  
+NODENAME AD12             $
+  
+NODENAME AD11             $
+  
+NODENAME AD10             $
+  
+NODENAME AD9              $
+  
+NODENAME AD8              $
+  
+NODENAME AD7              $
+  
+NODENAME AD6              $
+  
+NODENAME AD5              $
+  
+NODENAME AD4              $
+  
+NODENAME AD3              $
+  
+NODENAME AD2              $
+  
+NODENAME AD1              $
+  
+NODENAME AD0              $
+  
+NODENAME PG15             $
+    NU1      132
+NODENAME PG14             $
+    NU1      129
+NODENAME PG13             $
+    NU1      128
+NODENAME PG11             $
+    NU1      126
+NODENAME PG8              $
+    NU1       93
+NODENAME PG7              $
+    NU1       92
+NODENAME PF11             $
+    NU1       49
+NODENAME PF10             $
+    NU1       22
+NODENAME PF6              $
+    NU1       18
+NODENAME PD3              $
+    NU1      117
+NODENAME PD2              $
+    NU1      116
+NODENAME PB15             $
+    C6         2  NU1       76  Y1         1
+NODENAME PB14             $
+    C5         2  NU1       75  Y1         2
+NODENAME PB13             $
+    NU1       74
+NODENAME PB12             $
+    NU1       73
+NODENAME PB11             $
+    NU1       70
+NODENAME PB10             $
+    NU1       69
+NODENAME PB9              $
+    NU1      140
+NODENAME PB8              $
+    NU1      139
+NODENAME PB7              $
+    NU1      137
+NODENAME PB6              $
+    NU1      136
+NODENAME PB5              $
+    NU1      135
+NODENAME PB2              $
+    NU1       48
+NODENAME PB1              $
+    NU1       47
+NODENAME PB0              $
+    NU1       46
+NODENAME PA15             $
+    NU1      110
+NODENAME PA4              $
+    NU1       40
+NODENAME PA1              $
+    NU1       35
+NODENAME D15              $
+    NU1       79
+NODENAME D14              $
+    NU1       78
+NODENAME D13              $
+    NU1       77
+NODENAME D12              $
+    NU1       68
+NODENAME D11              $
+    NU1       67
+NODENAME D10              $
+    NU1       66
+NODENAME D9               $
+    NU1       65
+NODENAME D8               $
+    NU1       64
+NODENAME D7               $
+    NU1       63
+NODENAME D6               $
+    NU1       60
+NODENAME D5               $
+    NU1       59
+NODENAME D4               $
+    NU1       58
+NODENAME D3               $
+    NU1      115
+NODENAME D2               $
+    NU1      114
+NODENAME D1               $
+    NU1       84
+NODENAME D0               $
+    NU1       83
+NODENAME A23              $
+    NU1        1
+NODENAME A22              $
+    NU1        5
+NODENAME A21              $
+    NU1        4
+NODENAME A20              $
+    NU1        3
+NODENAME A19              $
+    NU1        2
+NODENAME A18              $
+    NU1       82
+NODENAME A17              $
+    NU1       81
+NODENAME A16              $
+    NU1       80
+NODENAME A15              $
+    NU1       90
+NODENAME A14              $
+    NU1       89
+NODENAME A13              $
+    NU1       88
+NODENAME A12              $
+    NU1       87
+NODENAME A11              $
+    NU1       57
+NODENAME A10              $
+    NU1       56
+NODENAME A9               $
+    NU1       55
+NODENAME A8               $
+    NU1       54
+NODENAME A7               $
+    NU1       53
+NODENAME A6               $
+    NU1       50
+NODENAME A5               $
+    NU1       15
+NODENAME A4               $
+    NU1       14
+NODENAME A3               $
+    NU1       13
+NODENAME A2               $
+    NU1       12
+NODENAME A1               $
+    NU1       11
+NODENAME A0               $
+    NU1       10
+NODENAME VDD33            $
+    C7         2  C10        1  C12        1  C14        2  C15        2  C16        2  C17        2  C18        2  C19        2  C20        2  C21        1  C22        1  C23        1  D1         1  D2         1  D3         1  L1         2  NU1       17  NU1       39  NU1       52  NU1       62  NU1       72  NU1       84  NU1       95  NU1      108  NU1      121  NU1      131  NU1      144  P4         3  P7         1  P8         1  P8         2  R6         2  R8         1  R9         2  R10        2  R11        2  R12        2  R13        1  R14        1  R15        1  R16        2  R18        2  R19        2  R20        2  R21        2  U2        11  U2        33  U3         2  U4        29  U4        43  U5        12  U5        37
+NODENAME VDD5.0V          $
+    C2         1  U1        16
+NODENAME USB 5V           $
+    P20        1
+NODENAME T1OUT            $
+    P3         3  U1        14
+NODENAME R1IN             $
+    P3         1  U1        13
+NODENAME NetC1-1          $
+    C1         1  U1         1
+NODENAME NetC1-2          $
+    C1         2  U1         3
+NODENAME NetC2-2          $
+    C2         2  U1         2
+NODENAME NetC3-1          $
+    C3         1  U1         5
+NODENAME NetC3-2          $
+    C3         2  U1         4
+NODENAME NetC4-1          $
+    C4         1  U1         6
+NODENAME NetD1-2          $
+    D1         2  R1         2
+NODENAME NetD2-2          $
+    D2         2  R2         2
+NODENAME NetD3-2          $
+    D3         2  R3         2
+NODENAME NetP20-2         $
+    P20        2  R4         1
+NODENAME NetP20-3         $
+    P20        3  R5         1
+NODENAME GND              $
+    C5         1  C6         1  C7         1  C8         2  C9         2  C10        2  C11        2  C12        2  C13        1  C14        1  C15        1  C16        1  C17        1  C18        1  C19        1  C20        1  C21        2  C22        2  C23        2  C24        2  C25        1  C26        1  C27        1  D4         2  J1         2  J1        2B  J1         3  J1        3B  NU1       16  NU1       30  NU1       31  NU1       38  NU1       51  NU1       61  NU1       71  NU1       83  NU1       94  NU1      107  NU1      120  NU1      130  NU1      143  P3         2  P6         1  P7         3  P8         4  P8         6  P8         8  P8        10  P8        12  P8        14  P8        16  P8        18  P8        20  P20        4  R7         2  R22        2  R23        2  R24        2  R25        2  REST1      1  U2        12  U2        34  U3         1  U4        33  U4        52  U5        13  U5        36
+NODENAME DGND             $
+    C4         2  U1        15
+EOS

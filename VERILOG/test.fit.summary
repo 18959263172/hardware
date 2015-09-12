@@ -1,0 +1,11 @@
+Fitter Status : Successful - Tue Jul 02 01:09:40 2013
+Quartus II Version : 8.0 Build 215 05/29/2008 SJ Full Version
+Revision Name : test
+Top-level Entity Name : test
+Family : MAX II
+Device : EPM240GT100C5
+Timing Models : Final
+Total logic elements : 1 / 240 ( < 1 % )
+Total pins : 4 / 80 ( 5 % )
+Total virtual pins : 0
+UFM blocks : 0 / 1 ( 0 % )

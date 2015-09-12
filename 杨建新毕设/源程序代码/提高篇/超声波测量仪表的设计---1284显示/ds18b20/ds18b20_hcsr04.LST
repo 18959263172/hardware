@@ -1,0 +1,299 @@
+C51 COMPILER V6.12  DS18B20_HCSR04                                                         02/01/2012 12:37:37 PAGE 1   
+
+
+C51 COMPILER V6.12, COMPILATION OF MODULE DS18B20_HCSR04
+OBJECT MODULE PLACED IN .\ds18b20_hcsr04.OBJ
+COMPILER INVOKED BY: F:\软件\keil C\C51\BIN\C51.EXE .\ds18b20_hcsr04.c BROWSE DEBUG OBJECTEXTEND
+
+stmt level    source
+
+   1          ///无线模块板
+   2          #include<reg52.h>
+   3          #include<intrins.h>
+   4          #define uchar unsigned char
+   5          #define uint unsigned int
+   6          // hc-sr04
+   7          sbit TRIG=P2^1;
+   8          sbit ECHO=P2^2;
+   9          //ds18b20
+  10          sbit DQ=P2^0;			 
+  11          // 1602
+  12          sbit lcdrs=P3^4;
+  13          sbit lcdrw=P3^6;
+  14          sbit lcden=P3^7;
+  15          sbit BELL=P1^6;
+  16          uint wendu=0;
+  17          uint t1;
+  18          bit cuowu;
+  19          ////////  1602
+  20          void delay1ms(uint z)
+  21          {
+  22   1      	uint x,y;
+  23   1      	for(x=z;x>0;x--)
+  24   1      		for(y=114;y>0;y--);
+  25   1      }
+  26          
+  27          void  write_com(uchar com)
+  28          { 	
+  29   1      	lcdrs=0;
+  30   1      	P0=com;
+  31   1      	delay1ms(1);
+  32   1      	lcden=1;
+  33   1      	delay1ms(1);
+  34   1      	lcden=0;
+  35   1      
+  36   1      }
+  37          void write_date(uchar date)
+  38          {
+  39   1      	lcdrs=1;
+  40   1      	P0=date;
+  41   1      	delay1ms(1);
+  42   1      	lcden=1;
+  43   1      	delay1ms(1);
+  44   1      	lcden=0;
+  45   1      }
+  46          
+  47          void write_str(uchar *str)  
+  48          {  
+  49   1       while(*str!='\0')  //未结束   
+  50   1       {  
+  51   2        write_date(*str++);  
+  52   2        delay1ms(5);  
+  53   2       }  
+  54   1      } 
+  55          
+C51 COMPILER V6.12  DS18B20_HCSR04                                                         02/01/2012 12:37:37 PAGE 2   
+
+  56          void write_pos(uchar x,uchar y)  //从第X行的第Y位置开始显示   
+  57          {  
+  58   1       uchar pos;  
+  59   1       if(x==1)        //第一行   
+  60   1       { x=0x80;}  
+  61   1       else if(x==2)  //第二行   
+  62   1       { x=0x90;}  
+  63   1       else if(x==3)  //第三行   
+  64   1       { x=0x88;}  
+  65   1       else if(x==4)  //第四行   
+  66   1       { x=0x98;}  
+  67   1       pos=x+y-1;     //首地址为0X80   
+  68   1       write_com(pos);  
+  69   1      } 
+  70          
+  71          void init_12864()
+  72          {	
+  73   1      	lcdrw=0; 
+  74   1      	lcden=0;
+  75   1      	write_com(0x01);
+  76   1      	delay1ms(5);
+  77   1      	write_com(0x30);	
+  78   1      	write_com(0x06);
+  79   1      	write_com(0x0c);
+  80   1      	write_com(0x88);
+  81   1      	write_pos(1,1);
+  82   1      	write_str("  超声波测距仪");
+  83   1      	write_pos(2,1);
+  84   1      	write_str("环境温度:");
+  85   1      	write_pos(3,1);
+  86   1      	write_str("当前声速:");
+  87   1      	write_pos(4,1);
+  88   1      	write_str("测量距离:");
+  89   1      
+  90   1      
+  91   1      }
+  92          /////	 ////			 ds18b20
+  93          
+  94          bit init_DS18B20()
+  95          { 
+  96   1      	uchar num;
+  97   1      	bit flag;
+  98   1      	DQ=1;
+  99   1      	for(num=0;num<2;num++);  //先拉高
+ 100   1      	DQ=0;
+ 101   1      	for(num=0;num<200;num++);  // 480-960us	powerup
+ 102   1      	DQ=1;
+ 103   1      	for(num=0;num<20;num++);	//  >60us   wait
+ 104   1      	flag=DQ;					// 响应
+ 105   1      	for(num=0;num<150;num++);	//	 60-240us ds18b20存在信号
+ 106   1      	DQ=1;
+ 107   1      	return flag;
+ 108   1      }
+ 109          
+ 110          void DS18B20_WR_CHAR(uchar byte)	// 先写低位
+ 111          {	
+ 112   1      	uchar num;
+ 113   1      	uchar num1;
+ 114   1      	for(num1=0;num1<8;num1++)
+ 115   1      	{	 	
+ 116   2      		DQ=0;		//拉低
+ 117   2      		_nop_();	//下拉1us
+C51 COMPILER V6.12  DS18B20_HCSR04                                                         02/01/2012 12:37:37 PAGE 3   
+
+ 118   2      		_nop_();
+ 119   2      		DQ=byte&0x01;
+ 120   2      		for(num=0;num<20;num++);	//  >60us   wait
+ 121   2      		byte>>=1;	
+ 122   2      		DQ=1;	  //拉高	
+ 123   2      		_nop_();
+ 124   2      		_nop_();
+ 125   2      	}		
+ 126   1      }
+ 127          
+ 128          uchar DS18B20_RD_CHAR()	//先读低位
+ 129          {
+ 130   1      	uchar num;
+ 131   1      	uchar num1;
+ 132   1      	uchar byte=0;
+ 133   1      	for(num1=0;num1<8;num1++)
+ 134   1      	{
+ 135   2      		DQ=0;  	//拉低
+ 136   2      		_nop_();
+ 137   2      		DQ=1;
+ 138   2      		for(num=0;num<1;num++);  // <10us 	
+ 139   2      		byte>>=1;
+ 140   2      		if(DQ==1)
+ 141   2      			byte|=0x80;
+ 142   2      		else 
+ 143   2      			byte|=0x00;
+ 144   2      		DQ=1;	//拉高
+ 145   2      		_nop_();
+ 146   2      		_nop_();
+ 147   2      		for(num=0;num<20;num++);  //  >60us
+ 148   2      		
+ 149   2      	}
+ 150   1      	return byte;
+ 151   1      }
+ 152          
+ 153          void DS18B20_WENDU()
+ 154          {
+ 155   1      	uchar temperaturel=0;
+ 156   1      	uchar temperatureh=0;
+ 157   1      	if(init_DS18B20()==0)
+ 158   1      	{
+ 159   2      		DS18B20_WR_CHAR(0xcc);
+ 160   2      		DS18B20_WR_CHAR(0x44);
+ 161   2      		delay1ms(1000);
+ 162   2      		if(init_DS18B20()==0)
+ 163   2      		{	
+ 164   3      			DS18B20_WR_CHAR(0xcc);
+ 165   3      			DS18B20_WR_CHAR(0xBE);
+ 166   3      			_nop_();
+ 167   3      			temperaturel=DS18B20_RD_CHAR();
+ 168   3      			temperatureh=DS18B20_RD_CHAR();
+ 169   3      			wendu=(temperatureh*256+temperaturel)*0.625; //温度比正常大10倍
+ 170   3      			init_DS18B20();
+ 171   3      		}			
+ 172   2      	}
+ 173   1      }
+ 174          
+ 175          ///////
+ 176          main()
+ 177          {
+ 178   1      	uint sudu=0;
+ 179   1      	unsigned long sj;
+C51 COMPILER V6.12  DS18B20_HCSR04                                                         02/01/2012 12:37:37 PAGE 4   
+
+ 180   1      	uint s;
+ 181   1      	TRIG=0;
+ 182   1      	EA=1;
+ 183   1      	ET1=1;
+ 184   1      	ET0=1;
+ 185   1      	TMOD=0x01;
+ 186   1      	TH0=0;
+ 187   1      	TL0=0;
+ 188   1      	s=0;
+ 189   1      	TR0=0;
+ 190   1      	wendu=0;
+ 191   1      	init_12864();
+ 192   1      	delay1ms(1000);
+ 193   1      	while(1)
+ 194   1      	{
+ 195   2      		if( init_DS18B20()==0)  	
+ 196   2           	{   
+ 197   3      			DS18B20_WENDU();  
+ 198   3      			write_pos(2,6);
+ 199   3      			write_date((wendu/100)%10+48);
+ 200   3      			write_date((wendu/10)%10+48);
+ 201   3      			write_date('.');
+ 202   3      			write_date(wendu%10+48);
+ 203   3      			write_str("度");
+ 204   3      			write_pos(3,6);
+ 205   3      			sudu=331.45+61*wendu/10/100;
+ 206   3      			write_date((sudu/100)%10+48);
+ 207   3      			write_date((sudu/10)%10+48);
+ 208   3      			write_date(sudu%10+48);
+ 209   3      			write_date('m');
+ 210   3      			write_date('/');
+ 211   3      			write_date('s');
+ 212   3      			BELL=0;
+ 213   3      			delay1ms(1);
+ 214   3      			BELL=1;
+ 215   3      		}  
+ 216   2      		TRIG=1;
+ 217   2      	 	_nop_();
+ 218   2      		_nop_();
+ 219   2      		_nop_();
+ 220   2      		_nop_();
+ 221   2      		_nop_();
+ 222   2      		_nop_();
+ 223   2      		_nop_();
+ 224   2      		_nop_();
+ 225   2      		_nop_();
+ 226   2      		_nop_();
+ 227   2      		_nop_();
+ 228   2      		TRIG=0;
+ 229   2      		while(!ECHO);
+ 230   2      		TR0=1;
+ 231   2      		while(ECHO);
+ 232   2      		TR0=0;
+ 233   2      	
+ 234   2      		sj=TH0*256+TL0;
+ 235   2      		s=sj*sudu/200/10; 	
+ 236   2      		 			   
+ 237   2      		if((s>6000)||(cuowu==1))
+ 238   2      		{ 	
+ 239   3      			write_pos(4,6);
+ 240   3      			write_date('-');
+ 241   3      			write_date('.');
+C51 COMPILER V6.12  DS18B20_HCSR04                                                         02/01/2012 12:37:37 PAGE 5   
+
+ 242   3      			write_date('-');
+ 243   3      			write_date('-');
+ 244   3      			write_date('-');
+ 245   3      		}
+ 246   2      		else
+ 247   2      		{ 
+ 248   3      			write_pos(4,6);
+ 249   3      			write_date(s/1000%10+48);
+ 250   3      			write_date('.');
+ 251   3      		   	write_date(s/100%10+48);
+ 252   3      		   	write_date(s/10%10+48);
+ 253   3      			write_date(s%10+48);
+ 254   3      			write_date('m');
+ 255   3      		}
+ 256   2      		TH0=0;
+ 257   2      	    TL0=0;	
+ 258   2      		delay1ms(2000);
+ 259   2      
+ 260   2      
+ 261   2      	}
+ 262   1      }
+ 263          
+ 264          void time0() interrupt 1
+ 265          {  
+ 266   1          cuowu=1;  
+ 267   1      
+ 268   1      }
+
+
+MODULE INFORMATION:   STATIC OVERLAYABLE
+   CODE SIZE        =    852    ----
+   CONSTANT SIZE    =     48    ----
+   XDATA SIZE       =   ----    ----
+   PDATA SIZE       =   ----    ----
+   DATA SIZE        =      4      11
+   IDATA SIZE       =   ----    ----
+   BIT SIZE         =      1       1
+END OF MODULE INFORMATION.
+
+
+C51 COMPILATION COMPLETE.  0 WARNING(S),  0 ERROR(S)

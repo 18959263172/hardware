@@ -1,0 +1,64 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    Refresh Padstack                                                 )
+(                                                                     )
+(    Drawing          : unnamed.brd                                   )
+(    Software Version : 16.5P002                                      )
+(    Date/Time        : Sat Apr 05 23:42:18 2014                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+Sat Apr 05 23:42:18 2014				Page     1
+
+
+------ Pad Stack Refresh Options ------
+
+Input design = 'D:/我的项目/指纹接口/unnamed.brd'
+Output design = ''
+Reset symbol text and size locations = 'NO'
+
+
+------ Library Paths ------
+PSMPATH =  . 
+           symbols 
+           .. 
+           ../symbols 
+           G:/cad/share/local/pcb/symbols 
+           G:/cad/share/pcb/pcb_lib/symbols 
+           G:/cad/share/pcb/allegrolib/symbols 
+           D:\我的项目\指纹接口\ 
+
+PADPATH =  . 
+           symbols 
+           .. 
+           ../symbols 
+           G:/cad/share/local/pcb/padstacks 
+           G:/cad/share/pcb/pcb_lib/symbols 
+           G:/cad/share/pcb/allegrolib/symbols 
+           D:\我的项目\指纹接口\ 
+
+
+------ Pad Stack Refresh Messages ------
+
+'RX1_2Y1_5'  pad stack refresh starting.
+
+     'RX1_2Y1_5'  pad stack refreshed successfully.
+     
+'RX0_5Y2'  pad stack refresh starting.
+
+     'RX0_5Y2'  pad stack refreshed successfully.
+     
+'VIA'  pad stack refresh starting.
+
+     'VIA'  pad stack refreshed successfully.
+     
+'HOLEX1Y1'  pad stack refresh starting.
+
+     'HOLEX1Y1'  pad stack refreshed successfully.
+     
+'VIA26'  pad stack refresh starting.
+
+     'VIA26'  pad stack refreshed successfully.
+     
+Completed refreshing all pad stacks successfully.

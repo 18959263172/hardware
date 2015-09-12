@@ -1,0 +1,8 @@
+Added Component: Designator=P?(HDR1X4)
+Added Pin To Net: NetName=OUT4 Pin=P?-1
+Added Pin To Net: NetName=OUT3 Pin=P?-2
+Added Pin To Net: NetName=OUT2 Pin=P?-3
+Added Pin To Net: NetName=OUT1 Pin=P?-4
+Added Member To Class: ClassName=Sheet1 Member=Component P? Header 4
+Added Room: Name=Sheet1
+Added Room: Name=Sheet2

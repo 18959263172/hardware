@@ -1,0 +1,11 @@
+Added Component: Designator=J40(HDR1X3)
+Added Pin To Net: NetName=VDD33V Pin=J40-1
+Added Pin To Net: NetName=VDDLCD Pin=J40-2
+Added Pin To Net: NetName=VDD5V Pin=J40-3
+Added Member To Class: ClassName=05I2S Member=Component J40 CON3
+Added Room: Name=01-CPU1
+Added Room: Name=02-CPU2
+Added Room: Name=03-CPU3
+Added Room: Name=04-MEM
+Added Room: Name=05I2S
+Added Room: Name=Main

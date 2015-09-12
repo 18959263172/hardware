@@ -1,0 +1,137 @@
+(ExpressProject "adc0809"
+  (ProjectVersion "19981106")
+  (ProjectType "PCB - PSpice")
+  (Folder "Design Resources"
+    (Folder "Library"
+      (File "G:\cad\tools\capture\LIBRARY\PSPICE\analog.olb"
+        (Type "Schematic Library"))
+      (File "G:\cad\tools\capture\LIBRARY\PSPICE\source.olb"
+        (Type "Schematic Library"))
+      (File "G:\cad\tools\capture\LIBRARY\PSPICE\sourcstm.olb"
+        (Type "Schematic Library"))
+      (File "G:\cad\tools\capture\LIBRARY\PSPICE\special.olb"
+        (Type "Schematic Library"))
+      (File "..\cadence库\原理图库\library1.olb"
+        (Type "Schematic Library")))
+    (NoModify)
+    (File ".\adc0809.dsn"
+      (Type "Schematic Design"))
+    (BuildFileAddedOrDeleted "x")
+    (CompileFileAddedOrDeleted "x")
+    (Netlist_TAB "0"))
+  (Folder "Outputs")
+  (Folder "PSpice Resources"
+    (Folder "Simulation Profiles")
+    (Folder "Model Libraries"
+      (Sort User))
+    (Folder "Stimulus Files"
+      (Sort User))
+    (Folder "Include Files"
+      (Sort User)))
+  (DefaultLibraryBrowseDirectory "library\PSpice")
+  (PartMRUSelector
+    (VCC_BAR
+      (LibraryName "G:\CAD\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (SWITCH
+      (FullPartName "SWITCH.Normal")
+      (LibraryName "D:\CADENCE库\原理图库\LIBRARY1.OLB")
+      (DeviceIndex "0"))
+    (GND
+      (LibraryName "G:\CAD\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    ("CONN PWR 8x2-P"
+      (FullPartName "CONN PWR 8x2-P.Normal")
+      (LibraryName "G:\CAD\TOOLS\CAPTURE\LIBRARY\CONNECTOR.OLB")
+      (DeviceIndex "0"))
+    (CON10
+      (FullPartName "CON10.Normal")
+      (LibraryName "G:\CAD\TOOLS\CAPTURE\LIBRARY\CONNECTOR.OLB")
+      (DeviceIndex "0"))
+    (CAP/SM
+      (FullPartName "CAP/SM.Normal")
+      (LibraryName "G:\CAD\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0"))
+    (P6002AB/TO
+      (FullPartName "P6002AB/TO.Normal")
+      (LibraryName "G:\CAD\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0"))
+    (PHONEJACK
+      (FullPartName "PHONEJACK.Normal")
+      (LibraryName "G:\CAD\TOOLS\CAPTURE\LIBRARY\CONNECTOR.OLB")
+      (DeviceIndex "0"))
+    (R
+      (FullPartName "R.Normal")
+      (LibraryName "G:\CAD\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0"))
+    (LF353
+      (FullPartName "LF353.Normal")
+      (LibraryName "G:\CAD\TOOLS\CAPTURE\LIBRARY\OPAMP.OLB")
+      (DeviceIndex "1"))
+    (ALD1702/AL
+      (FullPartName "ALD1702/AL.Normal")
+      (LibraryName "G:\CAD\TOOLS\CAPTURE\LIBRARY\PSPICE\ADV_LIN.OLB")
+      (DeviceIndex "0"))
+    (CAP
+      (FullPartName "CAP.Normal")
+      (LibraryName "G:\CAD\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0"))
+    (VCC
+      (LibraryName "G:\CAD\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (R2
+      (FullPartName "R2.Normal")
+      (LibraryName "G:\CAD\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0"))
+    (XM/SM
+      (FullPartName "XM/SM.Normal")
+      (LibraryName "G:\CAD\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0"))
+    ("SW PUSHBUTTON"
+      (FullPartName "SW PUSHBUTTON.Normal")
+      (LibraryName "G:\CAD\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0"))
+    (GND_POWER
+      (LibraryName "G:\CAD\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (C
+      (FullPartName "C.Normal")
+      (LibraryName "G:\CAD\TOOLS\CAPTURE\LIBRARY\PSPICE\ANALOG.OLB")
+      (DeviceIndex "0"))
+    (STC89C52
+      (FullPartName "STC89C52.Normal")
+      (LibraryName "D:\CADENCE库\原理图库\LIBRARY1.OLB")
+      (DeviceIndex "0"))
+    (adc0809
+      (FullPartName "adc0809.Normal")
+      (LibraryName "D:\CADENCE库\原理图库\LIBRARY1.OLB")
+      (DeviceIndex "0"))
+    (74123
+      (FullPartName "74123.Normal")
+      (LibraryName "G:\CAD\TOOLS\CAPTURE\LIBRARY\IEEELIBS\IEEE.OLB")
+      (DeviceIndex "0")))
+  (LastUsedLibraryBrowseDirectory "G:\cad\tools\capture\library")
+  (GlobalState
+    (FileView
+      (Path "Design Resources")
+      (Path "Design Resources" ".\adc0809.dsn")
+      (Path "Design Resources" ".\adc0809.dsn" "SCHEMATIC1")
+      (Path "Design Resources" "Library")
+      (Path "PSpice Resources"))
+    (HierarchyView)
+    (Doc
+      (Type "COrCapturePMDoc")
+      (Frame
+        (Placement "44 2 3 -1 -1 -8 -30 0 200 0 356"))
+      (Tab 0))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -30 44 1250 44 414")
+        (Scroll "0 1137")
+        (Zoom "280")
+        (Occurrence "/"))
+      (Path "D:\我的项目\ADC0809\ADC0809.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "PAGE1")))
+  (ISPCBBASICLICENSE "false"))

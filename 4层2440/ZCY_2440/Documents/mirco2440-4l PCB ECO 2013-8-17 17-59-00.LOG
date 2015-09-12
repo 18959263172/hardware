@@ -1,0 +1,23 @@
+Removed Pin From Net: NetName=GPG15 Pin=P4-1
+Removed Pin From Net: NetName=GPG14 Pin=P4-2
+Removed Pin From Net: NetName=GPG13 Pin=P4-3
+Removed Pin From Net: NetName=EINT20 Pin=P4-4
+Removed Pin From Net: NetName=EINT11 Pin=P4-5
+Removed Pin From Net: NetName=EINT15 Pin=P4-6
+Removed Pin From Net: NetName=EINT14 Pin=P4-7
+Removed Pin From Net: NetName=EINT13 Pin=P4-8
+Removed Member From Class: ClassName=02-CPU2 Member=P4
+Added Component: Designator=P20(HDR1X6)
+Added Pin To Net: NetName=GPG14 Pin=P20-1
+Added Pin To Net: NetName=EINT20 Pin=P20-2
+Added Pin To Net: NetName=EINT11 Pin=P20-3
+Added Pin To Net: NetName=EINT15 Pin=P20-4
+Added Pin To Net: NetName=EINT14 Pin=P20-5
+Added Pin To Net: NetName=EINT13 Pin=P20-6
+Added Member To Class: ClassName=02-CPU2 Member=Component P20 Header 6
+Added Room: Name=01-CPU1
+Added Room: Name=02-CPU2
+Added Room: Name=03-CPU3
+Added Room: Name=04-MEM
+Added Room: Name=05I2S
+Added Room: Name=Main

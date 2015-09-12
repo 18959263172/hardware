@@ -1,0 +1,28 @@
+Added Component: Designator=U2(DIP28)
+Added Pin To Net: NetName=NetC7_1 Pin=U2-1
+Added Pin To Net: NetName=GND Pin=U2-2
+Added Pin To Net: NetName=+9V Pin=U2-3
+Added Pin To Net: NetName=NetR5_1 Pin=U2-4
+Added Pin To Net: NetName=NetR13_2 Pin=U2-5
+Added Pin To Net: NetName=NetR13_2 Pin=U2-6
+Added Pin To Net: NetName=NetS2_14 Pin=U2-9
+Added Pin To Net: NetName=NetS2_13 Pin=U2-10
+Added Pin To Net: NetName=NetS2_12 Pin=U2-11
+Added Pin To Net: NetName=NetS2_11 Pin=U2-12
+Added Pin To Net: NetName=NetS2_10 Pin=U2-13
+Added Pin To Net: NetName=NetS2_9 Pin=U2-14
+Added Pin To Net: NetName=NetS3_5 Pin=U2-15
+Added Pin To Net: NetName=NetS3_4 Pin=U2-16
+Added Pin To Net: NetName=NetS3_3 Pin=U2-17
+Added Pin To Net: NetName=NetS3_2 Pin=U2-18
+Added Pin To Net: NetName=NetS3_1 Pin=U2-19
+Added Pin To Net: NetName=NetS1_5 Pin=U2-20
+Added Pin To Net: NetName=NetS1_4 Pin=U2-21
+Added Pin To Net: NetName=NetS1_3 Pin=U2-22
+Added Pin To Net: NetName=NetS1_2 Pin=U2-23
+Added Pin To Net: NetName=NetS1_1 Pin=U2-24
+Added Pin To Net: NetName=NetC9_1 Pin=U2-26
+Added Pin To Net: NetName=NetJ4_2 Pin=U2-27
+Added Pin To Net: NetName=NetR6_1 Pin=U2-28
+Added Member To Class: ClassName=Sheet1 Member=Component U2 MC145163P
+Added Room: Name=Sheet1

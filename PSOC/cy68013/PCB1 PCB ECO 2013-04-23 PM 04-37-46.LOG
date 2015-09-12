@@ -1,0 +1,3 @@
+Added Pin To Net: NetName=RST Pin=U2-52
+Added Pin To Net: NetName=WAKEUP Pin=U2-54
+Added Room: Name=Sheet1

@@ -1,0 +1,6 @@
+Removed Pin From Net: NetName=+9V Pin=Q2-2
+Change Component Footprint: Designator=Q2 Old Footprint=TO-92 New Footprint=TO-92A
+Added Pin To Net: NetName=+9V Pin=Q2-1
+Added Pin To Net: NetName=NetQ2_2 Pin=Q2-2
+Added Pin To Net: NetName=NetQ2_2 Pin=R10-2
+Added Net: Name=NetQ2_2

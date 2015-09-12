@@ -1,0 +1,67 @@
+Added Component: Designator=U1(PCBComponent_1)
+Added Pin To Net: NetName=NetP3_1 Pin=U1-1
+Added Pin To Net: NetName=NetP3_2 Pin=U1-2
+Added Pin To Net: NetName=NetP3_3 Pin=U1-3
+Added Pin To Net: NetName=X32O Pin=U1-4
+Added Pin To Net: NetName=X32I Pin=U1-5
+Added Pin To Net: NetName=NetP3_6 Pin=U1-6
+Added Pin To Net: NetName=NetP3_7 Pin=U1-7
+Added Pin To Net: NetName=NetP3_8 Pin=U1-8
+Added Pin To Net: NetName=NetP3_9 Pin=U1-9
+Added Pin To Net: NetName=NetP3_10 Pin=U1-10
+Added Pin To Net: NetName=NetP3_11 Pin=U1-11
+Added Pin To Net: NetName=NetP3_12 Pin=U1-12
+Added Pin To Net: NetName=NetP3_13 Pin=U1-13
+Added Pin To Net: NetName=NetP3_14 Pin=U1-14
+Added Pin To Net: NetName=VCC +5 Pin=U1-15
+Added Pin To Net: NetName=DGND +5 Pin=U1-16
+Added Pin To Net: NetName=VBUS Pin=U1-17
+Added Pin To Net: NetName=NetC15_1 Pin=U1-18
+Added Pin To Net: NetName=NetP4_3 Pin=U1-19
+Added Pin To Net: NetName=NetP4_4 Pin=U1-20
+Added Pin To Net: NetName=NetP4_5 Pin=U1-21
+Added Pin To Net: NetName=NetP4_6 Pin=U1-22
+Added Pin To Net: NetName=NetP4_7 Pin=U1-23
+Added Pin To Net: NetName=NetP4_8 Pin=U1-24
+Added Pin To Net: NetName=NetP4_9 Pin=U1-25
+Added Pin To Net: NetName=NetP4_10 Pin=U1-26
+Added Pin To Net: NetName=NetP4_11 Pin=U1-27
+Added Pin To Net: NetName=NetP4_12 Pin=U1-28
+Added Pin To Net: NetName=PE.5 Pin=U1-29
+Added Pin To Net: NetName=NetP4_14 Pin=U1-30
+Added Pin To Net: NetName=NetP4_15 Pin=U1-31
+Added Pin To Net: NetName=NetP4_16 Pin=U1-32
+Added Pin To Net: NetName=NetP2_1 Pin=U1-33
+Added Pin To Net: NetName=NetP2_2 Pin=U1-34
+Added Pin To Net: NetName=NetP2_3 Pin=U1-35
+Added Pin To Net: NetName=NetP2_4 Pin=U1-36
+Added Pin To Net: NetName=NetP2_5 Pin=U1-37
+Added Pin To Net: NetName=NetP2_6 Pin=U1-38
+Added Pin To Net: NetName=NetP2_7 Pin=U1-39
+Added Pin To Net: NetName=NetP2_8 Pin=U1-40
+Added Pin To Net: NetName=NetP2_9 Pin=U1-41
+Added Pin To Net: NetName=NetP2_10 Pin=U1-42
+Added Pin To Net: NetName=AGND Pin=U1-43
+Added Pin To Net: NetName=NetP2_12 Pin=U1-44
+Added Pin To Net: NetName=NetP2_13 Pin=U1-45
+Added Pin To Net: NetName=NetP2_14 Pin=U1-46
+Added Pin To Net: NetName=NetP2_15 Pin=U1-47
+Added Pin To Net: NetName=NetP2_16 Pin=U1-48
+Added Pin To Net: NetName=NetP1_1 Pin=U1-49
+Added Pin To Net: NetName=NetP1_2 Pin=U1-50
+Added Pin To Net: NetName=NetP1_3 Pin=U1-51
+Added Pin To Net: NetName=AVCC Pin=U1-52
+Added Pin To Net: NetName=NetP1_5 Pin=U1-53
+Added Pin To Net: NetName=NetP1_6 Pin=U1-54
+Added Pin To Net: NetName=NetP1_7 Pin=U1-55
+Added Pin To Net: NetName=NetP1_8 Pin=U1-56
+Added Pin To Net: NetName=NetP1_9 Pin=U1-57
+Added Pin To Net: NetName=XT1_OUT Pin=U1-58
+Added Pin To Net: NetName=XT1_IN Pin=U1-59
+Added Pin To Net: NetName=R\E\S\T\ Pin=U1-60
+Added Pin To Net: NetName=DGND +5 Pin=U1-61
+Added Pin To Net: NetName=VCC +5 Pin=U1-62
+Added Pin To Net: NetName=DGND +5 Pin=U1-63
+Added Pin To Net: NetName=NetP1_16 Pin=U1-64
+Added Member To Class: ClassName=nuc120最小系统 Member=Component U1 NUC120_64
+Added Room: Name=nuc120最小系统

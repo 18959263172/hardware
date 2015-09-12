@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "下拉列表测试", "下拉列表测试.vcproj", "{4E5E19EA-BACC-4F2A-AD43-F1BDE607DEAE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4E5E19EA-BACC-4F2A-AD43-F1BDE607DEAE}.Debug|Win32.ActiveCfg = Debug|Win32
+		{4E5E19EA-BACC-4F2A-AD43-F1BDE607DEAE}.Debug|Win32.Build.0 = Debug|Win32
+		{4E5E19EA-BACC-4F2A-AD43-F1BDE607DEAE}.Release|Win32.ActiveCfg = Release|Win32
+		{4E5E19EA-BACC-4F2A-AD43-F1BDE607DEAE}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

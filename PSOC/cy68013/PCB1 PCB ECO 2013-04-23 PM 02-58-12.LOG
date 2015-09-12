@@ -1,0 +1,34 @@
+Added Component: Designator=U(SOP56)
+Added Pin To Net: NetName=USB 5V Pin=-1
+Added Pin To Net: NetName=GND Pin=U-1
+Added Pin To Net: NetName=3.3V Pin=U-3
+Added Pin To Net: NetName=GND Pin=U-4
+Added Pin To Net: NetName=3.3V Pin=U-7
+Added Pin To Net: NetName=NetC2_2 Pin=U-8
+Added Pin To Net: NetName=NetC3_2 Pin=U-9
+Added Pin To Net: NetName=3.3V Pin=U-11
+Added Pin To Net: NetName=Net_3 Pin=U-12
+Added Pin To Net: NetName=Net_2 Pin=U-13
+Added Pin To Net: NetName=GND Pin=U-14
+Added Pin To Net: NetName=GND Pin=U-16
+Added Pin To Net: NetName=GND Pin=U-18
+Added Pin To Net: NetName=SCL Pin=U-19
+Added Pin To Net: NetName=SDA Pin=U-20
+Added Pin To Net: NetName=3.3V Pin=U-21
+Added Pin To Net: NetName=25PIN Pin=U-22
+Added Pin To Net: NetName=26PIN Pin=U-23
+Added Pin To Net: NetName=27PIN Pin=U-24
+Added Pin To Net: NetName=28PIN Pin=U-25
+Added Member To Class: ClassName=Sheet1 Member=Component U U1
+Removed Pin From Net: NetName=Net_2 Pin=-2
+Added Pin To Net: NetName=3.3V Pin=-2
+Removed Pin From Net: NetName=Net_3 Pin=-3
+Added Pin To Net: NetName=Net_3 Pin=-3
+Removed Pin From Net: NetName=Net_3 Pin=-3
+Added Pin To Net: NetName=USB 5V Pin=-3
+Removed Pin From Net: NetName=GND Pin=-4
+Added Pin To Net: NetName=GND Pin=-4
+Removed Pin From Net: NetName=Net_5 Pin=-5
+Added Pin To Net: NetName=Net_5 Pin=-5
+Removed Pin From Net: NetName=Net_5 Pin=-6
+Added Pin To Net: NetName=Net_5 Pin=-6

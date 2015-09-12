@@ -1,0 +1,4 @@
+Added Pin To Net: NetName=+5V Pin=P2-17
+Added Pin To Net: NetName=+5V Pin=P2-18
+Change Net Name : Old Net Name=+5V New Net Name=VDD33
+Added Room: Name=footprint

@@ -1,0 +1,93 @@
+C51 COMPILER V6.12  1602_______é                                                           02/02/2012 21:16:21 PAGE 1   
+
+
+C51 COMPILER V6.12, COMPILATION OF MODULE 1602_______é
+OBJECT MODULE PLACED IN .\1602ÏÔÊ¾ÊµÑé.OBJ
+COMPILER INVOKED BY: F:\Èí¼ş\keil C\C51\BIN\C51.EXE .\1602ÏÔÊ¾ÊµÑé.c DEBUG OBJECTEXTEND
+
+stmt level    source
+
+   1          #include<reg52.h>
+   2          #define uchar unsigned char
+   3          #define uint unsigned int
+   4          uchar code table[]="I LIKE  MCU ";
+   5          uchar code table1[]="QQ 240691152  ";
+   6          sbit lcden=P3^7;
+   7          sbit lcdrw=P3^6;
+   8          sbit lcdrs=P3^4;
+   9          uchar num;
+  10          void delay(uint z)
+  11          {
+  12   1      	uint x,y;
+  13   1      	for(x=z;x>0;x--)
+  14   1      		for(y=110;y>0;y--);
+  15   1      }
+  16          void write_com(uchar com)   //ÃüÁî×Óº¯Êıcommand 
+  17          {
+  18   1      	lcdrs=0;//½ÓÊÜÖ¸Áî
+  19   1      	P0=com; //¸øP0¿ÚËÍÖ¸ÁîÂë
+  20   1      	delay(5);
+  21   1      	lcden=1; //E±äÎª¸ßµçÆ½
+  22   1      	delay(5);//ÔÚ´ËÑÓ³ÙÆÚ¼ä£¬½«Ö¸ÁîËÍÈë
+  23   1      	lcden=0; //E±äÎªµÍµçÆ½£¬¸ßÂö³å½áÊø
+  24   1      }
+  25          
+  26          void write_data(uchar date)  //Êı¾İ×Óº¯Êıdata
+  27          {
+  28   1      	lcdrs=1; //½ÓÊÜÊı¾İ
+  29   1      	P0=date; //¸øP0¿ÚËÍÊı¾İ
+  30   1      	delay(5);
+  31   1      	lcden=1;  //E±äÎª¸ßµçÆ½
+  32   1      	delay(5); //ÔÚ´ËÑÓ³ÙÆÚ¼ä£¬½«Êı¾İËÍÈë
+  33   1      	lcden=0; //E±äÎªµÍµçÆ½£¬¸ßÂö³å½áÊø
+  34   1      }
+  35          void init() //³õÊ¼º¯Êı
+  36          {
+  37   1      	lcdrw=0;
+  38   1      	lcden=0; //EµÄ³õÊ¼ÖµÎªµÍµçÆ½£¬ºóÃæµÄ³ÌĞò¸ø¸ßµçÆ½´Ó¶øÂú×ãEÎª¸ßÂö³å
+  39   1      	write_com(0x38); //Ğ´ÈëÏÔÊ¾Ä£Ê½Ö¸Áî
+  40   1      	write_com(0x0e); //ÏÔÊ¾ÊÇ·ñ´ò¿ªÒÔ¼°
+  41   1      	//¹â±êµÄÉèÖÃ
+  42   1      	write_com(0x06); //µØÖ·Ö¸ÕëµÄ¼Ó¼õºÍÕûÆÁÊÇ·ñÒÆ¶¯
+  43   1      	write_com(0x01); //ÇåÆÁÖ¸Áî
+  44   1      	write_com(0x80+0x10); //ÏÔÊ¾×Ö·ûµÄ³õÊ¼Î»ÖÃ
+  45   1      }
+  46          void main()
+  47          {
+  48   1      	init();
+  49   1      	for(num=0;num<11;num++)
+  50   1      	{
+  51   2      		write_data(table[num]);
+  52   2      		delay(20);
+  53   2      	}
+  54   1      //	//write_com(1); //ÇåÆÁÖ¸Áî
+  55   1      	write_com(0x80+0x53);  //ÆğÊ¼µØÖ·Îª53£¬½«×Ö·ûµ÷µ½ÁËµÚ¶şĞĞ
+C51 COMPILER V6.12  1602_______é                                                           02/02/2012 21:16:21 PAGE 2   
+
+  56   1      	for(num=0;num<13;num++)
+  57   1      	{
+  58   2      		write_data(table1[num]);
+  59   2      		delay(20);
+  60   2      	}
+  61   1      	for(num=0;num<16;num++)  //Ïò×óÒÆ¶¯16ĞĞ
+  62   1      	{
+  63   2      		write_com(0x18); //ÕûÆÁÒÆ¶¯£¨ÖØÒªÖ¸Áî£©
+  64   2      		delay(20);
+  65   2      	}
+  66   1      	while(1);
+  67   1      }
+  68          
+
+
+MODULE INFORMATION:   STATIC OVERLAYABLE
+   CODE SIZE        =    182    ----
+   CONSTANT SIZE    =     28    ----
+   XDATA SIZE       =   ----    ----
+   PDATA SIZE       =   ----    ----
+   DATA SIZE        =      1    ----
+   IDATA SIZE       =   ----    ----
+   BIT SIZE         =   ----    ----
+END OF MODULE INFORMATION.
+
+
+C51 COMPILATION COMPLETE.  0 WARNING(S),  0 ERROR(S)

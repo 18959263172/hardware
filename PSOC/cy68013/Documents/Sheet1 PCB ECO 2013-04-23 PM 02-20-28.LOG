@@ -1,0 +1,9 @@
+Added Room: Name=Sheet1
+Removed Pin From Net: NetName=USB 5V Pin=-1
+Added Pin To Net: NetName=GND Pin=-1
+Removed Pin From Net: NetName=GND Pin=-4
+Added Pin To Net: NetName=GND Pin=-4
+Removed Pin From Net: NetName=Net_5 Pin=-5
+Added Pin To Net: NetName=Net_5 Pin=-5
+Removed Pin From Net: NetName=Net_5 Pin=-6
+Added Pin To Net: NetName=Net_5 Pin=-6

@@ -1,0 +1,571 @@
+Protel Synchronization report
+=========================================================================
+Date : 3-May-2013 
+Time : 00:52:24
+
+Reference document: Documents\yabin.Sch
+Target document:    Documents\GPS.PCB
+=========================================================================
+
+ERRORS: 4 macros can not be executed:
+-------------------------------------------------------------------------
+Macro 1: New Component
+Add new component U5
+Error: Footprint HEPTA not found in library
+
+Macro 2: New Node
+Add node U5-3 to net NetU4_13
+Error: Component not found
+
+Macro 3: New Node
+Add node U5-2 to net NetU4_14
+Error: Component not found
+
+Macro 4: New Node
+Add node U5-5 to net GND
+Error: Component not found
+
+
+
+135 macros to be executed:
+-------------------------------------------------------------------------
+Macro 1: New Component
+Add new component BT1
+
+
+Macro 2: New Component
+Add new component C1
+
+
+Macro 3: New Component
+Add new component C1-1
+
+
+Macro 4: New Component
+Add new component C2
+
+
+Macro 5: New Component
+Add new component C3
+
+
+Macro 6: New Component
+Add new component C5
+
+
+Macro 7: New Component
+Add new component C6
+
+
+Macro 8: New Component
+Add new component C7
+
+
+Macro 9: New Component
+Add new component C10
+
+
+Macro 10: New Component
+Add new component C11
+
+
+Macro 11: New Component
+Add new component C12
+
+
+Macro 12: New Component
+Add new component C13
+
+
+Macro 13: New Component
+Add new component C14
+
+
+Macro 14: New Component
+Add new component D1
+
+
+Macro 15: New Component
+Add new component J1
+
+
+Macro 16: New Component
+Add new component J2
+
+
+Macro 17: New Component
+Add new component J3
+
+
+Macro 18: New Component
+Add new component L1
+
+
+Macro 19: New Component
+Add new component R4
+
+
+Macro 20: New Component
+Add new component R7
+
+
+Macro 21: New Component
+Add new component R10
+
+
+Macro 22: New Component
+Add new component S1
+
+
+Macro 23: New Component
+Add new component U1
+
+
+Macro 24: New Component
+Add new component U2
+
+
+Macro 25: New Component
+Add new component U3
+
+
+Macro 26: New Component
+Add new component U4
+
+
+Macro 27: New Component
+Add new component Y1
+
+
+Macro 28: New Net
+Add new net NetC2_2
+
+
+Macro 29: New Net
+Add new net NetC3_2
+
+
+Macro 30: New Net
+Add new net NetC1-1_2
+
+
+Macro 31: New Net
+Add new net NetD1_K
+
+
+Macro 32: New Net
+Add new net NetC10_2
+
+
+Macro 33: New Net
+Add new net NetBT1_1
+
+
+Macro 34: New Net
+Add new net NetC10_1
+
+
+Macro 35: New Net
+Add new net NetU4_2
+
+
+Macro 36: New Net
+Add new net TXD
+
+
+Macro 37: New Net
+Add new net RXD
+
+
+Macro 38: New Net
+Add new net VCC_5V
+
+
+Macro 39: New Net
+Add new net NetU4_4
+
+
+Macro 40: New Net
+Add new net NetU4_5
+
+
+Macro 41: New Net
+Add new net NetU4_6
+
+
+Macro 42: New Net
+Add new net NetU4_13
+
+
+Macro 43: New Net
+Add new net NetU4_14
+
+
+Macro 44: New Net
+Add new net NetU2_8
+
+
+Macro 45: New Net
+Add new net 3.3V
+
+
+Macro 46: New Net
+Add new net TXD1
+
+
+Macro 47: New Net
+Add new net RXD1
+
+
+Macro 48: New Net
+Add new net NetR4_2
+
+
+Macro 49: New Net
+Add new net RF IN
+
+
+Macro 50: New Net
+Add new net GND
+
+
+Macro 51: New Node
+Add node C2-2 to net NetC2_2
+
+
+Macro 52: New Node
+Add node Y1-1 to net NetC2_2
+
+
+Macro 53: New Node
+Add node U3-4 to net NetC2_2
+
+
+Macro 54: New Node
+Add node C3-2 to net NetC3_2
+
+
+Macro 55: New Node
+Add node U3-5 to net NetC3_2
+
+
+Macro 56: New Node
+Add node C1-1-2 to net NetC1-1_2
+
+
+Macro 57: New Node
+Add node U3-1 to net NetC1-1_2
+
+
+Macro 58: New Node
+Add node S1-2 to net NetC1-1_2
+
+
+Macro 59: New Node
+Add node R10-1 to net NetC1-1_2
+
+
+Macro 60: New Node
+Add node D1-K to net NetD1_K
+
+
+Macro 61: New Node
+Add node R7-1 to net NetD1_K
+
+
+Macro 62: New Node
+Add node C10-2 to net NetC10_2
+
+
+Macro 63: New Node
+Add node U4-3 to net NetC10_2
+
+
+Macro 64: New Node
+Add node BT1-1 to net NetBT1_1
+
+
+Macro 65: New Node
+Add node U2-22 to net NetBT1_1
+
+
+Macro 66: New Node
+Add node C10-1 to net NetC10_1
+
+
+Macro 67: New Node
+Add node U4-1 to net NetC10_1
+
+
+Macro 68: New Node
+Add node U4-2 to net NetU4_2
+
+
+Macro 69: New Node
+Add node C11-1 to net NetU4_2
+
+
+Macro 70: New Node
+Add node U4-11 to net TXD
+
+
+Macro 71: New Node
+Add node U3-15 to net TXD
+
+
+Macro 72: New Node
+Add node U4-12 to net RXD
+
+
+Macro 73: New Node
+Add node U3-14 to net RXD
+
+
+Macro 74: New Node
+Add node C11-2 to net VCC_5V
+
+
+Macro 75: New Node
+Add node U4-16 to net VCC_5V
+
+
+Macro 76: New Node
+Add node C12-1 to net VCC_5V
+
+
+Macro 77: New Node
+Add node C1-1 to net VCC_5V
+
+
+Macro 78: New Node
+Add node U1-1 to net VCC_5V
+
+
+Macro 79: New Node
+Add node U1-3 to net VCC_5V
+
+
+Macro 80: New Node
+Add node J1-2 to net VCC_5V
+
+
+Macro 81: New Node
+Add node U4-4 to net NetU4_4
+
+
+Macro 82: New Node
+Add node C14-1 to net NetU4_4
+
+
+Macro 83: New Node
+Add node U4-5 to net NetU4_5
+
+
+Macro 84: New Node
+Add node C14-2 to net NetU4_5
+
+
+Macro 85: New Node
+Add node U4-6 to net NetU4_6
+
+
+Macro 86: New Node
+Add node C13-1 to net NetU4_6
+
+
+Macro 87: New Node
+Add node U4-13 to net NetU4_13
+
+
+Macro 88: New Node
+Add node U4-14 to net NetU4_14
+
+
+Macro 89: New Node
+Add node U2-8 to net NetU2_8
+
+
+Macro 90: New Node
+Add node U2-9 to net NetU2_8
+
+
+Macro 91: New Node
+Add node R4-1 to net NetU2_8
+
+
+Macro 92: New Node
+Add node J3-1 to net 3.3V
+
+
+Macro 93: New Node
+Add node U2-23 to net 3.3V
+
+
+Macro 94: New Node
+Add node U3-16 to net 3.3V
+
+
+Macro 95: New Node
+Add node U1-5 to net 3.3V
+
+
+Macro 96: New Node
+Add node C6-1 to net 3.3V
+
+
+Macro 97: New Node
+Add node C7-1 to net 3.3V
+
+
+Macro 98: New Node
+Add node C5-1 to net 3.3V
+
+
+Macro 99: New Node
+Add node D1-A to net 3.3V
+
+
+Macro 100: New Node
+Add node S1-1 to net 3.3V
+
+
+Macro 101: New Node
+Add node C1-1-1 to net 3.3V
+
+
+Macro 102: New Node
+Add node J3-2 to net TXD1
+
+
+Macro 103: New Node
+Add node U2-20 to net TXD1
+
+
+Macro 104: New Node
+Add node U3-2 to net TXD1
+
+
+Macro 105: New Node
+Add node J3-3 to net RXD1
+
+
+Macro 106: New Node
+Add node U2-21 to net RXD1
+
+
+Macro 107: New Node
+Add node U3-3 to net RXD1
+
+
+Macro 108: New Node
+Add node R4-2 to net NetR4_2
+
+
+Macro 109: New Node
+Add node L1-1 to net NetR4_2
+
+
+Macro 110: New Node
+Add node L1-2 to net RF IN
+
+
+Macro 111: New Node
+Add node J2-1 to net RF IN
+
+
+Macro 112: New Node
+Add node U2-11 to net RF IN
+
+
+Macro 113: New Node
+Add node J2-2 to net GND
+
+
+Macro 114: New Node
+Add node J3-4 to net GND
+
+
+Macro 115: New Node
+Add node C12-2 to net GND
+
+
+Macro 116: New Node
+Add node U4-15 to net GND
+
+
+Macro 117: New Node
+Add node C13-2 to net GND
+
+
+Macro 118: New Node
+Add node BT1-2 to net GND
+
+
+Macro 119: New Node
+Add node U2-10 to net GND
+
+
+Macro 120: New Node
+Add node U2-12 to net GND
+
+
+Macro 121: New Node
+Add node U2-13 to net GND
+
+
+Macro 122: New Node
+Add node U2-24 to net GND
+
+
+Macro 123: New Node
+Add node R7-2 to net GND
+
+
+Macro 124: New Node
+Add node U3-8 to net GND
+
+
+Macro 125: New Node
+Add node U1-4 to net GND
+
+
+Macro 126: New Node
+Add node C2-1 to net GND
+
+
+Macro 127: New Node
+Add node C3-1 to net GND
+
+
+Macro 128: New Node
+Add node R10-2 to net GND
+
+
+Macro 129: New Node
+Add node C1-2 to net GND
+
+
+Macro 130: New Node
+Add node C6-2 to net GND
+
+
+Macro 131: New Node
+Add node C7-2 to net GND
+
+
+Macro 132: New Node
+Add node C5-2 to net GND
+
+
+Macro 133: New Node
+Add node U1-2 to net GND
+
+
+Macro 134: New Node
+Add node J1-1 to net GND
+
+
+Macro 135: Add Component Class
+Add Component Class (yabin)
+
+

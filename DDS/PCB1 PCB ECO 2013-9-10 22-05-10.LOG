@@ -1,0 +1,58 @@
+Removed Pin From Net: NetName=VCC Pin=C?-1
+Removed Pin From Net: NetName=RST Pin=C?-2
+Removed Pin From Net: NetName=VDD Pin=P?-1
+Removed Pin From Net: NetName=ZOUT1 Pin=P?-2
+Change Component Designator: OldDesignator=C? NewDesignator=C1
+Change Component Designator: OldDesignator=C? NewDesignator=C2
+Change Component Designator: OldDesignator=C? NewDesignator=C3
+Change Component Designator: OldDesignator=P10 NewDesignator=P4
+Change Component Designator: OldDesignator=P? NewDesignator=P1
+Change Component Designator: OldDesignator=P? NewDesignator=P2
+Change Component Designator: OldDesignator=P? NewDesignator=P5
+Change Component Designator: OldDesignator=P? NewDesignator=P6
+Change Component Designator: OldDesignator=P? NewDesignator=P7
+Change Component Designator: OldDesignator=P? NewDesignator=P8
+Change Component Designator: OldDesignator=R? NewDesignator=R1
+Change Component Designator: OldDesignator=S? NewDesignator=S1
+Change Component Designator: OldDesignator=U? NewDesignator=U1
+Change Component Designator: OldDesignator=Y? NewDesignator=Y1
+Added Pin To Net: NetName=VCC Pin=C1-1
+Added Pin To Net: NetName=RST Pin=C1-2
+Added Pin To Net: NetName=GND Pin=C2-1
+Added Pin To Net: NetName=GND Pin=C3-1
+Added Pin To Net: NetName=TXD Pin=P1-1
+Added Pin To Net: NetName=GND Pin=P1-2
+Added Pin To Net: NetName=RXD Pin=P1-3
+Added Pin To Net: NetName=INT1 Pin=P2-1
+Added Pin To Net: NetName=INT0 Pin=P2-2
+Added Pin To Net: NetName=P2.4 Pin=P5-1
+Added Pin To Net: NetName=P2.3 Pin=P5-2
+Added Pin To Net: NetName=P2.2 Pin=P5-3
+Added Pin To Net: NetName=P2.1 Pin=P5-4
+Added Pin To Net: NetName=P2.0 Pin=P5-5
+Added Pin To Net: NetName=GND Pin=P6-1
+Added Pin To Net: NetName=GND Pin=P6-2
+Added Pin To Net: NetName=GND Pin=P6-3
+Added Pin To Net: NetName=GND Pin=P6-4
+Added Pin To Net: NetName=GND Pin=P6-5
+Added Pin To Net: NetName=GND Pin=P7-1
+Added Pin To Net: NetName=ZOUT1 Pin=P7-2
+Added Pin To Net: NetName=ZOUT2 Pin=P7-3
+Added Pin To Net: NetName=GND Pin=P8-1
+Added Pin To Net: NetName=QOUT1 Pin=P8-2
+Added Pin To Net: NetName=QOUT2 Pin=P8-3
+Added Pin To Net: NetName=NetC2_2 Pin=C2-2
+Added Pin To Net: NetName=NetC2_2 Pin=U1-14
+Added Pin To Net: NetName=NetC2_2 Pin=Y1-1
+Added Net: Name=NetC2_2
+Added Pin To Net: NetName=NetC3_2 Pin=C3-2
+Added Pin To Net: NetName=NetC3_2 Pin=U1-15
+Added Pin To Net: NetName=NetC3_2 Pin=Y1-2
+Added Net: Name=NetC3_2
+Added Member To Class: ClassName=Sheet1 Member=Component C2 Cap
+Added Member To Class: ClassName=Sheet1 Member=Component C3 Cap
+Added Member To Class: ClassName=Sheet1 Member=Component P2 Header 2
+Added Member To Class: ClassName=Sheet1 Member=Component P5 Header 5
+Added Member To Class: ClassName=Sheet1 Member=Component P6 Header 5
+Added Member To Class: ClassName=Sheet1 Member=Component P7 Header 3
+Added Member To Class: ClassName=Sheet1 Member=Component P8 Header 3

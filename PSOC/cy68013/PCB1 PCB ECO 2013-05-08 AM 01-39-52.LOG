@@ -1,0 +1,17 @@
+Change Component Footprint: Designator=R30 Old Footprint=6-0805 New Footprint=0805
+Change Component Footprint: Designator=C1 Old Footprint=2012[0805] New Footprint=0805
+Change Component Footprint: Designator=C2 Old Footprint=2012[0805] New Footprint=0805
+Change Component Footprint: Designator=C3 Old Footprint=2012[0805] New Footprint=0805
+Change Component Footprint: Designator=C5 Old Footprint=2012[0805] New Footprint=0805
+Change Component Footprint: Designator=C6 Old Footprint=2012[0805] New Footprint=0805
+Change Component Footprint: Designator=R1 Old Footprint=2012[0805] New Footprint=0805
+Change Component Footprint: Designator=R2 Old Footprint=2012[0805] New Footprint=0805
+Change Component Footprint: Designator=R3 Old Footprint=2012[0805] New Footprint=0805
+Change Component Footprint: Designator=R4 Old Footprint=2012[0805] New Footprint=0805
+Change Component Footprint: Designator=R5 Old Footprint=2012[0805] New Footprint=0805
+Change Component Footprint: Designator=R6 Old Footprint=2012[0805] New Footprint=0805
+Change Component Footprint: Designator=R7 Old Footprint=2012[0805] New Footprint=0805
+Change Component Footprint: Designator=R8 Old Footprint=2012[0805] New Footprint=0805
+Change Component Footprint: Designator=R9 Old Footprint=2012[0805] New Footprint=0805
+Change Component Footprint: Designator=D1 Old Footprint=AXIAL-0.3 New Footprint=0805
+Added Room: Name=Sheet1

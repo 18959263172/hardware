@@ -1,0 +1,5 @@
+Added Room: Name=Sheet2
+Removed Pin From Net: NetName=B Pin=R4-2
+Added Pin To Net: NetName=A Pin=R4-2
+Removed Pin From Net: NetName=A Pin=R5-2
+Added Pin To Net: NetName=B Pin=R5-2

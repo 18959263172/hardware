@@ -1,0 +1,62 @@
+C51 COMPILER V6.12  __確_赺_衉___開_________瞋__                                       02/03/2012 08:57:24 PAGE 1   
+
+
+C51 COMPILER V6.12, COMPILATION OF MODULE __確_赺_衉___開_________瞋__
+OBJECT MODULE PLACED IN .\单片机串口通信实验------发送部分.OBJ
+COMPILER INVOKED BY: F:\软件\keil C\C51\BIN\C51.EXE .\单片机串口通信实验------发送部分.c DEBUG OBJECTEXTEND
+
+stmt level    source
+
+   1          
+   2          #include<reg52.h>
+   3          #define uchar unsigned char
+   4          uchar  flag,temp;
+   5          void  init()
+   6          {
+   7   1      	TMOD=0x20;
+   8   1      	TH1=0xFD;
+   9   1      	TL1=0xFD;
+  10   1      	TR1=1;
+  11   1      	SM0=0;
+  12   1      	SM1=1;
+  13   1      	REN=1;
+  14   1      	EA=1;
+  15   1      	ES=1;
+  16   1      }
+  17          void  main()
+  18          {
+  19   1      	init();
+  20   1      	while(1)
+  21   1      	{
+  22   2      		if(flag==1)
+  23   2      		{ 	
+  24   3      			ES=0;
+  25   3      			flag=0;
+  26   3      			SBUF=temp;
+  27   3      			while(!TI);
+  28   3      			TI=0;
+  29   3      			ES=1;
+  30   3      		}
+  31   2      	}
+  32   1      }
+  33          void  ser() interrupt   4
+  34          {
+  35   1      	RI=0;
+  36   1      	temp=SBUF;
+  37   1      	P0=temp;
+  38   1      	flag=1;
+  39   1      }  
+
+
+MODULE INFORMATION:   STATIC OVERLAYABLE
+   CODE SIZE        =     59    ----
+   CONSTANT SIZE    =   ----    ----
+   XDATA SIZE       =   ----    ----
+   PDATA SIZE       =   ----    ----
+   DATA SIZE        =      2    ----
+   IDATA SIZE       =   ----    ----
+   BIT SIZE         =   ----    ----
+END OF MODULE INFORMATION.
+
+
+C51 COMPILATION COMPLETE.  0 WARNING(S),  0 ERROR(S)

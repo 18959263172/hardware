@@ -1,0 +1,49 @@
+Protel Design System Design Rule Check
+PCB File : D:\我的项目\指纹识别硬件\指纹识别硬件\PCB2.PCBDOC
+Date     : 2013/10/23
+Time     : 18:31:34
+
+WARNING: Zero hole size multi-layer pad(s) detected
+   Pad J1-2(3157mil,1412mil)  Multi-Layer on Net GND
+   Pad J1-3(3031mil,1609mil)  Multi-Layer on Net GND
+   Pad J1-1(3283mil,1609mil)  Multi-Layer on Net VDD5
+
+WARNING: Multilayer Pads with 0 size Hole found
+   Pad J1-2(3157mil,1412mil)  Multi-Layer
+   Pad J1-3(3031mil,1609mil)  Multi-Layer
+   Pad J1-1(3283mil,1609mil)  Multi-Layer
+
+Processing Rule : Short-Circuit Constraint (Allowed=No) (All),(All)
+Rule Violations :0
+
+Processing Rule : Broken-Net Constraint ( (All) )
+Rule Violations :0
+
+Processing Rule : Clearance Constraint (Gap=6mil) (All),(All)
+   Violation between Via (4195mil,3136mil) Top Layer to Bottom Layer and 
+                     Via (4185mil,3117mil) Top Layer to Bottom Layer
+   Violation between Via (6209mil,3143mil) Top Layer to Bottom Layer and 
+                     Via (6188mil,3143mil) Top Layer to Bottom Layer
+   Violation between Via (6209mil,3143mil) Top Layer to Bottom Layer and 
+                     Via (6230mil,3143mil) Top Layer to Bottom Layer
+Rule Violations :3
+
+Processing Rule : Power Plane Connect Rule(Relief Connect )(Expansion=20mil) (Conductor Width=10mil) (Air Gap=10mil) (Entries=4) (All)
+Rule Violations :0
+
+Processing Rule : Width Constraint (Min=6mil) (Max=50mil) (Preferred=10mil) (All)
+Rule Violations :0
+
+Processing Rule : Height Constraint (Min=0mil) (Max=1000mil) (Prefered=500mil) (All)
+Rule Violations :0
+
+Processing Rule : Hole Size Constraint (Min=1mil) (Max=100mil) (All)
+   Violation between Pad Free-3(2807mil,1307mil)  Multi-Layer
+   Violation between Pad Free-2(2809mil,4760mil)  Multi-Layer
+   Violation between Pad Free-1(6576mil,1273mil)  Multi-Layer
+   Violation between Pad Free-0(6565mil,4794mil)  Multi-Layer
+Rule Violations :4
+
+
+Violations Detected : 7
+Time Elapsed        : 00:00:01

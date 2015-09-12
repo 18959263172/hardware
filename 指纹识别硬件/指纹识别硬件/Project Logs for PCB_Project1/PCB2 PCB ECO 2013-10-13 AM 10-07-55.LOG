@@ -1,0 +1,14 @@
+Added Pin To Net: NetName=VDD5 Pin=C2-1
+Added Pin To Net: NetName=GND Pin=C4-2
+Added Pin To Net: NetName=GND Pin=NU1-83
+Added Pin To Net: NetName=VDD33 Pin=NU1-84
+Added Pin To Net: NetName=GND Pin=U1-15
+Added Pin To Net: NetName=VDD5 Pin=U1-16
+Added Class: Name=C2_Nets
+Added Class: Name=C4_Nets
+Added Class: Name=U1_Nets
+Added Room: Name=EXTERN
+Added Room: Name=GPIO_OUT
+Added Room: Name=POWER
+Added Room: Name=STORAGE
+Added Room: Name=XLAT AND JTAG

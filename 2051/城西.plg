@@ -1,0 +1,176 @@
+<html>
+<body>
+<pre>
+<h1>礦ision2 Build Log</h1>
+<h2>Project:</h2>
+D:\我的项目\2051\城西.uv2
+Project File Date:  05/15/2013
+
+<h2>Output:</h2>
+Build target 'Target 1'
+compiling main.c...
+linking...
+Program Size: data=25.0 xdata=0 code=328
+creating hex file from "城西"...
+"城西" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+MAIN.C(67): error C202: 'INT0': undefined identifier
+Target not created
+Build target 'Target 1'
+compiling main.c...
+MAIN.C(45): error C202: 'INT0': undefined identifier
+Target not created
+Build target 'Target 1'
+compiling main.c...
+MAIN.C(27): error C202: 'count': undefined identifier
+MAIN.C(29): error C202: 'count': undefined identifier
+MAIN.C(30): error C202: 'TEST_LED': undefined identifier
+MAIN.C(33): error C141: syntax error near 'void'
+Target not created
+Build target 'Target 1'
+compiling main.c...
+MAIN.C(30): error C202: 'TEST_LED': undefined identifier
+MAIN.C(33): error C141: syntax error near 'void'
+Target not created
+Build target 'Target 1'
+compiling main.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?INIT_SYSTEM?MAIN
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  DELAY1
+    MODULE:  main.obj (MAIN)
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  INITTIMER0
+    MODULE:  main.obj (MAIN)
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  DELAY10MS
+    MODULE:  main.obj (MAIN)
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  INITTIMER0
+    MODULE:  main.obj (MAIN)
+    ADDRESS: 0099H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  DELAY10MS
+    MODULE:  main.obj (MAIN)
+    ADDRESS: 00ABH
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  DELAY1
+    MODULE:  main.obj (MAIN)
+    ADDRESS: 0106H
+Program Size: data=33.0 xdata=0 code=345
+creating hex file from "城西"...
+"城西" - 0 Error(s), 7 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+MAIN.C(35): warning C280: 'c': unreferenced local variable
+MAIN.C(35): warning C280: 'j': unreferenced local variable
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?INIT_SYSTEM?MAIN
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  INITTIMER0
+    MODULE:  main.obj (MAIN)
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  INITTIMER0
+    MODULE:  main.obj (MAIN)
+    ADDRESS: 00E3H
+Program Size: data=33.0 xdata=0 code=240
+creating hex file from "城西"...
+"城西" - 0 Error(s), 5 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+MAIN.C(37): warning C206: 'Init_system': missing function-prototype
+MAIN.C(35): warning C280: 'c': unreferenced local variable
+MAIN.C(35): warning C280: 'j': unreferenced local variable
+MAIN.C(51): error C231: 'Init_system': redefinition
+MAIN.C(60): error C231: 'Init_system': redefinition
+Target not created
+Build target 'Target 1'
+compiling main.c...
+MAIN.C(32): warning C280: 'c': unreferenced local variable
+MAIN.C(32): warning C280: 'j': unreferenced local variable
+linking...
+Program Size: data=33.0 xdata=0 code=240
+creating hex file from "城西"...
+"城西" - 0 Error(s), 2 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+MAIN.C(32): warning C280: 'c': unreferenced local variable
+MAIN.C(32): warning C280: 'j': unreferenced local variable
+linking...
+Program Size: data=33.0 xdata=0 code=240
+creating hex file from "城西"...
+"城西" - 0 Error(s), 2 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+MAIN.C(32): warning C280: 'c': unreferenced local variable
+MAIN.C(32): warning C280: 'j': unreferenced local variable
+linking...
+Program Size: data=33.0 xdata=0 code=240
+creating hex file from "城西"...
+"城西" - 0 Error(s), 2 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+MAIN.C(32): warning C280: 'j': unreferenced local variable
+linking...
+Program Size: data=33.0 xdata=0 code=255
+creating hex file from "城西"...
+"城西" - 0 Error(s), 1 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+MAIN.C(32): warning C280: 'j': unreferenced local variable
+linking...
+Program Size: data=33.0 xdata=0 code=255
+creating hex file from "城西"...
+"城西" - 0 Error(s), 1 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+MAIN.C(32): warning C280: 'j': unreferenced local variable
+linking...
+Program Size: data=33.0 xdata=0 code=255
+creating hex file from "城西"...
+"城西" - 0 Error(s), 1 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+MAIN.C(50): error C141: syntax error near '='
+MAIN.C(51): error C141: syntax error near '='
+Target not created
+Build target 'Target 1'
+compiling main.c...
+MAIN.C(51): error C141: syntax error near '='
+MAIN.C(52): error C141: syntax error near '='
+Target not created
+Build target 'Target 1'
+compiling main.c...
+MAIN.C(33): warning C280: 'c': unreferenced local variable
+MAIN.C(33): warning C280: 'j': unreferenced local variable
+linking...
+Program Size: data=33.0 xdata=0 code=408
+creating hex file from "城西"...
+"城西" - 0 Error(s), 2 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+MAIN.C(33): warning C280: 'c': unreferenced local variable
+MAIN.C(33): warning C280: 'j': unreferenced local variable
+linking...
+Program Size: data=33.0 xdata=0 code=411
+creating hex file from "城西"...
+"城西" - 0 Error(s), 2 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+MAIN.C(33): warning C280: 'c': unreferenced local variable
+MAIN.C(33): warning C280: 'j': unreferenced local variable
+linking...
+Program Size: data=33.0 xdata=0 code=411
+creating hex file from "城西"...
+"城西" - 0 Error(s), 2 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+MAIN.C(33): warning C280: 'c': unreferenced local variable
+MAIN.C(33): warning C280: 'j': unreferenced local variable
+linking...
+Program Size: data=33.0 xdata=0 code=407
+creating hex file from "城西"...
+"城西" - 0 Error(s), 2 Warning(s).

@@ -1,0 +1,15 @@
+Removed Pin From Net: NetName=VCC Pin=P6-1
+Removed Pin From Net: NetName=DGND Pin=P6-2
+Removed Member From Class: ClassName=Sheet1 Member=P6
+Added Component: Designator=P?(Power_In)
+Added Pin To Net: NetName=VCC Pin=P?-1
+Added Pin To Net: NetName=VCC Pin=P?-1
+Added Pin To Net: NetName=VCC Pin=P?-1
+Added Pin To Net: NetName=DGND Pin=P?-2
+Added Pin To Net: NetName=DGND Pin=P?-2
+Added Pin To Net: NetName=DGND Pin=P?-2
+Added Pin To Net: NetName=DGND Pin=P?-3
+Added Pin To Net: NetName=DGND Pin=P?-3
+Added Pin To Net: NetName=DGND Pin=P?-3
+Added Member To Class: ClassName=Sheet1 Member=Component P? Header 3
+Added Room: Name=Sheet1

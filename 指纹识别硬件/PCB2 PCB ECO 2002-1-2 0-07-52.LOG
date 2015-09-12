@@ -1,0 +1,13 @@
+Removed Pin From Net: NetName=OSCOUT Pin=R17-2
+Removed Member From Class: ClassName=XLAT AND JTAG Member=R17
+Added Pin To Net: NetName=OSCOUT Pin=C26-2
+Added Pin To Net: NetName=GND Pin=NU1-83
+Added Pin To Net: NetName=VDD33 Pin=NU1-84
+Added Pin To Net: NetName=OSCOUT Pin=Y2-1
+Added Class: Name=C26_Nets
+Added Class: Name=Y2_Nets
+Added Room: Name=EXTERN
+Added Room: Name=GPIO_OUT
+Added Room: Name=POWER
+Added Room: Name=STORAGE
+Added Room: Name=XLAT AND JTAG

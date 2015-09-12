@@ -1,0 +1,7 @@
+Removed Pin From Net: NetName=GND Pin=R5-2
+Change Component Footprint: Designator=C1 Old Footprint=POLAR0.8 New Footprint=3.2X1.6X1.1
+Change Component Footprint: Designator=R5 Old Footprint=VR3 New Footprint=HDR1X3
+Added Pin To Net: NetName=GND Pin=R5-3
+Added Pin To Net: NetName=NetR5_2 Pin=R5-2
+Added Pin To Net: NetName=NetR5_2 Pin=U1-3
+Added Net: Name=NetR5_2

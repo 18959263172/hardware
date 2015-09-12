@@ -1,0 +1,4 @@
+Added Pin To Net: NetName=GND Pin=NU1-83
+Added Pin To Net: NetName=VDD33 Pin=NU1-84
+Added Class: Name=A[23..0]
+Added Class: Name=D[15..0]

@@ -1,0 +1,14 @@
+Removed Pin From Net: NetName=GND Pin=J2-1
+Removed Pin From Net: NetName=TXD Pin=J2-2
+Removed Pin From Net: NetName=RXD Pin=J2-3
+Removed Pin From Net: NetName=VDD Pin=J2-4
+Removed Member From Class: ClassName=Sheet1 Member=J2
+Added Component: Designator=P10(HDR1X2)
+Added Component: Designator=P20(HDR1X2)
+Added Pin To Net: NetName=GND Pin=P10-1
+Added Pin To Net: NetName=VDD Pin=P10-2
+Added Pin To Net: NetName=TXD Pin=P20-1
+Added Pin To Net: NetName=RXD Pin=P20-2
+Added Member To Class: ClassName=Sheet1 Member=Component P10 Header 2
+Added Member To Class: ClassName=Sheet1 Member=Component P20 Header 2
+Added Room: Name=Sheet1

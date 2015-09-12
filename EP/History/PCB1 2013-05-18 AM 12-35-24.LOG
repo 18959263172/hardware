@@ -1,0 +1,5 @@
+Added Component: Designator=P5(PCBComponent_1)
+Added Member To Class: ClassName=Sheet1 Member=Component P5 Header 3X2
+Added Room: Name=Sheet1
+Removed Pin From Net: NetName=VCC Pin=J2-4
+Added Pin To Net: NetName=VDD Pin=J2-4

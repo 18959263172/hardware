@@ -1,0 +1,31 @@
+Removed Pin From Net: NetName=PA5 Pin=NU1-74
+Removed Pin From Net: NetName=PA6 Pin=NU1-75
+Removed Pin From Net: NetName=PA7 Pin=NU1-76
+Removed Pin From Net: NetName=PA5 Pin=P1-1
+Removed Pin From Net: NetName=PA6 Pin=P1-2
+Removed Pin From Net: NetName=PA7 Pin=P1-3
+Removed Pin From Net: NetName=PA8 Pin=P1-4
+Added Component: Designator=C7(6-0805)
+Added Pin To Net: NetName=GND Pin=C7-1
+Added Pin To Net: NetName=VDD33 Pin=C7-2
+Added Pin To Net: NetName=NetP1_4 Pin=P1-4
+Added Net: Name=NetP1_4
+Added Pin To Net: NetName=PB13 Pin=NU1-74
+Added Pin To Net: NetName=PB13 Pin=P1-1
+Added Net: Name=PB13
+Added Pin To Net: NetName=PB14 Pin=NU1-75
+Added Pin To Net: NetName=PB14 Pin=P1-2
+Added Net: Name=PB14
+Added Pin To Net: NetName=PB15 Pin=NU1-76
+Added Pin To Net: NetName=PB15 Pin=P1-3
+Added Net: Name=PB15
+Added Class: Name=P1_Nets
+Added Member To Class: ClassName=POWER Member=Component C7 Cap
+Added Member To Class: ClassName=NU1_Nets Member=Wire PB13
+Added Member To Class: ClassName=NU1_Nets Member=Wire PB14
+Added Member To Class: ClassName=NU1_Nets Member=Wire PB15
+Added Room: Name=EXTERN
+Added Room: Name=GPIO_OUT
+Added Room: Name=POWER
+Added Room: Name=STORAGE
+Added Room: Name=XLAT AND JTAG

@@ -1,0 +1,7 @@
+Added Pin To Net: NetName=GND Pin=NU1-83
+Added Pin To Net: NetName=VDD33 Pin=NU1-84
+Added Class: Name=U_EXTERN_Nets
+Added Class: Name=U_GPIO_OUT_Nets
+Added Class: Name=U_POWER_Nets
+Added Class: Name=U_STORAGE_Nets
+Added Class: Name=U_XLAT AND JTAG_Nets

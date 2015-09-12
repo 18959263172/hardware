@@ -1,0 +1,12 @@
+Removed Pin From Net: NetName=NRST Pin=NU1-25
+Removed Pin From Net: NetName=NRST Pin=P8-15
+Added Pin To Net: NetName=NetC27_2 Pin=NU1-25
+Added Pin To Net: NetName=D0 Pin=NU1-83
+Added Pin To Net: NetName=D1 Pin=NU1-84
+Added Pin To Net: NetName=NetC27_2 Pin=P8-15
+Change Net Name : Old Net Name=NetC27_2 New Net Name=NRST
+Change Net Name : Old Net Name=NRST New Net Name=VDD33
+Added Room: Name=U_EXTERN
+Added Room: Name=U_POWER
+Added Room: Name=U_STORAGE
+Added Room: Name=U_XLAT AND JTAG

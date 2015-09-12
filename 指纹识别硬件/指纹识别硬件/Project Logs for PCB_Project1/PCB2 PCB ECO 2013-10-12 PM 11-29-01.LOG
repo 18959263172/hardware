@@ -1,0 +1,81 @@
+Added Pin To Net: NetName=GND Pin=NU1-83
+Added Pin To Net: NetName=VDD33 Pin=NU1-84
+Added Member To Class: ClassName=A[23..0] Member=Element[0]: A (Inferred)
+Added Member To Class: ClassName=A[23..0] Member=Element[0]: A
+Added Member To Class: ClassName=A[23..0] Member=Element[1]: A (Inferred)
+Added Member To Class: ClassName=A[23..0] Member=Element[1]: A
+Added Member To Class: ClassName=A[23..0] Member=Element[2]: A (Inferred)
+Added Member To Class: ClassName=A[23..0] Member=Element[2]: A
+Added Member To Class: ClassName=A[23..0] Member=Element[3]: A (Inferred)
+Added Member To Class: ClassName=A[23..0] Member=Element[3]: A
+Added Member To Class: ClassName=A[23..0] Member=Element[4]: A (Inferred)
+Added Member To Class: ClassName=A[23..0] Member=Element[4]: A
+Added Member To Class: ClassName=A[23..0] Member=Element[5]: A (Inferred)
+Added Member To Class: ClassName=A[23..0] Member=Element[5]: A
+Added Member To Class: ClassName=A[23..0] Member=Element[6]: A (Inferred)
+Added Member To Class: ClassName=A[23..0] Member=Element[6]: A
+Added Member To Class: ClassName=A[23..0] Member=Element[7]: A (Inferred)
+Added Member To Class: ClassName=A[23..0] Member=Element[7]: A
+Added Member To Class: ClassName=A[23..0] Member=Element[8]: A (Inferred)
+Added Member To Class: ClassName=A[23..0] Member=Element[8]: A
+Added Member To Class: ClassName=A[23..0] Member=Element[9]: A (Inferred)
+Added Member To Class: ClassName=A[23..0] Member=Element[9]: A
+Added Member To Class: ClassName=A[23..0] Member=Element[10]: A (Inferred)
+Added Member To Class: ClassName=A[23..0] Member=Element[10]: A
+Added Member To Class: ClassName=A[23..0] Member=Element[11]: A (Inferred)
+Added Member To Class: ClassName=A[23..0] Member=Element[11]: A
+Added Member To Class: ClassName=A[23..0] Member=Element[12]: A (Inferred)
+Added Member To Class: ClassName=A[23..0] Member=Element[12]: A
+Added Member To Class: ClassName=A[23..0] Member=Element[13]: A (Inferred)
+Added Member To Class: ClassName=A[23..0] Member=Element[13]: A
+Added Member To Class: ClassName=A[23..0] Member=Element[14]: A (Inferred)
+Added Member To Class: ClassName=A[23..0] Member=Element[14]: A
+Added Member To Class: ClassName=A[23..0] Member=Element[15]: A (Inferred)
+Added Member To Class: ClassName=A[23..0] Member=Element[15]: A
+Added Member To Class: ClassName=A[23..0] Member=Element[16]: A (Inferred)
+Added Member To Class: ClassName=A[23..0] Member=Element[16]: A
+Added Member To Class: ClassName=A[23..0] Member=Element[17]: A (Inferred)
+Added Member To Class: ClassName=A[23..0] Member=Element[17]: A
+Added Member To Class: ClassName=A[23..0] Member=Element[18]: A (Inferred)
+Added Member To Class: ClassName=A[23..0] Member=Element[18]: A
+Added Member To Class: ClassName=A[23..0] Member=Element[19]: A (Inferred)
+Added Member To Class: ClassName=A[23..0] Member=Element[19]: A
+Added Member To Class: ClassName=A[23..0] Member=Element[20]: A (Inferred)
+Added Member To Class: ClassName=A[23..0] Member=Element[20]: A
+Added Member To Class: ClassName=A[23..0] Member=Element[21]: A (Inferred)
+Added Member To Class: ClassName=A[23..0] Member=Element[21]: A
+Added Member To Class: ClassName=A[23..0] Member=Element[22]: A (Inferred)
+Added Member To Class: ClassName=A[23..0] Member=Element[22]: A
+Added Member To Class: ClassName=A[23..0] Member=Element[23]: A
+Added Member To Class: ClassName=D[15..0] Member=Element[0]: D (Inferred)
+Added Member To Class: ClassName=D[15..0] Member=Element[0]: D
+Added Member To Class: ClassName=D[15..0] Member=Element[1]: D (Inferred)
+Added Member To Class: ClassName=D[15..0] Member=Element[1]: D
+Added Member To Class: ClassName=D[15..0] Member=Element[2]: D (Inferred)
+Added Member To Class: ClassName=D[15..0] Member=Element[2]: D
+Added Member To Class: ClassName=D[15..0] Member=Element[3]: D (Inferred)
+Added Member To Class: ClassName=D[15..0] Member=Element[3]: D
+Added Member To Class: ClassName=D[15..0] Member=Element[4]: D (Inferred)
+Added Member To Class: ClassName=D[15..0] Member=Element[4]: D
+Added Member To Class: ClassName=D[15..0] Member=Element[5]: D (Inferred)
+Added Member To Class: ClassName=D[15..0] Member=Element[5]: D
+Added Member To Class: ClassName=D[15..0] Member=Element[6]: D (Inferred)
+Added Member To Class: ClassName=D[15..0] Member=Element[6]: D
+Added Member To Class: ClassName=D[15..0] Member=Element[7]: D (Inferred)
+Added Member To Class: ClassName=D[15..0] Member=Element[7]: D
+Added Member To Class: ClassName=D[15..0] Member=Element[8]: D (Inferred)
+Added Member To Class: ClassName=D[15..0] Member=Element[8]: D
+Added Member To Class: ClassName=D[15..0] Member=Element[9]: D (Inferred)
+Added Member To Class: ClassName=D[15..0] Member=Element[9]: D
+Added Member To Class: ClassName=D[15..0] Member=Element[10]: D (Inferred)
+Added Member To Class: ClassName=D[15..0] Member=Element[10]: D
+Added Member To Class: ClassName=D[15..0] Member=Element[11]: D (Inferred)
+Added Member To Class: ClassName=D[15..0] Member=Element[11]: D
+Added Member To Class: ClassName=D[15..0] Member=Element[12]: D (Inferred)
+Added Member To Class: ClassName=D[15..0] Member=Element[12]: D
+Added Member To Class: ClassName=D[15..0] Member=Element[13]: D (Inferred)
+Added Member To Class: ClassName=D[15..0] Member=Element[13]: D
+Added Member To Class: ClassName=D[15..0] Member=Element[14]: D (Inferred)
+Added Member To Class: ClassName=D[15..0] Member=Element[14]: D
+Added Member To Class: ClassName=D[15..0] Member=Element[15]: D (Inferred)
+Added Member To Class: ClassName=D[15..0] Member=Element[15]: D

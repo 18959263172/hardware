@@ -1,0 +1,16 @@
+Removed Pin From Net: NetName=LED0 Pin=R1-1
+Removed Pin From Net: NetName=LED1 Pin=R2-1
+Removed Pin From Net: NetName=LED2 Pin=R3-1
+Added Pin To Net: NetName=GND Pin=NU1-83
+Added Pin To Net: NetName=VDD33 Pin=NU1-84
+Added Pin To Net: NetName=PC6 Pin=R1-1
+Added Pin To Net: NetName=PC7 Pin=R2-1
+Added Pin To Net: NetName=PC8 Pin=R3-1
+Added Class: Name=R1_Nets
+Added Class: Name=R2_Nets
+Added Class: Name=R3_Nets
+Added Room: Name=EXTERN
+Added Room: Name=GPIO_OUT
+Added Room: Name=POWER
+Added Room: Name=STORAGE
+Added Room: Name=XLAT AND JTAG

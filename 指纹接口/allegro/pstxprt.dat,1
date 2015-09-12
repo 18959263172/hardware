@@ -1,0 +1,30 @@
+FILE_TYPE = EXPANDEDPARTLIST;
+{ Using PSTWRITER 16.5.0 p001Apr-05-2014 at 22:04:42 }
+DIRECTIVES
+ PST_VERSION='PST_HDL_CENTRIC_VERSION_0';
+ ROOT_DRAWING='INTERFACE';
+ POST_TIME='Apr 21 2011 10:02:30';
+ SOURCE_TOOL='CAPTURE_WRITER';
+END_DIRECTIVES;
+
+PART_NAME
+ J1 '4 HEADER_HEADER4_4 HEADER':;
+
+SECTION_NUMBER 1
+ '@INTERFACE.SCHEMATIC1(SCH_1):INS987@CONNECTOR.4 HEADER.NORMAL(CHIPS)':
+ C_PATH='@interface.schematic1(sch_1):ins987@connector.\4 header.normal\(chips)',
+ P_PATH='@interface.schematic1(sch_1):page1_ins987@connector.\4 header.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ J2 'CONNECTOR EDGE 16_FPC16_CONNECT':;
+
+SECTION_NUMBER 1
+ '@INTERFACE.SCHEMATIC1(SCH_1):INS1011@CONNECTOR.CONNECTOR EDGE 16.NORMAL(CHIPS)':
+ C_PATH='@interface.schematic1(sch_1):ins1011@connector.\connector edge 16.normal\(chips)',
+ P_PATH='@interface.schematic1(sch_1):page1_ins1011@connector.\connector edge 16.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+END.

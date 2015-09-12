@@ -1,0 +1,5 @@
+Removed Member From Class: ClassName=Sheet1 Member=P52
+Added Component: Designator=P?(HDR2X3)
+Added Pin To Net: NetName=VDD Pin=P?-1
+Added Pin To Net: NetName=VCC Pin=P?-3
+Added Member To Class: ClassName=Sheet1 Member=Component P? Header 3X2

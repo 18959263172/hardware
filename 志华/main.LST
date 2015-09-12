@@ -1,0 +1,104 @@
+C51 COMPILER V7.06   MAIN                                                                  05/11/2013 13:50:12 PAGE 1   
+
+
+C51 COMPILER V7.06, COMPILATION OF MODULE MAIN
+OBJECT MODULE PLACED IN main.OBJ
+COMPILER INVOKED BY: C:\Keil\C51\BIN\C51.EXE main.c BROWSE DEBUG OBJECTEXTEND
+
+stmt level    source
+
+   1          #include <REG51.H>
+   2          
+   3          void system_init(void);
+   4          
+   5          void Uart_send(unsigned char dat);
+   6          
+   7          void Uart_sendx(unsigned char  xdat);
+   8          
+   9          void Uart_datas(unsigned char data *pd_string) ;
+  10          void delay(int ms) ;
+  11          #define FOSC 12000000L
+  12          #define F38_4KHZ (256-FOSC/2/12/37900)
+  13          unsigned char *sd="fucking irda";
+  14          sbit P11 = P1^1 ;
+  15          unsigned char IRAD_S1=0;
+  16          #define uchar unsigned char
+  17          void main(void)
+  18          {
+  19   1              uchar irda,i ;
+  20   1              //delay(5000) ;
+  21   1              system_init() ;
+  22   1              while(1)
+  23   1              {                                       
+  24   2                      Uart_send(0x05);
+  25   2                      for(i=0;i<250;i++)
+  26   2                      {
+  27   3                              for(irda=0;irda<20;irda++) ;
+  28   3                      }
+  29   2                      irda=0;
+  30   2                      i=0;
+  31   2              }
+  32   1      }
+  33          
+  34          
+  35          
+  36          /* 串口接收中断服务程序 */
+  37          void uart_int(void) interrupt 4
+  38          {       
+  39   1              uchar temp ;
+  40   1              //P15 = !P15 ;
+  41   1              EX1 = 0 ;       
+  42   1      }
+*** WARNING C280 IN LINE 39 OF MAIN.C: 'temp': unreferenced local variable
+  43          
+  44          
+  45          
+  46          /* Send a byte access serial */
+  47          void Uart_send(uchar dat) 
+  48          {
+  49   1              TI = 0 ;
+  50   1              SBUF = dat ;
+  51   1              while(!TI) ;
+  52   1              TI = 0 ;
+  53   1      }
+  54          
+C51 COMPILER V7.06   MAIN                                                                  05/11/2013 13:50:12 PAGE 2   
+
+  55          void Uart_sendx(uchar  xdat) 
+  56          {
+  57   1              TI = 0 ;
+  58   1              SBUF = xdat ;
+  59   1              while(!TI) ;
+  60   1              TI = 0 ;
+  61   1      }
+  62          
+  63          /* Send a code string access serial */
+  64          /* 系统初始化程序 */
+  65          void system_init(void)
+  66          {
+  67   1              PCON &= 0x7F;           //波特率不倍速
+  68   1              SCON = 0x50;            //8位数据,可变波特率
+  69   1              AUXR |= 0x40;           //定时器1时钟为Fosc,即1T
+  70   1              AUXR &= 0xFE;           //串口1选择定时器1为波特率发生器
+  71   1              TMOD &= 0x0F;           //清除定时器1模式位
+  72   1              TMOD |= 0x20;           //设定定时器1为8位自动重装方式
+  73   1              TL1 = 0xDC;             //设定定时初值
+  74   1              TH1 = 0xDC;             //设定定时器重装值
+  75   1              ET1 = 0;                //禁止定时器1中断
+  76   1              TR1 = 1;                //启动定时器1
+  77   1      }
+  78          
+
+
+MODULE INFORMATION:   STATIC OVERLAYABLE
+   CODE SIZE        =     82    ----
+   CONSTANT SIZE    =     13    ----
+   XDATA SIZE       =   ----    ----
+   PDATA SIZE       =   ----    ----
+   DATA SIZE        =      4       2
+   IDATA SIZE       =   ----    ----
+   BIT SIZE         =   ----    ----
+END OF MODULE INFORMATION.
+
+
+C51 COMPILATION COMPLETE.  1 WARNING(S),  0 ERROR(S)

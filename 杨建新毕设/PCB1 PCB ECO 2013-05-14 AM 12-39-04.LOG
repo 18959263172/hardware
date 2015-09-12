@@ -1,0 +1,37 @@
+Change Component Designator: OldDesignator=C6 NewDesignator=C3
+Change Component Designator: OldDesignator=C7 NewDesignator=C5
+Change Component Designator: OldDesignator=C9 NewDesignator=C4
+Change Component Designator: OldDesignator=C10 NewDesignator=C6
+Change Component Designator: OldDesignator=C17 NewDesignator=C2
+Change Component Designator: OldDesignator=C18 NewDesignator=C1
+Change Component Designator: OldDesignator=P5 NewDesignator=P4
+Change Component Designator: OldDesignator=P? NewDesignator=P1
+Change Component Designator: OldDesignator=P? NewDesignator=P2
+Change Component Designator: OldDesignator=P? NewDesignator=P3
+Change Component Designator: OldDesignator=U7 NewDesignator=U2
+Change Component Designator: OldDesignator=U10 NewDesignator=U1
+Change Component Designator: OldDesignator=Y2 NewDesignator=Y1
+Added Pin To Net: NetName=SC_EA Pin=P2-1
+Added Pin To Net: NetName=SC_D0 Pin=P2-2
+Added Pin To Net: NetName=SC_D1 Pin=P2-3
+Added Pin To Net: NetName=SC_D2 Pin=P2-4
+Added Pin To Net: NetName=SC_D3 Pin=P2-5
+Added Pin To Net: NetName=SC_D4 Pin=P2-6
+Added Pin To Net: NetName=SC_D5 Pin=P2-7
+Added Pin To Net: NetName=SC_D6 Pin=P2-8
+Added Pin To Net: NetName=SC_A8 Pin=P3-1
+Added Pin To Net: NetName=SC_A9 Pin=P3-2
+Added Pin To Net: NetName=SC_A10 Pin=P3-3
+Added Pin To Net: NetName=SC_A11 Pin=P3-4
+Added Pin To Net: NetName=SC_A12 Pin=P3-5
+Added Pin To Net: NetName=SC_A13 Pin=P3-6
+Added Pin To Net: NetName=SC_A14 Pin=P3-7
+Added Pin To Net: NetName=SC_A15 Pin=P3-8
+Change Net Name : Old Net Name=NetC6_1 New Net Name=NetC3_1
+Change Net Name : Old Net Name=NetC6_2 New Net Name=NetC3_2
+Change Net Name : Old Net Name=NetC7_1 New Net Name=NetC5_1
+Change Net Name : Old Net Name=NetC7_2 New Net Name=NetC5_2
+Change Net Name : Old Net Name=NetC9_2 New Net Name=NetC4_2
+Change Net Name : Old Net Name=NetC10_1 New Net Name=NetC6_1
+Added Member To Class: ClassName=Sheet1 Member=Component P1 Header 8
+Added Member To Class: ClassName=Sheet1 Member=Component P2 Header 8

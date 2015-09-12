@@ -1,0 +1,10 @@
+[ProjectGroup]
+Version=1.0
+[Project1]
+ProjectPath=89c51开发电路板.PrjPcb
+[Project2]
+ProjectPath=PCB_Project1.PrjPCB
+[Project3]
+ProjectPath=..\..\杨建新毕设\PCB_Project2.PrjPCB
+[Project4]
+ProjectPath=..\GPS (1)\GPS (1).PrjPcb

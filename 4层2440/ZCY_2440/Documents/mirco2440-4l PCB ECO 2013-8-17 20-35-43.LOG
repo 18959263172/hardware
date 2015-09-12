@@ -1,0 +1,20 @@
+Removed Pin From Net: NetName=GND Pin=C8-1
+Removed Pin From Net: NetName=I2CSDA Pin=R10-1
+Removed Pin From Net: NetName=I2CSCL Pin=R11-1
+Removed Pin From Net: NetName=GND Pin=U3-1
+Removed Pin From Net: NetName=GND Pin=U3-2
+Removed Pin From Net: NetName=GND Pin=U3-3
+Removed Pin From Net: NetName=GND Pin=U3-4
+Removed Pin From Net: NetName=I2CSDA Pin=U3-5
+Removed Pin From Net: NetName=I2CSCL Pin=U3-6
+Removed Pin From Net: NetName=GND Pin=U3-7
+Removed Member From Class: ClassName=02-CPU2 Member=C8
+Removed Member From Class: ClassName=02-CPU2 Member=R10
+Removed Member From Class: ClassName=02-CPU2 Member=R11
+Removed Member From Class: ClassName=02-CPU2 Member=U3
+Added Room: Name=01-CPU1
+Added Room: Name=02-CPU2
+Added Room: Name=03-CPU3
+Added Room: Name=04-MEM
+Added Room: Name=05I2S
+Added Room: Name=Main

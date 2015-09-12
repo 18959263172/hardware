@@ -1,0 +1,22 @@
+Change Component Footprint: Designator=R1 Old Footprint=AXIAL0.4 New Footprint=2012[0805]
+Change Component Footprint: Designator=R2 Old Footprint=AXIAL0.4 New Footprint=2012[0805]
+Change Component Footprint: Designator=R3 Old Footprint=AXIAL0.4 New Footprint=2012[0805]
+Change Component Footprint: Designator=R4 Old Footprint=AXIAL0.4 New Footprint=2012[0805]
+Change Component Footprint: Designator=R5 Old Footprint=AXIAL0.4 New Footprint=2012[0805]
+Change Component Footprint: Designator=R6 Old Footprint=AXIAL0.4 New Footprint=2012[0805]
+Change Component Footprint: Designator=C7 Old Footprint=RB.2/.4 New Footprint=2012[0805]
+Change Component Footprint: Designator=C4 Old Footprint=RB.4/.8 New Footprint=2012[0805]
+Change Component Footprint: Designator=C6 Old Footprint=RB.4/.8 New Footprint=2012[0805]
+Change Component Footprint: Designator=C8 Old Footprint=RB.4/.8 New Footprint=2012[0805]
+Added Component: Designator=C1(2012[0805])
+Added Component: Designator=C2(2012[0805])
+Added Component: Designator=C3(2012[0805])
+Added Pin To Net: NetName=NetC1_1 Pin=C1-1
+Added Pin To Net: NetName=GND Pin=C1-2
+Added Pin To Net: NetName=GND Pin=C2-1
+Added Pin To Net: NetName=NetC2_2 Pin=C2-2
+Added Pin To Net: NetName=GND Pin=C3-1
+Added Pin To Net: NetName=NetC3_2 Pin=C3-2
+Added Member To Class: ClassName=Sheet1 Member=Component C1 4.7nF
+Added Member To Class: ClassName=Sheet1 Member=Component C2 12pF
+Added Member To Class: ClassName=Sheet1 Member=Component C3 12pF

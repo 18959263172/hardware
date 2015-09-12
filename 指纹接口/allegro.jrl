@@ -1,0 +1,1862 @@
+\t (00:27:48) allegro 16.5 P003 (v16-5-13C) i86
+\t (00:27:48)     Journal start - Sat May 17 21:36:07 2014
+\t (00:27:48)         Host=DADI--20130722Z User=Administrator Pid=6780 CPUs=2
+\t (00:27:48) 
+\d (00:27:48) Database opened: D:/我的项目/指纹接口/header4.dra
+\i (00:27:49) generaledit 
+\i (00:27:49) zoom in 1 
+\i (00:27:49) setwindow pcb
+\i (00:27:49) zoom in -0.105 -3.063
+\i (00:27:49) trapsize 78
+\i (00:27:49) zoom in 1 
+\i (00:27:49) setwindow pcb
+\i (00:27:49) zoom in -3.417 -3.063
+\i (00:27:49) trapsize 39
+\i (00:27:50) pick grid -0.792 -3.618
+\t (00:27:50) last pick:  0.000  -2.540
+\i (00:27:50) pick grid 1.388 -3.383
+\t (00:27:50) last pick:  2.540  -2.540
+\i (00:27:51) zoom out 1 
+\i (00:27:51) setwindow pcb
+\i (00:27:51) zoom out 1.403 -3.360
+\i (00:27:51) trapsize 78
+\i (00:27:51) zoom out 1 
+\i (00:27:51) setwindow pcb
+\i (00:27:51) zoom out 6.223 -3.360
+\i (00:27:51) trapsize 156
+\t (00:27:51) last pick:  15.020  -1.359
+\w (00:27:51) WARNING(SPMHUT-40): Pick is outside the extent of the drawing ... pick again.
+\i (00:27:52) zoom in 1 
+\i (00:27:52) setwindow pcb
+\i (00:27:52) zoom in 2.926 -1.890
+\i (00:27:52) trapsize 78
+\i (00:27:52) zoom out 1 
+\i (00:27:52) setwindow pcb
+\i (00:27:52) zoom out 0.848 -1.765
+\i (00:27:52) trapsize 156
+\i (00:27:53) pick grid 8.208 0.328
+\t (00:27:53) last pick:  7.620  0.000
+\i (00:27:56) color192 
+\i (00:27:57) setwindow cvf.dialog
+\i (00:27:57) cvf layer_mode
+\i (00:27:57) setwindow pcb
+\i (00:27:57) generaledit 
+\i (00:27:59) setwindow cvf.dialog
+\i (00:27:59) cvf layer_tree_item 'Conductor' 'Stack-Up'
+\i (00:27:59) cvf layer_tree_item 'Stack-Up'
+\i (00:28:00) cvf layer_tree_item 'Display'
+\i (00:28:04) cvf layer_tree_item 'Conductor' 'Stack-Up'
+\i (00:28:05) cvf layer_tree_item 'Non-Conductor' 'Stack-Up'
+\i (00:28:09) cvf layer_tree_item 'Conductor' 'Stack-Up'
+\i (00:28:11) cvf layer_tree_item 'Stack-Up'
+\i (00:28:15) cvf layer_tree_item 'Comp Value' 'Components'
+\i (00:28:16) cvf layer_tree_item 'Manufacturing'
+\i (00:28:17) cvf layer_tree_item 'Drawing Format'
+\i (00:28:18) cvf layer_tree_item 'Analysis'
+\i (00:28:19) cvf layer_tree_item 'Package Geometry'
+\i (00:28:20) cvf layer_tree_item 'Board Geometry'
+\i (00:28:23) cvf nets_mode
+\i (00:28:24) cvf layer_mode
+\i (00:28:25) cvf layer_tree_item 'Stack-Up'
+\i (00:28:29) cvf layer_tree_item 'Conductor' 'Stack-Up'
+\i (00:28:30) cvf layer_tree_item 'Non-Conductor' 'Stack-Up'
+\i (00:28:31) cvf layer_tree_item 'Flow Plan' 'Stack-Up'
+\i (00:28:43) cvf layer_tree_item 'Anti Etch' 'Conductor'
+\i (00:28:43) cvf layer_tree_item 'Boundary' 'Conductor'
+\i (00:28:44) cvf layer_tree_item 'Cavity' 'Conductor'
+\i (00:28:45) cvf layer_tree_item 'Display'
+\i (00:28:49) cvf shadow_on
+\i (00:28:50) cvf shadow_val 51
+\i (00:28:50) cvf shadow_val 52
+\i (00:28:50) cvf shadow_val 53
+\i (00:28:50) cvf shadow_val 54
+\i (00:28:50) cvf shadow_val 56
+\i (00:28:50) cvf shadow_val 58
+\i (00:28:50) cvf shadow_val 60
+\i (00:28:50) cvf shadow_val 62
+\i (00:28:50) cvf shadow_val 63
+\i (00:28:50) cvf shadow_val 65
+\i (00:28:50) cvf shadow_val 66
+\i (00:28:50) cvf shadow_val 68
+\i (00:28:50) cvf shadow_val 69
+\i (00:28:50) cvf shadow_val 70
+\i (00:28:50) cvf shadow_val 71
+\i (00:28:50) cvf shadow_val 73
+\i (00:28:50) cvf shadow_val 75
+\i (00:28:50) cvf shadow_val 76
+\i (00:28:50) cvf shadow_val 79
+\i (00:28:50) cvf shadow_val 81
+\i (00:28:50) cvf shadow_val 82
+\i (00:28:50) cvf shadow_val 85
+\i (00:28:50) cvf shadow_val 87
+\i (00:28:50) cvf shadow_val 91
+\i (00:28:50) cvf shadow_val 93
+\i (00:28:50) cvf shadow_val 96
+\i (00:28:50) cvf shadow_val 99
+\i (00:28:50) cvf shadow_val 100
+\i (00:28:50) cvf shadow_val 98
+\i (00:28:50) cvf shadow_val 96
+\i (00:28:50) cvf shadow_val 95
+\i (00:28:51) cvf shadow_val 93
+\i (00:28:51) cvf shadow_val 91
+\i (00:28:51) cvf shadow_val 88
+\i (00:28:51) cvf shadow_val 87
+\i (00:28:51) cvf shadow_val 86
+\i (00:28:51) cvf shadow_val 85
+\i (00:28:51) cvf shadow_val 83
+\i (00:28:51) cvf shadow_val 81
+\i (00:28:51) cvf shadow_val 80
+\i (00:28:51) cvf shadow_val 79
+\i (00:28:51) cvf shadow_val 77
+\i (00:28:51) cvf shadow_val 76
+\i (00:28:51) cvf shadow_val 75
+\i (00:28:51) cvf shadow_val 74
+\i (00:28:51) cvf shadow_val 73
+\i (00:28:51) cvf shadow_val 72
+\i (00:28:51) cvf shadow_val 71
+\i (00:28:51) cvf shadow_val 69
+\i (00:28:51) cvf shadow_val 67
+\i (00:28:51) cvf shadow_val 66
+\i (00:28:51) cvf shadow_val 65
+\i (00:28:51) cvf shadow_val 63
+\i (00:28:51) cvf shadow_val 62
+\i (00:28:51) cvf shadow_val 61
+\i (00:28:51) cvf shadow_val 60
+\i (00:28:51) cvf shadow_val 59
+\i (00:28:51) cvf shadow_val 58
+\i (00:28:51) cvf shadow_val 57
+\i (00:28:51) cvf shadow_val 56
+\i (00:28:51) cvf shadow_val 55
+\i (00:28:51) cvf shadow_val 54
+\i (00:28:51) cvf shadow_val 53
+\i (00:28:51) cvf shadow_val 52
+\i (00:28:53) cvf shadow_off
+\i (00:28:54) cvf layer_tree_item 'Conductor' 'Stack-Up'
+\i (00:28:54) cvf layer_tree_item 'Stack-Up'
+\i (00:28:54) cvf layer_tree_item 'My Favorites'
+\i (00:28:55) cvf layer_tree_item 'Stack-Up'
+\i (00:28:59) cvf select_color_cell 6
+\i (00:29:00) cvf layers_color stack-up via/top 7
+\i (00:29:00) cvf layers_color stack-up pin/top 7
+\i (00:29:01) cvf layers_color stack-up stack-up/top 7
+\i (00:29:02) cvf layers_color stack-up stack-up/top 7
+\i (00:29:03) cvf layers_visible stack-up stack-up/top TRUE
+\i (00:29:04) cvf layers_visible stack-up stack-up/top FALSE
+\i (00:29:05) cvf layers_visible stack-up stack-up/top TRUE
+\i (00:29:07) cvf select_color_cell 8
+\i (00:29:08) cvf layers_color stack-up stack-up/bottom 9
+\i (00:29:10) cvf select_color_cell 7
+\i (00:29:11) cvf layers_color stack-up anti_etch/top 8
+\i (00:29:12) cvf layers_color stack-up anti_etch/bottom 8
+\i (00:29:14) cvf select_color_cell 12
+\i (00:29:16) cvf select_color_cell 48
+\i (00:29:17) cvf layers_color stack-up anti_etch/bottom 49
+\i (00:29:20) cvf select_color_cell 12
+\i (00:29:21) cvf layers_color stack-up anti_etch/bottom 13
+\i (00:29:28) cvf apply
+\i (00:29:30) cvf okay
+\i (00:29:33) setwindow pcb
+\i (00:29:33) enved 
+\i (00:29:34) generaledit 
+\i (00:29:36) setwindow form.prfedit
+\i (00:29:36) FORM prfedit treelist  Display 
+\i (00:29:37) FORM prfedit treelist  Cursor Display 
+\i (00:29:37) FORM prfedit cancel  
+\i (00:29:39) setwindow pcb
+\i (00:29:39) prmed 
+\i (00:29:42) setwindow form.prmedit
+\i (00:29:42) FORM prmedit display_enhance YES 
+\i (00:29:43) FORM prmedit done  
+\i (00:29:43) setwindow pcb
+\i (00:29:43) generaledit 
+\i (00:29:44) zoom in 1 
+\i (00:29:44) setwindow pcb
+\i (00:29:44) zoom in 1.645 -2.922
+\i (00:29:44) trapsize 78
+\i (00:29:44) zoom in 1 
+\i (00:29:44) setwindow pcb
+\i (00:29:44) zoom in -2.558 -2.921
+\i (00:29:44) trapsize 39
+\i (00:29:44) pick grid -2.464 -2.460
+\t (00:29:44) last pick:  -2.540  -2.540
+\i (00:29:45) zoom out 1 
+\i (00:29:45) setwindow pcb
+\i (00:29:45) zoom out -2.480 -2.476
+\i (00:29:45) trapsize 78
+\i (00:29:45) zoom out 1 
+\i (00:29:45) setwindow pcb
+\i (00:29:45) zoom out -2.402 -2.476
+\i (00:29:45) trapsize 156
+\i (00:29:45) zoom in 1 
+\i (00:29:45) setwindow pcb
+\i (00:29:45) zoom in 1.739 -1.288
+\i (00:29:45) trapsize 78
+\i (00:29:48) prmed 
+\i (00:29:58) setwindow form.prmedit
+\i (00:29:58) FORM prmedit display_plated_holes YES 
+\i (00:30:01) FORM prmedit done  
+\i (00:30:01) setwindow pcb
+\i (00:30:01) generaledit 
+\i (00:30:02) pick grid 2.067 -2.444
+\t (00:30:02) last pick:  2.540  -2.540
+\i (00:30:02) zoom out 1 
+\i (00:30:02) setwindow pcb
+\i (00:30:02) zoom out 2.083 -2.444
+\i (00:30:02) trapsize 156
+\i (00:30:03) zoom in 1 
+\i (00:30:03) setwindow pcb
+\i (00:30:03) zoom in 3.458 0.149
+\i (00:30:03) trapsize 78
+\i (00:30:03) zoom in 1 
+\i (00:30:03) setwindow pcb
+\i (00:30:03) zoom in -1.652 0.165
+\i (00:30:03) trapsize 39
+\i (00:30:04) pick grid 0.114 0.845
+\t (00:30:04) last pick:  0.000  0.000
+\i (00:30:04) pick grid 1.871 0.032
+\t (00:30:04) last pick:  2.540  0.000
+\i (00:30:05) zoom out 1 
+\i (00:30:05) setwindow pcb
+\i (00:30:05) zoom out 1.871 0.032
+\i (00:30:05) trapsize 78
+\i (00:30:07) color192 
+\i (00:30:07) setwindow cvf.dialog
+\i (00:30:07) cvf layer_mode
+\i (00:30:08) setwindow pcb
+\i (00:30:08) generaledit 
+\i (00:30:09) setwindow cvf.dialog
+\i (00:30:09) cvf layer_tree_item 'Stack-Up'
+\i (00:30:17) cvf select_color_cell 10
+\i (00:30:18) cvf layers_color stack-up flow_plan/top 11
+\i (00:30:20) cvf okay
+\i (00:30:23) setwindow pcb
+\i (00:30:23) prmed 
+\i (00:30:24) setwindow form.prmedit
+\i (00:30:24) FORM prmedit cancel  
+\i (00:30:24) setwindow pcb
+\i (00:30:24) generaledit 
+\i (00:30:27) color192 
+\i (00:30:27) setwindow cvf.dialog
+\i (00:30:27) cvf layer_mode
+\i (00:30:27) setwindow pcb
+\i (00:30:27) generaledit 
+\i (00:30:28) setwindow cvf.dialog
+\i (00:30:28) cvf layer_tree_item 'Stack-Up'
+\i (00:30:33) cvf select_color_cell 10
+\i (00:30:35) cvf layers_color stack-up via/top 11
+\i (00:30:38) cvf okay
+\i (00:30:42) setwindow pcb
+\i (00:30:42) prmed 
+\i (00:30:43) setwindow form.prmedit
+\i (00:30:43) FORM prmedit cancel  
+\i (00:30:43) setwindow pcb
+\i (00:30:43) generaledit 
+\i (00:30:47) pick grid 3.083 1.361
+\t (00:30:47) last pick:  2.540  2.540
+\i (00:30:54) padeditlib 
+\i (00:30:57) fillin "Bondpad_Wbu"
+\i (00:31:01) setwindow form.padedit
+\i (00:31:01) pse_exit
+\i (00:31:04) fillin "Hole145"
+\i (00:31:07) setwindow form.padedit
+\i (00:31:07) FORM padedit layers  
+\i (00:31:13) FORM padedit grid row end_layer 
+\i (00:31:18) FORM padedit parameters  
+\i (00:31:30) FORM padedit layers  
+\i (00:31:31) pse_exit
+\i (00:31:37) fillin "Holex2_54Y3"
+\i (00:31:40) setwindow form.padedit
+\i (00:31:40) FORM padedit parameters  
+\i (00:31:43) FORM padedit drill_fig Circle 
+\i (00:31:47) pse_exit
+\i (00:31:49) fillin "menu_cancel"
+\i (00:31:50) fillin no 
+\i (00:31:51) fillin "menu_cancel"
+\i (00:31:52) fillin yes 
+\i (00:31:52) setwindow pcb
+\i (00:31:52) generaledit 
+\i (00:31:53) pick grid 0.426 -0.014
+\t (00:31:53) last pick:  0.000  0.000
+\i (00:31:53) zoom out 1 
+\i (00:31:53) setwindow pcb
+\i (00:31:53) zoom out 2.051 0.205
+\i (00:31:53) trapsize 156
+\t (00:31:54) last pick:  10.833  0.204
+\w (00:31:54) WARNING(SPMHUT-40): Pick is outside the extent of the drawing ... pick again.
+\i (00:31:54) zoom in 1 
+\i (00:31:54) setwindow pcb
+\i (00:31:54) zoom in -0.136 -0.296
+\i (00:31:54) trapsize 78
+\i (00:31:55) pick grid -1.433 -0.264
+\t (00:31:55) last pick:  -2.540  0.000
+\i (00:31:55) pick grid 2.786 0.017
+\t (00:31:55) last pick:  2.540  0.000
+\i (00:32:01) pick grid -4.542 1.923
+\t (00:32:01) last pick:  -5.080  2.540
+\i (00:32:07) add pin 
+\i (00:32:13) add pin 
+\t (00:32:13) Exiting from Add Pin.
+\i (00:32:15) zoom out 1 
+\i (00:32:15) setwindow pcb
+\i (00:32:15) zoom out 6.395 2.486
+\i (00:32:15) trapsize 156
+\i (00:32:18) setwindow form.mini
+\i (00:32:18) FORM mini pad_browse  
+\i (00:32:23) fillin "Hole_X2_54_Y3"
+\w (00:32:23) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\e (00:32:23) ERROR(SPMHAP-3): Problem loading 'Hole_X2_54_Y3.pad'.
+\e (00:32:23) ERROR(SPMHUT-130): No match found for the Begin or End pad layer in the layout.
+\i (00:32:24) setwindow pcb
+\i (00:32:24) zoom in 1 
+\i (00:32:24) setwindow pcb
+\i (00:32:24) zoom in 7.770 -2.577
+\i (00:32:24) trapsize 78
+\i (00:32:27) setwindow form.mini
+\i (00:32:27) FORM mini pintype_mechanical YES 
+\i (00:32:28) FORM mini pintype_connect YES 
+\i (00:32:28) FORM mini pad_browse  
+\i (00:32:41) fillin "Holex2_54Y3"
+\t (00:32:41) Using 'HOLEX2_54Y3.pad'.
+\i (00:32:42) setwindow pcb
+\i (00:32:42) pick grid 3.833 -3.186
+\t (00:32:42) last pick:  5.080  -2.540
+\t (00:32:42) Using 'HOLEX2_54Y3.pad'.
+\i (00:32:43) prepopup 2.880 -4.092
+\i (00:32:45) cancel 
+\t (00:32:45) Exiting from Add Pin.
+\i (00:32:45) generaledit 
+\i (00:32:48) add pin 
+\i (00:32:51) setwindow form.mini
+\i (00:32:51) FORM mini pad_browse  
+\i (00:32:56) fillin "Hole_X2_54_Y3"
+\w (00:32:56) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\e (00:32:56) ERROR(SPMHAP-3): Problem loading 'Hole_X2_54_Y3.pad'.
+\e (00:32:56) ERROR(SPMHUT-130): No match found for the Begin or End pad layer in the layout.
+\i (00:32:58) FORM mini pad_browse  
+\i (00:33:03) fillin "Hole_X2_54_Y3x"
+\w (00:33:03) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\e (00:33:03) ERROR(SPMHAP-3): Problem loading 'Hole_X2_54_Y3x.pad'.
+\e (00:33:03) ERROR(SPMHUT-130): No match found for the Begin or End pad layer in the layout.
+\i (00:33:05) FORM mini pad_browse  
+\i (00:33:10) fillin "Holex2_54Y3"
+\t (00:33:10) Using 'HOLEX2_54Y3.pad'.
+\i (00:33:12) setwindow pcb
+\i (00:33:12) Esc 
+\w (00:33:12) WARNING(SPMHA1-314): Illegal event.
+\i (00:33:13) prepopup 6.942 -1.530
+\i (00:33:14) cancel 
+\t (00:33:14) Exiting from Add Pin.
+\i (00:33:14) generaledit 
+\i (00:33:16) add pin 
+\i (00:33:18) setwindow form.mini
+\i (00:33:18) FORM mini pad_browse  
+\i (00:33:25) fillin "Holex2_54Y3"
+\t (00:33:25) Using 'HOLEX2_54Y3.pad'.
+\i (00:33:26) setwindow pcb
+\i (00:33:26) pick grid 6.208 -0.936
+\t (00:33:26) last pick:  5.080  0.000
+\t (00:33:26) Using 'HOLEX2_54Y3.pad'.
+\i (00:33:27) pick grid 6.067 -1.311
+\t (00:33:27) last pick:  5.080  -2.540
+\t (00:33:27) Using 'HOLEX2_54Y3.pad'.
+\i (00:33:28) prepopup 5.989 -4.686
+\i (00:33:29) cancel 
+\t (00:33:29) Exiting from Add Pin.
+\i (00:33:29) generaledit 
+\i (00:33:29) zoom out 1 
+\i (00:33:29) setwindow pcb
+\i (00:33:29) zoom out 5.661 -2.264
+\i (00:33:29) trapsize 156
+\i (00:33:29) zoom out 1 
+\i (00:33:29) setwindow pcb
+\i (00:33:29) zoom out 18.052 -2.264
+\i (00:33:29) trapsize 312
+\i (00:33:30) zoom in 1 
+\i (00:33:30) setwindow pcb
+\i (00:33:30) zoom in 9.270 2.125
+\i (00:33:30) trapsize 156
+\i (00:33:30) zoom in 1 
+\i (00:33:30) setwindow pcb
+\i (00:33:30) zoom in 2.364 2.219
+\i (00:33:30) trapsize 78
+\i (00:33:30) zoom in 1 
+\i (00:33:30) setwindow pcb
+\i (00:33:30) zoom in -2.167 2.235
+\i (00:33:30) trapsize 39
+\i (00:33:31) zoom out 1 
+\i (00:33:31) setwindow pcb
+\i (00:33:31) zoom out -1.995 2.306
+\i (00:33:31) trapsize 78
+\i (00:33:32) zoom in 1 
+\i (00:33:32) setwindow pcb
+\i (00:33:32) zoom in -1.230 3.337
+\i (00:33:32) trapsize 39
+\i (00:33:32) roam start
+\i (00:33:32) roam x 16
+\i (00:33:32) roam y 80
+\i (00:33:32) roam y 80
+\i (00:33:33) roam y 48
+\i (00:33:33) roam y 16
+\i (00:33:33) roam y -32
+\i (00:33:33) roam y -32
+\i (00:33:33) roam y -32
+\i (00:33:33) roam y -32
+\i (00:33:33) roam y -32
+\i (00:33:33) roam y -16
+\i (00:33:33) roam x 16
+\i (00:33:33) roam y -16
+\i (00:33:33) roam y -16
+\i (00:33:33) roam y -16
+\i (00:33:33) roam y -16
+\i (00:33:34) roam y -16
+\i (00:33:34) roam x 16
+\i (00:33:34) roam y -16
+\i (00:33:34) roam y -32
+\i (00:33:34) roam y -16
+\i (00:33:34) roam y -32
+\i (00:33:34) roam y -16
+\i (00:33:34) roam y -16
+\i (00:33:34) roam y -16
+\i (00:33:34) roam y -32
+\i (00:33:34) roam x 16
+\i (00:33:34) roam y -48
+\i (00:33:34) roam y -16
+\i (00:33:34) roam end
+\i (00:33:35) zoom out 1 
+\i (00:33:35) setwindow pcb
+\i (00:33:35) zoom out 0.028 5.491
+\i (00:33:35) trapsize 78
+\i (00:33:35) zoom out 1 
+\i (00:33:35) setwindow pcb
+\i (00:33:35) zoom out 0.379 4.820
+\i (00:33:35) trapsize 156
+\i (00:33:36) zoom in 1 
+\i (00:33:36) setwindow pcb
+\i (00:33:36) zoom in 0.645 -2.336
+\i (00:33:36) trapsize 78
+\i (00:33:37) pick grid 0.004 3.414
+\t (00:33:37) last pick:  0.000  2.540
+\i (00:33:39) pick grid 3.098 2.742
+\t (00:33:39) last pick:  2.540  2.540
+\i (00:33:42) add pin 
+\i (00:33:44) setwindow form.mini
+\i (00:33:44) FORM mini pad_browse  
+\i (00:33:56) fillin "Holex1y1"
+\t (00:33:56) Using 'HOLEX1Y1.pad'.
+\i (00:33:57) setwindow pcb
+\i (00:33:57) pick grid 3.864 -0.508
+\t (00:33:57) last pick:  5.080  0.000
+\t (00:33:57) Using 'HOLEX1Y1.pad'.
+\i (00:33:58) prepopup 5.083 -2.320
+\i (00:33:59) done 
+\t (00:33:59) Exiting from Add Pin.
+\i (00:33:59) generaledit 
+\i (00:34:00) pick grid 5.270 -0.367
+\t (00:34:00) last pick:  5.080  0.000
+\i (00:34:00) zoom in 1 
+\i (00:34:00) setwindow pcb
+\i (00:34:00) zoom in 4.833 -1.633
+\i (00:34:00) trapsize 39
+\i (00:34:01) zoom out 1 
+\i (00:34:01) setwindow pcb
+\i (00:34:01) zoom out 4.825 -1.633
+\i (00:34:01) trapsize 78
+\i (00:34:02) pick grid -0.136 3.664
+\t (00:34:02) last pick:  0.000  2.540
+\i (00:34:02) pick grid 5.255 -0.758
+\t (00:34:02) last pick:  5.080  0.000
+\i (00:34:03) pick grid dbl 5.255 -0.758
+\t (00:34:03) last pick:  5.080  0.000
+\i (00:34:04) drag_start grid 5.505 -0.664
+\i (00:34:04) drag_stop 6.176 -1.914
+\i (00:34:05) drag_start grid 5.020 -0.289
+\i (00:34:05) drag_stop 5.583 -1.492
+\i (00:34:05) prepopup 5.161 -0.414
+\i (00:34:07) pop dyn_option_select @:@Delete 
+\i (00:34:07) delete 
+\t (00:34:07) Selected item not valid for current operation, ignored: Connect Pin "Holex1y1, 1"
+\i (00:34:07) generaledit 
+\i (00:34:08) pick grid 4.801 -0.711
+\t (00:34:08) last pick:  5.080  0.000
+\i (00:34:09) pick grid 5.161 -0.320
+\t (00:34:09) last pick:  5.080  0.000
+\i (00:34:09) prepopup 5.161 -0.320
+\i (00:34:10) pick grid 4.270 -0.586
+\t (00:34:10) last pick:  5.080  0.000
+\i (00:34:10) pick grid 4.880 -0.070
+\t (00:34:10) last pick:  5.080  0.000
+\i (00:34:10) prepopup 4.880 -0.070
+\i (00:34:12) pick grid 4.098 -0.305
+\t (00:34:12) last pick:  5.080  0.000
+\i (00:34:12) pick grid 3.567 -1.773
+\t (00:34:12) last pick:  2.540  -2.540
+\i (00:34:12) drag_start grid 6.911 -1.461
+\i (00:34:12) drag_stop 4.505 1.883
+\i (00:34:13) prepopup 5.380 -0.476
+\i (00:34:15) pick grid 4.223 -1.726
+\t (00:34:15) last pick:  5.080  -2.540
+\i (00:34:15) pick grid 5.083 0.133
+\t (00:34:15) last pick:  5.080  0.000
+\e (00:34:16) Command not found: Del
+\i (00:34:17) pick grid 4.567 -1.820
+\t (00:34:17) last pick:  5.080  -2.540
+\i (00:34:17) zoom out 1 
+\i (00:34:17) setwindow pcb
+\i (00:34:17) zoom out 4.520 -2.180
+\i (00:34:17) trapsize 156
+\i (00:34:18) pick grid 6.270 0.102
+\t (00:34:18) last pick:  5.080  0.000
+\i (00:34:18) pick grid 5.833 0.071
+\t (00:34:18) last pick:  5.080  0.000
+\i (00:34:22) delete 
+\t (00:34:22) Selected item not valid for current operation, ignored: Connect Pin "Holex1y1, 1"
+\t (00:34:22) No valid items selected for the current operation, exiting.
+\i (00:34:22) generaledit 
+\i (00:34:23) pick grid 7.645 2.258
+\t (00:34:23) last pick:  7.620  2.540
+\i (00:34:24) drag_start grid 6.676 -1.992
+\i (00:34:24) drag_stop 3.333 2.227
+\i (00:34:24) delete 
+\t (00:34:25) Selected item not valid for current operation, ignored: Connect Pin "Holex1y1, 1"
+\t (00:34:25) No valid items selected for the current operation, exiting.
+\i (00:34:25) generaledit 
+\i (00:34:26) delete 
+\t (00:34:26) Selected item not valid for current operation, ignored: Connect Pin "Holex1y1, 1"
+\t (00:34:26) No valid items selected for the current operation, exiting.
+\i (00:34:26) generaledit 
+\i (00:34:27) delete 
+\t (00:34:27) Selected item not valid for current operation, ignored: Connect Pin "Holex1y1, 1"
+\t (00:34:27) No valid items selected for the current operation, exiting.
+\i (00:34:27) generaledit 
+\i (00:34:27) delete 
+\t (00:34:27) Selected item not valid for current operation, ignored: Connect Pin "Holex1y1, 1"
+\t (00:34:27) No valid items selected for the current operation, exiting.
+\i (00:34:27) generaledit 
+\i (00:34:31) pick grid 4.770 -2.367
+\t (00:34:31) last pick:  5.080  -2.540
+\i (00:34:32) zoom in 1 
+\i (00:34:32) setwindow pcb
+\i (00:34:32) zoom in 4.770 -2.367
+\i (00:34:32) trapsize 78
+\i (00:34:33) pick grid 4.333 -0.163
+\t (00:34:33) last pick:  5.080  0.000
+\i (00:34:34) delete 
+\t (00:34:34) Selected item not valid for current operation, ignored: Connect Pin "Holex1y1, 1"
+\t (00:34:34) No valid items selected for the current operation, exiting.
+\i (00:34:34) generaledit 
+\i (00:34:36) pick grid 3.598 -1.679
+\t (00:34:36) last pick:  2.540  -2.540
+\i (00:34:36) zoom out 1 
+\i (00:34:36) setwindow pcb
+\i (00:34:36) zoom out 3.598 -1.679
+\i (00:34:36) trapsize 156
+\i (00:34:37) pick grid 5.958 0.228
+\t (00:34:37) last pick:  5.080  0.000
+\i (00:34:37) pick grid 5.520 0.196
+\t (00:34:37) last pick:  5.080  0.000
+\i (00:34:38) prepopup 5.520 0.196
+\i (00:34:39) pick grid 4.333 -2.710
+\t (00:34:39) last pick:  5.080  -2.540
+\i (00:34:40) pick grid 4.958 -0.272
+\t (00:34:40) last pick:  5.080  0.000
+\i (00:34:40) prepopup 5.208 -0.022
+\i (00:34:44) pop dyn_option_select 'Quick Utilities@:@Undo' 
+\i (00:34:44) undo 
+\i (00:34:44) trapsize 78
+\i (00:34:44) generaledit 
+\i (00:34:45) pick grid 4.458 -0.210
+\t (00:34:45) last pick:  5.080  0.000
+\i (00:34:46) delete 
+\t (00:34:46) Selected item not valid for current operation, ignored: Connect Pin "Holex1y1, 1"
+\t (00:34:46) No valid items selected for the current operation, exiting.
+\i (00:34:46) generaledit 
+\i (00:34:47) pick grid 4.130 -1.929
+\t (00:34:47) last pick:  5.080  -2.540
+\i (00:34:49) delete 
+\i (00:34:50) pick grid 5.411 -0.460
+\t (00:34:50) last pick:  5.080  0.000
+\t (00:34:50) Connect Pin "Holex1y1, 1"
+\i (00:34:51) pick grid 4.473 -0.085
+\t (00:34:51) last pick:  5.080  0.000
+\i (00:34:53) pick grid 4.630 -1.585
+\t (00:34:53) last pick:  5.080  -2.540
+\i (00:34:53) zoom out 1 
+\i (00:34:53) setwindow pcb
+\i (00:34:53) zoom out 4.473 -2.085
+\i (00:34:53) trapsize 156
+\i (00:34:54) delete 
+\i (00:34:55) pick grid 4.458 -0.585
+\t (00:34:55) last pick:  5.080  0.000
+\i (00:34:56) zoom in 1 
+\i (00:34:56) setwindow pcb
+\i (00:34:56) zoom in 5.020 -0.866
+\i (00:34:56) trapsize 78
+\i (00:34:56) pick grid 3.583 -0.053
+\t (00:34:56) last pick:  2.540  0.000
+\i (00:34:57) pick grid 3.583 -0.053
+\t (00:34:57) last pick:  2.540  0.000
+\i (00:34:57) pick grid dbl 3.583 -0.053
+\t (00:34:57) last pick:  2.540  0.000
+\i (00:34:57) prepopup 3.583 -0.053
+\i (00:34:59) pick grid 3.739 0.744
+\t (00:34:59) last pick:  2.540  0.000
+\i (00:34:59) delete 
+\i (00:35:00) pick grid 3.583 0.697
+\t (00:35:00) last pick:  2.540  0.000
+\i (00:35:00) zoom out 1 
+\i (00:35:00) setwindow pcb
+\i (00:35:00) zoom out 2.067 1.837
+\i (00:35:00) trapsize 156
+\i (00:35:00) zoom out 1 
+\i (00:35:00) setwindow pcb
+\i (00:35:00) zoom out 10.864 1.838
+\i (00:35:00) trapsize 312
+\i (00:35:01) zoom in 1 
+\i (00:35:01) setwindow pcb
+\i (00:35:01) zoom in 8.708 1.500
+\i (00:35:01) trapsize 156
+\i (00:35:01) zoom in 1 
+\i (00:35:01) setwindow pcb
+\i (00:35:01) zoom in 0.958 1.500
+\i (00:35:01) trapsize 78
+\i (00:35:09) padeditlib 
+\i (00:35:16) fillin "Holex1y1"
+\i (00:35:28) setwindow form.padedit
+\i (00:35:28) FORM padedit drill_fig Circle 
+\i (00:35:31) FORM padedit drill_fig Cross 
+\i (00:35:33) FORM padedit layers  
+\i (00:35:38) FORM padedit grid row default_internal 
+\i (00:35:39) FORM padedit grid row end_layer 
+\i (00:35:41) FORM padedit grid row default_internal 
+\i (00:35:42) FORM padedit grid row begin_layer 
+\i (00:35:46) FORM padedit width 1.800 
+\i (00:35:47) FORM padedit grid row soldermask_top 
+\i (00:35:48) FORM padedit grid row end_layer 
+\i (00:35:52) FORM padedit width 1.80 
+\i (00:35:54) FORM padedit parameters  
+\i (00:36:03) FORM padedit drill_width 3.000 
+\i (00:36:06) FORM padedit drill_width 2 
+\i (00:36:13) FORM padedit antipad_keepouts YES 
+\i (00:36:13) FORM padedit antipad_keepouts NO 
+\i (00:36:14) FORM padedit layers  
+\i (00:36:20) pse_exit
+\i (00:36:21) fillin "menu_cancel"
+\i (00:36:23) fillin yes 
+\i (00:36:23) setwindow pcb
+\i (00:36:23) generaledit 
+\i (00:36:23) pick grid 4.333 0.984
+\t (00:36:23) last pick:  5.080  0.000
+\i (00:36:24) zoom out 1 
+\i (00:36:24) setwindow pcb
+\i (00:36:24) zoom out 4.317 1.000
+\i (00:36:24) trapsize 156
+\i (00:36:24) zoom in 1 
+\i (00:36:24) setwindow pcb
+\i (00:36:24) zoom in 0.364 -1.344
+\i (00:36:24) trapsize 78
+\i (00:36:25) pick grid -0.417 -1.531
+\t (00:36:25) last pick:  0.000  -2.540
+\i (00:36:25) pick grid 3.098 -1.531
+\t (00:36:25) last pick:  2.540  -2.540
+\i (00:36:26) zoom out 1 
+\i (00:36:26) setwindow pcb
+\i (00:36:26) zoom out 2.973 -1.391
+\i (00:36:26) trapsize 156
+\i (00:36:28) new 
+\e (00:36:28) Do you want to save the changes you made to header4.dra?
+\i (00:36:30) fillin no 
+\i (00:36:41) newdrawfillin "header5.dra" "Package Symbol (Wizard)"
+\t (00:36:41) Starting new design...
+\i (00:36:41) trapsize 312
+\i (00:36:41) trapsize 312
+\i (00:36:41) package symbol wizard 
+\i (00:36:41) generaledit 
+\i (00:36:43) setwindow form.sym_wizard
+\i (00:36:43) FORM sym_wizard wiz_next  
+\i (00:36:45) FORM sym_wizard wiz_next  
+\i (00:36:46) FORM sym_wizard wiz_finish  
+\w (00:36:46) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\i (00:36:46) setwindow pcb
+\i (00:36:46) trapsize 12
+\t (00:36:46) Performing DRC...
+\t (00:36:46) No DRC errors detected.
+\w (00:36:46) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\w (00:36:46) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\w (00:36:46) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\w (00:36:46) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\i (00:36:46) trapsize 12
+\w (00:36:46) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\w (00:36:46) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\e (00:36:46) ERROR(SPMHUT-130): No match found for the Begin or End pad layer in the layout.
+   (00:36:46) *Error* axlDBGetPad: argument #1 should be any user-defined (other) type (type template = "ogg") - nil
+\i (00:36:48) setwindow form.sym_wizard
+\i (00:36:48) FORM sym_wizard wiz_finish  
+\w (00:36:48) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\w (00:36:48) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\w (00:36:48) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\w (00:36:48) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\w (00:36:48) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\w (00:36:48) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\e (00:36:48) ERROR(SPMHUT-130): No match found for the Begin or End pad layer in the layout.
+   (00:36:48) *Error* axlDBGetPad: argument #1 should be any user-defined (other) type (type template = "ogg") - nil
+\i (00:36:50) setwindow pcb
+\i (00:36:50) pick grid 131 -441
+\t (00:36:50) last pick:  100  -400
+\i (00:36:50) zoom in 1 
+\i (00:36:50) setwindow pcb
+\i (00:36:50) zoom in 131 -441
+\i (00:36:50) trapsize 6
+\i (00:36:50) zoom in 1 
+\i (00:36:50) setwindow pcb
+\i (00:36:50) zoom in -170 -440
+\i (00:36:50) trapsize 3
+\i (00:36:50) zoom in 1 
+\i (00:36:50) setwindow pcb
+\i (00:36:50) zoom in -131 -439
+\i (00:36:50) trapsize 2
+\i (00:36:51) zoom out 1 
+\i (00:36:51) setwindow pcb
+\i (00:36:51) zoom out -122 -438
+\i (00:36:51) trapsize 3
+\i (00:36:51) zoom out 1 
+\i (00:36:51) setwindow pcb
+\i (00:36:51) zoom out -122 -439
+\i (00:36:51) trapsize 6
+\i (00:36:52) setwindow form.sym_wizard
+\i (00:36:52) FORM sym_wizard wiz_back  
+\i (00:36:53) FORM sym_wizard wiz_back  
+\i (00:36:54) FORM sym_wizard default_pad_browse  
+\i (00:36:59) fillin "Holex1y1"
+\i (00:37:00) FORM sym_wizard pin1_pad_browse  
+\i (00:37:03) fillin "Holex1y1"
+\i (00:37:04) FORM sym_wizard wiz_next  
+\i (00:37:04) FORM sym_wizard wiz_next  
+\i (00:37:05) FORM sym_wizard wiz_finish  
+\w (00:37:05) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\i (00:37:05) setwindow pcb
+\i (00:37:05) trapsize 6
+\i (00:37:05) trapsize 6
+\i (00:37:05) trapsize 6
+\t (00:37:05) Creating package symbol 'D:/我的项目/指纹接口/header5.psm'.
+\t (00:37:05) Starting Create symbol...
+\e (00:37:05) ERROR(SPMHGE-268): create_sym had errors, use Viewlog to review the log file.
+\e (00:37:05) ERROR(SPMHGE-7): Error(s) occurred, check logfile.
+\i (00:37:05) generaledit 
+\i (00:37:09) setwindow text
+\i (00:37:09) close 
+\i (00:37:09) setwindow pcb
+\i (00:37:09) pick grid 251 -449
+\t (00:37:09) last pick:  300  -400
+\i (00:37:10) zoom in 1 
+\i (00:37:10) setwindow pcb
+\i (00:37:10) zoom in 127 -395
+\i (00:37:10) trapsize 3
+\i (00:37:10) zoom in 1 
+\i (00:37:10) setwindow pcb
+\i (00:37:10) zoom in -75 -394
+\i (00:37:10) trapsize 2
+\i (00:37:10) pick grid -8 -362
+\t (00:37:10) last pick:  0  -400
+\i (00:37:11) pick grid 68 -365
+\t (00:37:11) last pick:  100  -400
+\i (00:37:11) zoom out 1 
+\i (00:37:11) setwindow pcb
+\i (00:37:11) zoom out 68 -365
+\i (00:37:11) trapsize 3
+\i (00:37:11) zoom out 1 
+\i (00:37:11) setwindow pcb
+\i (00:37:11) zoom out 210 -364
+\i (00:37:11) trapsize 6
+\i (00:37:11) zoom out 1 
+\i (00:37:11) setwindow pcb
+\i (00:37:11) zoom out 698 -365
+\i (00:37:11) trapsize 12
+\i (00:37:14) zoom in 1 
+\i (00:37:14) setwindow pcb
+\i (00:37:14) zoom in -15 -417
+\i (00:37:14) trapsize 6
+\i (00:37:14) zoom in 1 
+\i (00:37:14) setwindow pcb
+\i (00:37:14) zoom in -146 -417
+\i (00:37:14) trapsize 3
+\i (00:37:15) zoom in 1 
+\i (00:37:15) setwindow pcb
+\i (00:37:15) zoom in -114 -416
+\i (00:37:15) trapsize 2
+\i (00:37:15) zoom in 1 
+\i (00:37:15) setwindow pcb
+\i (00:37:15) zoom in -114 -416
+\i (00:37:15) trapsize 1
+\i (00:37:15) zoom out 1 
+\i (00:37:15) setwindow pcb
+\i (00:37:15) zoom out -117 -421
+\i (00:37:15) trapsize 2
+\i (00:37:15) zoom out 1 
+\i (00:37:15) setwindow pcb
+\i (00:37:15) zoom out -116 -420
+\i (00:37:15) trapsize 3
+\i (00:37:15) zoom out 1 
+\i (00:37:15) setwindow pcb
+\i (00:37:15) zoom out -124 -421
+\i (00:37:15) trapsize 6
+\i (00:37:16) roam start
+\i (00:37:16) roam y -32
+\i (00:37:16) roam y 48
+\i (00:37:16) roam y 48
+\i (00:37:16) roam y 32
+\i (00:37:16) roam y -64
+\i (00:37:16) roam y -112
+\i (00:37:16) roam y -64
+\i (00:37:17) roam y -16
+\i (00:37:17) roam end
+\i (00:37:18) zoom in 1 
+\i (00:37:18) setwindow pcb
+\i (00:37:18) zoom in -2 -4
+\i (00:37:18) trapsize 3
+\i (00:37:18) pick grid 0 -26
+\t (00:37:18) last pick:  0  0
+\i (00:37:19) pick grid 149 -86
+\t (00:37:19) last pick:  100  -100
+\i (00:37:19) zoom out 1 
+\i (00:37:19) setwindow pcb
+\i (00:37:19) zoom out 125 -106
+\i (00:37:19) trapsize 6
+\i (00:37:19) zoom out 1 
+\i (00:37:19) setwindow pcb
+\i (00:37:19) zoom out 528 -107
+\i (00:37:19) trapsize 12
+\i (00:37:20) roam start
+\i (00:37:20) roam y -48
+\i (00:37:20) roam y -32
+\i (00:37:21) roam y 80
+\i (00:37:21) roam y 48
+\i (00:37:21) roam y 48
+\i (00:37:21) roam y 16
+\i (00:37:21) roam y 32
+\i (00:37:21) roam y 16
+\i (00:37:21) roam end
+\i (00:37:21) zoom in 1 
+\i (00:37:21) setwindow pcb
+\i (00:37:21) zoom in 64 -896
+\i (00:37:21) trapsize 6
+\i (00:37:22) pick grid 11 -860
+\t (00:37:22) last pick:  0  -900
+\i (00:37:23) pick grid 79 -922
+\t (00:37:23) last pick:  100  -900
+\i (00:37:23) drag_start grid -2 -685
+\i (00:37:24) drag_stop 190 -706
+\i (00:37:25) zoom out 1 
+\i (00:37:25) setwindow pcb
+\i (00:37:25) zoom out -50 -717
+\i (00:37:25) trapsize 12
+\i (00:37:25) zoom out 1 
+\i (00:37:25) setwindow pcb
+\i (00:37:25) zoom out 177 -717
+\i (00:37:25) trapsize 21
+\i (00:37:26) zoom in 1 
+\i (00:37:26) setwindow pcb
+\i (00:37:26) zoom in 54 -474
+\i (00:37:26) trapsize 11
+\i (00:37:27) pick grid 173 -356
+\t (00:37:27) last pick:  200  -400
+\i (00:37:27) pick grid 84 -446
+\t (00:37:27) last pick:  100  -400
+\i (00:37:28) pick grid 46 -527
+\t (00:37:28) last pick:  0  -500
+\t (00:37:28) last pick:  399  -614
+\w (00:37:28) WARNING(SPMHUT-40): Pick is outside the extent of the drawing ... pick again.
+\i (00:37:29) pick grid 220 -686
+\t (00:37:29) last pick:  200  -700
+\i (00:37:29) drag_start grid 225 -761
+\i (00:37:29) roam y -16
+\i (00:37:29) drag_stop -191 185
+\i (00:37:30) pick grid -148 -16
+\t (00:37:30) last pick:  -100  0
+\i (00:37:30) drag_start grid -240 187
+\i (00:37:31) drag_stop 433 -961
+\i (00:37:31) pick grid 369 -804
+\t (00:37:31) last pick:  400  -800
+\i (00:37:36) color192 
+\i (00:37:36) setwindow cvf.dialog
+\i (00:37:36) cvf layer_mode
+\i (00:37:36) setwindow pcb
+\i (00:37:36) generaledit 
+\i (00:37:39) setwindow cvf.dialog
+\i (00:37:39) cvf layer_tree_item 'Display'
+\i (00:37:42) cvf layer_tree_item 'Stack-Up'
+\i (00:37:44) cvf select_color_cell 0
+\i (00:37:45) cvf layers_color stack-up stack-up/top 1
+\i (00:37:46) cvf layers_color stack-up stack-up/bottom 1
+\i (00:37:48) cvf select_color_cell 48
+\i (00:37:49) cvf layers_color stack-up stack-up/bottom 49
+\i (00:37:51) cvf okay
+\t (00:37:52) last pick:  812  -701
+\w (00:37:52) WARNING(SPMHUT-40): Pick is outside the extent of the drawing ... pick again.
+\i (00:37:52) setwindow pcb
+\i (00:37:52) zoom in 1 
+\i (00:37:52) setwindow pcb
+\i (00:37:52) zoom in 231 -576
+\i (00:37:52) trapsize 5
+\i (00:37:52) zoom in 1 
+\i (00:37:52) setwindow pcb
+\i (00:37:52) zoom in -24 -576
+\i (00:37:52) trapsize 3
+\i (00:37:54) pick grid 57 -586
+\t (00:37:54) last pick:  100  -600
+\i (00:37:54) pick grid 91 -574
+\t (00:37:54) last pick:  100  -600
+\i (00:37:54) zoom out 1 
+\i (00:37:54) setwindow pcb
+\i (00:37:54) zoom out 91 -574
+\i (00:37:54) trapsize 5
+\i (00:37:56) prmed 
+\i (00:38:00) setwindow form.prmedit
+\i (00:38:00) FORM prmedit view_grids_button  
+\t (00:38:00) Spacing fields allow simple equations to aid calculations; prefix with =
+\i (00:38:02) setwindow form.grid
+\i (00:38:02) FORM grid done  
+\i (00:38:02) setwindow form.prmedit
+\i (00:38:02) FORM prmedit cancel  
+\i (00:38:03) setwindow pcb
+\i (00:38:03) generaledit 
+\i (00:41:44) color192 
+\i (00:41:44) setwindow cvf.dialog
+\i (00:41:44) cvf layer_mode
+\i (00:41:44) setwindow pcb
+\i (00:41:44) generaledit 
+\i (00:41:51) setwindow cvf.dialog
+\i (00:41:51) cvf layer_tree_item 'Conductor' 'Stack-Up'
+\i (00:41:52) cvf layer_tree_item 'Stack-Up'
+\i (00:42:03) cvf layer_tree_item 'Flow Plan' 'Stack-Up'
+\i (00:42:04) cvf layer_tree_item 'Non-Conductor' 'Stack-Up'
+\i (00:42:06) cvf layer_tree_item 'Conductor' 'Stack-Up'
+\i (00:42:09) cvf layer_tree_item 'Etch' 'Conductor'
+\i (00:42:10) cvf layer_tree_item 'Via' 'Conductor'
+\i (00:42:11) cvf layer_tree_item 'Conductor' 'Stack-Up'
+\i (00:42:33) cvf layer_tree_item 'Drc' 'Non-Conductor'
+\i (00:42:36) cvf layer_tree_item 'Conductor' 'Stack-Up'
+\i (00:42:40) cvf layer_tree_item 'Stack-Up'
+\i (00:42:41) cvf layer_tree_item 'Board Geometry'
+\i (00:42:42) cvf layer_tree_item 'Package Geometry'
+\i (00:43:03) cvf layers_visible package_geometry/all_row TRUE
+\i (00:43:03) cvf layers_visible package_geometry/all_row FALSE
+\i (00:43:14) cvf layers_color package_geometry/pad_stack_name 1
+\i (00:43:15) cvf select_color_cell 16
+\i (00:43:16) cvf layers_color package_geometry/pad_stack_name 17
+\i (00:43:18) cvf layers_color package_geometry/display_top 17
+\i (00:43:25) cvf layers_color package_geometry/assembly_top 17
+\i (00:43:26) cvf okay
+\i (00:43:26) setwindow pcb
+\i (00:43:26) pick grid 311 -640
+\t (00:43:26) last pick:  300  -600
+\i (00:43:27) zoom out 1 
+\i (00:43:27) setwindow pcb
+\i (00:43:27) zoom out 279 -588
+\i (00:43:27) trapsize 11
+\i (00:43:27) zoom out 1 
+\i (00:43:27) setwindow pcb
+\i (00:43:27) zoom out 835 -587
+\i (00:43:27) trapsize 21
+\i (00:43:27) zoom in 1 
+\i (00:43:27) setwindow pcb
+\i (00:43:27) zoom in 173 -678
+\i (00:43:27) trapsize 11
+\i (00:43:27) zoom in 1 
+\i (00:43:27) setwindow pcb
+\i (00:43:27) zoom in -52 -678
+\i (00:43:27) trapsize 5
+\i (00:43:30) color192 
+\i (00:43:30) setwindow cvf.dialog
+\i (00:43:30) cvf layer_mode
+\i (00:43:30) setwindow pcb
+\i (00:43:30) generaledit 
+\i (00:43:32) setwindow cvf.dialog
+\i (00:43:32) cvf layers_visible board_geometry/all_row TRUE
+\i (00:43:32) cvf layers_visible board_geometry/all_row FALSE
+\i (00:43:34) cvf select_color_cell 16
+\i (00:43:38) cvf layer_tree_item 'Package Geometry'
+\i (00:43:41) cvf layers_visible package_geometry/all_row TRUE
+\i (00:43:42) cvf okay
+\i (00:43:43) setwindow pcb
+\i (00:43:43) pick grid 239 -800
+\t (00:43:43) last pick:  200  -800
+\i (00:43:43) zoom out 1 
+\i (00:43:43) setwindow pcb
+\i (00:43:43) zoom out -7 -611
+\i (00:43:43) trapsize 11
+\i (00:43:44) roam start
+\i (00:43:44) roam y 80
+\i (00:43:45) roam y 48
+\i (00:43:45) roam y 64
+\i (00:43:45) roam y 16
+\i (00:43:45) roam y -64
+\i (00:43:45) roam y -80
+\i (00:43:45) roam y -64
+\i (00:43:45) roam y -48
+\i (00:43:45) roam y -16
+\i (00:43:45) roam y -16
+\i (00:43:45) roam y -16
+\i (00:43:45) roam end
+\i (00:43:46) zoom in 1 
+\i (00:43:46) setwindow pcb
+\i (00:43:46) zoom in -12 -279
+\i (00:43:46) trapsize 5
+\i (00:43:46) zoom in 1 
+\i (00:43:46) setwindow pcb
+\i (00:43:46) zoom in -145 -279
+\i (00:43:46) trapsize 3
+\i (00:43:46) zoom in 1 
+\i (00:43:46) setwindow pcb
+\i (00:43:46) zoom in -97 -309
+\i (00:43:46) trapsize 1
+\i (00:43:46) zoom in 1 
+\i (00:43:46) setwindow pcb
+\i (00:43:46) zoom in -96 -309
+\i (00:43:46) trapsize 1
+\i (00:43:46) zoom out 1 
+\i (00:43:46) setwindow pcb
+\i (00:43:46) zoom out -45 -315
+\i (00:43:46) trapsize 1
+\i (00:43:47) zoom out 1 
+\i (00:43:47) setwindow pcb
+\i (00:43:47) zoom out -45 -315
+\i (00:43:47) trapsize 3
+\i (00:43:47) zoom out 1 
+\i (00:43:47) setwindow pcb
+\i (00:43:47) zoom out 54 -314
+\i (00:43:47) trapsize 5
+\i (00:43:48) roam start
+\i (00:43:48) roam y 16
+\i (00:43:49) roam end
+\i (00:43:49) zoom out 1 
+\i (00:43:49) setwindow pcb
+\i (00:43:49) zoom out 306 -392
+\i (00:43:49) trapsize 11
+\i (00:43:49) zoom out 1 
+\i (00:43:49) setwindow pcb
+\i (00:43:49) zoom out 891 -406
+\i (00:43:49) trapsize 21
+\i (00:43:49) zoom in 1 
+\i (00:43:49) setwindow pcb
+\i (00:43:49) zoom in 105 -853
+\i (00:43:49) trapsize 11
+\i (00:43:49) zoom in 1 
+\i (00:43:49) setwindow pcb
+\i (00:43:49) zoom in -86 -851
+\i (00:43:49) trapsize 5
+\i (00:43:50) zoom in 1 
+\i (00:43:50) setwindow pcb
+\i (00:43:50) zoom in 5 -850
+\i (00:43:50) trapsize 3
+\i (00:43:51) pick grid -19 -851
+\t (00:43:51) last pick:  0  -900
+\i (00:43:51) pick grid -24 -876
+\t (00:43:51) last pick:  0  -900
+\i (00:43:52) zoom out 1 
+\i (00:43:52) setwindow pcb
+\i (00:43:52) zoom out 30 -857
+\i (00:43:52) trapsize 5
+\i (00:43:52) roam start
+\i (00:43:53) roam y 64
+\i (00:43:53) roam y 32
+\i (00:43:53) roam y -80
+\i (00:43:53) roam y -144
+\i (00:43:53) roam y -16
+\i (00:43:53) roam y -32
+\i (00:43:53) roam y -48
+\i (00:43:53) roam y -16
+\i (00:43:54) roam y -16
+\i (00:43:54) roam end
+\i (00:43:54) zoom out 1 
+\i (00:43:54) setwindow pcb
+\i (00:43:54) zoom out 215 -290
+\i (00:43:54) trapsize 11
+\i (00:43:55) zoom in 1 
+\i (00:43:55) setwindow pcb
+\i (00:43:55) zoom in 167 -485
+\i (00:43:55) trapsize 5
+\i (00:43:55) roam start
+\i (00:43:55) roam y -48
+\i (00:43:56) roam y -32
+\i (00:43:56) roam y -64
+\i (00:43:56) roam y -48
+\i (00:43:56) roam y -32
+\i (00:43:56) roam end
+\i (00:44:00) color192 
+\i (00:44:00) setwindow cvf.dialog
+\i (00:44:00) cvf layer_mode
+\i (00:44:00) setwindow pcb
+\i (00:44:00) generaledit 
+\i (00:44:02) setwindow cvf.dialog
+\i (00:44:02) cvf layer_tree_item 'Areas'
+\i (00:44:02) cvf layer_tree_item 'Package Geometry'
+\i (00:44:04) cvf layer_tree_item 'Board Geometry'
+\i (00:44:05) cvf layers_visible board_geometry/all_row TRUE
+\i (00:44:07) cvf okay
+\i (00:44:11) setwindow pcb
+\i (00:44:11) color192 
+\i (00:44:11) setwindow cvf.dialog
+\i (00:44:11) cvf layer_mode
+\i (00:44:11) setwindow pcb
+\i (00:44:11) generaledit 
+\i (00:44:15) setwindow cvf.dialog
+\i (00:44:15) cvf layer_tree_item 'Package Geometry'
+\i (00:44:19) cvf layers_color package_geometry/pastemask_top 1
+\i (00:44:20) cvf layers_color package_geometry/pad_stack_name 1
+\i (00:44:21) cvf select_color_cell 16
+\i (00:44:22) cvf layers_color package_geometry/pad_stack_name 17
+\i (00:44:22) cvf layers_color package_geometry/pastemask_top 17
+\i (00:44:28) cvf layers_color package_geometry/pin_number 17
+\i (00:44:33) cvf layers_color package_geometry/soldermask_top 17
+\i (00:44:34) cvf layers_color package_geometry/silkscreen_top 17
+\i (00:44:35) cvf layers_color package_geometry/place_bound_bottom 17
+\i (00:44:37) cvf layers_color package_geometry/place_bound_bottom 17
+\i (00:44:37) cvf layers_color package_geometry/place_bound_bottom 17
+\i (00:44:37) cvf layers_color package_geometry/place_bound_top 17
+\i (00:44:38) cvf layers_color package_geometry/place_bound_bottom 17
+\i (00:44:39) cvf okay
+\i (00:44:40) setwindow pcb
+\i (00:44:40) pick grid 250 -569
+\t (00:44:40) last pick:  300  -600
+\i (00:44:41) zoom out 1 
+\i (00:44:41) setwindow pcb
+\i (00:44:41) zoom out 206 -419
+\i (00:44:41) trapsize 11
+\i (00:44:41) roam start
+\i (00:44:42) roam end
+\i (00:44:42) zoom in 1 
+\i (00:44:42) setwindow pcb
+\i (00:44:42) zoom in 26 -465
+\i (00:44:42) trapsize 5
+\i (00:44:42) zoom in 1 
+\i (00:44:42) setwindow pcb
+\i (00:44:42) zoom in -42 -457
+\i (00:44:42) trapsize 3
+\i (00:44:43) pick grid 1 -475
+\t (00:44:43) last pick:  0  -500
+\i (00:44:44) pick grid 138 -456
+\t (00:44:44) last pick:  100  -500
+\i (00:44:45) drag_start grid 42 -448
+\i (00:44:45) move 
+\t (00:44:45) last pick:  0  -400
+\t (00:44:45) Element has no origin, using pick.
+\t (00:44:45) Pick new location for the element(s).
+\i (00:44:45) drag_stop grid 117 -448
+\i (00:44:45) generaledit 
+\i (00:44:46) zoom out 1 
+\i (00:44:46) setwindow pcb
+\i (00:44:46) zoom out 152 -415
+\i (00:44:46) trapsize 5
+\t (00:44:46) last pick:  508  -419
+\w (00:44:46) WARNING(SPMHUT-40): Pick is outside the extent of the drawing ... pick again.
+\i (00:44:47) zoom out 1 
+\i (00:44:47) setwindow pcb
+\i (00:44:47) zoom out 481 -428
+\i (00:44:47) trapsize 11
+\i (00:44:47) drag_start grid 126 -544
+\i (00:44:47) move 
+\t (00:44:47) last pick:  100  -500
+\t (00:44:47) Element has no origin, using pick.
+\t (00:44:47) Pick new location for the element(s).
+\i (00:44:48) drag_stop grid 378 -627
+\e (00:44:48) ERROR(SPMHA1-71): Rectangle is outside of the extents.
+\i (00:44:48) pick grid 378 -627
+\t (00:44:48) last pick:  400  -600
+\e (00:44:48) ERROR(SPMHA1-71): Rectangle is outside of the extents.
+\i (00:44:50) pick grid 39 -461
+\t (00:44:50) last pick:  0  -500
+\i (00:44:50) generaledit 
+\t (00:44:50) last pick:  412  -450
+\w (00:44:50) WARNING(SPMHUT-40): Pick is outside the extent of the drawing ... pick again.
+\i (00:44:51) zoom in 1 
+\i (00:44:51) setwindow pcb
+\i (00:44:51) zoom in -144 -599
+\i (00:44:51) trapsize 5
+\i (00:44:52) zoom out 1 
+\i (00:44:52) setwindow pcb
+\i (00:44:52) zoom out -60 -744
+\i (00:44:52) trapsize 11
+\i (00:44:53) roam start
+\i (00:44:53) roam y -80
+\i (00:44:53) roam y -16
+\i (00:44:53) roam y -16
+\i (00:44:53) roam end
+\i (00:44:54) zoom in 1 
+\i (00:44:54) setwindow pcb
+\i (00:44:54) zoom in -6 -6
+\i (00:44:54) trapsize 5
+\i (00:44:54) zoom in 1 
+\i (00:44:54) setwindow pcb
+\i (00:44:54) zoom in -142 -6
+\i (00:44:54) trapsize 3
+\i (00:44:54) zoom in 1 
+\i (00:44:54) setwindow pcb
+\i (00:44:54) zoom in -80 -35
+\i (00:44:54) trapsize 1
+\i (00:44:55) roam start
+\i (00:44:55) roam y 64
+\i (00:44:55) roam x -16
+\i (00:44:55) roam y 48
+\i (00:44:55) roam x -16
+\i (00:44:55) roam y 64
+\i (00:44:55) roam x -32
+\i (00:44:55) roam y 80
+\i (00:44:55) roam x -32
+\i (00:44:55) roam y 96
+\i (00:44:55) roam x -16
+\i (00:44:55) roam y 64
+\i (00:44:55) roam y 32
+\i (00:44:55) roam y 32
+\i (00:44:55) roam y 48
+\i (00:44:55) roam y 32
+\i (00:44:56) roam y 32
+\i (00:44:56) zoom out 1 
+\i (00:44:56) setwindow pcb
+\i (00:44:56) zoom out -104 -197
+\i (00:44:56) trapsize 3
+\i (00:44:56) roam end
+\i (00:44:56) zoom out 1 
+\i (00:44:56) setwindow pcb
+\i (00:44:56) zoom out -104 -192
+\i (00:44:56) trapsize 5
+\i (00:44:56) pick grid 282 -82
+\t (00:44:56) last pick:  300  -100
+\i (00:44:58) roam start
+\i (00:44:58) roam y 16
+\i (00:44:58) roam y 80
+\i (00:44:58) roam y 96
+\i (00:44:58) roam y 16
+\i (00:44:58) roam y 32
+\i (00:44:58) roam y 32
+\i (00:44:59) roam y 32
+\i (00:44:59) roam end
+\i (00:45:00) drag_start grid 130 -411
+\i (00:45:00) move 
+\t (00:45:00) last pick:  71  -413
+\t (00:45:00) Pick new location for the element(s).
+\i (00:45:00) drag_stop grid 286 -416
+\e (00:45:00) ERROR(SPMHA1-73): Text line is outside of the extents.
+\i (00:45:01) pick grid 152 -422
+\t (00:45:01) last pick:  200  -400
+\i (00:45:01) generaledit 
+\i (00:45:02) drag_start grid 103 -398
+\i (00:45:02) move 
+\t (00:45:02) last pick:  71  -413
+\t (00:45:02) Pick new location for the element(s).
+\i (00:45:02) drag_stop grid 192 -503
+\i (00:45:02) generaledit 
+\i (00:45:02) pick grid 206 -504
+\t (00:45:02) last pick:  200  -500
+\i (00:45:03) undo 
+\i (00:45:03) trapsize 5
+\i (00:45:03) generaledit 
+\i (00:45:03) undo 
+\i (00:45:03) trapsize 5
+\i (00:45:03) generaledit 
+\i (00:45:04) undo 
+\i (00:45:04) trapsize 11
+\i (00:45:04) generaledit 
+\i (00:45:05) undo 
+\i (00:45:05) trapsize 3
+\i (00:45:05) generaledit 
+\i (00:45:06) pick grid 194 -416
+\t (00:45:06) last pick:  200  -400
+\i (00:45:06) zoom out 1 
+\i (00:45:06) setwindow pcb
+\i (00:45:06) zoom out 207 -447
+\i (00:45:06) trapsize 5
+\i (00:45:08) pick grid 22 -397
+\t (00:45:08) last pick:  0  -400
+\i (00:45:09) drag_start grid 34 -407
+\i (00:45:09) move 
+\t (00:45:09) last pick:  0  -413
+\t (00:45:09) Pick new location for the element(s).
+\i (00:45:09) drag_stop grid 196 -482
+\i (00:45:09) generaledit 
+\i (00:45:11) delete 
+\i (00:45:11) generaledit 
+\t (00:45:11) last pick:  381  -438
+\w (00:45:11) WARNING(SPMHUT-40): Pick is outside the extent of the drawing ... pick again.
+\i (00:45:12) pick grid 103 -406
+\t (00:45:12) last pick:  100  -400
+\i (00:45:12) delete 
+\i (00:45:13) pick grid 119 -406
+\t (00:45:13) last pick:  100  -400
+\t (00:45:13) Text "J*"
+\i (00:45:13) delete 
+\i (00:45:14) pick grid 329 -453
+\t (00:45:14) last pick:  300  -500
+\i (00:45:15) pick grid 12 -392
+\t (00:45:15) last pick:  0  -400
+\t (00:45:15) Text "J*"
+\i (00:45:15) delete 
+\i (00:45:16) pick grid 205 -422
+\t (00:45:16) last pick:  200  -400
+\i (00:45:16) pick grid 134 -395
+\t (00:45:16) last pick:  100  -400
+\t (00:45:16) Text "J*"
+\i (00:45:17) delete 
+\i (00:45:18) pick grid 192 -471
+\t (00:45:18) last pick:  200  -500
+\i (00:45:18) pick grid 209 -553
+\t (00:45:18) last pick:  200  -600
+\i (00:45:19) delete 
+\i (00:45:20) pick grid 143 -406
+\t (00:45:20) last pick:  100  -400
+\t (00:45:20) Text "J*"
+\i (00:45:21) delete 
+\i (00:45:21) pick grid 186 -507
+\t (00:45:21) last pick:  200  -500
+\i (00:45:22) pick grid 25 -403
+\t (00:45:22) last pick:  0  -400
+\t (00:45:22) Text "J*"
+\i (00:45:23) delete 
+\i (00:45:23) pick grid 150 -445
+\t (00:45:23) last pick:  200  -400
+\i (00:45:24) zoom out 1 
+\i (00:45:24) setwindow pcb
+\i (00:45:24) zoom out 164 -482
+\i (00:45:24) trapsize 11
+\i (00:45:25) zoom in 1 
+\i (00:45:25) setwindow pcb
+\i (00:45:25) zoom in -110 -664
+\i (00:45:25) trapsize 5
+\i (00:45:25) zoom in 1 
+\i (00:45:25) setwindow pcb
+\i (00:45:25) zoom in -111 -647
+\i (00:45:25) trapsize 3
+\i (00:45:49) pick grid 229 -603
+\t (00:45:49) last pick:  200  -600
+\i (00:45:50) pick grid 10 -559
+\t (00:45:50) last pick:  0  -600
+\t (00:45:50) Filled Rectangle "Package Geometry/Place_Bound_Top"
+\i (00:45:51) pick grid 117 -555
+\t (00:45:51) last pick:  100  -600
+\i (00:45:55) pick grid 87 -502
+\t (00:45:55) last pick:  100  -500
+\i (00:45:56) pick grid 57 -509
+\t (00:45:56) last pick:  100  -500
+\t (00:45:56) Filled Rectangle "Package Geometry/Dfa_Bound_Top"
+\i (00:45:56) pick grid 148 -509
+\t (00:45:56) last pick:  100  -500
+\i (00:45:58) zoom out 1 
+\i (00:45:58) setwindow pcb
+\i (00:45:58) zoom out -139 -502
+\i (00:45:58) trapsize 5
+\i (00:45:58) zoom out 1 
+\i (00:45:58) setwindow pcb
+\i (00:45:58) zoom out -81 -627
+\i (00:45:58) trapsize 11
+\i (00:45:59) zoom in 1 
+\i (00:45:59) setwindow pcb
+\i (00:45:59) zoom in -82 -351
+\i (00:45:59) trapsize 5
+\i (00:45:59) zoom in 1 
+\i (00:45:59) setwindow pcb
+\i (00:45:59) zoom in -180 -351
+\i (00:45:59) trapsize 3
+\i (00:46:00) pick grid -54 -407
+\t (00:46:00) last pick:  -100  -400
+\i (00:46:00) undo 
+\i (00:46:00) trapsize 5
+\i (00:46:00) generaledit 
+\i (00:46:01) pick grid -23 -426
+\t (00:46:01) last pick:  0  -400
+\i (00:46:02) pick grid 155 -415
+\t (00:46:02) last pick:  200  -400
+\i (00:46:03) pick grid 56 -415
+\t (00:46:03) last pick:  100  -400
+\i (00:46:03) zoom out 1 
+\i (00:46:03) setwindow pcb
+\i (00:46:03) zoom out 105 -404
+\i (00:46:03) trapsize 11
+\i (00:46:03) zoom out 1 
+\i (00:46:03) setwindow pcb
+\i (00:46:03) zoom out 488 -404
+\i (00:46:03) trapsize 21
+\i (00:46:04) zoom in 1 
+\i (00:46:04) setwindow pcb
+\i (00:46:04) zoom in 186 -836
+\i (00:46:04) trapsize 11
+\i (00:46:04) zoom in 1 
+\i (00:46:04) setwindow pcb
+\i (00:46:04) zoom in -46 -835
+\i (00:46:04) trapsize 5
+\i (00:46:05) pick grid 1 -882
+\t (00:46:05) last pick:  0  -900
+\i (00:46:05) drag_start grid 5 -759
+\i (00:46:05) move 
+\t (00:46:05) last pick:  0  -800
+\t (00:46:05) Element has no origin, using pick.
+\t (00:46:05) Pick new location for the element(s).
+\i (00:46:05) drag_stop grid 218 -750
+\i (00:46:05) generaledit 
+\i (00:46:06) pick grid 180 -732
+\t (00:46:06) last pick:  200  -700
+\i (00:46:07) pick grid 178 -702
+\t (00:46:07) last pick:  200  -700
+\i (00:46:08) undo 
+\i (00:46:08) trapsize 5
+\i (00:46:08) generaledit 
+\i (00:46:09) pick grid 45 -774
+\t (00:46:09) last pick:  0  -800
+\i (00:46:09) zoom in 1 
+\i (00:46:09) setwindow pcb
+\i (00:46:09) zoom in 64 -742
+\i (00:46:09) trapsize 3
+\i (00:46:10) zoom out 1 
+\i (00:46:10) setwindow pcb
+\i (00:46:10) zoom out -52 -743
+\i (00:46:10) trapsize 5
+\i (00:46:10) zoom out 1 
+\i (00:46:10) setwindow pcb
+\i (00:46:10) zoom out 58 -717
+\i (00:46:10) trapsize 11
+\i (00:46:10) roam start
+\i (00:46:11) roam y 48
+\i (00:46:11) roam y -112
+\i (00:46:11) roam y -160
+\i (00:46:11) roam y -48
+\i (00:46:11) roam y -16
+\i (00:46:11) roam end
+\i (00:46:11) zoom in 1 
+\i (00:46:11) setwindow pcb
+\i (00:46:11) zoom in -65 -213
+\i (00:46:11) trapsize 5
+\i (00:46:11) zoom in 1 
+\i (00:46:11) setwindow pcb
+\i (00:46:11) zoom in -172 -212
+\i (00:46:11) trapsize 3
+\i (00:46:13) color192 
+\i (00:46:13) setwindow cvf.dialog
+\i (00:46:13) cvf layer_mode
+\i (00:46:13) setwindow pcb
+\i (00:46:13) generaledit 
+\i (00:46:16) setwindow cvf.dialog
+\i (00:46:16) cvf layer_tree_item 'Embedded Geomerty'
+\i (00:46:17) cvf layer_tree_item 'Package Geometry'
+\i (00:46:28) cvf layers_visible package_geometry/place_bound_top FALSE
+\i (00:46:30) cvf okay
+\i (00:46:31) setwindow pcb
+\i (00:46:31) pick grid 92 -292
+\t (00:46:31) last pick:  100  -300
+\i (00:46:31) zoom out 1 
+\i (00:46:31) setwindow pcb
+\i (00:46:31) zoom out 90 -284
+\i (00:46:31) trapsize 5
+\i (00:46:32) zoom out 1 
+\i (00:46:32) setwindow pcb
+\i (00:46:32) zoom out 267 -284
+\i (00:46:32) trapsize 11
+\i (00:46:33) roam start
+\i (00:46:33) roam y 16
+\i (00:46:33) roam y 64
+\i (00:46:33) roam y 48
+\i (00:46:33) roam y 32
+\i (00:46:33) roam y 32
+\i (00:46:33) roam y 48
+\i (00:46:33) roam y 32
+\i (00:46:33) roam y 32
+\i (00:46:34) roam end
+\i (00:46:34) zoom in 1 
+\i (00:46:34) setwindow pcb
+\i (00:46:34) zoom in 35 -864
+\i (00:46:34) trapsize 5
+\i (00:46:34) zoom in 1 
+\i (00:46:34) setwindow pcb
+\i (00:46:34) zoom in -120 -865
+\i (00:46:34) trapsize 3
+\i (00:46:35) pick grid -58 -852
+\t (00:46:35) last pick:  -100  -900
+\i (00:46:36) drag_start grid -57 -854
+\i (00:46:36) move 
+\t (00:46:36) last pick:  -100  -900
+\t (00:46:36) Element has no origin, using pick.
+\t (00:46:36) Pick new location for the element(s).
+\i (00:46:36) drag_stop grid -113 -862
+\i (00:46:36) generaledit 
+\i (00:46:37) drag_start grid -62 -850
+\i (00:46:37) move 
+\t (00:46:37) last pick:  -100  -800
+\t (00:46:37) Element has no origin, using pick.
+\t (00:46:37) Pick new location for the element(s).
+\i (00:46:37) drag_stop grid -176 -864
+\i (00:46:37) generaledit 
+\i (00:46:37) drag_start grid -106 -852
+\i (00:46:37) move 
+\t (00:46:38) last pick:  -100  -900
+\t (00:46:38) Element has no origin, using pick.
+\t (00:46:38) Pick new location for the element(s).
+\i (00:46:38) drag_stop grid -207 -864
+\i (00:46:38) generaledit 
+\i (00:46:38) zoom out 1 
+\i (00:46:38) setwindow pcb
+\i (00:46:38) zoom out -126 -843
+\i (00:46:38) trapsize 5
+\i (00:46:38) zoom out 1 
+\i (00:46:38) setwindow pcb
+\i (00:46:38) zoom out -82 -843
+\i (00:46:38) trapsize 11
+\i (00:46:39) undo 
+\i (00:46:39) trapsize 3
+\i (00:46:39) generaledit 
+\i (00:46:40) undo 
+\i (00:46:40) trapsize 3
+\i (00:46:40) generaledit 
+\i (00:46:40) pick grid 114 -790
+\t (00:46:40) last pick:  100  -800
+\i (00:46:42) color192 
+\i (00:46:42) setwindow cvf.dialog
+\i (00:46:42) cvf layer_mode
+\i (00:46:43) setwindow pcb
+\i (00:46:43) generaledit 
+\i (00:46:44) setwindow cvf.dialog
+\i (00:46:44) cvf layer_tree_item 'Embedded Geomerty'
+\i (00:46:48) cvf layers_visible embedded_geometry/all_row TRUE
+\i (00:46:48) cvf layers_visible embedded_geometry/all_row FALSE
+\i (00:46:49) cvf okay
+\i (00:46:50) setwindow pcb
+\i (00:46:50) pick grid 76 -859
+\t (00:46:50) last pick:  100  -900
+\i (00:46:52) color192 
+\i (00:46:52) setwindow cvf.dialog
+\i (00:46:52) cvf layer_mode
+\i (00:46:52) setwindow pcb
+\i (00:46:52) generaledit 
+\i (00:46:54) setwindow cvf.dialog
+\i (00:46:54) cvf layer_tree_item 'Embedded Geomerty'
+\i (00:46:55) cvf layer_tree_item 'Manufacturing'
+\i (00:46:56) cvf layer_tree_item 'Components'
+\i (00:46:59) cvf layer_tree_item 'Comp Value' 'Components'
+\i (00:47:00) cvf layer_tree_item 'Dev Type' 'Components'
+\i (00:47:00) cvf layer_tree_item 'Ref Des' 'Components'
+\i (00:47:00) cvf layer_tree_item 'Tolerance' 'Components'
+\i (00:47:01) cvf layer_tree_item 'User Part' 'Components'
+\i (00:47:02) cvf layer_tree_item 'Tolerance' 'Components'
+\i (00:47:02) cvf layer_tree_item 'Ref Des' 'Components'
+\i (00:47:02) cvf layer_tree_item 'Dev Type' 'Components'
+\i (00:47:04) cvf layer_tree_item 'Comp Value' 'Components'
+\i (00:47:05) cvf layer_tree_item 'Package Geometry'
+\i (00:47:11) cvf layers_color package_geometry/dfa_bound_top 1
+\i (00:47:12) cvf layers_color package_geometry/dfa_bound_top 1
+\i (00:47:13) cvf select_color_cell 16
+\i (00:47:14) cvf layers_color package_geometry/dfa_bound_top 17
+\i (00:47:17) cvf okay
+\i (00:47:18) setwindow pcb
+\i (00:47:18) pick grid 87 -866
+\t (00:47:18) last pick:  100  -900
+\i (00:47:18) zoom out 1 
+\i (00:47:18) setwindow pcb
+\i (00:47:18) zoom out 89 -848
+\i (00:47:18) trapsize 5
+\i (00:47:19) zoom out 1 
+\i (00:47:19) setwindow pcb
+\i (00:47:19) zoom out 291 -767
+\i (00:47:19) trapsize 11
+\i (00:47:19) roam start
+\i (00:47:19) roam end
+\i (00:47:20) zoom in 1 
+\i (00:47:20) setwindow pcb
+\i (00:47:20) zoom in 173 -753
+\i (00:47:20) trapsize 5
+\i (00:47:20) zoom in 1 
+\i (00:47:20) setwindow pcb
+\i (00:47:20) zoom in 9 -850
+\i (00:47:20) trapsize 3
+\i (00:47:21) roam start
+\i (00:47:21) roam y -112
+\i (00:47:21) roam x -16
+\i (00:47:21) roam y -80
+\i (00:47:21) roam x -16
+\i (00:47:21) roam y -80
+\i (00:47:21) roam x -16
+\i (00:47:21) roam y -64
+\i (00:47:21) roam x -16
+\i (00:47:21) roam y -80
+\i (00:47:21) roam x -16
+\i (00:47:21) roam y -112
+\i (00:47:21) roam y -96
+\i (00:47:22) roam end
+\i (00:47:22) zoom in 1 
+\i (00:47:22) setwindow pcb
+\i (00:47:22) zoom in 54 -466
+\i (00:47:22) trapsize 1
+\i (00:47:22) zoom out 1 
+\i (00:47:22) setwindow pcb
+\i (00:47:22) zoom out 55 -466
+\i (00:47:22) trapsize 3
+\i (00:47:22) zoom out 1 
+\i (00:47:22) setwindow pcb
+\i (00:47:22) zoom out 54 -467
+\i (00:47:22) trapsize 5
+\i (00:47:23) roam start
+\i (00:47:23) roam y -176
+\i (00:47:23) roam y -128
+\i (00:47:23) roam y -48
+\i (00:47:23) roam y -32
+\i (00:47:24) roam end
+\i (00:47:24) zoom out 1 
+\i (00:47:24) setwindow pcb
+\i (00:47:24) zoom out 241 18
+\i (00:47:24) trapsize 11
+\i (00:47:25) roam start
+\i (00:47:25) roam y 64
+\i (00:47:25) roam y 64
+\i (00:47:25) roam y 96
+\i (00:47:25) roam y 32
+\i (00:47:25) roam end
+\i (00:47:26) zoom in 1 
+\i (00:47:26) setwindow pcb
+\i (00:47:26) zoom in -163 -778
+\i (00:47:26) trapsize 5
+\i (00:47:26) zoom in 1 
+\i (00:47:26) setwindow pcb
+\i (00:47:26) zoom in -220 -778
+\i (00:47:26) trapsize 3
+\i (00:47:27) save 
+\i (00:47:28) fillin yes 
+\e (00:47:28) ERROR(SPMHGE-7): Error(s) occurred, check logfile.
+\i (00:47:28) generaledit 
+\i (00:47:30) setwindow text
+\i (00:47:30) close 
+\i (00:47:31) setwindow pcb
+\i (00:47:31) pick grid 100 -686
+\t (00:47:31) last pick:  100  -700
+\i (00:47:31) roam start
+\i (00:47:31) roam y -96
+\i (00:47:31) roam x 16
+\i (00:47:31) roam y -64
+\i (00:47:31) roam x 16
+\i (00:47:31) roam y -112
+\i (00:47:31) roam y -32
+\i (00:47:31) roam y -32
+\i (00:47:32) roam end
+\i (00:47:32) zoom out 1 
+\i (00:47:32) setwindow pcb
+\i (00:47:32) zoom out 104 -500
+\i (00:47:32) trapsize 5
+\i (00:47:32) zoom out 1 
+\i (00:47:32) setwindow pcb
+\i (00:47:32) zoom out 390 -514
+\i (00:47:32) trapsize 11
+\i (00:47:33) roam start
+\i (00:47:33) roam y -96
+\i (00:47:33) roam y -48
+\i (00:47:33) roam y -32
+\i (00:47:33) roam y -16
+\i (00:47:34) roam end
+\i (00:47:34) zoom in 1 
+\i (00:47:34) setwindow pcb
+\i (00:47:34) zoom in -167 -365
+\i (00:47:34) trapsize 5
+\i (00:47:36) color192 
+\i (00:47:36) setwindow cvf.dialog
+\i (00:47:36) cvf layer_mode
+\i (00:47:36) setwindow pcb
+\i (00:47:36) generaledit 
+\i (00:47:39) setwindow cvf.dialog
+\i (00:47:39) cvf layer_tree_item 'Package Geometry'
+\i (00:48:22) cvf cancel
+\i (00:48:22) setwindow pcb
+\i (00:48:22) pick grid 254 -424
+\t (00:48:22) last pick:  300  -400
+\i (00:48:23) zoom in 1 
+\i (00:48:23) setwindow pcb
+\i (00:48:23) zoom in 29 -403
+\i (00:48:23) trapsize 3
+\i (00:48:23) zoom in 1 
+\i (00:48:23) setwindow pcb
+\i (00:48:23) zoom in -72 -403
+\i (00:48:23) trapsize 1
+\i (00:48:24) zoom in 1 
+\i (00:48:24) setwindow pcb
+\i (00:48:24) zoom in -37 -405
+\i (00:48:24) trapsize 1
+\i (00:48:25) zoom out 1 
+\i (00:48:25) setwindow pcb
+\i (00:48:25) zoom out -36 -405
+\i (00:48:25) trapsize 1
+\i (00:48:25) zoom out 1 
+\i (00:48:25) setwindow pcb
+\i (00:48:25) zoom out -37 -404
+\i (00:48:25) trapsize 3
+\i (00:48:25) zoom out 1 
+\i (00:48:25) setwindow pcb
+\i (00:48:25) zoom out -37 -405
+\i (00:48:25) trapsize 5
+\i (00:48:27) zoom in 1 
+\i (00:48:27) setwindow pcb
+\i (00:48:27) zoom in 46 -395
+\i (00:48:27) trapsize 3
+\i (00:48:29) color192 
+\i (00:48:30) generaledit 
+\i (00:48:32) setwindow cvf.dialog
+\i (00:48:32) cvf layer_tree_item 'Package Geometry'
+\i (00:48:33) cvf layer_tree_item 'Embedded Geomerty'
+\i (00:48:34) cvf layer_tree_item 'Package Geometry'
+\i (00:48:44) cvf layers_visible package_geometry/all_row TRUE
+\i (00:48:44) cvf layers_visible package_geometry/all_row FALSE
+\i (00:48:45) cvf okay
+\i (00:48:48) setwindow pcb
+\i (00:48:48) color192 
+\i (00:48:49) setwindow cvf.dialog
+\i (00:48:49) cvf layer_mode
+\i (00:48:49) setwindow pcb
+\i (00:48:49) generaledit 
+\i (00:48:51) setwindow cvf.dialog
+\i (00:48:51) cvf layer_tree_item 'Package Geometry'
+\i (00:48:53) cvf layers_visible package_geometry/all_row TRUE
+\i (00:48:54) cvf layers_visible package_geometry/assembly_top FALSE
+\i (00:48:55) cvf okay
+\i (00:48:56) setwindow pcb
+\i (00:48:56) pick grid 83 -459
+\t (00:48:56) last pick:  100  -500
+\i (00:48:56) zoom out 1 
+\i (00:48:56) setwindow pcb
+\i (00:48:56) zoom out 61 -392
+\i (00:48:56) trapsize 5
+\i (00:48:57) zoom out 1 
+\i (00:48:57) setwindow pcb
+\i (00:48:57) zoom out 227 -365
+\i (00:48:57) trapsize 11
+\i (00:48:58) zoom in 1 
+\i (00:48:58) setwindow pcb
+\i (00:48:58) zoom in 44 -152
+\i (00:48:58) trapsize 5
+\i (00:48:58) zoom in 1 
+\i (00:48:58) setwindow pcb
+\i (00:48:58) zoom in -111 -125
+\i (00:48:58) trapsize 3
+\i (00:48:58) zoom out 1 
+\i (00:48:58) setwindow pcb
+\i (00:48:58) zoom out -130 -107
+\i (00:48:58) trapsize 5
+\i (00:49:00) color192 
+\i (00:49:01) setwindow cvf.dialog
+\i (00:49:01) cvf layer_mode
+\i (00:49:01) setwindow pcb
+\i (00:49:01) generaledit 
+\i (00:49:02) setwindow cvf.dialog
+\i (00:49:02) cvf layer_tree_item 'Package Geometry'
+\i (00:49:04) cvf layers_visible package_geometry/dfa_bound_top FALSE
+\i (00:49:05) cvf okay
+\i (00:49:05) setwindow pcb
+\i (00:49:05) pick grid 269 -452
+\t (00:49:05) last pick:  300  -500
+\i (00:49:06) zoom out 1 
+\i (00:49:06) setwindow pcb
+\i (00:49:06) zoom out -34 -31
+\i (00:49:06) trapsize 11
+\i (00:49:07) zoom in 1 
+\i (00:49:07) setwindow pcb
+\i (00:49:07) zoom in 12 -846
+\i (00:49:07) trapsize 5
+\i (00:49:09) color192 
+\i (00:49:09) setwindow cvf.dialog
+\i (00:49:09) cvf layer_mode
+\i (00:49:09) setwindow pcb
+\i (00:49:09) generaledit 
+\i (00:49:10) setwindow cvf.dialog
+\i (00:49:10) cvf layer_tree_item 'Package Geometry'
+\i (00:49:12) cvf layers_visible package_geometry/pad_stack_name FALSE
+\i (00:49:13) cvf okay
+\i (00:49:15) setwindow pcb
+\i (00:49:15) color192 
+\i (00:49:15) setwindow cvf.dialog
+\i (00:49:15) cvf layer_mode
+\i (00:49:16) setwindow pcb
+\i (00:49:16) generaledit 
+\i (00:49:16) setwindow cvf.dialog
+\i (00:49:16) cvf layer_tree_item 'Package Geometry'
+\i (00:49:20) cvf layers_visible package_geometry/pastemask_top FALSE
+\i (00:49:22) cvf okay
+\i (00:49:24) setwindow pcb
+\i (00:49:24) color192 
+\i (00:49:24) setwindow cvf.dialog
+\i (00:49:24) cvf layer_mode
+\i (00:49:24) setwindow pcb
+\i (00:49:24) generaledit 
+\i (00:49:25) setwindow cvf.dialog
+\i (00:49:25) cvf layer_tree_item 'Embedded Geomerty'
+\i (00:49:26) cvf layer_tree_item 'Package Geometry'
+\i (00:49:29) cvf layers_visible package_geometry/place_bound_top FALSE
+\i (00:49:31) cvf okay
+\i (00:49:32) setwindow pcb
+\i (00:49:32) zoom out 1 
+\i (00:49:32) setwindow pcb
+\i (00:49:32) zoom out 216 -805
+\i (00:49:32) trapsize 11
+\i (00:49:33) zoom in 1 
+\i (00:49:33) setwindow pcb
+\i (00:49:33) zoom in -88 -380
+\i (00:49:33) trapsize 5
+\i (00:49:34) zoom in 1 
+\i (00:49:34) setwindow pcb
+\i (00:49:34) zoom in -43 -378
+\i (00:49:34) trapsize 3
+\i (00:49:34) zoom out 1 
+\i (00:49:34) setwindow pcb
+\i (00:49:34) zoom out -66 -392
+\i (00:49:34) trapsize 5
+\i (00:49:36) zoom out 1 
+\i (00:49:36) setwindow pcb
+\i (00:49:36) zoom out 108 -433
+\i (00:49:36) trapsize 11
+\i (00:49:37) roam start
+\i (00:49:37) roam end
+\i (00:49:39) color192 
+\i (00:49:39) setwindow cvf.dialog
+\i (00:49:39) cvf layer_mode
+\i (00:49:39) setwindow pcb
+\i (00:49:39) generaledit 
+\i (00:49:40) setwindow cvf.dialog
+\i (00:49:40) cvf layer_tree_item 'Package Geometry'
+\i (00:49:48) cvf layers_visible package_geometry/soldermask_top FALSE
+\i (00:49:49) cvf okay
+\t (00:49:50) last pick:  388  -782
+\w (00:49:50) WARNING(SPMHUT-40): Pick is outside the extent of the drawing ... pick again.
+\i (00:49:50) setwindow pcb
+\i (00:49:50) zoom in 1 
+\i (00:49:50) setwindow pcb
+\i (00:49:50) zoom in 95 -757
+\i (00:49:50) trapsize 5
+\i (00:49:51) zoom in 1 
+\i (00:49:51) setwindow pcb
+\i (00:49:51) zoom in -51 -732
+\i (00:49:51) trapsize 3
+\i (00:49:51) pick grid -57 -769
+\t (00:49:51) last pick:  -100  -800
+\i (00:49:52) pick grid -114 -755
+\t (00:49:52) last pick:  -100  -800
+\i (00:49:52) zoom out 1 
+\i (00:49:52) setwindow pcb
+\i (00:49:52) zoom out -114 -748
+\i (00:49:52) trapsize 5
+\i (00:49:53) zoom in 1 
+\i (00:49:53) setwindow pcb
+\i (00:49:53) zoom in -58 -726
+\i (00:49:53) trapsize 3
+\i (00:49:53) zoom out 1 
+\i (00:49:53) setwindow pcb
+\i (00:49:53) zoom out -115 -726
+\i (00:49:53) trapsize 5
+\i (00:49:53) zoom out 1 
+\i (00:49:53) setwindow pcb
+\i (00:49:53) zoom out -58 -726
+\i (00:49:53) trapsize 11
+\i (00:49:58) new 
+\e (00:49:59) Do you want to save the changes you made to D:/我的项目/指纹接口/header5.dra?
+\i (00:50:06) fillin no 
+\i (00:50:15) newdrawfillin "menu_cancel"
+\i (00:50:16) generaledit 
+\i (00:50:18) new 
+\e (00:50:18) Do you want to save the changes you made to D:/我的项目/指纹接口/header5.dra?
+\i (00:50:19) fillin yes 
+\e (00:50:20) ERROR(SPMHGE-7): Error(s) occurred, check logfile.
+\i (00:50:24) newdrawfillin "menu_cancel"
+\i (00:50:24) generaledit 
+\i (00:50:26) new 
+\e (00:50:26) Do you want to save the changes you made to D:/我的项目/指纹接口/header5.dra?
+\i (00:50:29) fillin no 
+\i (00:50:52) newdrawfillin "header5.dra" "Package Symbol (Wizard)"
+\t (00:50:52)     Journal end - Sat May 17 21:59:11 2014

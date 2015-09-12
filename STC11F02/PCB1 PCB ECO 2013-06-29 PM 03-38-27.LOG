@@ -1,0 +1,17 @@
+Added Component: Designator=U5(DIP-16)
+Added Pin To Net: NetName=NetR3_1 Pin=U5-3
+Added Pin To Net: NetName=NetR14_2 Pin=U5-4
+Added Pin To Net: NetName=NetR13_2 Pin=U5-5
+Added Pin To Net: NetName=GND Pin=U5-6
+Added Pin To Net: NetName=GND Pin=U5-7
+Added Pin To Net: NetName=GND Pin=U5-8
+Added Pin To Net: NetName=C Pin=U5-9
+Added Pin To Net: NetName=B Pin=U5-10
+Added Pin To Net: NetName=A Pin=U5-11
+Added Pin To Net: NetName=NetR12_2 Pin=U5-12
+Added Pin To Net: NetName=NetR8_2 Pin=U5-13
+Added Pin To Net: NetName=NetR9_2 Pin=U5-14
+Added Pin To Net: NetName=NetR10_2 Pin=U5-15
+Added Pin To Net: NetName=VCC Pin=U5-16
+Added Member To Class: ClassName=SHEET1 Member=Component U5 74VHC4051M
+Added Room: Name=SHEET1

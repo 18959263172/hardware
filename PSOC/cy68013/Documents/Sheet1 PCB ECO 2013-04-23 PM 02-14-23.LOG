@@ -1,0 +1,77 @@
+Added Component: Designator=C1(2012[0805])
+Added Component: Designator=C2(2012[0805])
+Added Component: Designator=C3(2012[0805])
+Added Component: Designator=C6(2012[0805])
+Added Component: Designator=C7(2012[0805])
+Added Component: Designator=C8(2012[0805])
+Added Component: Designator=R1(2012[0805])
+Added Component: Designator=R2(2012[0805])
+Added Component: Designator=R3(2012[0805])
+Added Component: Designator=R4(2012[0805])
+Added Component: Designator=R5(2012[0805])
+Added Component: Designator=R6(2012[0805])
+Added Component: Designator=RP?(HDR1X8)
+Added Component: Designator=U1(SOP56)
+Added Component: Designator=USB(787616)
+Added Component: Designator=Y1(RAD-0.2)
+Added Pin To Net: NetName=NetC1_1 Pin=C1-1
+Added Pin To Net: NetName=GND Pin=C1-2
+Added Pin To Net: NetName=GND Pin=C2-1
+Added Pin To Net: NetName=NetC2_2 Pin=C2-2
+Added Pin To Net: NetName=GND Pin=C3-1
+Added Pin To Net: NetName=NetC3_2 Pin=C3-2
+Added Pin To Net: NetName=GND Pin=C6-1
+Added Pin To Net: NetName=3.3V Pin=C6-2
+Added Pin To Net: NetName=GND Pin=C7-1
+Added Pin To Net: NetName=RST Pin=C7-2
+Added Pin To Net: NetName=GND Pin=C8-1
+Added Pin To Net: NetName=WAKEUP Pin=C8-2
+Added Pin To Net: NetName=NetC1_1 Pin=R1-1
+Added Pin To Net: NetName=GND Pin=R1-2
+Added Pin To Net: NetName=GND Pin=R2-1
+Added Pin To Net: NetName=3.3V Pin=R2-2
+Added Pin To Net: NetName=SDA Pin=R3-1
+Added Pin To Net: NetName=3.3V Pin=R3-2
+Added Pin To Net: NetName=SCL Pin=R4-1
+Added Pin To Net: NetName=3.3V Pin=R4-2
+Added Pin To Net: NetName=RST Pin=R5-1
+Added Pin To Net: NetName=3.3V Pin=R5-2
+Added Pin To Net: NetName=WAKEUP Pin=R6-1
+Added Pin To Net: NetName=3.3V Pin=R6-2
+Added Pin To Net: NetName=NetRP?_1 Pin=RP?-1
+Added Pin To Net: NetName=NetRP?_2 Pin=RP?-2
+Added Pin To Net: NetName=NetRP?_3 Pin=RP?-3
+Added Pin To Net: NetName=NetRP?_4 Pin=RP?-4
+Added Pin To Net: NetName=NetRP?_5 Pin=RP?-5
+Added Pin To Net: NetName=NetRP?_6 Pin=RP?-6
+Added Pin To Net: NetName=NetRP?_7 Pin=RP?-7
+Added Pin To Net: NetName=NetRP?_8 Pin=RP?-8
+Added Pin To Net: NetName=GND Pin=U1-33
+Added Pin To Net: NetName=GND Pin=U1-35
+Added Pin To Net: NetName=NetRP?_8 Pin=U1-40
+Added Pin To Net: NetName=NetRP?_7 Pin=U1-41
+Added Pin To Net: NetName=NetRP?_6 Pin=U1-42
+Added Pin To Net: NetName=NetRP?_5 Pin=U1-43
+Added Pin To Net: NetName=NetRP?_4 Pin=U1-44
+Added Pin To Net: NetName=NetRP?_3 Pin=U1-45
+Added Pin To Net: NetName=NetRP?_2 Pin=U1-46
+Added Pin To Net: NetName=NetRP?_1 Pin=U1-47
+Added Pin To Net: NetName=GND Pin=U1-48
+Added Pin To Net: NetName=NetC2_2 Pin=Y1-1
+Added Pin To Net: NetName=NetC3_2 Pin=Y1-2
+Added Member To Class: ClassName=Sheet1 Member=Component C1 4.7nF
+Added Member To Class: ClassName=Sheet1 Member=Component C2 12pF
+Added Member To Class: ClassName=Sheet1 Member=Component C3 12pF
+Added Member To Class: ClassName=Sheet1 Member=Component C6 10uF
+Added Member To Class: ClassName=Sheet1 Member=Component C7 1uF
+Added Member To Class: ClassName=Sheet1 Member=Component C8 10uF
+Added Member To Class: ClassName=Sheet1 Member=Component R1 1M
+Added Member To Class: ClassName=Sheet1 Member=Component R2 100K
+Added Member To Class: ClassName=Sheet1 Member=Component R3 2.2k
+Added Member To Class: ClassName=Sheet1 Member=Component R4 2.2k
+Added Member To Class: ClassName=Sheet1 Member=Component R5 100k
+Added Member To Class: ClassName=Sheet1 Member=Component R6 100k
+Added Member To Class: ClassName=Sheet1 Member=Component RP? R7
+Added Member To Class: ClassName=Sheet1 Member=Component U1 CY7C68013A-56PIN
+Added Member To Class: ClassName=Sheet1 Member=Component USB USBHeader
+Added Member To Class: ClassName=Sheet1 Member=Component Y1 XTAL

@@ -1,0 +1,32 @@
+Protel Design System Design Rule Check
+PCB File : Documents\PCB1.PCB
+Date     : 5-Jan-2004 
+Time     : 16:38:26
+
+Processing Rule : Width Constraint (Min=7mil) (Max=7mil) (Prefered=7mil) (Disabled)(On the board )
+Rule Violations :0
+
+Processing Rule : Width Constraint (Min=7mil) (Max=50mil) (Prefered=7mil) (On the board )
+Rule Violations :0
+
+Processing Rule : Broken-Net Constraint ( (On the board ) )
+Rule Violations :0
+
+Processing Rule : Short-Circuit Constraint (Allowed=Not Allowed) (On the board ),(On the board )
+Rule Violations :0
+
+Processing Rule : Broken-Net Constraint ( (On the board ) )
+Rule Violations :0
+
+Processing Rule : Short-Circuit Constraint (Allowed=Not Allowed) (On the board ),(On the board )
+Rule Violations :0
+
+Processing Rule : Testpoint Style (Under Component=Yes) (On the board )
+Rule Violations :0
+
+Processing Rule : Clearance Constraint (Gap=7mil) (On the board ),(On the board )
+Rule Violations :0
+
+
+Violations Detected : 0
+Time Elapsed        : 00:00:04

@@ -1,0 +1,3 @@
+Change Component Footprint: Designator=Y1 Old Footprint=XTAL2 New Footprint=XTAL-1
+Added Member To Class: ClassName=Sheet1 Member=Component P4 Header 4X2
+Added Room: Name=Sheet1

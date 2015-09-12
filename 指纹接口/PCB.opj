@@ -1,0 +1,24 @@
+(ExpressProject "PCB"
+  (ProjectVersion "19981106")
+  (ProjectType "PCB")
+  (Folder "Design Resources"
+    (Folder "Library"
+      (File "G:\cad\tools\capture\LIBRARY\CONNECTOR.OLBlck"
+        (Type "Schematic Library")))
+    (NoModify)
+    (File ".\pcb.dsn"
+      (Type "Schematic Design"))
+    (BuildFileAddedOrDeleted "x")
+    (CompileFileAddedOrDeleted "x"))
+  (Folder "Outputs")
+  (Folder "Referenced Projects")
+  (GlobalState
+    (FileView
+      (Path "Design Resources"))
+    (HierarchyView)
+    (Doc
+      (Type "COrCapturePMDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -4 -23 0 200 0 346"))
+      (Tab 0)))
+  (PartMRUSelector))

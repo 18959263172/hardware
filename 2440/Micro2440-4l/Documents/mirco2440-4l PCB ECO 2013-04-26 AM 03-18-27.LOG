@@ -1,0 +1,45 @@
+Change Component Comment : Designator=CA5 Old Comment=100nF New Comment=1nF
+Change Component Comment : Designator=CA4 Old Comment=100nF New Comment=1nF
+Change Component Comment : Designator=CA3 Old Comment=100nF New Comment=1nF
+Change Component Comment : Designator=CA2 Old Comment=100nF New Comment=1nF
+Change Component Comment : Designator=C24 Old Comment=100nF New Comment=1nF
+Change Component Comment : Designator=C21 Old Comment=100nF New Comment=1nF
+Change Component Comment : Designator=CA23 Old Comment=100nF New Comment=10nF
+Change Component Comment : Designator=CA22 Old Comment=100nF New Comment=10nF
+Change Component Comment : Designator=CA21 Old Comment=100nF New Comment=10nF
+Change Component Comment : Designator=CA20 Old Comment=100nF New Comment=10nF
+Change Component Comment : Designator=CA19 Old Comment=100nF New Comment=10nF
+Change Component Comment : Designator=CA18 Old Comment=100nF New Comment=10nF
+Change Component Comment : Designator=CA17 Old Comment=100nF New Comment=10nF
+Change Component Comment : Designator=CA16 Old Comment=100nF New Comment=10nF
+Change Component Comment : Designator=CA15 Old Comment=100nF New Comment=10nF
+Change Component Comment : Designator=CA14 Old Comment=100nF New Comment=10nF
+Change Component Comment : Designator=CA13 Old Comment=100nF New Comment=10nF
+Change Component Comment : Designator=CA1 Old Comment=100nF New Comment=10nF
+Change Component Comment : Designator=C33 Old Comment=100nF New Comment=10nF
+Change Component Comment : Designator=C32 Old Comment=100nF New Comment=10nF
+Change Component Comment : Designator=C31 Old Comment=100nF New Comment=10nF
+Change Component Comment : Designator=C30 Old Comment=100nF New Comment=10nF
+Change Component Comment : Designator=C29 Old Comment=100nF New Comment=10nF
+Change Component Comment : Designator=C25 Old Comment=100nF New Comment=10nF
+Change Component Comment : Designator=C23 Old Comment=100nF New Comment=10nF
+Change Component Comment : Designator=C22 Old Comment=100nF New Comment=10nF
+Change Component Comment : Designator=C20 Old Comment=100nF New Comment=10nF
+Change Component Comment : Designator=C17 Old Comment=100nF New Comment=10nF
+Change Component Comment : Designator=C15 Old Comment=100nF New Comment=10nF
+Change Component Comment : Designator=C14 Old Comment=100nF New Comment=10nF
+Change Component Comment : Designator=R1 Old Comment=330 New Comment=1K
+Change Net Name : Old Net Name=NetU1_H12 New Net Name=NetR68_2
+Change Net Name : Old Net Name=NetU3_5 New Net Name=NetR32_2
+Change Net Name : Old Net Name=NetU3_8 New Net Name=NetR31_2
+Change Net Name : Old Net Name=NetU9_2 New Net Name=NetR2_1
+Added Class: Name=01-CPU1
+Added Class: Name=02-CPU2
+Added Class: Name=03-CPU3
+Added Class: Name=04-MEM
+Added Class: Name=Main
+Added Room: Name=01-CPU1
+Added Room: Name=02-CPU2
+Added Room: Name=03-CPU3
+Added Room: Name=04-MEM
+Added Room: Name=Main

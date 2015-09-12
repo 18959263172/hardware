@@ -1,0 +1,15 @@
+Change Net Name : Old Net Name=NetDS1_5 New Net Name=D
+Change Net Name : Old Net Name=NetDS1_7 New Net Name=H
+Change Net Name : Old Net Name=NetDS1_8 New Net Name=C
+Change Net Name : Old Net Name=NetDS1_9 New Net Name=B
+Change Net Name : Old Net Name=NetDS1_10 New Net Name=A
+Added Pin To Net: NetName=E Pin=DS1-4
+Added Pin To Net: NetName=E Pin=R8-1
+Added Net: Name=E
+Added Pin To Net: NetName=F Pin=DS1-2
+Added Pin To Net: NetName=F Pin=R6-1
+Added Net: Name=F
+Added Pin To Net: NetName=G Pin=DS1-3
+Added Pin To Net: NetName=G Pin=R7-1
+Added Net: Name=G
+Added Room: Name=Sheet1

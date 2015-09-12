@@ -1,0 +1,42 @@
+C51 COMPILER V8.08   WATER                                                                 05/14/2013 16:52:01 PAGE 1   
+
+
+C51 COMPILER V8.08, COMPILATION OF MODULE WATER
+OBJECT MODULE PLACED IN water.OBJ
+COMPILER INVOKED BY: E:\C51\C51\BIN\C51.EXE water.c BROWSE DEBUG OBJECTEXTEND
+
+line level    source
+
+   1          #include<reg51.h>
+   2          void main()
+   3          {
+   4   1              while(1)
+   5   1              {
+   6   2                      P1=0X00;
+   7   2                      delay();
+*** WARNING C206 IN LINE 7 OF WATER.C: 'delay': missing function-prototype
+   8   2                      P1=0XF2;        
+   9   2               }
+  10   1              
+  11   1              
+  12   1              
+  13   1                      
+  14   1      }
+  15          void delay()
+  16          {
+*** ERROR C231 IN LINE 16 OF WATER.C: 'delay': redefinition
+  17   1              unsigned char  z=250;
+  18   1              unsigned char  y=250;
+  19   1              for(;z>0;z--)
+  20   1              {
+  21   2                      for(y=250;y>=0y--);
+*** ERROR C141 IN LINE 21 OF WATER.C: syntax error near 'y'
+*** ERROR C141 IN LINE 21 OF WATER.C: syntax error near ')'
+  22   2      
+  23   2              }
+  24   1      
+  25   1              
+  26   1      }       
+*** ERROR C231 IN LINE 26 OF WATER.C: 'delay': redefinition
+
+C51 COMPILATION COMPLETE.  1 WARNING(S),  4 ERROR(S)

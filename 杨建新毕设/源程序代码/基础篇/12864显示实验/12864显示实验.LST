@@ -1,0 +1,145 @@
+C51 COMPILER V6.12  12864_______é                                                          02/02/2012 21:43:00 PAGE 1   
+
+
+C51 COMPILER V6.12, COMPILATION OF MODULE 12864_______é
+OBJECT MODULE PLACED IN .\12864ÏÔÊ¾ÊµÑé.OBJ
+COMPILER INVOKED BY: F:\Èí¼þ\keil C\C51\BIN\C51.EXE .\12864ÏÔÊ¾ÊµÑé.c DEBUG OBJECTEXTEND
+
+stmt level    source
+
+   1          #include "reg52.h"
+   2          #include "intrins.h"
+   3          sbit RS = P3^4 ;
+   4          sbit RW = P3^6 ;
+   5          sbit EN = P3^7 ;
+   6          sbit D=P2^1;
+   7          #define PORT P0
+   8          #define SET_DATA RS = 1 ;
+   9          #define SET_INC RS = 0 ;
+  10          #define SET_READ RW = 1 ;
+  11          #define SET_WRITE RW = 0 ;
+  12          #define SET_EN EN = 1 ;
+  13          #define CLR_EN EN = 0 ;
+  14          #define uchar unsigned char   
+  15          #define uint unsigned int 
+  16          void check_busy(void)  //Ã¦¼ì²âº¯Êý
+  17          {
+  18   1      unsigned int nTimeOut=0;
+  19   1      SET_INC
+  20   1      SET_READ
+  21   1      CLR_EN
+  22   1      SET_EN
+  23   1      while((PORT&0x80)&&(++nTimeOut!=0));
+  24   1      CLR_EN
+  25   1      SET_INC
+  26   1      SET_READ
+  27   1      }
+  28          
+  29          void write_cmd(unsigned char byCmd)//·¢ËÍÃüÁî
+  30          {
+  31   1      check_busy();
+  32   1      SET_INC
+  33   1      SET_WRITE
+  34   1      CLR_EN
+  35   1      PORT=byCmd;
+  36   1      _nop_();
+  37   1      _nop_();
+  38   1      SET_EN
+  39   1      _nop_();
+  40   1      _nop_();
+  41   1      CLR_EN
+  42   1      SET_READ
+  43   1      SET_INC
+  44   1      }
+  45          void write_dat(unsigned char byData) //·¢ËÍÊý¾Ý
+  46          {
+  47   1      check_busy();
+  48   1      SET_DATA
+  49   1      SET_WRITE
+  50   1      CLR_EN
+  51   1      PORT=byData;
+  52   1      _nop_();
+  53   1      _nop_();
+  54   1      SET_EN
+  55   1      _nop_();
+C51 COMPILER V6.12  12864_______é                                                          02/02/2012 21:43:00 PAGE 2   
+
+  56   1      _nop_();
+  57   1      CLR_EN
+  58   1      SET_READ
+  59   1      SET_INC
+  60   1      }
+  61          
+  62          void v_DelayMs_f(unsigned int nDelay)//ÑÓÊ±
+  63          {
+  64   1      unsigned int i;
+  65   1      for(;nDelay > 0;nDelay--)
+  66   1      {
+  67   2      for(i=125;i>0;i--);
+  68   2      }
+  69   1      }
+  70          
+  71          void LCD_init(void)//³õÊ¼»¯
+  72          {
+  73   1      write_cmd(0x30);//»ù±¾Ö¸Áî¼¯
+  74   1      v_DelayMs_f(50);
+  75   1      write_cmd(0x01);//ÇåÆÁ
+  76   1      v_DelayMs_f(50);
+  77   1      write_cmd(0x06);//¹â±êÓÒÒÆ
+  78   1      v_DelayMs_f(50);
+  79   1      write_cmd(0x0c);//¿ªÏÔÊ¾
+  80   1      }
+  81          void set_address(unsigned char x,y)//µØÖ·×ª»»
+  82          {
+  83   1      unsigned char byAddress;
+  84   1      switch(y)
+  85   1      {
+  86   2      case 0 :byAddress=0x80+x;
+  87   2      break;
+  88   2      case 1 :byAddress=0x90+x;
+  89   2      break;
+  90   2      case 2 :byAddress=0x88+x;
+  91   2      break;
+  92   2      case 3 :byAddress=0x98+x;
+  93   2      break;
+  94   2      default :
+  95   2      break;
+  96   2      }
+  97   1      write_cmd( byAddress ) ;
+  98   1      }
+  99          void put_string( unsigned char x, unsigned char y, unsigned char *pData )
+ 100          {
+ 101   1      set_address( x, y ) ;
+ 102   1      while( *pData != '\0' )
+ 103   1      {
+ 104   2      write_dat( *pData++ ) ;
+ 105   2      }
+ 106   1      }
+ 107          
+ 108          void main( void )
+ 109          {
+ 110   1      LCD_init() ;
+ 111   1      D=0;
+ 112   1      put_string( 0,0, "¡ïË³Í¨µç×Ó¹¤×÷ÊÒ¡ï") ;
+ 113   1      put_string( 1,1, "»¶Ó­¹âÁÙ±¾µê") ;
+ 114   1      put_string( 0,2, "¡×¡×¡×¡×¡×¡×¡×¡×") ;
+ 115   1      put_string( 0,3, "ÓÀ¾ÃÌá¹©¼¼ÊõÖ§³Ö") ;
+ 116   1      
+ 117   1       while( 1 ) ;
+C51 COMPILER V6.12  12864_______é                                                          02/02/2012 21:43:00 PAGE 3   
+
+ 118   1      }
+
+
+MODULE INFORMATION:   STATIC OVERLAYABLE
+   CODE SIZE        =    285    ----
+   CONSTANT SIZE    =     66    ----
+   XDATA SIZE       =   ----    ----
+   PDATA SIZE       =   ----    ----
+   DATA SIZE        =   ----       3
+   IDATA SIZE       =   ----    ----
+   BIT SIZE         =   ----    ----
+END OF MODULE INFORMATION.
+
+
+C51 COMPILATION COMPLETE.  0 WARNING(S),  0 ERROR(S)

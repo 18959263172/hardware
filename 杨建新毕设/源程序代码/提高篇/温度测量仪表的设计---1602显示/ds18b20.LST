@@ -1,0 +1,215 @@
+C51 COMPILER V8.08   DS18B20                                                               12/17/2011 09:29:57 PAGE 1   
+
+
+C51 COMPILER V8.08, COMPILATION OF MODULE DS18B20
+OBJECT MODULE PLACED IN ds18b20.OBJ
+COMPILER INVOKED BY: F:\新建文件夹\C51\BIN\C51.EXE ds18b20.c BROWSE DEBUG OBJECTEXTEND
+
+line level    source
+
+   1          ///无线模块板
+   2          #include<reg52.h>
+   3          #include<intrins.h>
+   4          #define uchar unsigned char
+   5          #define uint unsigned int
+   6          //sbit DQ=P3^5;
+   7          //sbit d1=P2^3;
+   8          //sbit d2=P2^4;
+   9          //sbit d3=P2^5;
+  10          sbit DQ=P2^0;                    //ds18b20
+  11          // 1602
+  12          sbit lcden=P3^7;
+  13          sbit lcdrs=P3^4;
+  14          sbit lcdrw=P3^6;
+  15          sbit BELL=P1^6;
+  16          uint wendu=0;
+  17          ////////  1602
+  18          void delay1ms(uint z)
+  19          {
+  20   1              uint x,y;
+  21   1              for(x=z;x>0;x--)
+  22   1                      for(y=114;y>0;y--);
+  23   1      }
+  24          
+  25          void write_com(uchar com)
+  26          {
+  27   1              lcdrs=0;
+  28   1              P0=com;
+  29   1              delay1ms(5);
+  30   1              lcden=1;
+  31   1              delay1ms(5);
+  32   1              lcden=0;
+  33   1      }
+  34          
+  35          void write_data(uchar date)
+  36          {
+  37   1              lcdrs=1;
+  38   1              P0=date;
+  39   1              delay1ms(5);
+  40   1              lcden=1;
+  41   1              delay1ms(5);
+  42   1              lcden=0;
+  43   1      }
+  44          void write_str(uchar *str)  
+  45          {  
+  46   1       while(*str!='\0')  //未结束   
+  47   1       {  
+  48   2        write_data(*str++);  
+  49   2        delay1ms(1);  
+  50   2       }  
+  51   1      } 
+  52          void init_1602()
+  53          {
+  54   1      //      uchar num;
+  55   1              uchar table[16]={0};
+C51 COMPILER V8.08   DS18B20                                                               12/17/2011 09:29:57 PAGE 2   
+
+  56   1              uchar table1[16]={0}; 
+  57   1              lcdrw=0;
+  58   1              lcden=0;
+  59   1              write_com(0x38);        
+  60   1              write_com(0x0e);
+  61   1              write_com(0x06);
+  62   1              write_com(0x01);
+  63   1              write_com(0x80);
+  64   1      /*      for(num=0;num<16;num++)
+  65   1              {
+  66   1                      write_data(table[num]);
+  67   1                      delay1ms(10);
+  68   1              }
+  69   1              write_com(0x80+0x40);
+  70   1              for(num=0;num<16;num++)
+  71   1              {
+  72   1                      write_data(table1[num]);
+  73   1                      delay1ms(10);
+  74   1              }
+  75   1       */
+  76   1      }
+  77          /////    ////                    ds18b20
+  78          
+  79          bit init_DS18B20()
+  80          { 
+  81   1              uchar num;
+  82   1              bit flag;
+  83   1              DQ=1;
+  84   1              for(num=0;num<2;num++);  //先拉高
+  85   1              DQ=0;
+  86   1              for(num=0;num<200;num++);  // 480-960us powerup
+  87   1              DQ=1;
+  88   1              for(num=0;num<20;num++);        //  >60us   wait
+  89   1              flag=DQ;                                        // 响应
+  90   1              for(num=0;num<150;num++);       //       60-240us ds18b20存在信号
+  91   1              DQ=1;
+  92   1              return flag;
+  93   1      }
+  94          
+  95          void DS18B20_WR_CHAR(uchar byte)        // 先写低位
+  96          {       
+  97   1              uchar num;
+  98   1              uchar num1;
+  99   1              for(num1=0;num1<8;num1++)
+ 100   1              {               
+ 101   2                      DQ=0;           //拉低
+ 102   2                      _nop_();        //下拉1us
+ 103   2                      _nop_();
+ 104   2                      DQ=byte&0x01;
+ 105   2                      for(num=0;num<20;num++);        //  >60us   wait
+ 106   2                      byte>>=1;       
+ 107   2                      DQ=1;     //拉高        
+ 108   2                      _nop_();
+ 109   2                      _nop_();
+ 110   2              }               
+ 111   1      }
+ 112          
+ 113          uchar DS18B20_RD_CHAR() //先读低位
+ 114          {
+ 115   1              uchar num;
+ 116   1              uchar num1;
+ 117   1              uchar byte=0;
+C51 COMPILER V8.08   DS18B20                                                               12/17/2011 09:29:57 PAGE 3   
+
+ 118   1              for(num1=0;num1<8;num1++)
+ 119   1              {
+ 120   2                      DQ=0;   //拉低
+ 121   2                      _nop_();
+ 122   2                      DQ=1;
+ 123   2                      for(num=0;num<1;num++);  // <10us       
+ 124   2                      byte>>=1;
+ 125   2                      if(DQ==1)
+ 126   2                              byte|=0x80;
+ 127   2                      else 
+ 128   2                              byte|=0x00;
+ 129   2                      DQ=1;   //拉高
+ 130   2                      _nop_();
+ 131   2                      _nop_();
+ 132   2                      for(num=0;num<20;num++);  //  >60us
+ 133   2                      
+ 134   2              }
+ 135   1              return byte;
+ 136   1      }
+ 137          
+ 138          uint DS18B20_WENDU()
+ 139          {
+ 140   1              uchar temperaturel=0,temperatureh=0;
+ 141   1              uint temperature=0;
+ 142   1              if(init_DS18B20()==0)
+ 143   1              {
+ 144   2                      DS18B20_WR_CHAR(0xcc);
+ 145   2                      DS18B20_WR_CHAR(0x44);
+ 146   2                      delay1ms(1000);
+ 147   2                      if(init_DS18B20()==0)
+ 148   2                      {       
+ 149   3                              DS18B20_WR_CHAR(0xcc);
+ 150   3                              DS18B20_WR_CHAR(0xBE);
+ 151   3                              _nop_();
+ 152   3                              temperaturel=DS18B20_RD_CHAR();
+ 153   3                              temperatureh=DS18B20_RD_CHAR();
+ 154   3                              temperature=(temperatureh*256+temperaturel)*0.625;
+ 155   3                              init_DS18B20();
+ 156   3                      }
+ 157   2                      return temperature;                             
+ 158   2              }
+ 159   1      }
+ 160          
+ 161          ///////
+ 162          main()
+ 163          {
+ 164   1              init_1602();
+ 165   1              delay1ms(1000);
+ 166   1              while(1)
+ 167   1              {
+ 168   2                      if( init_DS18B20()==0)          
+ 169   2              {   
+ 170   3                              wendu=DS18B20_WENDU();  
+ 171   3                              write_com(0x80);
+ 172   3                              write_str("temperature:");
+ 173   3                              write_com(0x80+0x44);
+ 174   3                              write_data((wendu/100)%10+48);
+ 175   3                              write_data((wendu/10)%10+48);
+ 176   3                              write_data('.');
+ 177   3                              write_data(wendu%10+48);
+ 178   3                              write_data(0xdf);                 // 0xdf
+ 179   3                              write_data('c');
+C51 COMPILER V8.08   DS18B20                                                               12/17/2011 09:29:57 PAGE 4   
+
+ 180   3                              BELL=0;
+ 181   3                              delay1ms(1);
+ 182   3                              BELL=1;
+ 183   3                              delay1ms(2000);
+ 184   3                      }  
+ 185   2              }
+ 186   1      }
+
+
+MODULE INFORMATION:   STATIC OVERLAYABLE
+   CODE SIZE        =    489    ----
+   CONSTANT SIZE    =     45    ----
+   XDATA SIZE       =   ----    ----
+   PDATA SIZE       =   ----    ----
+   DATA SIZE        =      2      36
+   IDATA SIZE       =   ----    ----
+   BIT SIZE         =   ----       1
+END OF MODULE INFORMATION.
+
+
+C51 COMPILATION COMPLETE.  0 WARNING(S),  0 ERROR(S)

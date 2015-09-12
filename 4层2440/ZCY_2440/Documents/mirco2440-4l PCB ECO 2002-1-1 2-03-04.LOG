@@ -1,0 +1,22 @@
+Added Component: Designator=P50(KZ)
+Added Component: Designator=P60(Power_In)
+Added Pin To Net: NetName=DGND Pin=P60-2
+Added Pin To Net: NetName=DGND Pin=P60-2
+Added Pin To Net: NetName=DGND Pin=P60-2
+Added Pin To Net: NetName=DGND Pin=P60-3
+Added Pin To Net: NetName=DGND Pin=P60-3
+Added Pin To Net: NetName=DGND Pin=P60-3
+Added Net: Name=DGND
+Added Pin To Net: NetName=VCC Pin=P50-1
+Added Pin To Net: NetName=VCC Pin=P60-1
+Added Pin To Net: NetName=VCC Pin=P60-1
+Added Pin To Net: NetName=VCC Pin=P60-1
+Added Net: Name=VCC
+Added Pin To Net: NetName=VDD5.0V Pin=P50-2
+Added Net: Name=VDD5.0V
+Added Class: Name=Main
+Added Room: Name=01-CPU1
+Added Room: Name=02-CPU2
+Added Room: Name=03-CPU3
+Added Room: Name=04-MEM
+Added Room: Name=Main

@@ -1,0 +1,18 @@
+Added Component: Designator=U2(DIP-8)
+Added Component: Designator=U4(DIP-8)
+Added Pin To Net: NetName=NetR1_2 Pin=U2-1
+Added Pin To Net: NetName=NetR1_2 Pin=U2-2
+Added Pin To Net: NetName=GND Pin=U2-3
+Added Pin To Net: NetName=GND Pin=U2-5
+Added Pin To Net: NetName=NetR7_2 Pin=U2-6
+Added Pin To Net: NetName=NetR4_1 Pin=U2-7
+Added Pin To Net: NetName=AD Pin=U4-1
+Added Pin To Net: NetName=NetR3_1 Pin=U4-2
+Added Pin To Net: NetName=GND Pin=U4-3
+Added Pin To Net: NetName=NetC1_1 Pin=U4-5
+Added Pin To Net: NetName=NetR7_1 Pin=U4-6
+Added Pin To Net: NetName=NetR7_1 Pin=U4-7
+Added Pin To Net: NetName=VCC Pin=U4-8
+Added Member To Class: ClassName=SHEET1 Member=Component U2 LM2903N
+Added Member To Class: ClassName=SHEET1 Member=Component U4 LM2903N
+Added Room: Name=SHEET1

@@ -1,0 +1,23 @@
+Added Component: Designator=P2(H20X1 2.0)
+Added Pin To Net: NetName=SDA Pin=P2-1
+Added Pin To Net: NetName=SCK Pin=P2-2
+Added Pin To Net: NetName=GP14 Pin=P2-3
+Added Pin To Net: NetName=GAMSTR Pin=P2-4
+Added Pin To Net: NetName=CAMPCLK Pin=P2-5
+Added Pin To Net: NetName=CAMHREF Pin=P2-6
+Added Pin To Net: NetName=CAMSYNC Pin=P2-7
+Added Pin To Net: NetName=CAMCLK Pin=P2-8
+Added Pin To Net: NetName=CAMDATA7 Pin=P2-9
+Added Pin To Net: NetName=CAMDATA6 Pin=P2-10
+Added Pin To Net: NetName=CAMDATA5 Pin=P2-11
+Added Pin To Net: NetName=CAMDATA4 Pin=P2-12
+Added Pin To Net: NetName=CAMDATA3 Pin=P2-13
+Added Pin To Net: NetName=CAMDATA2 Pin=P2-14
+Added Pin To Net: NetName=CAMDATA1 Pin=P2-15
+Added Pin To Net: NetName=CAMDATA0 Pin=P2-16
+Added Pin To Net: NetName=VDD33 Pin=P2-17
+Added Pin To Net: NetName=VDD33 Pin=P2-18
+Added Pin To Net: NetName=VDD1.8 Pin=P2-19
+Added Pin To Net: NetName=GND Pin=P2-20
+Added Member To Class: ClassName=footprint Member=Component P2 Header 10X2
+Added Room: Name=footprint

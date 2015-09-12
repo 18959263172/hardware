@@ -1,0 +1,221 @@
+\t (00:00:03) allegro 16.5 P003 (v16-5-13C) i86
+\t (00:00:03)     Journal start - Sun May 11 18:50:19 2014
+\t (00:00:03)         Host=DADI--20130722Z User=Administrator Pid=27620 CPUs=2
+\t (00:00:03) 
+\t (00:00:06) Opening existing design...
+\d (00:00:07) Database opened: D:/我的项目/指纹接口/unnamed.brd
+\i (00:00:09) trapsize 2020
+\i (00:00:09) trapsize 1970
+\i (00:00:09) trapsize 2029
+\i (00:00:09) trapsize 2243
+\i (00:00:10) generaledit 
+\i (00:00:14) new 
+\i (00:00:22) newdrawfillin "epm240.dra" "Package Symbol (Wizard)"
+\t (00:00:22) Starting new design...
+\i (00:00:23) trapsize 35928
+\i (00:00:23) trapsize 34884
+\i (00:00:23) trapsize 35928
+\i (00:00:23) trapsize 37037
+\i (00:00:23) trapsize 47596
+\i (00:00:23) trapsize 47596
+\i (00:00:23) package symbol wizard 
+\i (00:00:24) generaledit 
+   (00:00:27) Loading cmds.cxt 
+   (00:00:27) Loading axlcore.cxt 
+\i (00:00:27) setwindow form.sym_wizard
+\i (00:00:27) FORM sym_wizard sip YES 
+\i (00:00:27) FORM sym_wizard rca_th YES 
+\i (00:00:28) FORM sym_wizard bga YES 
+\i (00:00:29) FORM sym_wizard plcc YES 
+\i (00:00:31) FORM sym_wizard wiz_next  
+\i (00:00:33) FORM sym_wizard load_template  
+\t (00:00:33) Opening existing design...
+\i (00:00:34) fillin yes 
+\t (00:00:34) Grids are drawn 400, 400 apart for enhanced viewability.
+\i (00:00:34) setwindow pcb
+\i (00:00:34) trapsize 272
+\d (00:00:34) Database opened: G:/cad/share/pcb/pcb_lib/symbols/template/sym_template.dra
+\i (00:00:35) setwindow form.sym_wizard
+\i (00:00:35) FORM sym_wizard wiz_next  
+\i (00:00:37) FORM sym_wizard pack_units Millimeter 
+\i (00:00:39) FORM sym_wizard pack_units_create Millimeter 
+\i (00:00:41) FORM sym_wizard wiz_next  
+\i (00:00:54) FORM sym_wizard qfp_pin_count_v 10 
+\i (00:00:54) FORM sym_wizard wiz_next  
+\i (00:00:55) FORM sym_wizard wiz_back  
+\i (00:00:56) FORM sym_wizard wiz_next  
+\i (00:00:56) FORM sym_wizard wiz_next  
+\i (00:00:57) FORM sym_wizard wiz_back  
+\i (00:00:57) FORM sym_wizard wiz_back  
+\i (00:52:41) setwindow pcb
+\i (00:52:41) dbdoctor 
+\e (00:52:41) ERROR(SPMHDB-20): Buffer not initialized.
+\i (00:52:42) setwindow form.dbdoctor_allegro
+\i (00:52:42) FORM dbdoctor_allegro close  
+\i (00:52:43) setwindow pcb
+\i (00:52:43) generaledit 
+\i (00:52:51) padeditlib 
+\i (00:52:57) fillin "menu_cancel"
+\i (00:52:58) fillin no 
+\i (00:52:59) fillin "menu_cancel"
+\i (00:53:00) fillin yes 
+\i (00:53:00) generaledit 
+\i (00:53:09) prmed 
+\i (00:53:17) setwindow form.prmedit
+\i (00:53:17) FORM prmedit design  
+\i (00:53:18) FORM prmedit shapes  
+\i (00:53:19) FORM prmedit route  
+\i (00:53:20) FORM prmedit text  
+\i (00:53:20) FORM prmedit design  
+\i (00:53:21) FORM prmedit display  
+\i (00:53:22) FORM prmedit design  
+\i (00:53:26) FORM prmedit text  
+\i (00:53:26) FORM prmedit shapes  
+\i (00:53:27) FORM prmedit route  
+\i (00:53:28) FORM prmedit ee_treelist  Slide 
+\i (00:53:29) FORM prmedit display  
+\i (00:53:30) FORM prmedit cancel  
+\i (00:53:30) setwindow pcb
+\i (00:53:30) generaledit 
+\i (00:53:50) enved 
+\i (00:53:51) generaledit 
+\i (00:53:56) setwindow form.prfedit
+\i (00:53:56) FORM prfedit treelist  Obsolete 
+\i (00:53:56) FORM prfedit treelist  Interfaces 
+\i (00:53:57) FORM prfedit treelist  Logic 
+\i (00:53:57) FORM prfedit treelist  Manufacture 
+\i (00:53:57) FORM prfedit treelist  Obsolete 
+\i (00:53:58) FORM prfedit treelist  Os 
+\i (00:53:58) FORM prfedit treelist  Placement 
+\i (00:53:58) FORM prfedit treelist  Paths 
+\i (00:54:00) FORM prfedit treelist  Config Paths 
+\i (00:54:00) FORM prfedit treelist  Editor Paths 
+\i (00:54:01) FORM prfedit treelist  Library Paths 
+\i (00:54:04) FORM prfedit treelist  MCM Paths 
+\i (00:54:05) FORM prfedit treelist  Signoise Paths 
+\i (00:54:05) FORM prfedit treelist  Editor Paths 
+\i (00:54:17) FORM prfedit treelist  Ic_packaging 
+\i (00:54:19) FORM prfedit treelist  Codesign Ic_packaging 
+\i (00:54:20) FORM prfedit treelist  Die_symbols Ic_packaging 
+\i (00:54:21) FORM prfedit treelist  Manufacture Ic_packaging 
+\i (00:54:21) FORM prfedit treelist  Package_integrity Ic_packaging 
+\i (00:54:23) FORM prfedit treelist  Drc 
+\i (00:54:24) FORM prfedit treelist  Delay Drc 
+\i (00:54:26) FORM prfedit cancel  
+\i (00:57:29) setwindow pcb
+\i (00:57:29) multpadedit 
+\i (00:57:32) cdsdoc allegro allegrolaunch 
+\i (00:57:43) padeditlib 
+\i (00:57:49) fillin "menu_cancel"
+\i (00:57:51) fillin no 
+\i (00:57:52) fillin "menu_cancel"
+\i (00:57:53) fillin yes 
+\i (00:57:53) generaledit 
+\i (00:58:04) custom datatips 
+\i (00:58:07) setwindow cdt.dialog
+\i (00:58:07) file cancel
+\i (00:58:07) setwindow pcb
+\i (00:58:07) generaledit 
+\i (00:58:19) prmed 
+\i (00:58:20) setwindow form.prmedit
+\i (00:58:20) FORM prmedit design  
+\i (00:58:22) FORM prmedit display  
+\i (00:58:22) FORM prmedit design  
+\i (00:58:24) FORM prmedit display  
+\i (00:58:24) FORM prmedit text  
+\i (00:58:24) FORM prmedit shapes  
+\i (00:58:25) FORM prmedit route  
+\i (00:58:29) setwindow pcb
+\i (00:58:29) prmed 
+\i (00:58:31) setwindow form.prmedit
+\i (00:58:31) FORM prmedit cancel  
+\i (00:58:31) setwindow pcb
+\i (00:58:31) generaledit 
+\i (00:58:34) add pin 
+\i (00:58:35) pick grid 28115 21958
+\t (00:58:35) last pick:  28100  22000
+\e (00:58:35) ERROR(SPMHAP-2): No padstack specified.
+\i (00:58:36) zoom in 1 
+\i (00:58:36) setwindow pcb
+\i (00:58:36) zoom in 30186 20759
+\i (00:58:36) trapsize 136
+\i (00:58:36) zoom in 1 
+\i (00:58:36) setwindow pcb
+\i (00:58:36) zoom in 28199 20787
+\i (00:58:36) trapsize 68
+\i (00:58:36) zoom in 1 
+\i (00:58:36) setwindow pcb
+\i (00:58:36) zoom in 28431 20787
+\i (00:58:36) trapsize 34
+\i (00:58:36) zoom in 1 
+\i (00:58:36) setwindow pcb
+\i (00:58:36) zoom in 28431 20788
+\i (00:58:36) trapsize 17
+\i (00:58:37) zoom out 1 
+\i (00:58:37) setwindow pcb
+\i (00:58:37) zoom out 28432 20788
+\i (00:58:37) trapsize 34
+\i (00:58:37) zoom out 1 
+\i (00:58:37) setwindow pcb
+\i (00:58:37) zoom out 28431 20788
+\i (00:58:37) trapsize 68
+\i (00:58:37) zoom out 1 
+\i (00:58:37) setwindow pcb
+\i (00:58:37) zoom out 28431 20788
+\i (00:58:37) trapsize 136
+\i (00:58:37) prepopup 28023 22259
+\i (00:58:37) cancel 
+\t (00:58:37) Exiting from Add Pin.
+\i (00:58:38) generaledit 
+\i (00:58:43) zoom selection 
+\i (00:58:43) generaledit 
+\i (00:58:48) replace padstack 
+\i (00:58:57) dbdoctor 
+\i (00:59:11) setwindow form.dbdoctor_allegro
+\i (00:59:11) FORM dbdoctor_allegro close  
+\i (00:59:11) setwindow pcb
+\i (00:59:11) generaledit 
+\i (00:59:44) pick grid 15436 24493
+\t (00:59:44) last pick:  15400  24500
+\i (00:59:45) new 
+\i (00:59:52) newdrawfillin "menu_cancel"
+\i (00:59:52) generaledit 
+\i (00:59:53) open 
+\i (00:59:57) fillin "fpc.dra"
+\t (00:59:57) Opening existing design...
+\i (00:59:57) trapsize 1362
+\d (00:59:57) Database opened: D:/我的项目/指纹接口/fpc.dra
+\i (00:59:57) generaledit 
+\i (01:00:06) enved 
+\i (01:00:07) generaledit 
+\i (01:00:11) setwindow form.prfedit
+\i (01:00:11) FORM prfedit treelist  Paths 
+\i (01:00:12) FORM prfedit treelist  Config Paths 
+\i (01:00:13) FORM prfedit treelist  Library Paths 
+\i (01:00:26) FORM prfedit devpath  
+\i (01:00:43) FORM prfedit listf  
+\i (01:00:43) setwindow pcb
+\i (01:00:43) set 
+\i (01:00:48) setwindow text
+\i (01:00:48) close 
+\i (01:00:49) setwindow form.prfedit
+\i (01:00:49) FORM prfedit done  
+\i (01:00:49) setwindow pcb
+\i (01:00:49) pick grid 9998.4 4903.8
+\t (01:00:49) last pick:  10000.0  4900.0
+\i (01:00:51) open 
+\i (01:00:57) fillin "menu_cancel"
+\i (01:00:57) generaledit 
+\i (01:00:57) pick grid 20677.9 3459.9
+\t (01:00:57) last pick:  20700.0  3500.0
+\i (01:06:57) enved 
+\i (01:06:58) generaledit 
+\i (01:07:00) setwindow form.prfedit
+\i (01:07:00) FORM prfedit padpath  
+\i (01:07:13) FORM prfedit done  
+\i (01:07:13) setwindow pcb
+\i (01:07:13) pick grid 12613.8 7110.6
+\t (01:07:13) last pick:  12600.0  7100.0
+\i (01:07:15) new 
+\i (01:07:53) newdrawfillin "tqfp100_epm240.dra" "Package Symbol (Wizard)"
+\t (01:07:53)     Journal end - Sun May 11 19:58:09 2014

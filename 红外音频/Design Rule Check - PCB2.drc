@@ -1,0 +1,72 @@
+Protel Design System Design Rule Check
+PCB File : D:\郑才育\红外音频\PCB2.PcbDoc
+Date     : 2013-9-4
+Time     : 下午 02:20:40
+
+Processing Rule : Net Antennae (Tolerance=0mil) (All)
+Rule Violations :0
+
+Processing Rule : Silk to Silk (Clearance=10mil) (All),(All)
+Rule Violations :0
+
+Processing Rule : Silkscreen Over Component Pads (Clearance=10mil) (All),(All)
+   Violation between Pad R11-1(4630mil,3200mil)  Multi-Layer and 
+                     Track (4671mil,3200mil)(4680mil,3200mil)  Top Overlay
+   Violation between Pad R11-2(4930mil,3200mil)  Multi-Layer and 
+                     Track (4880mil,3200mil)(4889mil,3200mil)  Top Overlay
+   Violation between Pad R10-1(4650mil,3040mil)  Multi-Layer and 
+                     Track (4691mil,3040mil)(4700mil,3040mil)  Top Overlay
+   Violation between Pad R10-2(4950mil,3040mil)  Multi-Layer and 
+                     Track (4900mil,3040mil)(4909mil,3040mil)  Top Overlay
+   Violation between Pad R7-1(3755.447mil,3490.447mil)  Multi-Layer and 
+                     Track (3755.447mil,3530.447mil)(3755.447mil,3570.447mil)  Top Overlay
+   Violation between Pad R7-2(3755.447mil,3890.447mil)  Multi-Layer and 
+                     Track (3755.447mil,3810.447mil)(3755.447mil,3850.447mil)  Top Overlay
+   Violation between Pad R3-1(3610mil,3060mil)  Multi-Layer and 
+                     Track (3560mil,3060mil)(3569mil,3060mil)  Top Overlay
+   Violation between Pad R3-2(3310mil,3060mil)  Multi-Layer and 
+                     Track (3351mil,3060mil)(3360mil,3060mil)  Top Overlay
+Rule Violations :8
+
+Processing Rule : Minimum Solder Mask Sliver (Gap=10mil) (All),(All)
+   Violation between Pad Q2-2(3360mil,2840mil)  Multi-Layer and 
+                     Pad Q2-3(3310mil,2840mil)  Multi-Layer
+   Violation between Pad Q2-1(3410mil,2840mil)  Multi-Layer and 
+                     Pad Q2-2(3360mil,2840mil)  Multi-Layer
+   Violation between Pad Q1-2(4660mil,2700mil)  Multi-Layer and 
+                     Pad Q1-3(4710mil,2700mil)  Multi-Layer
+   Violation between Pad Q1-1(4610mil,2700mil)  Multi-Layer and 
+                     Pad Q1-2(4660mil,2700mil)  Multi-Layer
+   Violation between Pad Q3-2(3315mil,3320mil)  Multi-Layer and 
+                     Pad Q3-3(3315mil,3270mil)  Multi-Layer
+   Violation between Pad Q3-1(3315mil,3370mil)  Multi-Layer and 
+                     Pad Q3-2(3315mil,3320mil)  Multi-Layer
+Rule Violations :6
+
+Processing Rule : Hole To Hole Clearance (Gap=10mil) (All),(All)
+Rule Violations :0
+
+Processing Rule : Hole Size Constraint (Min=1mil) (Max=100mil) (All)
+Rule Violations :0
+
+Processing Rule : Height Constraint (Min=0mil) (Max=1000mil) (Prefered=500mil) (All)
+Rule Violations :0
+
+Processing Rule : Width Constraint (Min=10mil) (Max=700mil) (Preferred=10mil) (All)
+Rule Violations :0
+
+Processing Rule : Power Plane Connect Rule(Relief Connect )(Expansion=20mil) (Conductor Width=10mil) (Air Gap=10mil) (Entries=4) (All)
+Rule Violations :0
+
+Processing Rule : Clearance Constraint (Gap=10mil) (All),(All)
+Rule Violations :0
+
+Processing Rule : Un-Routed Net Constraint ( (All) )
+Rule Violations :0
+
+Processing Rule : Short-Circuit Constraint (Allowed=No) (All),(All)
+Rule Violations :0
+
+
+Violations Detected : 14
+Time Elapsed        : 00:00:01

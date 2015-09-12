@@ -1,0 +1,7 @@
+Removed Pin From Net: NetName=NetD1_2 Pin=Q1-2
+Change Component Footprint: Designator=Q1 Old Footprint=TO-92 New Footprint=TO-92A
+Added Pin To Net: NetName=NetD1_2 Pin=Q1-1
+Added Pin To Net: NetName=NetQ1_2 Pin=Q1-2
+Added Pin To Net: NetName=NetQ1_2 Pin=R6-2
+Added Net: Name=NetQ1_2
+Added Room: Name=Sheet1

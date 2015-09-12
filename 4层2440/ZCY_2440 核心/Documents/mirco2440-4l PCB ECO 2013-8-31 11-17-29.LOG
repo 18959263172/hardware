@@ -1,0 +1,19 @@
+Removed Pin From Net: NetName=NSS_SPI Pin=P3-1
+Removed Pin From Net: NetName=SPICLK Pin=P3-2
+Removed Pin From Net: NetName=SPIMOSI Pin=P3-3
+Removed Pin From Net: NetName=SPIMISO Pin=P3-4
+Removed Pin From Net: NetName=GPG14 Pin=P4-1
+Removed Pin From Net: NetName=EINT20 Pin=P4-2
+Removed Pin From Net: NetName=EINT11 Pin=P4-3
+Removed Pin From Net: NetName=EINT15 Pin=P4-4
+Removed Pin From Net: NetName=EINT14 Pin=P4-5
+Removed Pin From Net: NetName=EINT13 Pin=P4-6
+Removed Pin From Net: NetName=VDD33V Pin=R6-2
+Removed Member From Class: ClassName=02-CPU2 Member=P3
+Removed Member From Class: ClassName=02-CPU2 Member=P4
+Added Room: Name=01-CPU1
+Added Room: Name=02-CPU2
+Added Room: Name=03-CPU3
+Added Room: Name=04-MEM
+Added Room: Name=05I2S
+Added Room: Name=Main

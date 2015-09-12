@@ -1,0 +1,96 @@
+Added Pin To Net: NetName=GND Pin=NU1-83
+Added Pin To Net: NetName=VDD33 Pin=NU1-84
+Added Pin To Net: NetName=A0 Pin=U2-1
+Added Pin To Net: NetName=A1 Pin=U2-2
+Added Pin To Net: NetName=A2 Pin=U2-3
+Added Pin To Net: NetName=A3 Pin=U2-4
+Added Pin To Net: NetName=A4 Pin=U2-5
+Added Pin To Net: NetName=D0 Pin=U2-7
+Added Pin To Net: NetName=D1 Pin=U2-8
+Added Pin To Net: NetName=D2 Pin=U2-9
+Added Pin To Net: NetName=D3 Pin=U2-10
+Added Pin To Net: NetName=D4 Pin=U2-13
+Added Pin To Net: NetName=D5 Pin=U2-14
+Added Pin To Net: NetName=D6 Pin=U2-15
+Added Pin To Net: NetName=D7 Pin=U2-16
+Added Pin To Net: NetName=A5 Pin=U2-18
+Added Pin To Net: NetName=A6 Pin=U2-19
+Added Pin To Net: NetName=A7 Pin=U2-20
+Added Pin To Net: NetName=A8 Pin=U2-21
+Added Pin To Net: NetName=A9 Pin=U2-22
+Added Pin To Net: NetName=A10 Pin=U2-23
+Added Pin To Net: NetName=A11 Pin=U2-24
+Added Pin To Net: NetName=A12 Pin=U2-25
+Added Pin To Net: NetName=A13 Pin=U2-26
+Added Pin To Net: NetName=A14 Pin=U2-27
+Added Pin To Net: NetName=A18 Pin=U2-28
+Added Pin To Net: NetName=D8 Pin=U2-29
+Added Pin To Net: NetName=D9 Pin=U2-30
+Added Pin To Net: NetName=D10 Pin=U2-31
+Added Pin To Net: NetName=D11 Pin=U2-32
+Added Pin To Net: NetName=D12 Pin=U2-35
+Added Pin To Net: NetName=D13 Pin=U2-36
+Added Pin To Net: NetName=D14 Pin=U2-37
+Added Pin To Net: NetName=D15 Pin=U2-38
+Added Pin To Net: NetName=A15 Pin=U2-42
+Added Pin To Net: NetName=A16 Pin=U2-43
+Added Pin To Net: NetName=A17 Pin=U2-44
+Added Pin To Net: NetName=A22 Pin=U4-2
+Added Pin To Net: NetName=A15 Pin=U4-3
+Added Pin To Net: NetName=A14 Pin=U4-4
+Added Pin To Net: NetName=A13 Pin=U4-5
+Added Pin To Net: NetName=A12 Pin=U4-6
+Added Pin To Net: NetName=A11 Pin=U4-7
+Added Pin To Net: NetName=A10 Pin=U4-8
+Added Pin To Net: NetName=A9 Pin=U4-9
+Added Pin To Net: NetName=A8 Pin=U4-10
+Added Pin To Net: NetName=A19 Pin=U4-11
+Added Pin To Net: NetName=A20 Pin=U4-12
+Added Pin To Net: NetName=A21 Pin=U4-15
+Added Pin To Net: NetName=A18 Pin=U4-18
+Added Pin To Net: NetName=A17 Pin=U4-19
+Added Pin To Net: NetName=A7 Pin=U4-20
+Added Pin To Net: NetName=A6 Pin=U4-21
+Added Pin To Net: NetName=A5 Pin=U4-22
+Added Pin To Net: NetName=A4 Pin=U4-23
+Added Pin To Net: NetName=A3 Pin=U4-24
+Added Pin To Net: NetName=A2 Pin=U4-25
+Added Pin To Net: NetName=A1 Pin=U4-26
+Added Pin To Net: NetName=A0 Pin=U4-31
+Added Pin To Net: NetName=D0 Pin=U4-35
+Added Pin To Net: NetName=D8 Pin=U4-36
+Added Pin To Net: NetName=D1 Pin=U4-37
+Added Pin To Net: NetName=D9 Pin=U4-38
+Added Pin To Net: NetName=D2 Pin=U4-39
+Added Pin To Net: NetName=D10 Pin=U4-40
+Added Pin To Net: NetName=D3 Pin=U4-41
+Added Pin To Net: NetName=D11 Pin=U4-42
+Added Pin To Net: NetName=D4 Pin=U4-44
+Added Pin To Net: NetName=D12 Pin=U4-45
+Added Pin To Net: NetName=D5 Pin=U4-46
+Added Pin To Net: NetName=D13 Pin=U4-47
+Added Pin To Net: NetName=D6 Pin=U4-48
+Added Pin To Net: NetName=D14 Pin=U4-49
+Added Pin To Net: NetName=D7 Pin=U4-50
+Added Pin To Net: NetName=D15 Pin=U4-51
+Added Pin To Net: NetName=A16 Pin=U4-54
+Added Pin To Net: NetName=A16 Pin=U5-16
+Added Pin To Net: NetName=A17 Pin=U5-17
+Added Pin To Net: NetName=D0 Pin=U5-29
+Added Pin To Net: NetName=D1 Pin=U5-30
+Added Pin To Net: NetName=D2 Pin=U5-31
+Added Pin To Net: NetName=D3 Pin=U5-32
+Added Pin To Net: NetName=D4 Pin=U5-41
+Added Pin To Net: NetName=D5 Pin=U5-42
+Added Pin To Net: NetName=D6 Pin=U5-43
+Added Pin To Net: NetName=D7 Pin=U5-44
+Change Class Name : Old Net Name=U_EXTERN New Net Name=EXTERN
+Change Class Name : Old Net Name=U_GPIO_OUT New Net Name=GPIO_OUT
+Change Class Name : Old Net Name=U_POWER New Net Name=POWER
+Change Class Name : Old Net Name=U_STORAGE New Net Name=STORAGE
+Change Class Name : Old Net Name=U_XLAT AND JTAG New Net Name=XLAT AND JTAG
+Added Room: Name=EXTERN
+Added Room: Name=GPIO_OUT
+Added Room: Name=POWER
+Added Room: Name=STORAGE
+Added Room: Name=XLAT AND JTAG

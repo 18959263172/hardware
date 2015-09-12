@@ -1,0 +1,6 @@
+Record=SheetSymbol|SourceDocument=main.SchDoc|Designator=U_EXTERN|SchDesignator=U_EXTERN|FileName=EXTERN.SchDoc|SymbolType=Normal|RawFileName=EXTERN.SchDoc|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol
+Record=SheetSymbol|SourceDocument=main.SchDoc|Designator=U_GPIO_OUT|SchDesignator=U_GPIO_OUT|FileName=GPIO_OUT.SchDoc|SymbolType=Normal|RawFileName=GPIO_OUT.SchDoc|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol
+Record=SheetSymbol|SourceDocument=main.SchDoc|Designator=U_POWER|SchDesignator=U_POWER|FileName=POWER.SchDoc|SymbolType=Normal|RawFileName=POWER.SchDoc|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol
+Record=SheetSymbol|SourceDocument=main.SchDoc|Designator=U_STORAGE|SchDesignator=U_STORAGE|FileName=STORAGE.SchDoc|SymbolType=Normal|RawFileName=STORAGE.SchDoc|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol
+Record=SheetSymbol|SourceDocument=main.SchDoc|Designator=U_XLAT AND JTAG|SchDesignator=U_XLAT AND JTAG|FileName=XLAT AND JTAG.SchDoc|SymbolType=Normal|RawFileName=XLAT AND JTAG.SchDoc|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol
+Record=TopLevelDocument|FileName=main.SchDoc

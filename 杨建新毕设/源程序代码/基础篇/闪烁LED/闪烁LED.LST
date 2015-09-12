@@ -1,0 +1,47 @@
+C51 COMPILER V6.12  ____LED                                                                02/03/2012 09:18:19 PAGE 1   
+
+
+C51 COMPILER V6.12, COMPILATION OF MODULE ____LED
+OBJECT MODULE PLACED IN .\…¡À∏LED.OBJ
+COMPILER INVOKED BY: F:\»Ìº˛\keil C\C51\BIN\C51.EXE .\…¡À∏LED.c DEBUG OBJECTEXTEND
+
+stmt level    source
+
+   1          //∫Ï…´LED…¡À∏
+   2          #include <reg52.h>
+   3          #define uchar unsigned char
+   4          #define uint unsigned int
+   5          sbit d0=P1^7;
+   6          void delay(uchar dly)
+   7          	{
+   8   1      		uchar i,j;
+   9   1      		for(i=255;i>0;i--)
+  10   1      		 for(j=dly;j>0;j--);
+  11   1      	}
+  12          
+  13          void main()
+  14          {	
+  15   1      	
+  16   1      	while(1)
+  17   1       	{
+  18   2      	    d0=1;
+  19   2              delay(255);
+  20   2      	    d0=0;
+  21   2      	    delay(255);
+  22   2      
+  23   2              }
+  24   1      }
+
+
+MODULE INFORMATION:   STATIC OVERLAYABLE
+   CODE SIZE        =     30    ----
+   CONSTANT SIZE    =   ----    ----
+   XDATA SIZE       =   ----    ----
+   PDATA SIZE       =   ----    ----
+   DATA SIZE        =   ----    ----
+   IDATA SIZE       =   ----    ----
+   BIT SIZE         =   ----    ----
+END OF MODULE INFORMATION.
+
+
+C51 COMPILATION COMPLETE.  0 WARNING(S),  0 ERROR(S)

@@ -1,0 +1,24 @@
+Field=Comment~String~Comment~100|Field=Description~String~Description~100|Field=Designator~String~Designator~100|Field=Footprint~String~Footprint~100|Field=LibRef~String~LibRef~100|Field=Quantity~Integer~Quantity~100|ReportField=ProductionQuantity~1|ReportField=ProjectFileName~PCB_Project1.PrjPCB|ReportField=ProjectFullPath~D:\指纹识别硬件\PCB_Project1.PrjPCB|ReportField=Title~Bill of Materials For Project [PCB_Project1.PrjPCB] (No PCB Document Selected)|ReportField=TotalQuantity~71|ReportField=ReportTime~PM 07:00:46|ReportField=ReportDate~2013-10-17|ReportField=ReportDateTime~2013-10-17 PM 07:00:46|ReportField=OutputName~Bill of Materials|ReportField=OutputType~BOM_PartType|ReportField=GeneratorName~BOM|ReportField=GeneratorDescription~Bill of Materials|ReportField=VariantName~None|ReportField=Address1~|ReportField=Address2~|ReportField=Address3~|ReportField=Address4~|ReportField=ApprovedBy~|ReportField=Author~|ReportField=CheckedBy~|ReportField=CompanyName~|ReportField=CurrentDate~2013-10-17|ReportField=CurrentTime~PM 07:00:36|ReportField=Date~|ReportField=DocumentFullPathAndName~D:\指纹识别硬件\main.SchDoc|ReportField=DocumentName~main.SchDoc|ReportField=DocumentNumber~|ReportField=DrawnBy~|ReportField=Engineer~|ReportField=ImagePath~|ReportField=ModifiedDate~2013-10-17|ReportField=Organization~|ReportField=PageSetup~Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=2|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-4|MediaType=1|DitherType=10|PaperKind=A4|PrintScaleMode=1|ReportField=Revision~|ReportField=Rule~|ReportField=SheetNumber~|ReportField=SheetTotal~|ReportField=Time~|ReportField=Title~|ReportField=DataSourceFileName~PCB_Project1.PrjPCB|ReportField=DataSourceFullPath~D:\指纹识别硬件\PCB_Project1.PrjPCB
+0.1uF|Capacitor|C1, C2, C3, C4|0805|CAP|4
+Cap|Capacitor|C7, C14, C15, C16, C17, C18, C19, C20|6-0805|Cap|8
+102|Capacitor|C9, C10|0805|CAP|2
+2.2uf|Capacitor|C11, C12|1210|CAP|2
+Cap|Capacitor|C21, C22, C23, C24, C25, C26, C27, C50, C51|0805|Cap|9
+LED0|Typical INFRARED GaAs LED|D1, D2, D3|0805|LED0|3
+LED3|Typical BLUE SiC LED|D4|0805|LED3|1
+PWR2.5|Low Voltage Power Supply Connector|J1|Power_In|PWR2.5|1
+Inductor|Inductor|L1|6-0805|Inductor|1
+STM32F103ZET6||NU1|LQFN144|STM32F103ZET6|1
+Header 4|Header, 4-Pin|P1|HDR1X4|Header 4|1
+Header 3|Header, 3-Pin|P3, P5, P7|HDR1X3|Header 3|3
+Header 2|Header, 2-Pin|P6|HDR1X2|Header 2|1
+Header 10X2|Header, 10-Pin, Dual row|P8|HDR2X10|Header 10X2|1
+P10||P20|787616|COMPONENT_1|1
+Res2|Resistor|R1, R2, R3, R4, R5, R6, R7, R8, R9, R10, R11, R12, R13, R14, R15, R16, R18, R19, R20, R21, R22, R23, R24, R25|0805|Res2|24
+SW_PB||REST1|SWPB|SW_PB|1
+MAX232-2||U1|SOIC16|MAX3232-2|1
+IS61LV51216-10T||U2|TSOP44|IS61LV51216-10T|1
+LM1117-3.3||U3|SOT-223|LM1117-3.3|1
+M29W128GL||U4|TSOP56|M29W128GL|1
+NAND512W3A2CN6E||U5|TSOP48|NAND512W3A2CN6E|1
+XTAL|Crystal Oscillator|Y1, Y2|XTAL-1|XTAL|2

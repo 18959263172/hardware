@@ -1,0 +1,7 @@
+Change Component Footprint: Designator=U2 Old Footprint=TSOP48 New Footprint=TSOP44
+Added Pin To Net: NetName=D0 Pin=NU1-83
+Added Pin To Net: NetName=D1 Pin=NU1-84
+Added Room: Name=U_EXTERN
+Added Room: Name=U_POWER
+Added Room: Name=U_STORAGE
+Added Room: Name=U_XLAT AND JTAG

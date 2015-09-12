@@ -1,0 +1,7 @@
+Removed Pin From Net: NetName=VDD Pin=J2-4
+Removed Pin From Net: NetName=VDD Pin=P?-1
+Change Net Name : Old Net Name=VDD New Net Name=VCC3.3
+Added Pin To Net: NetName=VDD Pin=J2-4
+Added Pin To Net: NetName=VDD Pin=P?-1
+Added Net: Name=VDD
+Added Room: Name=Sheet1

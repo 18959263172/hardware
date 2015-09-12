@@ -1,0 +1,187 @@
+C51 COMPILER V6.12  11                                                                     02/08/2012 09:24:48 PAGE 1   
+
+
+C51 COMPILER V6.12, COMPILATION OF MODULE 11
+OBJECT MODULE PLACED IN .\11.OBJ
+COMPILER INVOKED BY: F:\软件\keil C\C51\BIN\C51.EXE .\11.c BROWSE DEBUG OBJECTEXTEND
+
+stmt level    source
+
+   1          //   湿度20-90   温度0-50		采样间隔1S				无线模块板
+   2          #include<reg52.h>
+   3          #include<intrins.h>
+   4          #define uchar unsigned char
+   5          #define uint unsigned int
+   6          //sbit DQ=P3^5;
+   7          //sbit d1=P2^3;
+   8          //sbit d2=P2^4;
+   9          //sbit d3=P2^5;
+  10          sbit DQ=P2^3;			 //DTH11
+  11          // 1602
+  12          sbit lcden=P3^7;
+  13          sbit lcdrs=P3^4;
+  14          sbit lcdrw=P3^6;
+  15          sbit BELL=P1^6;
+  16          uchar wendu;
+  17          uchar shidu;
+  18          ////////  1602
+  19          void delay1ms(uint z)
+  20          {
+  21   1      	uint x,y;
+  22   1      	for(x=z;x>0;x--)
+  23   1      		for(y=114;y>0;y--);
+  24   1      }
+  25          
+  26          void write_com(uchar com)
+  27          {
+  28   1      	lcdrs=0;
+  29   1      	P0=com;
+  30   1      	delay1ms(5);
+  31   1      	lcden=1;
+  32   1      	delay1ms(5);
+  33   1      	lcden=0;
+  34   1      }
+  35          
+  36          void write_data(uchar date)
+  37          {
+  38   1      	lcdrs=1;
+  39   1      	P0=date;
+  40   1      	delay1ms(5);
+  41   1      	lcden=1;
+  42   1      	delay1ms(5);
+  43   1      	lcden=0;
+  44   1      }
+  45          void write_str(uchar *str)  
+  46          {  
+  47   1       while(*str!='\0')  //未结束   
+  48   1       {  
+  49   2        write_data(*str++);  
+  50   2        delay1ms(1);  
+  51   2       }  
+  52   1      } 
+  53          void init_1602()
+  54          {
+  55   1      //	uchar num;
+C51 COMPILER V6.12  11                                                                     02/08/2012 09:24:48 PAGE 2   
+
+  56   1      	uchar table[16]={0};
+  57   1      	uchar table1[16]={0}; 
+  58   1      	lcdrw=0;
+  59   1      	lcden=0;
+  60   1      	write_com(0x38);	
+  61   1      	write_com(0x0e);
+  62   1      	write_com(0x06);
+  63   1      	write_com(0x01);
+  64   1      	write_com(0x80);
+  65   1      /*	for(num=0;num<16;num++)
+  66   1      	{
+  67   1      		write_data(table[num]);
+  68   1      		delay1ms(10);
+  69   1      	}
+  70   1      	write_com(0x80+0x40);
+  71   1      	for(num=0;num<16;num++)
+  72   1      	{
+  73   1      		write_data(table1[num]);
+  74   1      		delay1ms(10);
+  75   1      	}
+  76   1       */
+  77   1      }
+  78          /////////  DTH11
+  79          
+  80          bit init_DTH11()
+  81          {
+  82   1      	bit flag;
+  83   1      	uchar num;
+  84   1      	DQ=0;
+  85   1      	delay1ms(19);	  // >18ms
+  86   1      	DQ=1;
+  87   1      	for(num=0;num<10;num++);	  // 20-40us			 34.7us
+  88   1      
+  89   1      	for(num=0;num<12;num++);
+  90   1      	flag=DQ;
+  91   1      	for(num=0;num<11;num++);	//DTH响应80us
+  92   1      
+  93   1      	for(num=0;num<24;num++);   	//DTH拉高80us
+  94   1      	return flag;
+  95   1      }
+  96          
+  97          uchar DTH11_RD_CHAR()
+  98          {
+  99   1      	uchar byte=0;
+ 100   1      	uchar num;
+ 101   1      	uchar num1;
+ 102   1      	while(DQ==1);
+ 103   1      	for(num1=0;num1<8;num1++)
+ 104   1      	{
+ 105   2      		while(DQ==0);
+ 106   2      		byte<<=1;			  //高位在前
+ 107   2      		for(num=0;DQ==1;num++);
+ 108   2      		if(num<10)
+ 109   2      			byte|=0x00;
+ 110   2      		else 
+ 111   2      			byte|=0x01;
+ 112   2      	}
+ 113   1      	return byte;
+ 114   1      }
+ 115          void  DTH11_DUSHU()
+ 116          {
+ 117   1      	uchar num;
+C51 COMPILER V6.12  11                                                                     02/08/2012 09:24:48 PAGE 3   
+
+ 118   1      	if(init_DTH11()==0)
+ 119   1      	{	
+ 120   2      		wendu=DTH11_RD_CHAR();   //比正常值高7度左右
+ 121   2      		DTH11_RD_CHAR();
+ 122   2      		shidu=DTH11_RD_CHAR();
+ 123   2      		DTH11_RD_CHAR();
+ 124   2      		DTH11_RD_CHAR();
+ 125   2      		for(num=0;num<17;num++);  //最后BIT输出后拉低总线50us
+ 126   2      		DQ=1;
+ 127   2      		BELL=0;
+ 128   2      		delay1ms(1);
+ 129   2      		BELL=1;	
+ 130   2      	}
+ 131   1      }
+ 132          
+ 133          
+ 134          /////////
+ 135          
+ 136          main()
+ 137          {
+ 138   1      	wendu=0;
+ 139   1      	shidu=0;
+ 140   1      	delay1ms(1000);		  //DTH11开始1s有错误输出
+ 141   1      	init_1602();
+ 142   1      	while(1)
+ 143   1      	{
+ 144   2      		DTH11_DUSHU();
+ 145   2      		write_com(0x80);
+ 146   2      		write_str("   Hum:");
+ 147   2      		write_data(wendu/10%10+48);
+ 148   2      		write_data(wendu%10+48);
+ 149   2      		write_data('%');
+ 150   2      		write_com(0x80+0x40);
+ 151   2      		write_str("   Tem:");
+ 152   2      		write_data(shidu/10%10+48);
+ 153   2      		write_data(shidu%10+48);
+ 154   2      	    write_data(0xdf);
+ 155   2      		write_data('c');
+ 156   2      		delay1ms(2000);
+ 157   2      	}
+ 158   1      
+ 159   1      
+ 160   1      }
+
+
+MODULE INFORMATION:   STATIC OVERLAYABLE
+   CODE SIZE        =    399    ----
+   CONSTANT SIZE    =     48    ----
+   XDATA SIZE       =   ----    ----
+   PDATA SIZE       =   ----    ----
+   DATA SIZE        =      2      35
+   IDATA SIZE       =   ----    ----
+   BIT SIZE         =   ----       1
+END OF MODULE INFORMATION.
+
+
+C51 COMPILATION COMPLETE.  0 WARNING(S),  0 ERROR(S)

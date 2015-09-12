@@ -1,0 +1,80 @@
+Added Component: Designator=D2(DIODE-0.4)
+Added Component: Designator=D3(DIODE-0.4)
+Added Component: Designator=J3(HDR1X3)
+Added Component: Designator=J4(HDR1X3)
+Added Component: Designator=J5(HDR1X2)
+Added Component: Designator=Q1(TO-92)
+Added Component: Designator=Q2(TO-92)
+Added Component: Designator=S1(DIP10-SW)
+Added Component: Designator=S2(DIP-16-KEY)
+Added Component: Designator=S3(DIP10-SW)
+Added Component: Designator=Y1(RAD-0.3)
+Added Pin To Net: NetName=NetC5_1 Pin=D2-1
+Added Pin To Net: NetName=NetC8_2 Pin=D2-2
+Added Pin To Net: NetName=NetC8_2 Pin=D3-1
+Added Pin To Net: NetName=NetC8_2 Pin=D3-2
+Added Pin To Net: NetName=NetC4_2 Pin=J3-1
+Added Pin To Net: NetName=NetC4_2 Pin=J3-2
+Added Pin To Net: NetName=GND Pin=J3-3
+Added Pin To Net: NetName=NetC3_1 Pin=J4-1
+Added Pin To Net: NetName=NetJ4_2 Pin=J4-2
+Added Pin To Net: NetName=NetC6_1 Pin=J4-3
+Added Pin To Net: NetName=+12V Pin=J5-1
+Added Pin To Net: NetName=GND Pin=J5-2
+Added Pin To Net: NetName=NetQ1_1 Pin=Q1-1
+Added Pin To Net: NetName=NetD1_2 Pin=Q1-2
+Added Pin To Net: NetName=GND Pin=Q1-3
+Added Pin To Net: NetName=NetQ2_1 Pin=Q2-1
+Added Pin To Net: NetName=+9V Pin=Q2-2
+Added Pin To Net: NetName=NetC4_1 Pin=Q2-3
+Added Pin To Net: NetName=NetS1_1 Pin=S1-1
+Added Pin To Net: NetName=NetS1_2 Pin=S1-2
+Added Pin To Net: NetName=NetS1_3 Pin=S1-3
+Added Pin To Net: NetName=NetS1_4 Pin=S1-4
+Added Pin To Net: NetName=NetS1_5 Pin=S1-5
+Added Pin To Net: NetName=+9V Pin=S1-6
+Added Pin To Net: NetName=+9V Pin=S1-7
+Added Pin To Net: NetName=+9V Pin=S1-8
+Added Pin To Net: NetName=+9V Pin=S1-9
+Added Pin To Net: NetName=+9V Pin=S1-10
+Added Pin To Net: NetName=+9V Pin=S2-1
+Added Pin To Net: NetName=+9V Pin=S2-2
+Added Pin To Net: NetName=+9V Pin=S2-3
+Added Pin To Net: NetName=+9V Pin=S2-4
+Added Pin To Net: NetName=+9V Pin=S2-5
+Added Pin To Net: NetName=+9V Pin=S2-6
+Added Pin To Net: NetName=+9V Pin=S2-7
+Added Pin To Net: NetName=+9V Pin=S2-8
+Added Pin To Net: NetName=NetS2_9 Pin=S2-9
+Added Pin To Net: NetName=NetS2_10 Pin=S2-10
+Added Pin To Net: NetName=NetS2_11 Pin=S2-11
+Added Pin To Net: NetName=NetS2_12 Pin=S2-12
+Added Pin To Net: NetName=NetS2_13 Pin=S2-13
+Added Pin To Net: NetName=NetS2_14 Pin=S2-14
+Added Pin To Net: NetName=NetR13_2 Pin=S2-15
+Added Pin To Net: NetName=NetR13_2 Pin=S2-16
+Added Pin To Net: NetName=NetS3_1 Pin=S3-1
+Added Pin To Net: NetName=NetS3_2 Pin=S3-2
+Added Pin To Net: NetName=NetS3_3 Pin=S3-3
+Added Pin To Net: NetName=NetS3_4 Pin=S3-4
+Added Pin To Net: NetName=NetS3_5 Pin=S3-5
+Added Pin To Net: NetName=+9V Pin=S3-6
+Added Pin To Net: NetName=+9V Pin=S3-7
+Added Pin To Net: NetName=+9V Pin=S3-8
+Added Pin To Net: NetName=+9V Pin=S3-9
+Added Pin To Net: NetName=+9V Pin=S3-10
+Added Pin To Net: NetName=NetC6_1 Pin=Y1-1
+Added Pin To Net: NetName=NetC9_1 Pin=Y1-2
+Added Member To Class: ClassName=Sheet1 Member=Component C13 CAP
+Added Member To Class: ClassName=Sheet1 Member=Component D2 DIODE
+Added Member To Class: ClassName=Sheet1 Member=Component D3 DIODE
+Added Member To Class: ClassName=Sheet1 Member=Component J3 CON3
+Added Member To Class: ClassName=Sheet1 Member=Component J4 CON3
+Added Member To Class: ClassName=Sheet1 Member=Component J5 CON2
+Added Member To Class: ClassName=Sheet1 Member=Component Q1 NPN
+Added Member To Class: ClassName=Sheet1 Member=Component Q2 NPN
+Added Member To Class: ClassName=Sheet1 Member=Component S1 SW DIP-5
+Added Member To Class: ClassName=Sheet1 Member=Component S2 SW DIP-8
+Added Member To Class: ClassName=Sheet1 Member=Component S3 SW DIP-5
+Added Member To Class: ClassName=Sheet1 Member=Component Y1 CRYSTAL
+Added Room: Name=Sheet1

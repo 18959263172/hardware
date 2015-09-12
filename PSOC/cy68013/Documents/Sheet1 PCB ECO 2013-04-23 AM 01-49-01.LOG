@@ -1,0 +1,35 @@
+Added Component: Designator=RP?(DIP-16)
+Added Component: Designator=USB(787616)
+Added Component: Designator=Y1(RAD-0.2)
+Added Pin To Net: NetName=NetC2_2 Pin=Y1-1
+Added Pin To Net: NetName=NetC3_2 Pin=Y1-2
+Added Pin To Net: NetName=NetC1_1 Pin=R1-1
+Added Net: Name=NetC1_1
+Added Pin To Net: NetName=NetRP?_1 Pin=RP?-1
+Added Pin To Net: NetName=NetRP?_1 Pin=U1-47
+Added Net: Name=NetRP?_1
+Added Pin To Net: NetName=NetRP?_2 Pin=RP?-2
+Added Pin To Net: NetName=NetRP?_2 Pin=U1-46
+Added Net: Name=NetRP?_2
+Added Pin To Net: NetName=NetRP?_3 Pin=RP?-3
+Added Pin To Net: NetName=NetRP?_3 Pin=U1-45
+Added Net: Name=NetRP?_3
+Added Pin To Net: NetName=NetRP?_4 Pin=RP?-4
+Added Pin To Net: NetName=NetRP?_4 Pin=U1-44
+Added Net: Name=NetRP?_4
+Added Pin To Net: NetName=NetRP?_5 Pin=RP?-5
+Added Pin To Net: NetName=NetRP?_5 Pin=U1-43
+Added Net: Name=NetRP?_5
+Added Pin To Net: NetName=NetRP?_6 Pin=RP?-6
+Added Pin To Net: NetName=NetRP?_6 Pin=U1-42
+Added Net: Name=NetRP?_6
+Added Pin To Net: NetName=NetRP?_7 Pin=RP?-7
+Added Pin To Net: NetName=NetRP?_7 Pin=U1-41
+Added Net: Name=NetRP?_7
+Added Pin To Net: NetName=NetRP?_8 Pin=RP?-8
+Added Pin To Net: NetName=NetRP?_8 Pin=U1-40
+Added Net: Name=NetRP?_8
+Added Member To Class: ClassName=Sheet1 Member=Component RP? R7
+Added Member To Class: ClassName=Sheet1 Member=Component USB USBHeader
+Added Member To Class: ClassName=Sheet1 Member=Component Y1 XTAL
+Added Room: Name=Sheet1

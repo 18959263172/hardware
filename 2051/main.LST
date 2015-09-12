@@ -1,0 +1,98 @@
+C51 COMPILER V7.50   MAIN                                                                  05/19/2013 01:36:59 PAGE 1   
+
+
+C51 COMPILER V7.50, COMPILATION OF MODULE MAIN
+OBJECT MODULE PLACED IN main.OBJ
+COMPILER INVOKED BY: C:\Keil\C51\BIN\C51.EXE main.c ROM(SMALL) BROWSE DEBUG OBJECTEXTEND
+
+line level    source
+
+   1          #include"stc.h"
+   2          #include<intrins.h>
+   3          
+   4          #define FOSC 10000000L
+   5          
+   6          #define T1MS (65536-FOSC/1000)      //1T模式
+   7          void Init_system();
+   8          
+   9          unsigned char dig[]={0x04,0x2F,0x48,0x0a,0x23,0x12,0x10,0x0f,0x00,0x02};
+  10          unsigned char count=1000;
+  11          unsigned char time_out_flag=0;
+  12          sbit P33=P3^3;
+  13          sbit P17=P1^7;
+  14          int x=0;
+  15          
+  16          void exint0() interrupt 0           //(location at 0003H)
+  17          {
+  18   1          x++;
+  19   1      }
+  20          
+  21          void tm0_isr() interrupt 1 using 1
+  22          {
+  23   1          TL0 = T1MS;                     //reload timer0 low byte
+  24   1          TH0 = T1MS >> 8;                //reload timer0 high byte
+  25   1          if (count-- == 0)               //1ms * 1000 -> 1s
+  26   1          {
+  27   2              count = 700;               //reset counter
+  28   2                      time_out_flag=1;
+  29   2          }   
+  30   1      }
+  31          void main()
+  32          {
+  33   1              unsigned char c,j;      
+  34   1              Init_system();
+  35   1              while(1)
+  36   1              {
+  37   2                      if(time_out_flag)
+  38   2                      {
+  39   3                              time_out_flag=0;
+  40   3                              if(x>=0) P1=dig[0];
+  41   3                              if(x>20) P1=dig[1];
+  42   3                              if(x>40) P1=dig[2];
+  43   3                              if(x>80) P1=dig[3];
+  44   3                              if(x>100) P1=dig[4];
+  45   3                              if(x>120) P1=dig[5];
+  46   3                              if(x>140) P1=dig[6];
+  47   3                              if(x>180) P1=dig[7];
+  48   3                              if(x>180) P1=dig[8];
+  49   3                              if(x>280)
+  50   3                              {       
+  51   4                                      P17=1;
+  52   4                                      P33=0;
+  53   4                              }
+  54   3                              ;
+  55   3                              x=0;
+C51 COMPILER V7.50   MAIN                                                                  05/19/2013 01:36:59 PAGE 2   
+
+  56   3                      }
+  57   2                      
+  58   2              }
+  59   1      }
+*** WARNING C280 IN LINE 33 OF MAIN.C: 'c': unreferenced local variable
+*** WARNING C280 IN LINE 33 OF MAIN.C: 'j': unreferenced local variable
+  60          
+  61          void Init_system()
+  62          {    
+  63   1              IT0 = 1;                        //set INT0 int type (1:Falling 0:Low level)
+  64   1          EX0 = 1;                    //使能INT0中断
+  65   1          TMOD = 0x01;                    //set timer0 as mode1 (16-bit)
+  66   1          TL0 = T1MS;                     //initial timer0 low byte
+  67   1          TH0 = T1MS >> 8;                //initial timer0 high byte
+  68   1          TR0 = 1;                        //timer0 start running
+  69   1          ET0 = 1;                        //enable timer0 interrupt
+  70   1          EA = 1;
+  71   1      }
+
+
+MODULE INFORMATION:   STATIC OVERLAYABLE
+   CODE SIZE        =    237    ----
+   CONSTANT SIZE    =   ----    ----
+   XDATA SIZE       =   ----    ----
+   PDATA SIZE       =   ----    ----
+   DATA SIZE        =     14       2
+   IDATA SIZE       =   ----    ----
+   BIT SIZE         =   ----    ----
+END OF MODULE INFORMATION.
+
+
+C51 COMPILATION COMPLETE.  2 WARNING(S),  0 ERROR(S)

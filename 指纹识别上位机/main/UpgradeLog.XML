@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="main">
+</Property><Property Name="解决方案文件" Value="D:\我的项目\指纹识别上位机\main\main.sln">
+</Property><Property Name="用户选项文件" Value="D:\我的项目\指纹识别上位机\main\main.suo">
+</Property><Property Name="Date" Value="2014年4月21日">
+</Property><Property Name="Time" Value="13:02">
+</Property></Properties><Event ErrorLevel="0" Project="" Source="main.sln" Description="文件已成功备份为 D:\我的项目\指纹识别上位机\main\main.sln.old">
+</Event><Event ErrorLevel="0" Project="" Source="main.suo" Description="文件已成功备份为 D:\我的项目\指纹识别上位机\main\main.suo.old">
+</Event><Event ErrorLevel="0" Project="main" Source="main.vcproj" Description="Converting project file 'D:\我的项目\指纹识别上位机\main\main.vcproj'.">
+</Event><Event ErrorLevel="1" Project="main" Source="main.vcproj" Description="VCWebServiceProxyGeneratorTool is no longer supported. The tool has been removed from your project settings.">
+</Event><Event ErrorLevel="1" Project="main" Source="main.vcproj" Description="VCConvertEngine could not convert attribute UseUnicodeResponseFiles = false under Tool VCCLCompilerTool.">
+</Event><Event ErrorLevel="1" Project="main" Source="main.vcproj" Description="VCConvertEngine could not convert attribute UseUnicodeResponseFiles = false under Tool VCLinkerTool.">
+</Event><Event ErrorLevel="1" Project="main" Source="main.vcproj" Description="VCConvertEngine could not convert attribute UseUnicodeResponseFiles = false under Tool VCManifestTool.">
+</Event><Event ErrorLevel="1" Project="main" Source="main.vcproj" Description="MSB8012: $(TargetPath) ('D:\我的项目\指纹识别上位机\main\.\Debug\main.exe') does not match the Linker's OutputFile property value '.\Debug/main.exe' ('D:\我的项目\指纹识别上位机\main\Debug/main.exe') in project configuration 'Debug|Win32'. This may cause your project to build incorrectly. To correct this, please make sure that $(TargetPath) property value matches the value specified in %(Link.OutputFile).">
+</Event><Event ErrorLevel="1" Project="main" Source="main.vcproj" Description="MSB8012: $(TargetPath) ('D:\我的项目\指纹识别上位机\main\.\Release\main.exe') does not match the Linker's OutputFile property value '.\Release/main.exe' ('D:\我的项目\指纹识别上位机\main\Release/main.exe') in project configuration 'Release|Win32'. This may cause your project to build incorrectly. To correct this, please make sure that $(TargetPath) property value matches the value specified in %(Link.OutputFile).">
+</Event><Event ErrorLevel="0" Project="main" Source="main.vcproj" Description="Done converting to new project file 'D:\我的项目\指纹识别上位机\main\main.vcxproj'.">
+</Event><Event ErrorLevel="3" Project="main" Source="main.vcproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="main.sln" Description="成功转换解决方案">
+</Event><Event ErrorLevel="3" Project="" Source="main.sln" Description="Converted">
+</Event></UpgradeLog>

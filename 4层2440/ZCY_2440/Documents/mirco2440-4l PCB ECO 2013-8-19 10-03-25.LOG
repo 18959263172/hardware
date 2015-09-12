@@ -1,0 +1,54 @@
+Removed Member From Class: ClassName=02-CPU2 Member=P80
+Change Component Comment : Designator=P80 Old Comment=SD New Comment=Header 8
+Added Component: Designator=RST5(SW-PB2)
+Added Component: Designator=RST6(SW-PB2)
+Added Component: Designator=RST7(SW-PB2)
+Added Component: Designator=RST8(SW-PB2)
+Added Pin To Net: NetName=CAMDATA0 Pin=P80-8
+Added Pin To Net: NetName=EINT0 Pin=RST5-1
+Added Pin To Net: NetName=GND Pin=RST5-2
+Added Pin To Net: NetName=EINT1 Pin=RST6-1
+Added Pin To Net: NetName=GND Pin=RST6-2
+Added Pin To Net: NetName=EINT2 Pin=RST7-1
+Added Pin To Net: NetName=GND Pin=RST7-2
+Added Pin To Net: NetName=EINT3 Pin=RST8-1
+Added Pin To Net: NetName=GND Pin=RST8-2
+Added Member To Class: ClassName=03-CPU3 Member=Component P80 Header 8
+Added Member To Class: ClassName=03-CPU3 Member=Component RST5 SW-PB
+Added Member To Class: ClassName=03-CPU3 Member=Component RST6 SW-PB
+Added Member To Class: ClassName=03-CPU3 Member=Component RST7 SW-PB
+Added Member To Class: ClassName=03-CPU3 Member=Component RST8 SW-PB
+Added Room: Name=01-CPU1
+Added Room: Name=02-CPU2
+Added Room: Name=03-CPU3
+Added Room: Name=04-MEM
+Added Room: Name=05I2S
+Added Room: Name=Main
+Removed Pin From Net: NetName=SDDATA3 Pin=P80-1
+Added Pin To Net: NetName=CAMDATA7 Pin=P80-1
+Removed Pin From Net: NetName=SDCMD Pin=P80-2
+Added Pin To Net: NetName=CAMDATA6 Pin=P80-2
+Removed Pin From Net: NetName=GND Pin=P80-3
+Added Pin To Net: NetName=CAMDATA5 Pin=P80-3
+Removed Pin From Net: NetName=VDD33V Pin=P80-4
+Added Pin To Net: NetName=CAMDATA4 Pin=P80-4
+Removed Pin From Net: NetName=SDCLK Pin=P80-5
+Added Pin To Net: NetName=CAMDATA3 Pin=P80-5
+Removed Pin From Net: NetName=SDDATA0 Pin=P80-6
+Added Pin To Net: NetName=CAMDATA2 Pin=P80-6
+Removed Pin From Net: NetName=SDDATA1 Pin=P80-7
+Added Pin To Net: NetName=CAMDATA1 Pin=P80-7
+Removed Pin From Net: NetName=NetP80_9 Pin=P80-9
+Added Pin To Net: NetName=NetP80_9 Pin=P80-9
+Removed Pin From Net: NetName=CAMDATA1 Pin=P80-10
+Added Pin To Net: NetName=CAMDATA1 Pin=P80-10
+Removed Pin From Net: NetName=EINT18 Pin=P80-11
+Added Pin To Net: NetName=EINT18 Pin=P80-11
+Removed Pin From Net: NetName=GND Pin=P80-GND
+Removed Pin From Net: NetName=GND Pin=P80-GND
+Removed Pin From Net: NetName=GND Pin=P80-GND
+Removed Pin From Net: NetName=GND Pin=P80-GND
+Added Pin To Net: NetName=GND Pin=P80-GND
+Added Pin To Net: NetName=GND Pin=P80-GND
+Added Pin To Net: NetName=GND Pin=P80-GND
+Added Pin To Net: NetName=GND Pin=P80-GND

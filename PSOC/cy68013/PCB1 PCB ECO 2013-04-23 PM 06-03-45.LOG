@@ -1,0 +1,10 @@
+Added Component: Designator=D1(AXIAL-0.3)
+Added Component: Designator=R30(6-0805)
+Added Pin To Net: NetName=USB 5V Pin=D1-1
+Added Pin To Net: NetName=GND Pin=R30-2
+Added Pin To Net: NetName=NetD1_2 Pin=D1-2
+Added Pin To Net: NetName=NetD1_2 Pin=R30-1
+Added Net: Name=NetD1_2
+Added Member To Class: ClassName=Sheet1 Member=Component D1 Diode
+Added Member To Class: ClassName=Sheet1 Member=Component R30 Res2
+Added Room: Name=Sheet1

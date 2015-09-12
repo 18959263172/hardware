@@ -1,0 +1,23 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    CREATE SYMBOL                                                    )
+(                                                                     )
+(    Drawing          : FPC16.dra                                     )
+(    Software Version : 16.5P002                                      )
+(    Date/Time        : Sun Apr 06 11:15:26 2014                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+Create Symbol of type: PACKAGE
+    Directory = D:/我的项目/指纹接口
+    Name      = fpc16.psm
+    User      = Administrator
+    Machine   = DADI--20130722Z
+
+
+Create symbol started.
+ 
+
+Create symbol completed.
+

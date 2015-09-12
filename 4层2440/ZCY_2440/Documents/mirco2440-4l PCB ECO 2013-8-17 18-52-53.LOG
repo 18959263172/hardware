@@ -1,0 +1,103 @@
+Removed Pin From Net: NetName=VDD33V Pin=P2-1
+Removed Pin From Net: NetName=VDD33V Pin=P2-2
+Removed Pin From Net: NetName=VDD33V Pin=P2-3
+Removed Pin From Net: NetName=VDD33V Pin=P2-4
+Removed Pin From Net: NetName=VDD33V Pin=P2-5
+Removed Member From Class: ClassName=01-CPU1 Member=P2
+Change Component Footprint: Designator=P1 Old Footprint=HDR1X5 New Footprint=HDR2X5
+Change Component Comment : Designator=P1 Old Comment=Header 5 New Comment=Header 5X2
+Change Component Designator: OldDesignator=P20 NewDesignator=P4
+Added Component: Designator=C46(0603A)
+Added Component: Designator=C47(0603A)
+Added Component: Designator=C48(0603A)
+Added Component: Designator=C49(0603A)
+Added Component: Designator=C50(0603A)
+Added Component: Designator=C93(0603A)
+Added Component: Designator=J4(DSUB1.385-2H9)
+Added Component: Designator=P18(HDR1X3)
+Added Component: Designator=R89(0603R)
+Added Component: Designator=R190(0603R)
+Added Component: Designator=U10(SOP16_SP3232)
+Added Component: Designator=U20(PCBComponent_1)
+Added Pin To Net: NetName=VDD33V Pin=C46-1
+Added Pin To Net: NetName=GND Pin=C46-2
+Added Pin To Net: NetName=VDD33V Pin=C47-2
+Added Pin To Net: NetName=GND Pin=C49-2
+Added Pin To Net: NetName=GND Pin=C93-2
+Added Pin To Net: NetName=GND Pin=J4-5
+Added Pin To Net: NetName=GND Pin=P18-3
+Added Pin To Net: NetName=EINT17 Pin=R190-1
+Added Pin To Net: NetName=NetCON1_3 Pin=R190-2
+Added Pin To Net: NetName=RXD0 Pin=U10-9
+Added Pin To Net: NetName=TXD0 Pin=U10-10
+Added Pin To Net: NetName=RXD0 Pin=U10-11
+Added Pin To Net: NetName=GND Pin=U10-13
+Added Pin To Net: NetName=GND Pin=U10-15
+Added Pin To Net: NetName=VDD33V Pin=U10-16
+Added Pin To Net: NetName=RXD1 Pin=U20-1
+Added Pin To Net: NetName=NCTS0 Pin=U20-2
+Added Pin To Net: NetName=NCTS0 Pin=U20-3
+Added Pin To Net: NetName=TXD1 Pin=U20-4
+Added Pin To Net: NetName=GND Pin=U20-5
+Added Pin To Net: NetName=NetC47_1 Pin=C47-1
+Added Pin To Net: NetName=NetC47_1 Pin=U10-2
+Added Net: Name=NetC47_1
+Added Pin To Net: NetName=NetC48_1 Pin=C48-1
+Added Pin To Net: NetName=NetC48_1 Pin=U10-3
+Added Net: Name=NetC48_1
+Added Pin To Net: NetName=NetC48_2 Pin=C48-2
+Added Pin To Net: NetName=NetC48_2 Pin=U10-1
+Added Net: Name=NetC48_2
+Added Pin To Net: NetName=NetC49_1 Pin=C49-1
+Added Pin To Net: NetName=NetC49_1 Pin=U10-6
+Added Net: Name=NetC49_1
+Added Pin To Net: NetName=NetC50_1 Pin=C50-1
+Added Pin To Net: NetName=NetC50_1 Pin=U10-4
+Added Net: Name=NetC50_1
+Added Pin To Net: NetName=NetC50_2 Pin=C50-2
+Added Pin To Net: NetName=NetC50_2 Pin=U10-5
+Added Net: Name=NetC50_2
+Added Pin To Net: NetName=NetJ4_1 Pin=J4-1
+Added Pin To Net: NetName=NetJ4_1 Pin=U10-14
+Added Net: Name=NetJ4_1
+Added Pin To Net: NetName=NetJ4_2 Pin=J4-2
+Added Pin To Net: NetName=NetJ4_2 Pin=U10-8
+Added Net: Name=NetJ4_2
+Added Pin To Net: NetName=NetJ4_3 Pin=J4-3
+Added Pin To Net: NetName=NetJ4_3 Pin=U10-7
+Added Net: Name=NetJ4_3
+Added Pin To Net: NetName=NetP18_1 Pin=P18-1
+Added Pin To Net: NetName=NetP18_1 Pin=R89-1
+Added Pin To Net: NetName=NetP18_1 Pin=U20-6
+Added Net: Name=NetP18_1
+Added Pin To Net: NetName=NetP18_2 Pin=P18-2
+Added Pin To Net: NetName=NetP18_2 Pin=R89-2
+Added Pin To Net: NetName=NetP18_2 Pin=U20-7
+Added Net: Name=NetP18_2
+Added Pin To Net: NetName=VCC+3.3V Pin=C93-1
+Added Pin To Net: NetName=VCC+3.3V Pin=U20-8
+Added Net: Name=VCC+3.3V
+Added Member To Class: ClassName=05I2S Member=Component C46 Cap
+Added Member To Class: ClassName=05I2S Member=Component C47 Cap
+Added Member To Class: ClassName=05I2S Member=Component C48 Cap
+Added Member To Class: ClassName=05I2S Member=Component C49 Cap
+Added Member To Class: ClassName=05I2S Member=Component C50 Cap
+Added Member To Class: ClassName=05I2S Member=Component C93 Cap
+Added Member To Class: ClassName=05I2S Member=Component J4 D Connector 9
+Added Member To Class: ClassName=05I2S Member=Component P18 Header 3
+Added Member To Class: ClassName=05I2S Member=Component R89 Res2
+Added Member To Class: ClassName=02-CPU2 Member=Component R190 Res2
+Added Member To Class: ClassName=05I2S Member=Component U10 SP3232E
+Added Member To Class: ClassName=05I2S Member=Component U20 SP3485
+Added Room: Name=01-CPU1
+Added Room: Name=02-CPU2
+Added Room: Name=03-CPU3
+Added Room: Name=04-MEM
+Added Room: Name=05I2S
+Added Room: Name=Main
+Removed Pin From Net: NetName=GND Pin=P1-1
+Added Pin To Net: NetName=VDD33V Pin=P1-1
+Removed Pin From Net: NetName=GND Pin=P1-3
+Added Pin To Net: NetName=VDD33V Pin=P1-3
+Removed Pin From Net: NetName=GND Pin=P1-5
+Added Pin To Net: NetName=VDD33V Pin=P1-5

@@ -1,0 +1,18 @@
+Added Component: Designator=C50(0805)
+Added Component: Designator=C51(0805)
+Added Component: Designator=Y1(XTAL-1)
+Added Pin To Net: NetName=GND Pin=C50-1
+Added Pin To Net: NetName=PC14 Pin=C50-2
+Added Pin To Net: NetName=GND Pin=C51-1
+Added Pin To Net: NetName=PC15 Pin=C51-2
+Added Pin To Net: NetName=PC15 Pin=Y1-1
+Added Pin To Net: NetName=PC14 Pin=Y1-2
+Added Class: Name=GPIO_OUT
+Added Class: Name=C50_Nets
+Added Class: Name=C51_Nets
+Added Class: Name=Y1_Nets
+Added Room: Name=EXTERN
+Added Room: Name=GPIO_OUT
+Added Room: Name=POWER
+Added Room: Name=STORAGE
+Added Room: Name=XLAT AND JTAG

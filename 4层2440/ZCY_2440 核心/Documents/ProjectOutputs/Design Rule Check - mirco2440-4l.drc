@@ -1,0 +1,36 @@
+Protel Design System Design Rule Check
+PCB File : D:\我的项目\4层2440\ZCY_2440 核心\DOCUMENTS\mirco2440-4l.PCB
+Date     : 2013/8/31
+Time     : 22:06:00
+
+WARNING: Zero hole size multi-layer pad(s) detected
+   Pad P6-2(3270mil,-537mil)  MultiLayer on Net GND
+   Pad P6-3(3073mil,-663mil)  MultiLayer on Net GND
+   Pad P6-1(3073mil,-411mil)  MultiLayer on Net VCC
+
+WARNING: Multilayer Pads with 0 size Hole found
+   Pad P6-2(3270mil,-537mil)  MultiLayer
+   Pad P6-3(3073mil,-663mil)  MultiLayer
+   Pad P6-1(3073mil,-411mil)  MultiLayer
+
+Processing Rule : Clearance Constraint (Gap=6mil) (All),(All)
+Rule Violations :0
+
+Processing Rule : Clearance Constraint (Gap=6mil) (Disabled)(All),(All)
+Rule Violations :0
+
+Processing Rule : Hole Size Constraint (Min=1mil) (Max=100mil) (All)
+Rule Violations :0
+
+Processing Rule : Width Constraint (Min=4mil) (Max=100mil) (Preferred=5mil) (All)
+Rule Violations :0
+
+Processing Rule : Broken-Net Constraint ( (All) )
+Rule Violations :0
+
+Processing Rule : Short-Circuit Constraint (Allowed=No) (All),(All)
+Rule Violations :0
+
+
+Violations Detected : 0
+Time Elapsed        : 00:00:00

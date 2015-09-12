@@ -1,0 +1,34 @@
+Removed Member From Class: ClassName=02-CPU2 Member=P1
+Added Component: Designator=P60(SDCARD)
+Added Pin To Net: NetName=SDDATA3 Pin=P60-1
+Added Pin To Net: NetName=SDCMD Pin=P60-2
+Added Pin To Net: NetName=GND Pin=P60-3
+Added Pin To Net: NetName=VDD33V Pin=P60-4
+Added Pin To Net: NetName=SDCLK Pin=P60-5
+Added Pin To Net: NetName=GND Pin=P60-6
+Added Pin To Net: NetName=SDDATA0 Pin=P60-7
+Added Pin To Net: NetName=SDDATA1 Pin=P60-8
+Added Pin To Net: NetName=SDDATA2 Pin=P60-9
+Added Pin To Net: NetName=EINT18 Pin=P60-11
+Added Pin To Net: NetName=EINT18 Pin=P60-11
+Added Pin To Net: NetName=EINT18 Pin=P60-11
+Added Pin To Net: NetName=EINT18 Pin=P60-11
+Added Pin To Net: NetName=GND Pin=P60-12
+Added Member To Class: ClassName=01-CPU1 Member=Component P1 Header 5X2
+Added Member To Class: ClassName=02-CPU2 Member=Component P60 Header 5X2
+Removed Pin From Net: NetName=SDDATA3 Pin=P1-1
+Added Pin To Net: NetName=VDD33V Pin=P1-1
+Removed Pin From Net: NetName=SDCMD Pin=P1-2
+Added Pin To Net: NetName=GND Pin=P1-2
+Removed Pin From Net: NetName=GND Pin=P1-3
+Added Pin To Net: NetName=VDD33V Pin=P1-3
+Removed Pin From Net: NetName=VDD33V Pin=P1-4
+Added Pin To Net: NetName=GND Pin=P1-4
+Removed Pin From Net: NetName=SDCLK Pin=P1-5
+Added Pin To Net: NetName=VDD33V Pin=P1-5
+Removed Pin From Net: NetName=SDDATA0 Pin=P1-7
+Added Pin To Net: NetName=VDD33V Pin=P1-7
+Removed Pin From Net: NetName=SDDATA1 Pin=P1-8
+Added Pin To Net: NetName=GND Pin=P1-8
+Removed Pin From Net: NetName=SDDATA2 Pin=P1-9
+Added Pin To Net: NetName=VDD33V Pin=P1-9

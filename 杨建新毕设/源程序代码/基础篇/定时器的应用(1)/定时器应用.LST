@@ -1,0 +1,60 @@
+C51 COMPILER V6.12  _____÷_¦_Ã                                                             02/03/2012 09:21:32 PAGE 1   
+
+
+C51 COMPILER V6.12, COMPILATION OF MODULE _____÷_¦_Ã
+OBJECT MODULE PLACED IN .\¶¨Ê±Æ÷Ó¦ÓÃ.OBJ
+COMPILER INVOKED BY: F:\Èí¼þ\keil C\C51\BIN\C51.EXE .\¶¨Ê±Æ÷Ó¦ÓÃ.c DEBUG OBJECTEXTEND
+
+stmt level    source
+
+   1          //ÀûÓÃ¶¨Ê±/¼ÆÊýÆ÷T1²úÉú¶¨Ê±Ê±ÖÓ,Ã¿¸ô10Ãë£¬·¢ÉúÒ»´ÎÉù¹â±¨¾¯
+   2          #include<reg52.h>
+   3          #define uchar unsigned char
+   4          uchar  temp,aa;
+   5          sbit  beep=P1^6;
+   6          sbit D1=P1^7;
+   7          void init()
+   8          {
+   9   1       	aa=0;
+  10   1      	TMOD=0x10;
+  11   1      	TH1=(65536-50000)/256;
+  12   1      	TL1=(65536-50000)%256;
+  13   1      	EA=1;
+  14   1      	ET1=1;
+  15   1      	TR1=1;
+  16   1      } 
+  17          void   main	()
+  18          {
+  19   1      	init();
+  20   1      	while(1)
+  21   1      	{
+  22   2      	
+  23   2      	     if(aa==10)
+  24   2      	    	{
+  25   3      		    D1=0;
+  26   3      			beep=0;		
+  27   3      			}
+  28   2      	}
+  29   1      }
+  30          void   timer1()  interrupt   3
+  31          {
+  32   1       	TH1=(65536-50000)/256;
+  33   1      	TL1=(65536-50000)%256;
+  34   1      	aa++;
+  35   1          D1=1;	
+  36   1      	beep=1;	
+  37   1      }
+
+
+MODULE INFORMATION:   STATIC OVERLAYABLE
+   CODE SIZE        =     46    ----
+   CONSTANT SIZE    =   ----    ----
+   XDATA SIZE       =   ----    ----
+   PDATA SIZE       =   ----    ----
+   DATA SIZE        =      2    ----
+   IDATA SIZE       =   ----    ----
+   BIT SIZE         =   ----    ----
+END OF MODULE INFORMATION.
+
+
+C51 COMPILATION COMPLETE.  0 WARNING(S),  0 ERROR(S)

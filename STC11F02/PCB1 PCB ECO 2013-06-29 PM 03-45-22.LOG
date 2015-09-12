@@ -1,0 +1,30 @@
+Added Component: Designator=S1(°´¼ü)
+Added Component: Designator=U3(DIP28)
+Added Pin To Net: NetName=GND Pin=S1-1
+Added Pin To Net: NetName=GND Pin=S1-1
+Added Pin To Net: NetName=RST Pin=S1-2
+Added Pin To Net: NetName=RST Pin=S1-2
+Added Pin To Net: NetName=ON Pin=U3-6
+Added Pin To Net: NetName=EOC Pin=U3-7
+Added Pin To Net: NetName=D3 Pin=U3-8
+Added Pin To Net: NetName=OE Pin=U3-9
+Added Pin To Net: NetName=CLK1 Pin=U3-10
+Added Pin To Net: NetName=VCC Pin=U3-11
+Added Pin To Net: NetName=VCC Pin=U3-12
+Added Pin To Net: NetName=GND Pin=U3-13
+Added Pin To Net: NetName=D1 Pin=U3-14
+Added Pin To Net: NetName=D2 Pin=U3-15
+Added Pin To Net: NetName=GND Pin=U3-16
+Added Pin To Net: NetName=D0 Pin=U3-17
+Added Pin To Net: NetName=D4 Pin=U3-18
+Added Pin To Net: NetName=D5 Pin=U3-19
+Added Pin To Net: NetName=D6 Pin=U3-20
+Added Pin To Net: NetName=D7 Pin=U3-21
+Added Pin To Net: NetName=ALE Pin=U3-22
+Added Pin To Net: NetName=ADDC Pin=U3-23
+Added Pin To Net: NetName=ADDB Pin=U3-24
+Added Pin To Net: NetName=ADDA Pin=U3-25
+Added Pin To Net: NetName=AD Pin=U3-26
+Added Member To Class: ClassName=SHEET1 Member=Component S1 SW-PB
+Added Member To Class: ClassName=SHEET1 Member=Component U3 ADC0809CCV
+Added Room: Name=SHEET1

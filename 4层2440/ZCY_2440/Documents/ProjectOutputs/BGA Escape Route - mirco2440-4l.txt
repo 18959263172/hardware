@@ -1,0 +1,64 @@
+BGA Escape Route
+Filename     : D:\我的项目\4层2440\MICRO2440-4L\DOCUMENTS\mirco2440-4l.PCB
+Date         : 2013/8/19
+Time         : 10:16:19
+Time Elapsed : 00:00:01
+
+U1
+    Pad U1-P8(1950.906mil,1470.63mil)  TopLayer on Net SDDATA2
+    Pad U1-D8(2265.866mil,1470.63mil)  TopLayer on Net LADDR5
+    Pad U1-H4(2139.882mil,1596.614mil)  TopLayer on Net CAMDATA3
+    Pad U1-P11(1950.906mil,1376.142mil)  TopLayer on Net LCD_PWR
+    Pad U1-D11(2265.866mil,1376.142mil)  TopLayer on  No Net 
+    Pad U1-L4(2045.394mil,1596.614mil)  TopLayer on Net VCLK
+    Pad U1-D7(2265.866mil,1502.126mil)  TopLayer on Net LADDR7
+    Pad U1-C9(2297.362mil,1439.134mil)  TopLayer on Net LADDR15
+    Pad U1-H15(2139.882mil,1250.158mil)  TopLayer on Net NTRST
+    Pad U1-R8(1919.41mil,1470.63mil)  TopLayer on Net SDDATA0
+    Pad U1-C8(2297.362mil,1470.63mil)  TopLayer on Net LADDR11
+    Pad U1-H3(2139.882mil,1628.11mil)  TopLayer on Net CAMDATA4
+    Pad U1-R11(1919.41mil,1376.142mil)  TopLayer on Net EINT14
+    Pad U1-G15(2171.378mil,1250.158mil)  TopLayer on Net XTOPLL
+    Pad U1-R7(1919.41mil,1502.126mil)  TopLayer on Net I2SSCLK
+    Pad U1-C11(2297.362mil,1376.142mil)  TopLayer on Net LADDR24
+    Pad U1-L3(2045.394mil,1628.11mil)  TopLayer on Net NXDACK0
+    Pad U1-C7(2297.362mil,1502.126mil)  TopLayer on Net LADDR4
+    Pad U1-G3(2171.378mil,1628.11mil)  TopLayer on Net CAMDATA1
+    Pad U1-R12(1919.41mil,1344.646mil)  TopLayer on Net NCON
+    Pad U1-F15(2202.874mil,1250.158mil)  TopLayer on Net LDATA22
+    Pad U1-C12(2297.362mil,1344.646mil)  TopLayer on Net LDATA1
+    Pad U1-M3(2013.898mil,1628.11mil)  TopLayer on Net LCDVF0
+    Pad U1-C6(2297.362mil,1533.622mil)  TopLayer on Net LLNSRAS
+    Pad U1-J16(2108.386mil,1218.66mil)  TopLayer on Net TDO
+    Pad U1-T9(1887.912mil,1439.134mil)  TopLayer on Net EINT9
+    Pad U1-B9(2328.858mil,1439.134mil)  TopLayer on Net LADDR12
+    Pad U1-J2(2108.386mil,1659.606mil)  TopLayer on Net VDD1.25V
+    Pad U1-T10(1887.912mil,1407.638mil)  TopLayer on Net EINT16
+    Pad U1-B10(2328.858mil,1407.638mil)  TopLayer on Net GND
+    Pad U1-K2(2076.89mil,1659.606mil)  TopLayer on Net NLED_1
+    Pad U1-H16(2139.882mil,1218.66mil)  TopLayer on Net NRESET
+    Pad U1-T8(1887.912mil,1470.63mil)  TopLayer on Net VDD1.25V
+    Pad U1-B8(2328.858mil,1470.63mil)  TopLayer on Net LADDR9
+    Pad U1-H2(2139.882mil,1659.606mil)  TopLayer on Net CAMDATA7
+    Pad U1-R13(1919.41mil,1313.15mil)  TopLayer on Net GND
+    Pad U1-L16(2045.394mil,1218.66mil)  TopLayer on Net EINT7
+    Pad U1-T11(1887.912mil,1376.142mil)  TopLayer on Net GPG13
+    Pad U1-B11(2328.858mil,1376.142mil)  TopLayer on Net VDD1.25V
+    Pad U1-L2(2045.394mil,1659.606mil)  TopLayer on Net VDD1.25V
+    Pad U1-G16(2171.378mil,1218.66mil)  TopLayer on Net LDATA29
+    Pad U1-T7(1887.912mil,1502.126mil)  TopLayer on Net CDCLK
+    Pad U1-B7(2328.858mil,1502.126mil)  TopLayer on Net LADDR2
+    Pad U1-G2(2171.378mil,1659.606mil)  TopLayer on Net CAM_HREF
+    Pad U1-M16(2013.898mil,1218.66mil)  TopLayer on Net EINT1
+    Pad U1-T12(1887.912mil,1344.646mil)  TopLayer on Net VDD33V
+    Pad U1-B12(2328.858mil,1344.646mil)  TopLayer on Net VDD33V
+    Pad U1-M2(2013.898mil,1659.606mil)  TopLayer on Net LCDVF1
+    Pad U1-F16(2202.874mil,1218.66mil)  TopLayer on Net VDD1.25V
+    Pad U1-T6(1887.912mil,1533.622mil)  TopLayer on Net VDD1.25V
+    Pad U1-B6(2328.858mil,1533.622mil)  TopLayer on Net VDD33V
+    Pad U1-F2(2202.874mil,1659.606mil)  TopLayer on Net GND
+    Pad U1-T13(1887.912mil,1313.15mil)  TopLayer on Net GND
+    Pad U1-B13(2328.858mil,1313.15mil)  TopLayer on Net GND
+    Pad U1-N2(1982.402mil,1659.606mil)  TopLayer on Net VD0
+    Pad U1-B5(2328.858mil,1565.118mil)  TopLayer on Net LNWBE1
+count : 56

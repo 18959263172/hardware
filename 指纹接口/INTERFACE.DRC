@@ -1,0 +1,34 @@
+Date and Time : 04/05/14 20:25:11
+
+--------------------------------------------------
+Checking Schematic: SCHEMATIC1
+--------------------------------------------------
+Checking Electrical Rules 
+
+Checking For Single Node Nets
+WARNING(ORCAP-1600): Net has fewer than two connections d0 
+                    SCHEMATIC1, PAGE1  (2.70, 1.00) 
+WARNING(ORCAP-1600): Net has fewer than two connections d1 
+                    SCHEMATIC1, PAGE1  (2.70, 1.10) 
+WARNING(ORCAP-1600): Net has fewer than two connections d2 
+                    SCHEMATIC1, PAGE1  (2.70, 1.20) 
+WARNING(ORCAP-1600): Net has fewer than two connections d5 
+                    SCHEMATIC1, PAGE1  (2.70, 1.50) 
+WARNING(ORCAP-1600): Net has fewer than two connections d3 
+                    SCHEMATIC1, PAGE1  (2.70, 1.30) 
+WARNING(ORCAP-1600): Net has fewer than two connections VSYNC 
+                    SCHEMATIC1, PAGE1  (2.70, 2.00) 
+WARNING(ORCAP-1600): Net has fewer than two connections d4 
+                    SCHEMATIC1, PAGE1  (2.70, 1.40) 
+WARNING(ORCAP-1600): Net has fewer than two connections HSYNC 
+                    SCHEMATIC1, PAGE1  (2.70, 2.20) 
+WARNING(ORCAP-1600): Net has fewer than two connections d7 
+                    SCHEMATIC1, PAGE1  (2.70, 1.70) 
+WARNING(ORCAP-1600): Net has fewer than two connections VCLK 
+                    SCHEMATIC1, PAGE1  (2.70, 2.10) 
+WARNING(ORCAP-1600): Net has fewer than two connections d6 
+                    SCHEMATIC1, PAGE1  (2.70, 1.60) 
+WARNING(ORCAP-1600): Net has fewer than two connections LED 
+                    SCHEMATIC1, PAGE1  (2.70, 2.30) 
+
+Checking For Unconnected Bus Nets

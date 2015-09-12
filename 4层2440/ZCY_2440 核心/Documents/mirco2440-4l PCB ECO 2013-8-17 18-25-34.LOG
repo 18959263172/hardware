@@ -1,0 +1,7 @@
+Change Component Footprint: Designator=CON1 Old Footprint=HDR1X4H New Footprint=USB_A
+Added Room: Name=01-CPU1
+Added Room: Name=02-CPU2
+Added Room: Name=03-CPU3
+Added Room: Name=04-MEM
+Added Room: Name=05I2S
+Added Room: Name=Main

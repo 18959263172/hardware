@@ -1,0 +1,32 @@
+Removed Pin From Net: NetName=PC0 Pin=P2-1
+Removed Pin From Net: NetName=PC8 Pin=P2-2
+Removed Pin From Net: NetName=PC1 Pin=P2-3
+Removed Pin From Net: NetName=PC9 Pin=P2-4
+Removed Pin From Net: NetName=PC2 Pin=P2-5
+Removed Pin From Net: NetName=PC10 Pin=P2-6
+Removed Pin From Net: NetName=PC3 Pin=P2-7
+Removed Pin From Net: NetName=PC11 Pin=P2-8
+Removed Pin From Net: NetName=PC4 Pin=P2-9
+Removed Pin From Net: NetName=PC12 Pin=P2-10
+Removed Pin From Net: NetName=PC5 Pin=P2-11
+Removed Pin From Net: NetName=PC13 Pin=P2-12
+Removed Pin From Net: NetName=PC6 Pin=P2-13
+Removed Pin From Net: NetName=PC14 Pin=P2-14
+Removed Pin From Net: NetName=PC7 Pin=P2-15
+Removed Pin From Net: NetName=PC15 Pin=P2-16
+Removed Pin From Net: NetName=VDD33 Pin=P4-3
+Removed Pin From Net: NetName=OSCOUT Pin=R17-2
+Removed Member From Class: ClassName=EXTERN Member=P2
+Removed Member From Class: ClassName=POWER Member=P4
+Removed Member From Class: ClassName=XLAT AND JTAG Member=R17
+Added Pin To Net: NetName=OSCOUT Pin=C26-2
+Added Pin To Net: NetName=GND Pin=NU1-83
+Added Pin To Net: NetName=VDD33 Pin=NU1-84
+Added Pin To Net: NetName=OSCOUT Pin=Y2-1
+Added Class: Name=C26_Nets
+Added Class: Name=Y2_Nets
+Added Room: Name=EXTERN
+Added Room: Name=GPIO_OUT
+Added Room: Name=POWER
+Added Room: Name=STORAGE
+Added Room: Name=XLAT AND JTAG

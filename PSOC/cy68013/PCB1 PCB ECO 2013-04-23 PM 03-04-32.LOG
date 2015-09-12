@@ -1,0 +1,11 @@
+Change Component Comment : Designator= Old Comment=COMPONENT_2 New Comment=P10
+Added Component: Designator=U2(SOT223)
+Added Pin To Net: NetName=GND Pin=U2-1
+Added Pin To Net: NetName=3.3V Pin=U2-2
+Added Pin To Net: NetName=USB 5V Pin=U2-3
+Added Member To Class: ClassName=Sheet1 Member=Component U2 AMS1117
+Added Room: Name=Sheet1
+Removed Pin From Net: NetName=USB 5V Pin=-3
+Added Pin To Net: NetName=Net_3 Pin=-3
+Removed Pin From Net: NetName=3.3V Pin=-2
+Added Pin To Net: NetName=Net_2 Pin=-2

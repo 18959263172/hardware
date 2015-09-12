@@ -1,0 +1,9 @@
+Record=SheetSymbol|SourceDocument=Main.Sch|Designator=CPU1|SchDesignator=CPU1|FileName=01-CPU1.Sch|SymbolType=Normal|RawFileName=01-CPU1.Sch
+Record=SheetSymbol|SourceDocument=Main.Sch|Designator=CPU2|SchDesignator=CPU2|FileName=02-CPU2.Sch|SymbolType=Normal|RawFileName=02-CPU2.Sch
+Record=SheetSymbol|SourceDocument=Main.Sch|Designator=CPU3|SchDesignator=CPU3|FileName=03-CPU3.Sch|SymbolType=Normal|RawFileName=03-CPU3.Sch
+Record=SheetSymbol|SourceDocument=Main.Sch|Designator=Designator|SchDesignator=Designator|FileName=05I2S.SchDoc|SymbolType=Normal|RawFileName=05I2S.SchDoc
+Record=SheetSymbol|SourceDocument=Main.Sch|Designator=SDRAM|SchDesignator=SDRAM|FileName=04-MEM.sch|SymbolType=Normal|RawFileName=04-MEM.sch
+Record=SubProject|ProjectPath=_301
+Record=SubProject|ProjectPath=_407
+Record=SubProject|ProjectPath=_409
+Record=TopLevelDocument|FileName=Main.Sch

@@ -1,0 +1,41 @@
+﻿生成启动时间为 2014/7/25 22:27:48。
+     1>项目“D:\我的项目\指纹识别上位机\main\main.vcxproj”在节点 2 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在创建“.\Debug\main.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         所有输出均为最新。
+         e:\vs2010\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _VC80_UPGRADE=0x0600 /D _AFXDLL /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo".\Debug/" /Fd".\Debug/vc100.pdb" /Gd /TP /analyze- /errorReport:prompt mainDlg.cpp
+         mainDlg.cpp
+         _WIN32_WINNT not defined. Defaulting to _WIN32_WINNT_MAXVER (see WinSDKVer.h)
+       ResourceCompile:
+         所有输出均为最新。
+       ManifestResourceCompile:
+         所有输出均为最新。
+       Link:
+         e:\vs2010\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:".\Debug/main.exe" /INCREMENTAL /NOLOGO debug/FP.lib /MANIFEST /ManifestFile:".\Debug\main.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:".\Debug/main.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE:NO /IMPLIB:".\Debug\main.lib" /MACHINE:X86 .\Debug\main.res
+         .\Debug\main.exe.embed.manifest.res
+         .\Debug/DIB.obj
+         .\Debug/dymatic.obj
+         .\Debug/feature.obj
+         .\Debug/fpmath.obj
+         .\Debug/main.obj
+         .\Debug/mainDlg.obj
+         .\Debug/mscomm1.obj
+         .\Debug/pattenmatch.obj
+         .\Debug/process.obj
+         .\Debug/serial.obj
+         .\Debug/StdAfx.obj
+       Manifest:
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:".\Debug\main.exe.embed.manifest" /manifest .\Debug\main.exe.intermediate.manifest e:\vs2010\VC\Include\Manifest\dpiaware.manifest
+         所有输出均为最新。
+       LinkEmbedManifest:
+         所有输出均为最新。
+         main.vcxproj -> D:\我的项目\指纹识别上位机\main\.\Debug\main.exe
+       FinalizeBuildStatus:
+         正在删除文件“.\Debug\main.unsuccessfulbuild”。
+         正在对“.\Debug\main.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“D:\我的项目\指纹识别上位机\main\main.vcxproj”(build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:01:27.64

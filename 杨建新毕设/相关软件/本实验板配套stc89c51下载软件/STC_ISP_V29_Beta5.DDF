@@ -1,0 +1,58 @@
+.OPTION EXPLICIT
+.Set Cabinet=off
+.Set Compress=off
+.Set MaxDiskSize=1457664
+.Set ReservePerCabinetSize=6144
+.Set DiskDirectoryTemplate=".."
+.Set CompressionType=MSZIP
+.Set CompressionLevel=7
+.Set CompressionMemory=21
+.Set CabinetNameTemplate="STC-IS*.CAB"
+"Setup.Lst"
+"setup.exe"
+.Set Cabinet=on
+.Set Compress=on
+"STC-ISP V29 Beta5.exe"
+"msvbvm60.dll"
+"OLEAUT32.DLL"
+"OLEPRO32.DLL"
+"ASYCFILT.DLL"
+"STDOLE2.TLB"
+"COMCAT.DLL"
+"VB6CHS.DLL"
+"COMDLG32.OCX"
+"CMDLGCHS.DLL"
+"mscomctl.ocx"
+"MSCMCCHS.DLL"
+"MSHFLXGD.OCX"
+"MSSTDFMT.DLL"
+"STDFTCHS.DLL"
+"MSHFGCHS.DLL"
+"MSCOMM32.OCX"
+"MSCOMCHS.DLL"
+"MSDATGRD.OCX"
+"DATGDCHS.DLL"
+"SETUP1.EXE"
+"VB6STKIT.DLL"
+"ST6UNST.EXE"
+"BINCTR.HEX"
+"BINCTR-8k.bin"
+"BINCTR-16k.bin"
+"BINCTR-32k.bin"
+"BINCTR-62k.bin"
+"BINCTR-64k.bin"
+"PENDB.HEX"
+"PENDB-8k.bin"
+"PENDB-16k.bin"
+"PENDB-32k.bin"
+"PENDB-62k.bin"
+"PENDB-64k.bin"
+"TWOBALL.HEX"
+"TWOBALL-8k.bin"
+"TWOBALL-16k.bin"
+"TWOBALL-32k.bin"
+"TWOBALL-62k.bin"
+"TWOBALL-64k.bin"
+"STC2000.rom"
+"STC58_2003.rom"
+"STC516_2003.rom"

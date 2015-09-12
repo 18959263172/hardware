@@ -1,0 +1,19 @@
+<html>
+<body>
+<pre>
+<h1>礦ision2 Build Log</h1>
+<h2>Project:</h2>
+D:\我的项目\志华\uart.uv2
+Project File Date:  05/11/2013
+
+<h2>Output:</h2>
+Build target 'Target 1'
+assembling STARTUP.A51...
+compiling main.c...
+MAIN.C(39): warning C280: 'temp': unreferenced local variable
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_UART_SENDX?MAIN
+Program Size: data=15.0 xdata=0 code=250
+creating hex file from "uart"...
+"uart" - 0 Error(s), 2 Warning(s).

@@ -1,0 +1,88 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    Refresh Padstack                                                 )
+(                                                                     )
+(    Drawing          : header4.dra                                   )
+(    Software Version : 16.5P002                                      )
+(    Date/Time        : Sat Apr 05 19:28:53 2014                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+Sat Apr 05 19:28:53 2014				Page     1
+
+
+------ Pad Stack Refresh Options ------
+
+Input design = 'D:/我的项目/指纹接口/header4.dra'
+Output design = ''
+Reset symbol text and size locations = 'NO'
+
+
+------ Library Paths ------
+PSMPATH =  . 
+           symbols 
+           .. 
+           ../symbols 
+           G:/cad/share/local/pcb/symbols 
+           G:/cad/share/pcb/pcb_lib/symbols 
+           G:/cad/share/pcb/allegrolib/symbols 
+           D:\我的项目\指纹接口\ 
+
+PADPATH =  . 
+           symbols 
+           .. 
+           ../symbols 
+           G:/cad/share/local/pcb/padstacks 
+           G:/cad/share/pcb/pcb_lib/symbols 
+           G:/cad/share/pcb/allegrolib/symbols 
+           D:\我的项目\指纹接口\ 
+
+
+------ Pad Stack Refresh Messages ------
+
+'VPIN'  pad stack refresh starting.
+
+     'VPIN'  pad stack refreshed successfully.
+     
+'VIA_WBU'  pad stack refresh starting.
+
+     'VIA_WBU'  pad stack refreshed successfully.
+     
+'VIA_FC'  pad stack refresh starting.
+
+     'VIA_FC'  pad stack refreshed successfully.
+     
+'HOLE280'  pad stack refresh starting.
+
+     'HOLE280'  pad stack refreshed successfully.
+     
+'HOLE145'  pad stack refresh starting.
+
+     'HOLE145'  pad stack refreshed successfully.
+     
+'HOLE150'  pad stack refresh starting.
+
+     'HOLE150'  pad stack refreshed successfully.
+     
+'HOLE180'  pad stack refresh starting.
+
+     'HOLE180'  pad stack refreshed successfully.
+     
+'HOLE120'  pad stack refresh starting.
+
+     'HOLE120'  pad stack refreshed successfully.
+     
+'HOLE109P'  pad stack refresh starting.
+
+     'HOLE109P'  pad stack refreshed successfully.
+     
+'CAPP2_PAD1_PAD1'  pad stack refresh starting.
+
+     'CAPP2_PAD1_PAD1'  pad stack refreshed successfully.
+     
+'HOLE_X2_54_Y3'  pad stack refresh starting.
+
+     WARNING(SPMHGE-126): Cannot load padstack: 'HOLE_X2_54_Y3'.
+     
+WARNING(SPMHNI-286): Completed refreshing all pad stacks successfully. Warnings detected.

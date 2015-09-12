@@ -1,0 +1,7 @@
+\t (00:00:00) pad_designer 16.5 P002 (v16-5-13B) i86
+\t (00:00:00)     Journal start - Sat May 17 21:35:32 2014
+\t (00:00:00)         Host=DADI--20130722Z User=Administrator Pid=1280 CPUs=2
+\t (00:00:00) 
+\e (00:00:00) Program has encountered a problem and must exit. The design will be saved as a .SAV file that can be recovered using dbdoctor (if applicable). To resolve problem, first obtain the latest software update from Cadence and if the problem persists contact Cadence Customer Support. In addition to the data Cadence support requests; please provide the MiniDump files found in folder "D:/我的项目/指纹接口".
+\i (00:00:01) fillin confirm
+\t (00:00:01)     Journal end - Sat May 17 21:35:33 2014

@@ -1,0 +1,161 @@
+BL51 BANKED LINKER/LOCATER V5.12                                                        05/19/2013  01:36:59  PAGE 1
+
+
+BL51 BANKED LINKER/LOCATER V5.12, INVOKED BY:
+C:\KEIL\C51\BIN\BL51.EXE main.obj TO 城西
+
+
+MEMORY MODEL: SMALL
+
+
+INPUT MODULES INCLUDED:
+  main.obj (MAIN)
+  C:\KEIL\C51\LIB\C51S.LIB (?C_STARTUP)
+  C:\KEIL\C51\LIB\C51S.LIB (?C_INIT)
+
+
+LINK MAP OF MODULE:  城西 (MAIN)
+
+
+            TYPE    BASE      LENGTH    RELOCATION   SEGMENT NAME
+            -----------------------------------------------------
+
+            * * * * * * *   D A T A   M E M O R Y   * * * * * * *
+            REG     0000H     0008H     ABSOLUTE     "REG BANK 0"
+            REG     0008H     0008H     ABSOLUTE     "REG BANK 1"
+            DATA    0010H     000EH     UNIT         ?DT?MAIN
+            DATA    001EH     0002H     UNIT         _DATA_GROUP_
+            IDATA   0020H     0001H     UNIT         ?STACK
+
+            * * * * * * *   C O D E   M E M O R Y   * * * * * * *
+            CODE    0000H     0003H     ABSOLUTE     
+            CODE    0003H     0002H     ABSOLUTE     
+                    0005H     0006H                  *** GAP ***
+            CODE    000BH     0002H     ABSOLUTE     
+            CODE    000DH     00ADH     INBLOCK      ?PR?MAIN?MAIN
+            CODE    00BAH     008CH     UNIT         ?C_C51STARTUP
+            CODE    0146H     001FH     INBLOCK      ?PR?TM0_ISR?MAIN
+            CODE    0165H     0017H     UNIT         ?C_INITSEG
+            CODE    017CH     0014H     INBLOCK      ?PR?INIT_SYSTEM?MAIN
+            CODE    0190H     000DH     INBLOCK      ?PR?EXINT0?MAIN
+
+
+
+OVERLAY MAP OF MODULE:   城西 (MAIN)
+
+
+SEGMENT                          DATA_GROUP 
+  +--> CALLED SEGMENT          START    LENGTH
+----------------------------------------------
+?C_C51STARTUP                  -----    -----
+  +--> ?PR?MAIN?MAIN
+  +--> ?C_INITSEG
+
+?PR?MAIN?MAIN                  001EH    0002H
+  +--> ?PR?INIT_SYSTEM?MAIN
+
+
+
+SYMBOL TABLE OF MODULE:  城西 (MAIN)
+
+  VALUE           TYPE          NAME
+BL51 BANKED LINKER/LOCATER V5.12                                                      05/19/2013  01:36:59  PAGE 2
+
+
+  ----------------------------------
+
+  -------         MODULE        MAIN
+  C:0000H         SYMBOL        _ICE_DUMMY_
+  D:0090H         PUBLIC        P1
+  D:00B0H         PUBLIC        P3
+  B:00A8H.7       PUBLIC        EA
+  D:00A8H         PUBLIC        IE
+  D:00B8H         PUBLIC        IP
+  C:017CH         PUBLIC        Init_system
+  D:00D8H         PUBLIC        CCON
+  C:000DH         PUBLIC        main
+  D:0010H         PUBLIC        count
+  D:0098H         PUBLIC        SCON
+  D:0011H         PUBLIC        dig
+  D:0089H         PUBLIC        TMOD
+  D:0088H         PUBLIC        TCON
+  B:00B0H.3       PUBLIC        P33
+  B:0090H.7       PUBLIC        P17
+  C:0146H         PUBLIC        tm0_isr
+  B:00A8H.1       PUBLIC        ET0
+  D:008CH         PUBLIC        TH0
+  B:0088H.0       PUBLIC        IT0
+  B:00A8H.0       PUBLIC        EX0
+  D:008AH         PUBLIC        TL0
+  B:0088H.4       PUBLIC        TR0
+  C:0190H         PUBLIC        exint0
+  D:001BH         PUBLIC        time_out_flag
+  D:001CH         PUBLIC        x
+  D:00D0H         PUBLIC        PSW
+  -------         PROC          EXINT0
+  C:0190H         LINE#         16
+  C:0192H         LINE#         18
+  C:019AH         LINE#         19
+  -------         ENDPROC       EXINT0
+  -------         PROC          TM0_ISR
+  C:0146H         LINE#         21
+  C:014DH         LINE#         23
+  C:0150H         LINE#         24
+  C:0153H         LINE#         25
+  C:015AH         LINE#         26
+  C:015AH         LINE#         27
+  C:015DH         LINE#         28
+  C:0160H         LINE#         29
+  C:0160H         LINE#         30
+  -------         ENDPROC       TM0_ISR
+  -------         PROC          MAIN
+  -------         DO            
+  D:001EH         SYMBOL        c
+  D:001FH         SYMBOL        j
+  -------         ENDDO         
+  C:000DH         LINE#         31
+  C:000DH         LINE#         32
+  C:000DH         LINE#         34
+  C:000FH         LINE#         35
+  C:000FH         LINE#         36
+  C:000FH         LINE#         37
+BL51 BANKED LINKER/LOCATER V5.12                                                      05/19/2013  01:36:59  PAGE 3
+
+
+  C:0013H         LINE#         38
+  C:0013H         LINE#         39
+  C:0016H         LINE#         40
+  C:0022H         LINE#         41
+  C:0032H         LINE#         42
+  C:0042H         LINE#         43
+  C:0052H         LINE#         44
+  C:0062H         LINE#         45
+  C:0072H         LINE#         46
+  C:0082H         LINE#         47
+  C:0092H         LINE#         48
+  C:00A2H         LINE#         49
+  C:00AFH         LINE#         50
+  C:00AFH         LINE#         51
+  C:00B1H         LINE#         52
+  C:00B3H         LINE#         53
+  C:00B3H         LINE#         55
+  C:00B8H         LINE#         56
+  C:00B8H         LINE#         58
+  -------         ENDPROC       MAIN
+  -------         PROC          INIT_SYSTEM
+  C:017CH         LINE#         61
+  C:017CH         LINE#         62
+  C:017CH         LINE#         63
+  C:017EH         LINE#         64
+  C:0180H         LINE#         65
+  C:0183H         LINE#         66
+  C:0186H         LINE#         67
+  C:0189H         LINE#         68
+  C:018BH         LINE#         69
+  C:018DH         LINE#         70
+  C:018FH         LINE#         71
+  -------         ENDPROC       INIT_SYSTEM
+  -------         ENDMOD        MAIN
+
+Program Size: data=33.0 xdata=0 code=407
+LINK/LOCATE RUN COMPLETE.  0 WARNING(S),  0 ERROR(S)

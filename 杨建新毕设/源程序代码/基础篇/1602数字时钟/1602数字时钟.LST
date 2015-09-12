@@ -1,0 +1,23 @@
+C51 COMPILER V6.12  1602_齙_____                                                           02/03/2012 09:23:43 PAGE 1   
+
+
+C51 COMPILER V6.12, COMPILATION OF MODULE 1602_齙_____
+OBJECT MODULE PLACED IN .\1602数字时钟.OBJ
+COMPILER INVOKED BY: F:\软件\keil C\C51\BIN\C51.EXE .\1602数字时钟.c DEBUG OBJECTEXTEND
+
+stmt level    source
+
+
+
+MODULE INFORMATION:   STATIC OVERLAYABLE
+   CODE SIZE        =    860    ----
+   CONSTANT SIZE    =     34    ----
+   XDATA SIZE       =   ----    ----
+   PDATA SIZE       =   ----    ----
+   DATA SIZE        =     10    ----
+   IDATA SIZE       =   ----    ----
+   BIT SIZE         =   ----    ----
+END OF MODULE INFORMATION.
+
+
+C51 COMPILATION COMPLETE.  0 WARNING(S),  0 ERROR(S)

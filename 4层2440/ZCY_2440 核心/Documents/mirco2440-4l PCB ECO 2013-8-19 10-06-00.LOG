@@ -1,0 +1,34 @@
+Removed Pin From Net: NetName=CAMDATA0 Pin=P80-8
+Removed Member From Class: ClassName=03-CPU3 Member=P80
+Change Component Comment : Designator=P80 Old Comment=Header 8 New Comment=SD
+Added Component: Designator=P88(HDR1X8)
+Added Pin To Net: NetName=CAMDATA7 Pin=P88-1
+Added Pin To Net: NetName=CAMDATA6 Pin=P88-2
+Added Pin To Net: NetName=CAMDATA5 Pin=P88-3
+Added Pin To Net: NetName=CAMDATA4 Pin=P88-4
+Added Pin To Net: NetName=CAMDATA3 Pin=P88-5
+Added Pin To Net: NetName=CAMDATA2 Pin=P88-6
+Added Pin To Net: NetName=CAMDATA1 Pin=P88-7
+Added Pin To Net: NetName=CAMDATA0 Pin=P88-8
+Added Member To Class: ClassName=02-CPU2 Member=Component P80 SD
+Added Member To Class: ClassName=03-CPU3 Member=Component P88 Header 8
+Added Room: Name=01-CPU1
+Added Room: Name=02-CPU2
+Added Room: Name=03-CPU3
+Added Room: Name=04-MEM
+Added Room: Name=05I2S
+Added Room: Name=Main
+Removed Pin From Net: NetName=CAMDATA7 Pin=P80-1
+Added Pin To Net: NetName=SDDATA3 Pin=P80-1
+Removed Pin From Net: NetName=CAMDATA6 Pin=P80-2
+Added Pin To Net: NetName=SDCMD Pin=P80-2
+Removed Pin From Net: NetName=CAMDATA5 Pin=P80-3
+Added Pin To Net: NetName=GND Pin=P80-3
+Removed Pin From Net: NetName=CAMDATA4 Pin=P80-4
+Added Pin To Net: NetName=VDD33V Pin=P80-4
+Removed Pin From Net: NetName=CAMDATA3 Pin=P80-5
+Added Pin To Net: NetName=SDCLK Pin=P80-5
+Removed Pin From Net: NetName=CAMDATA2 Pin=P80-6
+Added Pin To Net: NetName=SDDATA0 Pin=P80-6
+Removed Pin From Net: NetName=CAMDATA1 Pin=P80-7
+Added Pin To Net: NetName=SDDATA1 Pin=P80-7

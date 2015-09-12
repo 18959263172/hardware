@@ -1,0 +1,24 @@
+{ Using PSTWRITER 16.5.0 p001Jul-20-2014 at 20:56:58 }
+
+#1 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance U3: SCHEMATIC1, PAGE1 (0.60, 1.80).
+#2 ERROR(ORCAP-36071): Illegal character "Forward Slash(/)" found in "PCB Footprint" property for component instance C2: SCHEMATIC1, PAGE1 (4.00, 5.90) .
+#3 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance U4B: SCHEMATIC1, PAGE1 (7.50, 4.80).
+#4 ERROR(ORCAP-36071): Illegal character "Forward Slash(/)" found in "PCB Footprint" property for component instance C3: SCHEMATIC1, PAGE1 (2.70, 5.80) .
+#5 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance R1: SCHEMATIC1, PAGE1 (0.60, 5.80).
+#6 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance R2: SCHEMATIC1, PAGE1 (6.00, 4.20).
+#7 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance C4: SCHEMATIC1, PAGE1 (1.00, 5.30).
+#8 ERROR(ORCAP-36071): Illegal character "Forward Slash(/)" found in "PCB Footprint" property for component instance C5: SCHEMATIC1, PAGE1 (2.60, 0.50) .
+#9 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance R3: SCHEMATIC1, PAGE1 (6.00, 5.00).
+#10 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance C6: SCHEMATIC1, PAGE1 (2.30, 5.80).
+#11 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance J1: SCHEMATIC1, PAGE1 (0.40, 0.50).
+#12 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance J2: SCHEMATIC1, PAGE1 (4.90, 1.50).
+#13 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance J3: SCHEMATIC1, PAGE1 (4.50, 0.30).
+#14 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance Y1: SCHEMATIC1, PAGE1 (4.80, 5.60).
+#15 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance SW1: SCHEMATIC1, PAGE1 (0.60, 5.00).
+#16 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance SW2: SCHEMATIC1, PAGE1 (0.60, 3.40).
+#17 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance SW3: SCHEMATIC1, PAGE1 (0.60, 3.70).
+#18 ERROR(ORCAP-36071): Illegal character "Forward Slash(/)" found in "PCB Footprint" property for component instance C1: SCHEMATIC1, PAGE1 (4.00, 5.50) .
+#19 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance U2: SCHEMATIC1, PAGE1 (2.70, 2.20).
+#20 Info: PCB Editor does not support Dots(.), Forward Slash(/) and White space in footprint names. The supported characters include Alphabets, Numerics, Underscore(_) and Hyphen(-).
+
+#21 ERROR(ORCAP-36018): Aborting Netlisting... Please correct the above errors and retry.

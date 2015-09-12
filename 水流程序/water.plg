@@ -1,0 +1,20 @@
+<html>
+<body>
+<pre>
+<h1>礦ision3 Build Log</h1>
+<h2>Project:</h2>
+D:\我的项目\水流程序\water.uv2
+Project File Date:  05/14/2013
+
+<h2>Output:</h2>
+compiling water.c...
+WATER.C(7): warning C206: 'delay': missing function-prototype
+WATER.C(16): error C231: 'delay': redefinition
+WATER.C(21): error C141: syntax error near 'y'
+WATER.C(21): error C141: syntax error near ')'
+WATER.C(26): error C231: 'delay': redefinition
+water.c - 4 Error(s), 1 Warning(s).
+  
+*** Device is not supported by Toolchain ! ***
+  
+*** Device is not supported by Toolchain ! ***

@@ -1,0 +1,9 @@
+Change Component Footprint: Designator=C25 Old Footprint=RAD-0.3 New Footprint=0805
+Change Component Footprint: Designator=C26 Old Footprint=RAD-0.3 New Footprint=0805
+Added Pin To Net: NetName=D0 Pin=NU1-83
+Added Pin To Net: NetName=D1 Pin=NU1-84
+Added Room: Name=U_EXTERN
+Added Room: Name=U_GPIO_OUT
+Added Room: Name=U_POWER
+Added Room: Name=U_STORAGE
+Added Room: Name=U_XLAT AND JTAG

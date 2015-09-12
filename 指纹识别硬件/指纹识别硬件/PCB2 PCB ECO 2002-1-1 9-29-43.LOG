@@ -1,0 +1,36 @@
+Removed Pin From Net: NetName=PC0 Pin=P2-1
+Removed Pin From Net: NetName=PC8 Pin=P2-2
+Removed Pin From Net: NetName=PC1 Pin=P2-3
+Removed Pin From Net: NetName=PC9 Pin=P2-4
+Removed Pin From Net: NetName=PC2 Pin=P2-5
+Removed Pin From Net: NetName=PC10 Pin=P2-6
+Removed Pin From Net: NetName=PC3 Pin=P2-7
+Removed Pin From Net: NetName=PC11 Pin=P2-8
+Removed Pin From Net: NetName=PC4 Pin=P2-9
+Removed Pin From Net: NetName=PC12 Pin=P2-10
+Removed Pin From Net: NetName=PC5 Pin=P2-11
+Removed Pin From Net: NetName=PC13 Pin=P2-12
+Removed Pin From Net: NetName=PC6 Pin=P2-13
+Removed Pin From Net: NetName=PC14 Pin=P2-14
+Removed Pin From Net: NetName=PC7 Pin=P2-15
+Removed Pin From Net: NetName=PC15 Pin=P2-16
+Removed Member From Class: ClassName=EXTERN Member=P2
+Added Component: Designator=C3(0805)
+Added Component: Designator=R13(0805)
+Added Component: Designator=R14(0805)
+Added Pin To Net: NetName=NetC3_1 Pin=C3-1
+Added Pin To Net: NetName=NetC3_2 Pin=C3-2
+Added Pin To Net: NetName=GND Pin=NU1-83
+Added Pin To Net: NetName=VDD33 Pin=NU1-84
+Added Pin To Net: NetName=VDD33 Pin=R13-1
+Added Pin To Net: NetName=PD6 Pin=R13-2
+Added Pin To Net: NetName=VDD33 Pin=R14-1
+Added Pin To Net: NetName=NetC24_1 Pin=R14-2
+Added Member To Class: ClassName=EXTERN Member=Component C3 0.1uF
+Added Member To Class: ClassName=STORAGE Member=Component R13 Res2
+Added Member To Class: ClassName=STORAGE Member=Component R14 Res2
+Added Room: Name=EXTERN
+Added Room: Name=GPIO_OUT
+Added Room: Name=POWER
+Added Room: Name=STORAGE
+Added Room: Name=XLAT AND JTAG

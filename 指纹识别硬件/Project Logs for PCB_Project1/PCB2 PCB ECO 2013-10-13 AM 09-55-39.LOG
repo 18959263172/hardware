@@ -1,0 +1,8 @@
+Change Component Footprint: Designator=Y2 Old Footprint=R38 New Footprint=XTAL-1
+Added Pin To Net: NetName=D0 Pin=NU1-83
+Added Pin To Net: NetName=D1 Pin=NU1-84
+Added Room: Name=EXTERN
+Added Room: Name=GPIO_OUT
+Added Room: Name=POWER
+Added Room: Name=STORAGE
+Added Room: Name=XLAT AND JTAG

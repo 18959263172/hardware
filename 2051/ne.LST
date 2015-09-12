@@ -1,0 +1,119 @@
+A51 MACRO ASSEMBLER  NE                                                                   05/15/2013 03:48:38 PAGE     1
+
+
+MACRO ASSEMBLER A51 V7.10
+OBJECT MODULE PLACED IN ne.OBJ
+ASSEMBLER INVOKED BY: C:\Keil\C51\BIN\A51.EXE ne.asm SET(SMALL) DEBUG EP
+
+LOC  OBJ            LINE     SOURCE
+
+0000                   1       ORG 0000H
+0000 02001E            2         LJMP START
+001B                   3         ORG 001BH
+001B 020043            4         LJMP Timer1Interrupt
+                       5     
+001E                   6     START:
+                       7         
+001E 758160            8         MOV SP,#60H
+0021 120033            9         LCALL InitTimer1
+0024 7900             10         MOV R1,#00H
+0026 7800             11         mov r0,#00h
+0028                  12     LOOP:
+                      13              ;add your code here!
+0028 C2B0             14         clr P3.0
+002A B914FD           15         CJNE r1,#20,$
+002D 02005A           16         ljmp display
+0030 020028           17         LJMP LOOP
+                      18     
+0033                  19     InitTimer1:
+0033 758910           20         MOV TMOD,#10H
+0036 758D3C           21         MOV TH1,#3CH
+0039 758BB0           22         MOV TL1,#0B0H
+003C D2AF             23         SETB EA
+003E D2AB             24         SETB ET1
+0040 D28E             25         SETB TR1
+0042 22               26         RET
+                      27     
+0043                  28     Timer1Interrupt:
+0043 C083             29         PUSH DPH
+0045 C082             30         PUSH DPL
+0047 C0E0             31         PUSH ACC
+0049 758D3C           32         MOV TH1,#3CH
+004C 758BB0           33         MOV TL1,#0B0H
+                      34         ;========================
+                      35              ;add your code here!
+                      36         ;========================
+004F E9               37         mov a,r1
+0050 2401             38         add a,#01h
+0052 F9               39         mov r1,a
+                      40         ;setb p3.0
+0053 D0E0             41         POP ACC
+0055 D082             42         POP DPL
+0057 D083             43         POP DPH
+0059 32               44         RETI
+                      45     
+                      46     ;œ‘ æ≥Ã–Ú
+005A                  47     display:
+005A C083             48     PUSH DPH
+005C C082             49     PUSH DPL
+005E C0E0             50     PUSH ACC
+                      51     
+0060 7401             52     mov a,#01h
+0062 900077           53     mov dptr,#table
+                      54     
+0065 93               55     movc a,@a+dptr
+                      56     
+0066 F590             57     mov p1,a
+                      58     
+A51 MACRO ASSEMBLER  NE                                                                   05/15/2013 03:48:38 PAGE     2
+
+0068 A900             59     mov r1,0
+006A 2401             60     add a,#01h
+006C F8               61     mov r0,a
+                      62     
+006D D0E0             63     POP ACC
+006F D082             64     POP DPL
+0071 D083             65     POP DPH
+0073 020028           66     ljmp loop
+                      67     
+                      68     
+                      69     
+0076 22               70     ret
+0077                  71     table:
+0077 014F1206         72     db 01h,4Fh,12h,06h,4ch,24h,10h,0fh,00h,04h
+007B 4C24100F                
+007F 0004                    
+                      73     END
+                             
+A51 MACRO ASSEMBLER  NE                                                                   05/15/2013 03:48:38 PAGE     3
+
+SYMBOL TABLE LISTING
+------ ----- -------
+
+
+N A M E             T Y P E  V A L U E   ATTRIBUTES
+
+ACC. . . . . . . .  D ADDR   00E0H   A   
+DISPLAY. . . . . .  C ADDR   005AH   A   
+DPH. . . . . . . .  D ADDR   0083H   A   
+DPL. . . . . . . .  D ADDR   0082H   A   
+EA . . . . . . . .  B ADDR   00A8H.7 A   
+ET1. . . . . . . .  B ADDR   00A8H.3 A   
+INITTIMER1 . . . .  C ADDR   0033H   A   
+LOOP . . . . . . .  C ADDR   0028H   A   
+P1 . . . . . . . .  D ADDR   0090H   A   
+P3 . . . . . . . .  D ADDR   00B0H   A   
+SP . . . . . . . .  D ADDR   0081H   A   
+START. . . . . . .  C ADDR   001EH   A   
+TABLE. . . . . . .  C ADDR   0077H   A   
+TH1. . . . . . . .  D ADDR   008DH   A   
+TIMER1INTERRUPT. .  C ADDR   0043H   A   
+TL1. . . . . . . .  D ADDR   008BH   A   
+TMOD . . . . . . .  D ADDR   0089H   A   
+TR1. . . . . . . .  B ADDR   0088H.6 A   
+
+
+REGISTER BANK(S) USED: 0 
+
+
+ASSEMBLY COMPLETE.  0 WARNING(S), 0 ERROR(S)

@@ -1,0 +1,9 @@
+Remove Pin=P1-10 From Net=CAMDATA2
+Remove Pin=R59-2 From Net=EINT16
+Remove Pin=U9-12 From Net=CDCLK
+Remove Pin=U9-16 From Net=I2SSCLK
+Remove Pin=U9-18 From Net=I2SSDI
+Remove Pin=U9-19 From Net=I2SSDO
+Change Component Footprint: Designator=C39 Old Footprint=0603 New Footprint=0603A
+Change Component Comment: Designator=P1 Old Comment=P1 New Comment=Header 5X2
+Change Component Comment: Designator=P1 Old Comment=Header 5X2 New Comment=Header 5X2

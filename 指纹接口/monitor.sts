@@ -1,0 +1,16 @@
+#Allegro PCB Router v16-5-13 made 2011/04/23 at 12:17:35
+#Host 
+#ROUTING STATUS <<< D:/我的项目/指纹接口\unnamed.dsn >>>
+Start  Time: Report Time: Sat Apr 05 23:25:05 2014
+
+Nets         =       16   Connections         =        6
+Current Wire =        8   Reroute wires       =        8
+Completion   =  100.00%   Unconnections       =        0
+| ROUTING HISTORY ================================================================
+|     Pass     |   Conflicts |    |     |     |     |    |Red|      CPU Time     |
+|   Name   |No.| Cross| Clear|Fail|Unrte| Vias|XTalk|Len.| % |  Pass   |  Total  |
+|----------+---+------+------+----+-----+-----+-----+----+---+---------+---------|
+| Route    |  1|     0|     0|   0|    0|    2|    0|   0|  0|  0:00:00|  0:00:00|
+| Clean    |  2|     0|     0|   0|    0|    0|    0|   0|   |  0:00:00|  0:00:00|
+| Clean    |  3|     0|     0|   0|    0|    0|    0|   0|   |  0:00:00|  0:00:00|
+| Conflicts between polygon wires and fixed objects:   0

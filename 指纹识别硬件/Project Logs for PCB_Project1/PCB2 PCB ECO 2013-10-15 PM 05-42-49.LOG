@@ -1,0 +1,13 @@
+Removed Pin From Net: NetName=VDD5 Pin=C8-1
+Removed Pin From Net: NetName=GND Pin=C8-2
+Removed Pin From Net: NetName=GND Pin=C13-1
+Removed Pin From Net: NetName=VDD5 Pin=C13-2
+Removed Member From Class: ClassName=POWER Member=C8
+Removed Member From Class: ClassName=POWER Member=C13
+Added Pin To Net: NetName=D0 Pin=NU1-83
+Added Pin To Net: NetName=D1 Pin=NU1-84
+Added Room: Name=EXTERN
+Added Room: Name=GPIO_OUT
+Added Room: Name=POWER
+Added Room: Name=STORAGE
+Added Room: Name=XLAT AND JTAG

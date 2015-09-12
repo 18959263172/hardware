@@ -1,0 +1,13 @@
+Error Report For : Documents\Sheet1.Sch    22-Apr-2013  10:59:00
+
+ #1 Warning   Unconnected Net Label On Net 3.3V
+    Sheet1.Sch 3.3V 
+
+ #2 Warning   Unconnected Net Label On Net SCL
+    Sheet1.Sch SCL 
+
+ #3 Warning   Unconnected Net Label On Net SDA
+    Sheet1.Sch SDA 
+
+
+End Report

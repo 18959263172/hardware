@@ -1,0 +1,7 @@
+Change Component Footprint: Designator=C8 Old Footprint=POLAR0.8 New Footprint=3.5X2.8X1.9
+Added Pin To Net: NetName=GND Pin=NU1-83
+Added Pin To Net: NetName=NRST Pin=NU1-84
+Added Room: Name=U_EXTERN
+Added Room: Name=U_POWER
+Added Room: Name=U_STORAGE
+Added Room: Name=U_XLAT AND JTAG

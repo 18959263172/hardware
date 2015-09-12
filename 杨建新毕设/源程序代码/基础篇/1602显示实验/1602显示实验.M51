@@ -1,0 +1,229 @@
+BL51 BANKED LINKER/LOCATER V4.13                                                        02/02/2012  21:16:21  PAGE 1
+
+
+BL51 BANKED LINKER/LOCATER V4.13, INVOKED BY:
+F:\»Ìº˛\KEIL C\C51\BIN\BL51.EXE 1602œ‘ æ µ—È.obj TO 1602œ‘ æ µ—È RAMSIZE (256)
+
+
+MEMORY MODEL: SMALL
+
+
+INPUT MODULES INCLUDED:
+  1602œ‘ æ µ—È.obj (1602_______È)
+  F:\»Ìº˛\KEIL C\C51\LIB\C51S.LIB (?C_STARTUP)
+
+
+LINK MAP OF MODULE:  1602œ‘ æ µ—È (1602_______È)
+
+
+            TYPE    BASE      LENGTH    RELOCATION   SEGMENT NAME
+            -----------------------------------------------------
+
+            * * * * * * *   D A T A   M E M O R Y   * * * * * * *
+            REG     0000H     0008H     ABSOLUTE     "REG BANK 0"
+            DATA    0008H     0001H     UNIT         ?DT?1602_______È
+            IDATA   0009H     0001H     UNIT         ?STACK
+
+            * * * * * * *   C O D E   M E M O R Y   * * * * * * *
+            CODE    0000H     0003H     ABSOLUTE     
+            CODE    0003H     005CH     UNIT         ?PR?MAIN?1602_______È
+            CODE    005FH     002DH     UNIT         ?PR?_DELAY?1602_______È
+            CODE    008CH     001DH     UNIT         ?PR?INIT?1602_______È
+            CODE    00A9H     001CH     UNIT         ?CO?1602_______È
+            CODE    00C5H     000CH     UNIT         ?C_C51STARTUP
+            CODE    00D1H     0008H     UNIT         ?PR?_WRITE_COM?1602_______È
+            CODE    00D9H     0008H     UNIT         ?PR?_WRITE_DATA?1602_______È
+
+
+
+OVERLAY MAP OF MODULE:   1602œ‘ æ µ—È (1602_______È)
+
+
+SEGMENT
+  +--> CALLED SEGMENT
+---------------------
+?C_C51STARTUP
+  +--> ?PR?MAIN?1602_______È
+
+?PR?MAIN?1602_______È
+  +--> ?PR?INIT?1602_______È
+  +--> ?CO?1602_______È
+  +--> ?PR?_WRITE_DATA?1602_______È
+  +--> ?PR?_DELAY?1602_______È
+  +--> ?PR?_WRITE_COM?1602_______È
+
+?PR?INIT?1602_______È
+  +--> ?PR?_WRITE_COM?1602_______È
+
+?PR?_WRITE_COM?1602_______È
+  +--> ?PR?_DELAY?1602_______È
+
+?PR?_WRITE_DATA?1602_______È
+BL51 BANKED LINKER/LOCATER V4.13                                                      02/02/2012  21:16:21  PAGE 2
+
+
+  +--> ?PR?_DELAY?1602_______È
+
+
+
+SYMBOL TABLE OF MODULE:  1602œ‘ æ µ—È (1602_______È)
+
+  VALUE           TYPE          NAME
+  ----------------------------------
+
+  -------         MODULE        1602_______È
+  C:0000H         SYMBOL        _ICE_DUMMY_
+  D:0080H         PUBLIC        P0
+  D:0090H         PUBLIC        P1
+  D:00B0H         PUBLIC        P3
+  B:00B0H.4       PUBLIC        T0
+  B:00D0H.6       PUBLIC        AC
+  B:00B0H.5       PUBLIC        T1
+  B:0090H.0       PUBLIC        T2
+  B:00A8H.7       PUBLIC        EA
+  B:00B0H.7       PUBLIC        lcden
+  C:00D9H         PUBLIC        _write_data
+  C:00A9H         PUBLIC        table
+  D:00A8H         PUBLIC        IE
+  B:00C8H.6       PUBLIC        EXF2
+  B:00B0H.7       PUBLIC        RD
+  B:00A8H.4       PUBLIC        ES
+  D:00B8H         PUBLIC        IP
+  B:00B0H.4       PUBLIC        lcdrs
+  B:0098H.0       PUBLIC        RI
+  B:00B0H.2       PUBLIC        INT0
+  B:00D0H.7       PUBLIC        CY
+  B:0098H.1       PUBLIC        TI
+  B:00B0H.3       PUBLIC        INT1
+  B:00B0H.6       PUBLIC        lcdrw
+  B:00B8H.4       PUBLIC        PS
+  B:0090H.1       PUBLIC        T2EX
+  B:00D0H.2       PUBLIC        OV
+  C:0003H         PUBLIC        main
+  B:00C8H.1       PUBLIC        C_T2
+  B:00B0H.6       PUBLIC        WR
+  B:00C8H.5       PUBLIC        RCLK
+  C:00D1H         PUBLIC        _write_com
+  B:00C8H.4       PUBLIC        TCLK
+  D:0098H         PUBLIC        SCON
+  D:0088H         PUBLIC        TCON
+  C:008CH         PUBLIC        init
+  C:00B6H         PUBLIC        table1
+  B:0088H.1       PUBLIC        IE0
+  B:0088H.3       PUBLIC        IE1
+  B:00C8H.0       PUBLIC        CP_RL2
+  B:00A8H.1       PUBLIC        ET0
+  B:00A8H.3       PUBLIC        ET1
+  B:0088H.5       PUBLIC        TF0
+  B:00A8H.5       PUBLIC        ET2
+  B:0088H.7       PUBLIC        TF1
+  B:00C8H.7       PUBLIC        TF2
+  B:0098H.2       PUBLIC        RB8
+BL51 BANKED LINKER/LOCATER V4.13                                                      02/02/2012  21:16:21  PAGE 3
+
+
+  B:00A8H.0       PUBLIC        EX0
+  B:0088H.0       PUBLIC        IT0
+  B:0098H.3       PUBLIC        TB8
+  B:00A8H.2       PUBLIC        EX1
+  B:0088H.2       PUBLIC        IT1
+  B:00D0H.0       PUBLIC        P
+  B:0098H.7       PUBLIC        SM0
+  D:0008H         PUBLIC        num
+  B:0098H.6       PUBLIC        SM1
+  B:0098H.5       PUBLIC        SM2
+  B:00B8H.1       PUBLIC        PT0
+  B:00B8H.3       PUBLIC        PT1
+  B:00D0H.3       PUBLIC        RS0
+  B:00B8H.5       PUBLIC        PT2
+  B:0088H.4       PUBLIC        TR0
+  B:00D0H.4       PUBLIC        RS1
+  B:0088H.6       PUBLIC        TR1
+  B:00C8H.2       PUBLIC        TR2
+  B:00B8H.0       PUBLIC        PX0
+  B:00B8H.2       PUBLIC        PX1
+  B:00C8H.3       PUBLIC        EXEN2
+  B:0098H.4       PUBLIC        REN
+  D:00C8H         PUBLIC        T2CON
+  B:00B0H.0       PUBLIC        RXD
+  B:00B0H.1       PUBLIC        TXD
+  C:006EH         PUBLIC        _delay
+  B:00D0H.5       PUBLIC        F0
+  D:00D0H         PUBLIC        PSW
+  -------         PROC          L?0025
+  -------         ENDPROC       L?0025
+  -------         PROC          _DELAY
+  D:0006H         SYMBOL        z
+  -------         DO            z
+  D:0006H         SYMBOL        x
+  D:0004H         SYMBOL        y
+  -------         ENDDO         y
+  C:006EH         LINE#         10
+  C:006EH         LINE#         11
+  C:006EH         LINE#         13
+  C:0077H         LINE#         14
+  C:008BH         LINE#         15
+  -------         ENDPROC       _DELAY
+  -------         PROC          _WRITE_COM
+  D:0007H         SYMBOL        com
+  C:00D1H         LINE#         16
+  C:00D1H         LINE#         17
+  C:00D1H         LINE#         18
+  C:00D3H         LINE#         19
+  C:00D3H         LINE#         20
+  C:00D3H         LINE#         21
+  C:00D3H         LINE#         22
+  C:00D6H         LINE#         23
+  C:00D8H         LINE#         24
+  -------         ENDPROC       _WRITE_COM
+  -------         PROC          _WRITE_DATA
+  D:0007H         SYMBOL        date
+  C:00D9H         LINE#         26
+BL51 BANKED LINKER/LOCATER V4.13                                                      02/02/2012  21:16:21  PAGE 4
+
+
+  C:00D9H         LINE#         27
+  C:00D9H         LINE#         28
+  C:00DBH         LINE#         29
+  C:00DBH         LINE#         30
+  C:00DBH         LINE#         31
+  C:00DBH         LINE#         32
+  C:00DEH         LINE#         33
+  C:00E0H         LINE#         34
+  -------         ENDPROC       _WRITE_DATA
+  -------         PROC          INIT
+  C:008CH         LINE#         35
+  C:008CH         LINE#         36
+  C:008CH         LINE#         37
+  C:008EH         LINE#         38
+  C:0090H         LINE#         39
+  C:0095H         LINE#         40
+  C:009AH         LINE#         42
+  C:009FH         LINE#         43
+  C:00A4H         LINE#         44
+  -------         ENDPROC       INIT
+  -------         PROC          MAIN
+  C:0003H         LINE#         46
+  C:0003H         LINE#         47
+  C:0003H         LINE#         48
+  C:0006H         LINE#         49
+  C:0009H         LINE#         50
+  C:0009H         LINE#         51
+  C:0013H         LINE#         52
+  C:001AH         LINE#         53
+  C:0023H         LINE#         55
+  C:0028H         LINE#         56
+  C:002BH         LINE#         57
+  C:002BH         LINE#         58
+  C:0035H         LINE#         59
+  C:003CH         LINE#         60
+  C:0045H         LINE#         61
+  C:0048H         LINE#         62
+  C:0048H         LINE#         63
+  C:004DH         LINE#         64
+  C:0054H         LINE#         65
+  C:005DH         LINE#         66
+  -------         ENDPROC       MAIN
+  -------         ENDMOD        1602_______È
+
+LINK/LOCATE RUN COMPLETE.  0 WARNING(S),  0 ERROR(S)
